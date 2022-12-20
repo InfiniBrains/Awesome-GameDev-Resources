@@ -1,0 +1,69 @@
+{
+  "name": "awesome-programming-course",
+  "version": "0.0.1",
+  "description": "Modern Cross Platform Job Scheduler and Runner with Job Stealing for Game Engines",
+  "main": "placeholder.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "placeholder",
+    "release": "npx -y semantic-release",
+    "prestyle": "cmake -S. -BbuildStyle -DENABLE_TEST_COVERAGE=ON -DENABLE_STANDALONE=OFF -DENABLE_DOCUMENTATION=OFF",
+    "style": "cmake --build buildStyle --target fix-format",
+    "prebuildall": "cmake -S. -Bbuild -DENABLE_TEST_COVERAGE=OFF -DENABLE_STANDALONE=ON -DENABLE_DOCUMENTATION=OFF",
+    "buildall": "cmake --build build -j20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InfiniBrains/concurrency.git"
+  },
+  "keywords": [
+    "GameEngine",
+    "JobStealing",
+    "TaskScheduler",
+    "CPP",
+    "WASM",
+    "EMSCRIPTEN"
+  ],
+  "author": "InfiniBrains",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/InfiniBrains/concurrency/issues"
+  },
+  "homepage": "https://infinibrains.github.io/concurrency/",
+  "dependencies": {
+    "@semantic-release/changelog": "^6.0.2",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.7",
+    "@semantic-release/npm": "^9.0.1",
+    "@semantic-release/release-notes-generator": "^10.0.3",
+    "rimraf": "^3.0.2"
+  },
+  "release": {
+    "branches": [
+      "master",
+      "main"
+    ],
+    "repositoryUrl": "https://github.com/InfiniBrains/concurrency",
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/changelog",
+        {
+          "changelogFile": "CHANGELOG.md"
+        }
+      ],
+      [
+        "@semantic-release/git",
+        {
+          "assets": [
+            "CHANGELOG.md"
+          ]
+        }
+      ]
+    ]
+  }
+}
