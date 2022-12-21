@@ -167,9 +167,120 @@ You will have a plethora of editors and IDEs. The one I can suggest is the VSCod
 really prefer CLion.
 </details>
 
-# Homework
+# Hello World
 
-1. Setup your environment for your needs. If you are unsure, use CLion. 
+```c++
+// this a single line comment
+/* this is
+ * a multi line
+ * comment
+ */
+#include <iostream> // this includes an external library used to deal with console input and output
+
+using namespace std; // we declare that we are going to use the namespace std of the library we just included 
+
+// "int" means it should return an integer number in the end of its execution to communicate if it finished properly
+// "main()" function where the operating system will look for starting the code.
+// "()" empty parameters. this main function here needs no parameter to execute
+// anynthing between { and } is considered a scope. 
+// everything stack allocated in this scope will be deallocated in the end of the scope. ex.: local variables. 
+int main() {
+    /* "cout" means console output. Print to the console the content of what is passed after the 
+     * "<<" stream operator. Streams what in the wright side of it to the cout object
+     * "endl" means end line. Append a new line to the stream, in the case, console output.
+     */
+    cout << "Hello World" << endl;
+    
+    /* tells the operating system the program finished without errors. Any number different from that is considered 
+     * a error code or error number.
+     */
+    return 0; 
+}
+```
+
+Hello User
+```c++
+#include <iostream>
+#include <string> // structure to deal with a char sequence, it is called string
+using namespace std;
+int main(){
+    // invites the user to write something
+    cout << "Type your name: " << endl;
+    
+    /* declare a scoped variable, allocated in the stack.
+     * string means the type of the variable, this definition came from the string include 
+     * username means the name of the variable, the container to hold and store the data
+     */
+    string username;
+    /*
+     * cin mean console input. It captures data from the console.
+     * note the opposite direction of the stream operator. it streams what come from the cin object to the variable.
+     */
+    cin >> username;
+    // example of how to stream and concatenate texts to the console output;
+    cout << "Hello " << username << endl;
+}
+```
+
+# Common Errors
+1. Syntax error
+> Syntax errors in C++ are usually caused by mistakes in the source code that prevent the compiler from being able to understand it. Some common causes of syntax errors include:
+> 1. Omitting a required component of a statement, such as a semicolon at the end of a line or a closing curly brace.
+> 2. Using incorrect capitalization or spelling in a keyword or identifier.
+> 3. Using the wrong punctuation, such as using a comma instead of a semicolon.
+> 4. Mixing up the order of operations, such as using an operator that expects two operands before the operands have been provided.
+> 
+> To fix a syntax error, you will need to locate the source of the error and correct it in the code. This can often be a challenging task, as syntax errors can be caused by a variety of factors, and it is not always immediately clear what the problem is. However, there are a few tools that can help you locate and fix syntax errors in your C++ code:
+> 1. A compiler error message: When you try to compile your code, the compiler will often provide an error message 
+> that can help you locate the source of the syntax error. These error messages can be somewhat cryptic, but they usually include the line number and a brief description of the problem.
+> 2. A text editor with syntax highlighting: Many text editors, such as Visual Studio or Eclipse, include syntax highlighting, which can help you identify syntax errors by coloring different parts of the code differently. For example, keywords may be highlighted in blue, while variables may be highlighted in green.
+> 3. A debugger: A debugger is a tool that allows you to step through your code line by line, examining the values of variables and the state of the program at each step. This can be a very useful tool for tracking down syntax errors, as it allows you to see exactly where the error occurs and what caused it.
+>
+> [Reference](https://chat.openai.com/)
+
+2. Logic Error
+> A logic error in C++ is an error that occurs when the code produces unintended results or behaves in unexpected 
+> ways due to a mistake in the logic of the program. This type of error is usually caused by a coding mistake, such as using the wrong operator, omitting a necessary statement, or using the wrong variable. Here are some common causes of logic errors in C++:
+> - Incorrect use of conditional statements (e.g., using the wrong comparison operator or forgetting to include a necessary else clause)
+> - Mistakenly using the assignment operator (=) instead of the equality operator (==) in a conditional statement
+> - Omitting a necessary loop iteration or failing to terminate a loop at the appropriate time
+> - Using the wrong variable or array index
+> - Incorrectly calling a function or passing the wrong arguments to a function
+> 
+> To fix a logic error in C++, you will need to carefully examine your code and identify the mistake. It may be helpful to use a debugger to step through your code and see how it is executing, or to add print statements to help you understand what is happening at each step.
+> 
+> [Reference](https://chat.openai.com/)
+
+3. Run-time error
+> A runtime error in C++ means that there is an error in your program that is causing it to behave unexpectedly or 
+> crash during runtime, i.e., after you have compiled and run the program. There are many possible causes of runtime errors in C++, including:
+> 
+> - Dereferencing a null pointer
+> - Accessing an array out of bounds
+> - Using an uninitialized variable
+> - Trying to divide by zero
+> - Attempting to use an object that has been deleted or has gone out of scope
+> 
+> To troubleshoot a runtime error, you'll need to identify the source of the error by examining the error message and the code that is causing the error. Some common tools and techniques you can use to troubleshoot runtime errors include:
+> - Using a debugger to step through your code line by line 
+> - Printing out the values of variables to see where the error might be occurring
+> - Adding additional debug statements or logging to your code to help identify the source of the error
+> 
+> It's also a good idea to ensure that you have compiled your code with debugging symbols enabled, as this will 
+> allow you to use the debugger to get a better understanding of what is happening in your code. will cause the program 
+> to crash during run-time
+> 
+> [Reference](https://chat.openai.com/)
+
+Research and read about other notable errors: segmentation fault, stack overflow, buffer overflow.
+
+# Coding exercises:
+- [Hello World](https://www.beecrowd.com.br/judge/en/problems/view/1000) - just print `hello world`. 
+- [Extremely Basic](https://www.beecrowd.com.br/judge/en/problems/view/1001) - use `int` as variable to store data.
+
+# Homework
+1. Setup your environment for your needs following the choices given above. If you are unsure, use CLion and you 
+   will be mostly safe. 
 2. Fork this repo privately. You will have to do your assignments there. Go to the home repo and hit
 [fork](https://github.com/InfiniBrains/Introduction-to-Game-Programming-With-CPP/fork).
 3. Clone this repo to your machine. [gitkraken + github](https://www.youtube.com/watch?v=5nhNfMcczlQ)
@@ -179,7 +290,7 @@ really prefer CLion.
    and enable all activities.
 5. (enrolled students) If you are enrolled in a class with me, share your repo with me, so I can track your evolution.
 And do the activities described there.
-6(optional) star the repo :-)
+6. (optional) star the repo :-)
 
 # Troubleshooting
 If you have problems here, start a
