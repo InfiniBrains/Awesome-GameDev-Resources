@@ -16,6 +16,9 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/out)
 # see https://github.com/TheLartians/CPM.cmake for more info
 include(cmake/get_cpm.cmake)
 
+# include sanitizers
+include(cmake/tools.cmake)
+
 # check if we are target compiling to web
 if(EMSCRIPTEN)
   set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Oz -s WASM=2")
