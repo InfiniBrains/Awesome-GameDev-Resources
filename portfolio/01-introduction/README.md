@@ -1,14 +1,34 @@
 # Introduction
 
-### Do you need a portfolio?
-It is not only about you, it is about maxing the life of the others easier by giving insights if they should hire you, 
-follow you or anything else. In order to make people understand you, you have to know yourself better. So...
+> A game developer portfolio is a collection of materials that showcase a game developer's skills, experience, and 
+  accomplishments. It is typically used by game developers to demonstrate their abilities to potential employers, 
+  clients, or partners, and may include a variety of materials such as:
+>
+> - A resume or CV: This should highlight your education, work experience, and skills relevant to game development.
+> - Examples of your work: This can include demos, prototypes, or completed games that you have developed or 
+  contributed to. It's a good idea to include links to any online versions of your work, as well as screenshots or video trailers.
+> - A portfolio website: Many game developers choose to create a website specifically for their portfolio, which can 
+  include additional information about their skills and experience, as well as links to their work.
+> - Blogs, articles, or other writing: If you have written about game development or related topics, you may want to 
+  include these in your portfolio to show your knowledge and expertise.
+> - Testimonials or references: Including positive feedback from clients or colleagues can help to demonstrate the 
+  quality of your work.
+>
+> Overall, a game developer portfolio should be designed to demonstrate your abilities and accomplishments in a 
+  clear and concise way, and should be tailored to the specific needs and goals of the person or organization you 
+  are presenting it to.
+
+Building a portfolio is not only about you, it is about making the life easier of the ones interested on you by 
+giving insights if they should hire you, follow you or anything else. In order to make people understand you, you 
+have to know yourself better.
 
 ## Who are you?
 
-Discover who you are, what you excel, and what do you really enjoy doing. I will be briefly vague here to 
-point some emotional support and reasoning to help you answer the question. If you are clear about that, please skip 
-this entire section. Here goes a small amount of advices I wish I have heard when I was young.
+In your portfolio, you will have to express yourself in a way that others can understand who you are, and it can be 
+challenging for some. In order do help you discover **who you are, what you excel, and what do you really enjoy 
+doing**. I will be briefly vague here to point some emotional support and reasoning to help you answer the question. 
+**If you are clear about that, please skip this entire section**. Here goes a small amount of advices I wish I have 
+heard when I was young. 
 
 You are a complex being and hard to define. I know. It is hard to put yourself in a frame or box, but this process is 
 relevant to make the life of the others to evaluate if they want more you or not. If for some reason a person is 
@@ -59,3 +79,10 @@ you will discover yourself. It will feels like looking to a mirror for the first
 
 ## Videos, photos, or lightweight web builds
 
+# Homework
+
+1. Define your domain name;
+2. Find a good portfolio to follow;
+3. Design the scaffold / wireframe of what you want to show; 
+4. Gather the data you want to show;
+5. Think on catch phrases and call to actions.
