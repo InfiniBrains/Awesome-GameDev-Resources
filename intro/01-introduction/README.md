@@ -72,12 +72,13 @@ languages benchmark_" on your preferred search engine](https://www.google.com/se
 
 [![](https://media.tenor.com/AOfJ0ipRJkQAAAAC/tf2-pyro.gif)](https://tenor.com/view/tf2-pyro-teamfortress2-teamfortress2pyro-fire-gif-13656490)
 
-I don’t want to start a flamewar. Those numbers might be wrong, but the overall idea is correct. Assuming C++ does not 
+I don’t want to start a flame-war. Those numbers might be wrong, but the overall idea is correct. Assuming C++ does not 
 add much overhead to your native binary, let’s set the speed to run as 1x. Java would be around 1.4x slower, and 
 JavaScript is 1.6x, python 40x, and ruby 100x. The only good competitor in the house is Rust because its compiled code 
 runs straight on the CPU efficiently with lots of quality-of-life additions.
 [Rust gives almost similar results](https://benchmarksgame-team.pages.debian.net/benchmarksgame/fastest/gpp-rust.html) if 
-you do not play around with memory-intensive problems.
+you do not play around with memory-intensive problems. Another honorable mention is WASM - Web Assembly, although it is 
+a bytecode for a virtual machine, many programming languages are able to target it(compile for it), it is becoming blazing fast and it is getting traction nowadays, keep tuned. 
 
 [![](https://pics.me.me/me-i-need-64-bytes-of-memory-rust-yeah-umm-41882293.png)](https://me.me/i/me-i-need-64-bytes-of-memory-rust-yeah-umm-0d048f5778154bf3aa0bcd6dc1499677)
 
