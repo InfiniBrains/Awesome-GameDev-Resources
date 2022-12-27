@@ -25,10 +25,10 @@ if(EMSCRIPTEN)
 endif()
 
 # options to what include and use
-OPTION(ENABLE_DOCUMENTATION "ENABLE_DOCUMENTATION" OFF)
 OPTION(ENABLE_INTRO "ENABLE_INTRO" ON)
 
 # todo: do the same for the other topics
-IF(ENABLE_INTRO)
-
+OPTION(ENABLE_DOCUMENTATION "ENABLE_DOCUMENTATION" ON)
+IF(ENABLE_DOCUMENTATION)
+  add_subdirectory(documentation)
 ENDIF()

@@ -1,0 +1,50 @@
+name: Documentation
+
+on:
+  push:
+#    tags:
+#      - '*'
+    branches:
+      - master
+      - main
+env:
+  CPM_SOURCE_CACHE: ${{ github.workspace }}/cpm_modules
+
+jobs:
+  build:
+    name: Build and publish documentation
+    container: emscripten/emsdk
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/cache@v2
+        with:
+          path: "**/cpm_modules"
+          key: ${{ github.workflow }}-cpm-modules-${{ hashFiles('**/CMakeLists.txt', '**/*.cmake') }}
+
+      - name: APT Update
+        run: apt update
+
+      - name: Install dependencies
+        run: |
+          apt install -y doxygen gource libgs-dev
+          pip3 install jinja2 Pygments
+
+      - name: Configure
+        run: emcmake cmake -S. -Bbuild -DENABLE_TEST_COVERAGE=OFF -DENABLE_STANDALONE=ON -DENABLE_DOCUMENTATION=ON
+
+      - name: Build Docs
+        run: cmake --build build --target GenerateDocs
+
+      - name: Build Emscripten
+        run: cmake --build build -j4 --config Release
+
+#      - name: Copy Emscripten build to docs
+#        run: cp -R build/out/* build/documentation/doxygen/html/
+
+      - name: Publish
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build/documentation/doxygen/html
