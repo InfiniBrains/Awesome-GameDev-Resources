@@ -82,6 +82,7 @@ you will discover yourself. It will feels like looking to a mirror for the first
 # Homework
 
 1. Define your domain name;
+    - I usually search domains [here](https://iwantmyname.com/) and buy on wherever is cheaper, usually[here](https://godaddy.com/) 
 2. Find a good portfolio to follow;
 3. Design the scaffold / wireframe of what you want to show; 
 4. Gather the data you want to show;

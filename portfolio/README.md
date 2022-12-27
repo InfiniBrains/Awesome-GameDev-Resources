@@ -11,7 +11,7 @@
 | 5    | 2023/02/13 | Strategy & Analytics                                         |
 | 6    | 2023/02/20 | Cases                                                        |
 | 7    | 2023/02/27 | Frontend                                                     |
-| 8    | 2023/03/06 | Hosting                                                      |
+| 8    | 2023/03/06 | [Hosting and Domain](hosting/README.md)                      |
 | 9    | 2023/03/13 | BREAK                                                        |
 | 10   | 2023/03/20 | Blogs                                                        |
 | 11   | 2023/03/27 | Promoting                                                    |

@@ -68,7 +68,7 @@ JavaScript. It is a funny concept, I admit, but you can see here that the ones t
 would never run as fast as a compiled binary ready to run on the CPU.
 
 So let’s bring some ideas from my own experience, and I invite you to test by yourself. Just search for ["_programming 
-languages benchmark_" on your preferred search engine](https://letmegooglethat.com/?q=programming+languages+benchmark). 
+languages benchmark_" on your preferred search engine](https://www.google.com/search?q=programming+languages+benchmark) or go [here](https://programming-language-benchmarks.vercel.app/). 
 
 [![](https://media.tenor.com/AOfJ0ipRJkQAAAAC/tf2-pyro.gif)](https://tenor.com/view/tf2-pyro-teamfortress2-teamfortress2pyro-fire-gif-13656490)
 
