@@ -19,3 +19,13 @@ LINKS_NAVBAR1 = [
 # ]
 
 FINE_PRINT = """Awesome Cpp Course. Created by <a href="https://linktree.com/tolstenko">Alexandre Tolstenko</a> and <a href="https://github.com/InfiniBrains/Introduction-to-Game-Programming-With-CPP/graphs/contributors">Others</a>. 2023. All rights reserved."""
+
+HTML_HEADER = """<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-76LZTVL113"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-76LZTVL113');
+</script>"""

@@ -1,7 +1,9 @@
 # Awesome Programming Course with C++ and Games
 
 How to use this repo: Read the topics, and if you are unsure if you understand the topics covered here it is a good 
-time for you to revisit them. If you prefer, use the [pre-rendered documentation here](https://infinibrains.github.io/Introduction-to-Game-Programming-With-CPP/) the examples will work better there.
+time for you to revisit them. 
+- If you just want to read use the [pre-rendered documentation here](https://courses.tolstenko.net) the examples will work better there.
+- If you want to go deep and propose changes to repo, use the [github repo](https://github.com/InfiniBrains/Introduction-to-Game-Programming-With-CPP).
 
 # Topics
 1. [Intro to Programming](intro/README.md)

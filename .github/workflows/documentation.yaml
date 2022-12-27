@@ -40,6 +40,9 @@ jobs:
       - name: Build Emscripten
         run: cmake --build build -j4 --config Release
 
+      - name: COPY CNAME
+        run: cp CNAME ./build/documentation/doxygen/html/
+
 #      - name: Copy Emscripten build to docs
 #        run: cp -R build/out/* build/documentation/doxygen/html/
 
