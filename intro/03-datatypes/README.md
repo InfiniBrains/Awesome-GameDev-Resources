@@ -4,4 +4,3 @@
 
 The basic types areThere are Integer types
 
-

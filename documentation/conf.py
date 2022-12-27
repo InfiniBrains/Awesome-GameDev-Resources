@@ -1,11 +1,8 @@
 DOXYFILE = 'Doxyfile'
 
 LINKS_NAVBAR1 = [
-    # ("<a href=\"ConcurrencyStandalone.html\">Demo</a>", []),
-    (None, 'pages', [
-        (None, 'about'),
-    ]),
-    (None, 'namespaces', []),
+    ("<a href=\"/\">Courses</a>", [(None ,'md_intro_README'), (None, 'md_portfolio_README'), (None, 'md_artificialintelligence_README')]),
+    # ("Namespaces", 'namespaces', [])
 ]
 
 # Add your own navbar links using the code below.

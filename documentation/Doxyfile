@@ -17,8 +17,8 @@ OUTPUT_DIRECTORY = @DOXYGEN_OUTPUT_DIRECTORY@
 USE_MDFILE_AS_MAINPAGE = @DOXYGEN_PROJECT_ROOT@/README.md
 
 # set relative include paths
-FULL_PATH_NAMES = YES
-STRIP_FROM_PATH = @DOXYGEN_PROJECT_ROOT@/include @DOXYGEN_PROJECT_ROOT@
+FULL_PATH_NAMES = NO
+STRIP_FROM_PATH = @DOXYGEN_PROJECT_ROOT@
 
 # We use m.css to generate the html documentation, so we only need XML output
 GENERATE_XML = YES
@@ -29,4 +29,10 @@ CREATE_SUBDIRS = NO
 
 # Include all directories, files and namespaces in the documentation
 # Disable to include only explicitly documented objects
-M_SHOW_UNDOCUMENTED = YES
+M_SHOW_UNDOCUMENTED = NO
+
+STRIP_CODE_COMMENTS    = NO
+GENERATE_TODOLIST      = YES
+SHOW_NAMESPACES        = NO
+SHOW_FILES             = NO
+SHOW_USED_FILES        = NO

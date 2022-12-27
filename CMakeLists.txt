@@ -32,3 +32,5 @@ OPTION(ENABLE_DOCUMENTATION "ENABLE_DOCUMENTATION" ON)
 IF(ENABLE_DOCUMENTATION)
   add_subdirectory(documentation)
 ENDIF()
+
+CPMAddPackage("gh:TheLartians/Format.cmake@1.7.3")

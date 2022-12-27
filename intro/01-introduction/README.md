@@ -131,19 +131,19 @@ looks like this:
 
 # Pseudocode
 > Pseudocode is a way of expressing algorithms using a combination of natural language and programming constructs. It 
-is not a programming language and cannot be compiled or executed, but it provides a clear and concise way to 
-describe the steps of an algorithm. Here is an example of pseudocode that describes the process of finding the 
-maximum value in a list of numbers: 
-> ```
-> set maxValue to 0
-> for each number in the list of numbers
->     if number is greater than maxValue
+> is not a programming language and cannot be compiled or executed, but it provides a clear and concise way to 
+> describe the steps of an algorithm. Here is an example of pseudocode that describes the process of finding the 
+> maximum value in a list of numbers:
+> 
+>     set maxValue to 0
+>     for each number in the list of numbers
+>       if number is greater than maxValue
 >         set maxValue to number
-> output maxValue
-> ```
+>     output maxValue
+> 
 > Pseudocode is often used as a planning tool for programmers and can help to clarify the logic of a program before it 
-is written in a specific programming language. It can also be used to communicate algorithms to people who are not 
-familiar with a particular programming language. [Reference](https://chat.openai.com/)
+> is written in a specific programming language. It can also be used to communicate algorithms to people who are not
+> familiar with a particular programming language. [Reference](https://chat.openai.com/)
 
 # Flowcharts
 > A flowchart is a graphical representation of a process or system that shows the steps or events in a sequential 
@@ -191,6 +191,11 @@ write a working pseudocode to:
 4. Factorial number;
 
 # Glossary
+
+It is expected for you to know superficially these terms and concepts. Research about them. It is not strictly required, because we are going to cover them in class.
+
+[//]: # (todo: In the near future, expand this area )
+
 - CPU
 - GPU
 - ALU
@@ -201,12 +206,11 @@ write a working pseudocode to:
 - Linker
 - Assembler
 - Pseudocode
-- Algorithm
+- Algorithms
 - Flowchart
 
 # Activities
-1. Sign up on [beecrowd](https://www.beecrowd.com.br). If you are a enrolled student, look for the key in canvas 
-   to be assigned to the coding assignments. 
+1. Sign up on [beecrowd](https://www.beecrowd.com.br). If you are a enrolled student, look for the key in canvas to be assigned to the coding assignments. 
 2. https://blockly.games/mazeLinks - test your ability to solve small problems via block programming
 3. https://codecombat.com/ - very interesting game
 

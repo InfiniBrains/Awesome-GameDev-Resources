@@ -1,4 +1,4 @@
-# Porti
+# Portfolio
 
 ## Schedule
 

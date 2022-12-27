@@ -12,7 +12,12 @@
     "prestyle": "cmake -S. -BbuildStyle -DENABLE_TEST_COVERAGE=ON -DENABLE_STANDALONE=OFF -DENABLE_DOCUMENTATION=OFF",
     "style": "cmake --build buildStyle --target fix-format",
     "prebuildall": "cmake -S. -Bbuild -DENABLE_TEST_COVERAGE=OFF -DENABLE_STANDALONE=ON -DENABLE_DOCUMENTATION=OFF",
-    "buildall": "cmake --build build -j20"
+    "buildall": "cmake --build build -j20",
+    "generate:docs": "cmake -S. -BbuildDocs -DENABLE_TEST_COVERAGE=OFF -DENABLE_STANDALONE=ON -DENABLE_DOCUMENTATION=ON",
+    "prebuild:docs": "npm run generate:docs",
+    "build:docs": " cmake --build buildDocs --target GenerateDocs",
+    "preserve": "npm run build:docs",
+    "serve": "npx http-serve buildDocs/documentation/doxygen/html"
   },
   "repository": {
     "type": "git",
