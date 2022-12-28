@@ -219,3 +219,4 @@ It is expected for you to know superficially these terms and concepts. Research 
 If you have problems here, start a
 [discussion](https://github.com/InfiniBrains/Introduction-to-Game-Programming-With-CPP/discussions) this is publicly 
 visible and not FERPA compliant. Use discussions in Canvas if you are enrolled in a class with me.
+
