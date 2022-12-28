@@ -50,15 +50,18 @@ NOTE: Most of the information that I am covering here might be not precise, but 
 
 A standard `int` type uses 4 bytes to store data. It is signed by default.
 
-It can represent `2^32` or `4294967296` different numbers. As a signed type, it can represent numbers from `-2^31` or  `-2147483648` up to `2^31 - 1` or `2147483648`.
+It can represent `2^32` or `4294967296` different numbers. As a signed type, it can represent numbers from `-2^31` or  `-2147483648` up to `2^31 - 1` or `2147483647`.
 
 The type `int` can accept sign modifiers as `signed` or `unsigned` to change the behavior of the first bit to act as a sign or not.
 
-The type `int` can accept size modifiers as `short` (2 bytes) or `long long` (8 bytes) to change the size of the container. Type declaration `short` and `short int` result in the same container size of 2 bytes. In the same way a `long long` or `long long int` reserves the same size of 8 bytes for the container.
+The type `int` can accept size modifiers as `short` (2 bytes) or `long long` (8 bytes) to change the size and representation capacity of the container. Type declaration `short` and `short int` result in the same container size of 2 bytes. In the same way a `long long` or `long long int` reserves the same size of 8 bytes for the container.
 
-The type `long` or `long int` usually gives the same size of `int` as 4 bytes.
+The type `long` or `long int` usually gives the same size of `int` as 4 bytes. Historical fact or myth: This abnormality, comes from the evolution of the definition of `int`: in the past, 2 bytes were enough for the majority of the scenarios in the 16 bits processors, but it frequently reached the limits of the container and it overflowed. So they changed the standard definition of a integer from being 2 bytes to 4 bytes, and created the short modifier. In this scenario the long int lost the reason to exist.
 
-Here goes a list of valid integer types: `short int`, `short`, `signed short int`, `signed short`, `unsigned short int`, `unsigned short`, `signed`, `unsigned`, `int`, `signed int`, `unsigned int`, `long int`, `long`, `signed long int`, `signed long`, `unsigned long int`, `unsigned long`, `long long int`, `long long`, `signed long long int`, `signed long long `, `unsigned long long int`, `unsigned long long`. 
+Here goes a list of valid integer types and its probable size(it depends on the implementation, cpu architecture and operation system):
+- Size of 2 bytes: `short int`, `short`, `signed short int`, `signed short`, `unsigned short int`, `unsigned short`, 
+- Size of 4 bytes: `signed`, `unsigned`, `int`, `signed int`, `unsigned int`, `long int`, `long`, `signed long int`, `signed long`, `unsigned long int`, `unsigned long`,
+- Size of 8 bytes: `long long int`, `long long`, `signed long long int`, `signed long long `, `unsigned long long int`, `unsigned long long`. 
 
 OPINION: I highly recommend the usage of [these types instead](https://en.cppreference.com/w/cpp/header/cstdint), to ensure determinism and consistency between compilers, operating systems and cpu architectures.
 
@@ -141,9 +144,9 @@ A `bool` is by default either `true` or `false`, but it can be assigned by numer
 - if the value is `0`, then the value stored by the variable is `false` (`0`);
 - if the value is anything different than `0`, the value stored is `true` (`1`);
 
-To convert a `string` to a `int`, you have to use a function [stoi](https://en.cppreference.com/w/cpp/string/basic_string/stol), [stol]((https://en.cppreference.com/w/cpp/string/basic_string/stol)(for `long`) or [stoll](https://en.cppreference.com/w/cpp/string/basic_string/stol)(for `long long`) because both types are not compatibles.
+To convert a `string` to a `int`, you have to use a function [stoi](https://en.cppreference.com/w/cpp/string/basic_string/stol)(for `int`), [stol](https://en.cppreference.com/w/cpp/string/basic_string/stol)(for `long`) or [stoll](https://en.cppreference.com/w/cpp/string/basic_string/stol)(for `long long`) because both types are not compatibles.
 
-To convert a `string` to a `float`, you have to use a function [stof](https://en.cppreference.com/w/cpp/string/basic_string/stof), [stod](https://en.cppreference.com/w/cpp/string/basic_string/stof)(for `double`), or [stold]([stof](https://en.cppreference.com/w/cpp/string/basic_string/stof))(for `long double`) because both types are not compatibles.
+To convert a `string` to a `float`, you have to use a function [stof](https://en.cppreference.com/w/cpp/string/basic_string/stof)(for `float`), [stod](https://en.cppreference.com/w/cpp/string/basic_string/stof)(for `double`), or [stold](https://en.cppreference.com/w/cpp/string/basic_string/stof)(for `long double`) because both types are not compatibles.
 
 # Literals
 Literals are values that are expressed freely in the code. Every numeric type can be appended with suffixes to specify explicitly the type to avoid undefined behaviors or compiler defined behaviors such as implicit cast or container size. 
