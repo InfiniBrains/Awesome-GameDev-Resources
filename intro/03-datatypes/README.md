@@ -307,7 +307,7 @@ For example:
 
 ```c++
 int a = 20001;
-char b = (char) a; // b is assigned the ASCII value for the character '?'
+char b = (char) a; // b is assigned the ASCII value for the character '!'
 ```
 
 In this case, the value of `a` is an `int`, but it is being explicitly converted to a `char` using the explicit cast operator. However, the range of values that can be represented by a `char` is much smaller than the range of values that can be represented by an `int`, so the value of `a` is outside the range that can be represented by a `char`. As a result, `b` is assigned the ASCII value for the character `1`, which is not the same as the original value of `a`. The value `!` is `33` in ASCII table, and `33` is the result of the `20001 % 256` where `256` is the number of elements the `char` can represent. In this case, what happened was a bug that is hard to track called `int overflow`. 
