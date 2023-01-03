@@ -77,6 +77,46 @@ NOTE: This standard was very open to implementation definition in the past, and 
 
 `bool` is a special type that has the container size of 1 byte but the compiler can optimize and pack up to 8 `bool`s in one byte if they are declared in sequence.
 
+#### Enums
+
+An enumeration is a type that consists of a set of named integral constants. It can be defined using the `enum` keyword:
+
+```c++
+enum Color {
+  Red,
+  Green,
+  Blue
+};
+```
+
+This defines a new type called `Color`, which has three possible values: `Red`, `Green`, and `Blue`. By default, the values of these constants are `0`, `1`, and `2`, respectively. However, you can specify your own values:
+
+```c++
+enum Color {
+  Red = 5,
+  Green,  // 6
+  Blue    // 7
+};
+```
+
+You can then use the enumeration type just like any other type:
+
+```c++
+Color favoriteColor = Red;
+```
+
+Enumerations can also have their underlying type explicitly specified:
+
+```c++
+enum class Color : char {
+  Red,
+  Green,
+  Blue
+};
+```
+
+Here, the underlying type of the enumeration is `char`, so the constants `Red`, `Green`, and `Blue` will be stored as characters. The `enum class` syntax is known as a "scoped" enumeration, and it is recommended over the traditional `enum` syntax because it helps prevent naming conflicts. [See the CppCoreGuidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-enum) to understand better why you should prefer using this.
+
 ### Special derived type: string
 
 `string` is a derived type and in order to use it, string should be included in the beginning of the file or in the header. `char` are the basic unit of a `string` and is used to store words as a sequence of chars.
@@ -218,13 +258,13 @@ There are two special cases called unary increment / decrement operators that ma
 - Increment: `++`; 
 - Decrement: `--`;
 
-There are compound assignment operators [reference](https://en.cppreference.com/w/cpp/language/operator_assignment) that reassign the value of the variable after executing the arithmetic operation with the right side of the operator with the old value of the variable:
+There are shorthand assignment operators [reference](https://en.cppreference.com/w/cpp/language/operator_assignment) that reassign the value of the variable after executing the arithmetic operation with the right side of the operator with the old value of the variable:
 - Addition: `+=`
 - Subtraction: `-=`
 - Multiplication: `*=`
 - Division: `/=`
 - Modulus (remainder): `%=`
- 
+
 Here is an example of how to use these operators in a C++ program:
 ```c++
 #include <iostream>
@@ -287,10 +327,14 @@ It's important to be aware of implicit casting, because it can sometimes lead to
 
 ## Explicit cast
 
-In C++, you can use an explicit cast operator to explicitly convert a value of one data type to another. The general syntax for an explicit cast is:
+In C++, you can use an explicit cast operator to explicitly convert a value of one data type to another. The general syntax for an explicit cast are:
 
 ```c++
-(TYPENAME) value;
+// ref: https://en.wikibooks.org/wiki/C%2B%2B_Programming/Programming_Languages/C%2B%2B/Code/Statements/Variables/Type_Casting
+(TYPENAME) value; // regular c-style. do not use this extensively
+static_cast<TYPENAME>(value); // c++ style conversion, arguably it is the preferred style. use this if you know what you are doing.
+TYPENAME(value); // functional initialization, slower but safer. might not work for every case. use this if you are unsure or want to be safe.
+TYPENAME{value}; // initialization style, faster, convenient, concise and arguably safer because it triggers warnings. use this for the general case. 
 ```
 
 For example:
@@ -301,16 +345,26 @@ double b = (double) a; // a is explicitly converted to a double
 
 In this example, the value of `a` is an `int`, but it is being explicitly converted to a `double` using the explicit cast operator. The result of the cast is then assigned to the `double` variable `b`.
 
-Explicit casts can be useful in situations where you want to ensure that a value is converted to a specific data type, regardless of the data types of the operands in an expression. However, it's important to be aware that explicit casts can also lead to unexpected results or loss of precision if not used carefully.
+Explicit casts can be useful in situations where you want to ensure that a value is converted to a specific data type, regardless of the data types of the operands in an expression. However, it's important to be aware that explicit casts can also lead to unexpected results or loss of precision if not used carefully. This behaviour is called *narrowing*.
 
-For example:
-
-```c++
+C-style:
+```c
 int a = 20001;
 char b = (char) a; // b is assigned the ASCII value for the character '!'
 ```
 
-In this case, the value of `a` is an `int`, but it is being explicitly converted to a `char` using the explicit cast operator. However, the range of values that can be represented by a `char` is much smaller than the range of values that can be represented by an `int`, so the value of `a` is outside the range that can be represented by a `char`. As a result, `b` is assigned the ASCII value for the character `1`, which is not the same as the original value of `a`. The value `!` is `33` in ASCII table, and `33` is the result of the `20001 % 256` where `256` is the number of elements the `char` can represent. In this case, what happened was a bug that is hard to track called `int overflow`. 
+In this case, the value of `a` is an `int`, but it is being explicitly converted to a `char` using the explicit cast operator. However, the range of values that can be represented by a `char` is much smaller than the range of values that can be represented by an `int`, so the value of `a` is outside the range that can be represented by a `char`. As a result, `b` is assigned the ASCII value for the character `1`, which is not the same as the original value of `a`. The value `!` is `33` in ASCII table, and `33` is the result of the `20001 % 256` where `256` is the number of elements the `char` can represent. In this case, what happened was a bug that is hard to track called `int overflow`.
+
+# `auto` keyword
+
+[`auto` keyword](https://en.cppreference.com/w/cpp/language/auto) is mostly a syntax sugar to automatically infer the data type. It is used to avoid writing the full declaration of complex types when it is easily inferred. `auto` is not a dynamic type, once it is inferred, it cannot be changed later like in other dynamic typed languages such as javascript.
+
+```c++
+auto i = 0; // automatically inferred as an integer type;
+auto f = 0.0f; // automatically inferred as a float type;
+
+i = "word"; // this won't work, because it was already inferred as an integer and integer container cannot hold string
+```
 
 # Formatting
 
@@ -373,6 +427,9 @@ Banana
 ```
 
 # Optional Exercises
+
+Do all exercises up to this topic here https://www.w3schools.com/cpp/exercise.asp
+
 In order to get into coding, the easiest way to learn is by solving coding challenges. It is like learning any new language, you have to be exposed and involved. Do not do only the homeworks, otherwise you are going to fail. Another metaphor is: the homework is the like a competition that you have to run to prove that you are trained, but in order to train, you have to do small runs and do small steps first, so you have to train yourself ot least 2x per week.
 
 The best way to train yourself in coding and solving problems in my opinion is this:
@@ -382,7 +439,34 @@ The best way to train yourself in coding and solving problems in my opinion is t
 3. If you are feeling comfortable and being able to solve more than 3 per hour, you are allowed to skip some of the questions. It is just like in a gym, when you get used with the load, you increase it. Otherwise continue training slowly.
 
 # Homework
-- [banknotes and coins](https://www.beecrowd.com.br/judge/en/problems/view/1021) - Here you will use formatting, modulus, casting, arithmetic operations, compound assignment.
+[banknotes and coins](https://www.beecrowd.com.br/judge/en/problems/view/1021) - Here you will use formatting, modulus, casting, arithmetic operations, compound assignment. You don't need to use if-else.
+
+Hint. Follow this only if dont find your way of solving it. You can read the number as a double, multiply by 100 and then do a sequence of modulus and division operations.
+```c++
+double input; // declare the container to store the input
+cin >> input; // read the input
+
+long long cents = static_cast<long long>(input * 100); // number of cents. Note: if you just use float, you will face issues. 
+
+long long notes100 = cents/10000; // get the number of notes of 100 dollar (100 units of 100 cents) 
+cents %= 10000; // remove the amount of 100 dollars
+```
+
+Another good way of solving it avoiding casting is reading the number as string and removing the point. [Never use `float` for money](https://husobee.github.io/money/float/2016/09/23/never-use-floats-for-currency.html)
+
+```c++
+string input; // declare the container to store the input
+cin >> input; // read the input
+
+// given every input will have the dot, we should remove it. remove the dot `.`
+input = input.erase(str.find('.'), 1);
+
+// not it is safe to use int, because no bit is lost in floating casting and nobody have more than MAX_INT cents.  
+int cents = stoll(input); // number of cents. 
+
+long long notes100 = cents/10000; // get the number of notes of 100 dollar (100 units of 100 cents) 
+cents %= 10000; // update the remaining cents by removing the amount of 100 dollars in cents units
+```
 
 # Troubleshooting
-If you have problems here, start a [discussion](https://github.com/InfiniBrains/Introduction-to-Game-Programming-With-CPP/discussions) this is publicly visible and not FERPA compliant. Use discussions in Canvas if you are enrolled in a class with me.
+If you have problems here, start a [discussion](https://github.com/InfiniBrains/Introduction-to-Game-Programming-With-CPP/discussions). Nhis is publicly visible and not FERPA compliant. Use discussions in Canvas if you are enrolled in a class with me. Or visit the tutoring service.
