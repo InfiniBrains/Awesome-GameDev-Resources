@@ -1,5 +1,9 @@
 # Reasons why you should learn how to program with C++
 
+Before we start, this repository aims to be practical, and I highly incentive you to look for other references. I want to add this another [awesome repository](https://github.com/federico-busato/Modern-CPP-Programming/) it holds an awesome compilation of modern C++ concepts.
+
+Another relevant reference for what we are going to cover is the [updated core guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines) that explain why some syntax or style is bad and what you should be doing instead.
+
 ## Why?
 
 The first thing when you think of becoming a programmer is **HOW DO I START?** Well, **C++** is one of the best 

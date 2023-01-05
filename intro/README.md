@@ -10,7 +10,7 @@
 | 4    | 2023/02/06 | [Conditionals, Boolean and Bitwise Operations](04-conditionals//README.md)   |
 | 5    | 2023/02/13 | [Loops, for, while, goto](05-loops//README.md)                               |
 | 6    | 2023/02/20 | [Functions, Base Conversion, Pointers, Reference](06-functions/README.md)    |
-| 7    | 2023/02/27 | [Streams, File IO]                                                         |
+| 7    | 2023/02/27 | [Streams, File IO](07-streams/README.md)                                     |
 | 8    | 2023/03/06 | Midterm                                                                      |
 | 9    | 2023/03/13 | BREAK                                                                        |
 | 10   | 2023/03/20 | Arrays, Vectors, String                                                      |

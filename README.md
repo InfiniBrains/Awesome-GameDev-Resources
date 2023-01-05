@@ -10,6 +10,10 @@ time for you to revisit them.
 2. [Developer Portfolio](portfolio/README.md)
 3. [Artificial Intelligence](artificialintelligence/README.md)
 
+# Philosophy
+
+Before we start, this repository aims to be practical, and it will be updated as I test the methodology. Frame it as a guidebook, not a manual. Most of the time, I am constrained by the time, so in order to move fast, I don't cover deeply some topics, but the basics that allows you to explore by yourself or point the directions for you to study in other places acting as a self-taught student, so you really should look for more information elsewhere if you feels so. I use lots of references and highly incentive you to look for other too and propose changes in this repo. Sometimes, I will mostly try to teach in a chaotic way, which implies that you will need to explore the concepts by yourself or read the manual/books. Every student should follow your own path to learning, it is impossible for me to cover every learning style, so it is up to you to build your own path and discover the best way to learn. What worked for me or what works for a given student probably wont work for you, so dont compare yourself to others too much, but be assured that I am here to help you to succeed. If you need help, just send me a message in private, or use public forums such as github issues and discussions.
+
 # Badges
 
 CI: [![Documentation](https://github.com/InfiniBrains/Introduction-to-Game-Programming-With-CPP/actions/workflows/documentation.yaml/badge.svg)](https://github.com/InfiniBrains/Introduction-to-Game-Programming-With-CPP/actions/workflows/documentation.yaml) 

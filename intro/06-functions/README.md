@@ -155,7 +155,7 @@ int main()
 
 # Passing parameter to a function by reference
 
-Pass-by-reference occurs when the function parameter uses the `&` in the parameter declaration. It will allow the function to modify the value of the parameter directly in the other scope, rather than making a copy of the value as it does with pass-by-value.
+Pass-by-reference occurs when the function parameter uses the `&` in the parameter declaration. It will allow the function to modify the value of the parameter directly in the other scope, rather than making a copy of the value as it does with pass-by-value. The mechanism behind the variable passed is that it is an alias to the outer variable because it uses the same memory position.
 
 ```c++
 #include <iostream>
@@ -168,6 +168,73 @@ int main() {
   int y = 2;
   times2(y);
   cout << y << endl;  // Outputs 4
+  return 0;
+}
+```
+
+# Passing parameter to a function by pointer
+
+Pass-by-pointer occurs when the function parameter uses the `*` in the parameter declaration. It will allow the function to modify the value of the parameter in the other scope via memory pointer, rather than making a copy of the value as it does with pass-by-value. The mechanism behind it is to pass the memory location of the outer variable as a parameter to the function.
+
+```c++
+#include <iostream>
+using namespace std;
+void times2(int *x) { // by using *, x has the same address the variable passed where the function is called
+    // x holds the address of the outer variable
+    // *x is the content of what x points.
+  *x *= 2; // it will change the variable in caller scope
+}
+
+int main() {
+  int y = 2;
+  times2(&y); // the function expects a pointer, given pointer is an address, we pass the address of the variable here
+  cout << y << endl;  // Outputs 4
+  return 0;
+}
+```
+
+# Function overload
+
+A function with a specific name can be overload with different not implicitly convertible parameters.
+
+```c++
+#include <iostream>
+using namespace std;
+
+float average(float a, float b){
+    return (a + b)/2;
+}
+
+float average(float a, float b, float c){
+    return (a + b + c)/3;
+}
+
+int main(){
+    cout << average(1, 2) << endl; // print 1.5
+    cout << average(1, 2, 3) << endl; // print 2
+    return 0;
+}
+```
+
+# Default parameter
+
+Functions can have default parameters that should be used if the parameter is not provided, making it optional.
+
+```c++
+#include <iostream>
+using namespace std;
+
+void greet(string username = "user") {
+    cout << "Hello " << mes << endl;
+}
+
+int main() {
+  // Prints "Hello user"
+  greet(); // the default parameter user is used here
+
+  // Prints "Hello John"
+  printMessage("John");
+  
   return 0;
 }
 ```
