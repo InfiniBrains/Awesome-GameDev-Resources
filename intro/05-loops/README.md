@@ -274,4 +274,11 @@ In this activity, you will have to solve Fibonacci sequence. You should implemen
 
 Optional Readings on [Fibonacci Sequence](https://en.wikipedia.org/wiki/Fibonacci_number);
 
-Hint: Create two variables, one to store the current value and the previous value. Each iteration step calculate the sum of both and store and put into a temp variable. Copy the current into the previous and set the current with the temporary you calculated before. 
+Hint: Create two variables, one to store the current value and the previous value. For each iteration step, calculate the sum of both and store and put into a temp variable. Copy the current into the previous and set the current with the temporary you calculated before.
+
+# Outcomes
+
+It is expected for you to be able to solve all questions before this one `1151` on beecrowd. Sort Beecrowd questions from the most solved to the least solved questions [here](https://www.beecrowd.com.br/judge/en/search?q=&sort=Problems.solved&direction=desc) in the link. If you don't, see [Troubleshooting](#troubleshooting). Don`t let your study pile up, this homework is just a small test, it is expected from you to do other questions on Beecrowd or any other tool such as leetcode.
+
+# Troubleshooting
+If you have problems here, start a [discussion](https://github.com/InfiniBrains/Introduction-to-Game-Programming-With-CPP/discussions). Nhis is publicly visible and not FERPA compliant. Use discussions in Canvas if you are enrolled in a class with me. Or visit the tutoring service.
