@@ -3,13 +3,12 @@
 Create a single page app containing most of these features listed here.
 
 ## HEAD
-Chose carefully what to you use as a head of your page. It is the first thing a person reads. After that 
-Impactful message, Personal Statement, background video or very limited interactive section.
+Chose carefully what to you use as a head of your page. It is the first thing a person reads. It can be an impactful message, personal statement, background video or very limited interactive section.
 
 ## About
 This is a summary obout yourself, be brief and achievement oriented. What and who you are. Contact info via social 
 medias. State your working status and target. If you are a narrative centred person, you can create something fancy 
-here or 
+here, but dont over-do, less is more!
 
 ## Showcase
 - Projects
@@ -39,3 +38,9 @@ they are willing to pay.
 Another option is to list all of your social medias, but dont overuse this. Nowadays we have bunch of them, so if 
 you list all of them, there is chances, you are not active there and the link will guide the reader to a empty and 
 haunted house and they will not engage.
+
+# Homework
+
+- Set your goal as your portfolio. 
+- Create a wireframe draft of what you are going to do on [figma](https://www.figma.com/) or any other tool you find relevant.
+- 

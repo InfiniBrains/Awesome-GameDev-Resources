@@ -26,7 +26,7 @@ anything.
 
 I am assuming you wont have a huge traffic, but you have a complex combination of services. In the complex cases
 and if you want to make your life easier and cheaper,my suggestion for hosting would be oracle cloud with arm cpu. 
-They offers for free a virtual machine with 200gb storage, 4vcpus, 24gb ram for free at this date of 2022/12 
+They offer for free a virtual machine with 200gb storage, 4vcpus, 24gb ram for free at this date of 2022/12 
 [tutorial](https://www.youtube.com/watch?v=NKc3k7xceT8). In this scenario, I recommend using https://coolify.io/ as 
 your deployment management system, just pay attention that this machine is running in an arm cpu. With this 
 combination, you can manage everything easily in one place for free. This is not ideal, because you wont have 
