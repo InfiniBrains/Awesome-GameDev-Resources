@@ -13,7 +13,7 @@
 | 7    | 2023/02/27 | [Frontend](frontend/README.md)                               |
 | 8    | 2023/03/06 | [Frontend](frontend/README.md)                               |
 | 9    | 2023/03/13 | BREAK                                                        |
-| 10   | 2023/03/20 | [Final Project Description](final-project/README.)           |
+| 10   | 2023/03/20 | [Final Project Description](final-project/README.md)         |
 | 11   | 2023/03/27 | [Hosting and Domain](hosting/README.md)                      |
 | 12   | 2023/04/03 | [Dynamic Content & Blogs](dynamic/README.md)                 |
 | 13   | 2023/04/10 | [Promoting](promoting/README.md)                             |
