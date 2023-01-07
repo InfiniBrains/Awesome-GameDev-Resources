@@ -37,3 +37,4 @@
 cmake-*/
 out/
 build*/
+site/

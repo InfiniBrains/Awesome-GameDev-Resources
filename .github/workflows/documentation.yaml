@@ -29,7 +29,7 @@ jobs:
       - name: Install dependencies
         run: |
           apt install -y doxygen gource libgs-dev
-          pip3 install jinja2 Pygments
+          pip3 install jinja2 Pygments mkdocs-material mkdocs mkdocs-same-dir mkdocs-minify-plugin
 
       - name: Configure
         run: emcmake cmake -S. -Bbuild -DENABLE_TEST_COVERAGE=OFF -DENABLE_STANDALONE=ON -DENABLE_DOCUMENTATION=ON

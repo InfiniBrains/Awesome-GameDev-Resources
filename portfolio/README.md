@@ -5,7 +5,7 @@
 | Week | Date       | Topic                                                        |
 |------|------------|--------------------------------------------------------------|
 | 1    | 2023/01/16 | [Introduction](01-introduction/README.md)                    |
-| 2    | 2023/01/23 | [Case Studies](02-cases/README.md)[                          |
+| 2    | 2023/01/23 | [Case Studies](02-cases/README.md)                           |
 | 3    | 2023/01/30 | [Game Developer Portfolio Structure](03-structure/README.md) |
 | 4    | 2023/02/06 | [Communication & Audience](communication/README.md)          |
 | 5    | 2023/02/13 | [Style & Accessibility](style/README.md)                     |

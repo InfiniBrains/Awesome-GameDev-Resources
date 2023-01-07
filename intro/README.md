@@ -13,10 +13,10 @@
 | 7    | 2023/02/27 | [Streams, File IO](07-streams/README.md)                                     |
 | 8    | 2023/03/06 | Midterm                                                                      |
 | 9    | 2023/03/13 | BREAK                                                                        |
-| 10   | 2023/03/20 | Arrays, Vectors, String                                                      |
-| 11   | 2023/03/27 | Recursion                                                                    |
-| 12   | 2023/04/03 | File Manipulation                                                            |
-| 13   | 2023/04/10 | Sorting                                                                      |
+| 10   | 2023/03/20 | [Arrays, Vectors, String](08-arrays/README.md)                               |
+| 11   | 2023/03/27 | [Recursion](09-recursion/README.md)                                          |
+| 12   | 2023/04/03 | [Sorting](10-sorting/README.md)                                              |
+| 13   | 2023/04/10 |                                                                              |
 | 14   | 2023/04/17 |                                                                              |
 | 15   | 2023/04/24 | Review                                                                       |
 | 16   | 2023/05/01 | FINALS                                                                       |

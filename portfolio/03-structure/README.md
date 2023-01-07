@@ -43,4 +43,3 @@ haunted house and they will not engage.
 
 - Set your goal as your portfolio. 
 - Create a wireframe draft of what you are going to do on [figma](https://www.figma.com/) or any other tool you find relevant.
-- 
