@@ -141,6 +141,11 @@ plugins:
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify
+  - exclude:
+      glob:
+        - node_modules/*
+        - buildDocs/*
+        - cmake-build-debug/*
 
 extra:
   analytics:

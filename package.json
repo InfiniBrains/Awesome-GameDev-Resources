@@ -44,6 +44,7 @@
     "@semantic-release/github": "^8.0.7",
     "@semantic-release/npm": "^9.0.1",
     "@semantic-release/release-notes-generator": "^10.0.3",
+    "moxygen": "^0.8.0",
     "rimraf": "^3.0.2"
   },
   "release": {

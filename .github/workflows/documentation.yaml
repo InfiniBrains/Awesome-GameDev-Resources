@@ -29,19 +29,23 @@ jobs:
       - name: Install dependencies
         run: |
           apt install -y doxygen gource libgs-dev
-          pip3 install jinja2 Pygments mkdocs-material mkdocs mkdocs-same-dir mkdocs-minify-plugin
+          pip3 install jinja2 Pygments mkdocs-material mkdocs mkdocs-same-dir mkdocs-minify-plugin mkdocs-redirects mkdocs-exclude
+          npm install 
 
       - name: Configure
         run: emcmake cmake -S. -Bbuild -DENABLE_TEST_COVERAGE=OFF -DENABLE_STANDALONE=ON -DENABLE_DOCUMENTATION=ON
 
-      - name: Build Docs
-        run: cmake --build build --target GenerateDocs
+#      - name: Build Docs
+#        run: cmake --build build --target GenerateDocs
+#
+#      - name: Build Emscripten
+#        run: cmake --build build -j4 --config Release
 
-      - name: Build Emscripten
-        run: cmake --build build -j4 --config Release
+      - name: mkdocs
+        run: mkdocs build
 
       - name: COPY CNAME
-        run: cp CNAME ./build/documentation/doxygen/html/
+        run: cp CNAME ./site
 
 #      - name: Copy Emscripten build to docs
 #        run: cp -R build/out/* build/documentation/doxygen/html/
@@ -50,4 +54,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build/documentation/doxygen/html
+          publish_dir: ./site
