@@ -225,7 +225,7 @@ int main(){
 
 Functions can have default parameters that should be used if the parameter is not provided, making it optional.
 
-```c++
+```c++ title="defaultparam.cpp"
 #include <iostream>
 using namespace std;
 
@@ -248,7 +248,7 @@ int main() {
 
 Scope is a region of the code where a identifier is accessible. A scope usually is specified by what is inside `{` and `}`. The global scope is the one that do not is inside any `{}`.
 
-```c++
+```c++ title="scope.cpp"
 #include <iostream>
 #include <string>
 using namespace std;
@@ -262,7 +262,7 @@ int main() {
 
 Multiple identifiers with same name can not be created in the same scope. But in a nested scope it is possible to shadow the outer one when declared in the inner scope.
 
-```c++
+```c++ title="variableShadowing.cpp"
 #include <iostream>
 #include <string>
 using namespace std;
@@ -274,6 +274,49 @@ int main() {
   return 0;
 }
 ```
+
+# Lambda functions
+
+In C++, an anonymous function is a function without a name. Anonymous functions are often referred to as lambda functions or just lambdas. They are useful for situations where you only need to use a function in one place, or when you don't want to give a name to a function for some other reason. 
+
+```c++
+auto lambda = [](int x, int y) { return x + y; };
+// auto lambda = [] (int x, int y) -> int { return x + y; }; // or you can specify the return type
+int z = lambda(1, 2);  // z is now 3
+```
+
+In this case the only variables accessible by the lambda function scope are the ones passed as parameter `x` and `y`, and works just like a normal function, but it can be declared inside at any scope.
+
+If you want to make a variable available to the lambda, you can pass it via captures, and it can be by-value or by-reference. To capture a variable by value, just pass the variable name inside the `[]`. To capture a variable by reference, you use the `&` operator followed by the variable name inside the `[]`. Here is an example of capturing a variable by value:
+
+```c++
+int x = 1;
+auto lambda = [x] { return x + 1; };
+```
+
+The value of `x` is copied into the lambda function, and any changes to `x` inside the lambda function have no effect on the original variable.
+
+Here is an example of capturing a variable by reference:
+
+```c++
+int x = 1;
+auto lambda = [&x] { return x + 1; };
+```
+
+The lambda function has direct access to the original variable, and any changes to `x` inside the lambda function are reflected in the original variable.
+
+You can also capture multiple variables by separating them with a comma. For example:
+
+```c++
+int x = 1, y = 2;
+auto lambda = [x, &y] { x += 1; y += 1; return x + y; };
+```
+
+This defines a lambda function that captures `x` by-value and `y` by-reference. The lambda function can modify `y` but not `x`.
+
+Lambda captures are a useful feature of C++ that allow you to write more concise and expressive code. They can be especially useful when working with algorithms from the Standard Template Library (STL), where you often need to pass a function as an argument.
+
+For a mor in depth understanding, go to [Manual Reference](https://en.cppreference.com/w/cpp/language/lambda) or check this [tutorial](https://www.learncpp.com/cpp-tutorial/lambda-captures/). 
 
 # Homework
 
