@@ -2,6 +2,7 @@
 
 Here goes a curated templates for a quick start:
 - https://github.com/techfolios/template - the easiest one
+- https://github.com/rammcodes/Dopefolio - straight to the point developer portfolio
 - https://github.com/ashutosh1919/masterPortfolio - animated with a strong opening
 - https://smaranjitghose.github.io/awesome-portfolio-websites a good compilation on how to build and deploy your portfolio with a good pre-made template
 
