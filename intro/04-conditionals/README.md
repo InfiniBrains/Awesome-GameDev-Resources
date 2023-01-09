@@ -178,7 +178,9 @@ if (x > y); // note the inline empty statement here finished with a `;`
   doSomething(); // this will always happen
 ```
 
-NOTE: It is preferred to always create scopes with `{}`, but there is no need to have them if you have only one statement that will happen for that condition.
+!!! note 
+
+    It is preferred to always create scopes with `{}`, but there is no need to have them if you have only one statement that will happen for that condition.
 
 ## if-else clause
 
@@ -268,7 +270,9 @@ switch (x) {
 
 In this example, the output would be "x is 2", as the value of x is 2.
 
-NOTE: It's important to note that C++ uses strict type checking, so you need to be careful about the types of variables you use in your conditionals. For example, you can't compare a string to an integer using the `==` operator.
+!!! note
+
+    It's important to note that C++ uses strict type checking, so you need to be careful about the types of variables you use in your conditionals. For example, you can't compare a string to an integer using the `==` operator.
 
 ### Switch fallthrough
 
@@ -299,7 +303,7 @@ It is generally considered good practice to include a `break` statement at the e
 
 # Homework
 
-- Do all exercises up to this topic here https://www.w3schools.com/cpp/exercise.asp
+- Do all exercises up to this topic [here](https://www.w3schools.com/cpp/exercise.asp).
 
 - [Coordinates of a Point](https://www.beecrowd.com.br/judge/en/problems/view/1041). In this activity, you will have to code a way to find the quadrant of a given coordinate.
 

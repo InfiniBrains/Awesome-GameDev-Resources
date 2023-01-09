@@ -75,15 +75,25 @@ What kind of person you want to become?
 In order to build a good portfolio, you will need to gather information about yourself and your work. In the process 
 you will discover yourself. It will feels like looking to a mirror for the first time.
 
+If you didnt published yot your projects on itchio, github, or any other platform, now it is a good moment for doing it. Pay attention that if you are going to share your code publicly, you have to avoid sharing content that do not belong to you. In other words, avoid copyright infringements. 
+
 ## Proof of your accomplishments
 
+It is a good practice to always take screenshots, use web archive or any means to prove what you are stating. Some games got lost in time, they die or become unavailable in the long term.
+
+??? note "Personal advice" 
+
+    In my case, we developed a very successful game in the past, and because of some problems with investors and judicial dispute, we had to shut down the game. But it was one of the most successful games in that year, it was nominated to Unity Awards and it was the most downloaded racing game. The only things that I can showcase now are print-screens, recorded videos and web-archive pages. So it is something that can make you survive the questions.
+
 ## Videos, photos, or lightweight web builds
+
+A good way to express your work is to show it in a form of videos, or photos. If your game is small enough to be embedded, or you can strip the most relevant part of it and built for web(webgl, wasm etc), try to publish the relevant part of it online, but do not over-do it, because it will take too much time to craft a good interaction.
 
 # Homework
 
 1. Define your domain name;
-    - I usually search domains [here](https://iwantmyname.com/) and buy on wherever is cheaper, usually[here](https://godaddy.com/) 
+    - I usually search domains [here](https://iwantmyname.com/) and buy on wherever is cheaper, usually [here](https://godaddy.com/) 
 2. Find a good portfolio to follow;
 3. Design the scaffold / wireframe of what you want to show; 
 4. Gather the data you want to show;
-5. Think on catch phrases and call to actions.
+5. Think on catchphrases and call to actions.

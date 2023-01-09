@@ -42,11 +42,15 @@ It can represent `2^8` or `256` different numbers. By default, in x86 machine ch
 
 Chars can be used to represent letters following the [ascii table](https://www.asciitable.com/) where each value means a specific letter, digit or symbol.
 
-NOTE: A `char` can have different sizes to represent different character coding for different languages. If you are using hebrew, chinese, or others, you probably will need more than 1 byte to represent the chars. Use `char8_t` (UTF8), `char16_t`(UTF16) or `char36_t`(UTF32), to cover your character encoding for the language you are using.
+!!! note
+
+    A `char` can have different sizes to represent different character coding for different languages. If you are using hebrew, chinese, or others, you probably will need more than 1 byte to represent the chars. Use `char8_t` (UTF8), `char16_t`(UTF16) or `char36_t`(UTF32), to cover your character encoding for the language you are using.
 
 #### Integer
 
-NOTE: Most of the information that I am covering here might be not precise, but the overall idea is correct. If you want a deep dive, [read this](https://en.cppreference.com/w/cpp/language/types).
+!!! note
+
+    Most of the information that I am covering here might be not precise, but the overall idea is correct. If you want a deep dive, [read this](https://en.cppreference.com/w/cpp/language/types).
 
 A standard `int` type uses 4 bytes to store data. It is signed by default.
 
@@ -71,7 +75,9 @@ There are 3 basic types of floating point containers: `float`(4 bytes) and `doub
 
 The [standard IEEE754](https://en.wikipedia.org/wiki/IEEE_754) specifies how a floating point number is stored in the form of bits inside the container. The container holds 3 basic information to simulate the behavior of a fractional type inside a binary type: signal, exponent and fraction.
 
-NOTE: This standard was very open to implementation definition in the past, and this is one of the root causes of non-determinism physics simulation. This is the main problem you cannot guarantee the same operation with the same pair of numbers will consistently give the same result across different types of processors and compilers, thus making the physics of a multiplayer game consistency hardly achievable. Many deterministic physics engines tend to not use this standard at all, and implement those behaviors via software on top of integers instead. There are 2 approaches to solve the floating-point determinism: [softfloat](https://github.com/ucb-bar/berkeley-softfloat-3) that implement all the IEEE754 specifications via software, or implement some kind of [fixed-point arithmetic](https://en.wikipedia.org/wiki/Fixed-point_arithmetic) on top of integers.
+!!! note
+
+    This standard was very open to implementation definition in the past, and this is one of the root causes of non-determinism physics simulation. This is the main problem you cannot guarantee the same operation with the same pair of numbers will consistently give the same result across different types of processors and compilers, thus making the physics of a multiplayer game consistency hardly achievable. Many deterministic physics engines tend to not use this standard at all, and implement those behaviors via software on top of integers instead. There are 2 approaches to solve the floating-point determinism: [softfloat](https://github.com/ucb-bar/berkeley-softfloat-3) that implement all the IEEE754 specifications via software, or implement some kind of [fixed-point arithmetic](https://en.wikipedia.org/wiki/Fixed-point_arithmetic) on top of integers.
 
 #### Booleans
 
@@ -144,8 +150,13 @@ TYPENAME VARIABLENAME;
 `TYPENAME` can be the name of any predefined type. See [Variable Types](#variable-types) for the types.
 `VARIABLENAME` can be anything as long it follow the naming rules. See [Variable Naming](#variable-naming) for the naming rules.
 
-NOTE: A given variable name can only be declared once in the same context / scope. If you try to redeclare the same variable, the compiler will accuse an error.
-NOTE2: You can redeclare the same variable name in different scopes. If one scope is parent of the other, the current will be used and will shadow the content of the one from outer scope. We are going to cover this more when we are covering multi-file projects and functions.
+!!! note
+
+    A given variable name can only be declared once in the same context / scope. If you try to redeclare the same variable, the compiler will accuse an error.
+
+!!! note
+
+    You can redeclare the same variable name in different scopes. If one scope is parent of the other, the current will be used and will shadow the content of the one from outer scope. We are going to cover this more when we are covering multi-file projects and functions.
 
 Examples:
 
@@ -157,7 +168,9 @@ bool d;      // boolean variable
 string name; // string variable 
 ```
 
-NOTE: We are going to cover later in this course other complex types in other modules such as arrays, pointers and references.
+!!! note
+
+    We are going to cover later in this course other complex types in other modules such as arrays, pointers and references.
 
 # Variable assignment
 
@@ -428,7 +441,7 @@ Banana
 
 # Optional Exercises
 
-Do all exercises up to this topic here https://www.w3schools.com/cpp/exercise.asp
+Do all exercises up to this topic [here](https://www.w3schools.com/cpp/exercise.asp).
 
 In order to get into coding, the easiest way to learn is by solving coding challenges. It is like learning any new language, you have to be exposed and involved. Do not do only the homeworks, otherwise you are going to fail. Another metaphor is: the homework is the like a competition that you have to run to prove that you are trained, but in order to train, you have to do small runs and do small steps first, so you have to train yourself ot least 2x per week.
 

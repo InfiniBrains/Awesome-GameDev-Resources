@@ -266,7 +266,7 @@ while(i<10); // note the ';' here, it will run indefinitely an empty statement b
 
 # Homework
 
-Do all exercises up to this topic here https://www.w3schools.com/cpp/exercise.asp
+Do all exercises up to this topic [here](https://www.w3schools.com/cpp/exercise.asp).
 
 In this activity, you will have to solve Fibonacci sequence. You should implement using loops, and variables. Do not use arrays nor closed-form formulas.
 

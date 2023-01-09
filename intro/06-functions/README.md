@@ -79,7 +79,9 @@ int add(int x, int y) {
 
 # Reference Declaration
 
-NOTE: this only covers an introduction to the topic.  
+???+ note
+
+    This content only covers an introduction to the topic.  
 
 The `&` is used to refer memory address of the variable. When used in the declaration, it is the Lvalue reference declarator. It is an alias to an already-existing, variable, object or function. [Read more here](https://en.cppreference.com/w/cpp/language/declarations).
 
@@ -110,7 +112,10 @@ cout << r << endl; // prints "Hello world!"
 
 # Pointer Declaration
 
-NOTE: this only covers an introduction to the topic. 
+???+ note
+
+    This content only covers an introduction to the topic.  
+
 
 The `*` is used to declare a variable that holds the address of a memory position. A pointer is an integer number that points to a memory location of a container of a given type. [Read more here](https://en.cppreference.com/w/cpp/language/pointer).
 
@@ -136,7 +141,7 @@ cout << *r << endl; // prints the content of the container that is pointing, it 
 
 Pass-by-value is when the parameter declaration follows the traditional variable declaration without `&`. A copy of the value is made and passed to the function. Any changes made to the parameter inside the function have don't change on the original value outside the function.
 
-```c++
+```c++ title="pass-by-value.cpp" linenums="1"
 #include <iostream>
 using namespace std;
 void times2(int x) {
@@ -157,7 +162,7 @@ int main()
 
 Pass-by-reference occurs when the function parameter uses the `&` in the parameter declaration. It will allow the function to modify the value of the parameter directly in the other scope, rather than making a copy of the value as it does with pass-by-value. The mechanism behind the variable passed is that it is an alias to the outer variable because it uses the same memory position.
 
-```c++
+```c++ title="pass-by-reference.cpp" linenums="1"
 #include <iostream>
 using namespace std;
 void times2(int &x) { // by using &, x has the same address the variable passed where the function is called 
@@ -176,7 +181,7 @@ int main() {
 
 Pass-by-pointer occurs when the function parameter uses the `*` in the parameter declaration. It will allow the function to modify the value of the parameter in the other scope via memory pointer, rather than making a copy of the value as it does with pass-by-value. The mechanism behind it is to pass the memory location of the outer variable as a parameter to the function.
 
-```c++
+```c++ title="pass-by-pointer.cpp" linenums="1"
 #include <iostream>
 using namespace std;
 void times2(int *x) { // by using *, x has the same address the variable passed where the function is called
@@ -272,7 +277,7 @@ int main() {
 
 # Homework
 
-Do all exercises up to this topic here https://www.w3schools.com/cpp/exercise.asp
+Do all exercises up to this topic [here](https://www.w3schools.com/cpp/exercise.asp).
 
 - [Hexadecimal converter](https://www.beecrowd.com.br/judge/en/problems/view/1957). In this activity, you will have to code a way to find the convert to hexadecimal.
 
