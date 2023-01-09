@@ -30,8 +30,8 @@ add_custom_target(
 #  COMMAND "${m.css_SOURCE_DIR}/documentation/doxygen.py" "${CMAKE_CURRENT_BINARY_DIR}/conf.py"
 #  COMMAND doxygen ${CMAKE_CURRENT_BINARY_DIR}/Doxyfile
 #  COMMAND moxygen --anchors --groups --output ${CMAKE_CURRENT_SOURCE_DIR}/api/api-%s.md ${DOXYGEN_OUTPUT_DIRECTORY}/xml
-  COMMAND mkdocs
-  COMMAND echo "Docs written to: ${DOXYGEN_OUTPUT_DIRECTORY}"
+  COMMAND mkdocs build
+  COMMAND echo "Docs written to: ${CMAKE_CURRENT_SOURCE_DIR}/../site"
   WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/../"
 #  WORKING_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}"
 )

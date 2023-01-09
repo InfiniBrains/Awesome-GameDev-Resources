@@ -1,0 +1,1 @@
+add_executable(01-hello hello.cpp)

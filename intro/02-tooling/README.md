@@ -202,7 +202,7 @@ int main() {
 }
 ```
 
-Hello User
+[Hello User](hello.cpp)
 ```c++
 #include <iostream>
 #include <string> // structure to deal with a char sequence, it is called string
@@ -211,8 +211,7 @@ int main(){
     // invites the user to write something
     cout << "Type your name: " << endl;
     
-    /* declare a scoped variable, allocated in the stack.
-     * string means the type of the variable, this definition came from the string include 
+    /* * string means the type of the variable, this definition came from the string include
      * username means the name of the variable, the container to hold and store the data
      */
     string username;

@@ -24,8 +24,7 @@ int main(){
     // invites the user to write something
     cout << "Type your name: " << endl;
 
-    /* declare a scoped variable, allocated in the stack.
-     * string means the type of the variable, this definition came from the string include
+    /* string means the type of the variable, this definition came from the string include
      * username means the name of the variable, the container to hold and store the data
      */
     string username;

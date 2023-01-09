@@ -17,7 +17,8 @@
     "prebuild:docs": "npm run generate:docs",
     "build:docs": " cmake --build buildDocs --target GenerateDocs",
     "preserve": "npm run build:docs",
-    "serve": "npx http-serve buildDocs/documentation/doxygen/html"
+    "serve": "npx http-serve site",
+    "serve:dev": "mkdocs serve"
   },
   "repository": {
     "type": "git",

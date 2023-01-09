@@ -26,6 +26,9 @@ endif()
 
 # options to what include and use
 OPTION(ENABLE_INTRO "ENABLE_INTRO" ON)
+IF(ENABLE_INTRO)
+  add_subdirectory(intro)
+endif()
 
 # todo: do the same for the other topics
 OPTION(ENABLE_DOCUMENTATION "ENABLE_DOCUMENTATION" ON)
