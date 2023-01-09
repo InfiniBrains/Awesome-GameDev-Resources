@@ -35,7 +35,9 @@ heard when I was young.
   <figcaption>Ikigai</figcaption>
 </figure>
 
-The above image links to a very good reference to understand the drives that you should be aware while taking decisions on your future career. Visit it.
+??? note
+
+    The above image links to a very good reference to understand the drives that you should be aware while taking decisions on your future career. Visit it.
 
 You are a complex being and hard to define. I know. It is hard to put yourself in a frame or box, but this process is 
 relevant to make the life of the others to evaluate if they want more you or not. If for some reason a person is 
