@@ -137,6 +137,47 @@ r = &s; // r now points to another variable
 cout << *r << endl; // prints the content of the container that is pointing, it prints "world"
 ```
 
+# `void` type
+
+We covered briefly the `void` type when we covered [data types](../03-datatypes/README.md). There are 2 main usages of `void`
+
+`void` is used to specify that some function dont return anything to the caller.
+
+```c++ title="voidFunction.cpp"
+// this function does not need to return anything
+// optionally you can use an empty `return` keyword without variable to break the flow early
+void doSomething() {
+    // function body goes here
+    return; // this line is optional, it can be used inside conditional do break early the function flow
+}
+```
+
+`void*` is used as a placeholder to store a pointer to anything in memory. Use this with extreme caution, because you can easily mess with it and lose track of the type or the conversion. The most common use are: 
+- Access the raw content of a variable in memory;
+- Low-level raw memory allocation;
+- Placeholder to act as a pointer to anything;
+
+```c++ title="rawpointer.cpp"
+#include <iostream>
+#include <iomanip>
+#include <bitset>
+using namespace std;
+int main()
+{
+    // declare our data
+    float f = 2.0f;
+    // point without type that points to the memory location of `f`
+    void* p = &f; 
+    // (int*) casts the void* to int*, so it can be understandable
+    // * in front means that we want to fetch the content of what is pointing
+    int i = *(int*)(p); 
+    cout << hex << i << endl; // prints 40000000
+    std::bitset<32> bits(i);
+    cout << bits << endl; // prints 01000000000000000000000000000000
+    return 0;
+}
+```
+
 # Passing parameter to a function by value
 
 Pass-by-value is when the parameter declaration follows the traditional variable declaration without `&`. A copy of the value is made and passed to the function. Any changes made to the parameter inside the function have don't change on the original value outside the function.
@@ -320,9 +361,8 @@ For a mor in depth understanding, go to [Manual Reference](https://en.cppreferen
 
 # Homework
 
-Do all exercises up to this topic [here](https://www.w3schools.com/cpp/exercise.asp).
-
-- [Hexadecimal converter](https://www.beecrowd.com.br/judge/en/problems/view/1957). In this activity, you will have to code a way to find the convert to hexadecimal.
+- Do all exercises up to this topic [here](https://www.w3schools.com/cpp/exercise.asp).
+- [Hexadecimal converter](https://www.beecrowd.com.br/judge/en/problems/view/1957). In this activity, you will have to code a way to find the convert to hexadecimal without using any std library to do it for you.
 
 # Outcomes
 

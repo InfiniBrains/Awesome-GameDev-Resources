@@ -10,6 +10,7 @@ This class is totally up to you. Here goes what you should do in class and finis
 
 1. Search a good portfolio published online
     - use Twitter, LinkedIn, Google to search for good game developer portfolios;
+    - another good query on google would be "awesome developer portfolio", try it!
 2. Fork this repo
 3. Create a markdown file in this folder with a meaningful name about the benchmarked repository.
     - Follow this [example](example.com.md)
@@ -26,6 +27,10 @@ This class is totally up to you. Here goes what you should do in class and finis
     - General considerations
 5. Edit [this file](README.md) on github to link your work here if you want to showcase it here.
 6. Send a push request
+
+# Where to search a portfolio to 
+
+- https://github.com/emmabostian/developer-portfolios
 
 # Considerations
 - The portfolios evaluated here are just opinions

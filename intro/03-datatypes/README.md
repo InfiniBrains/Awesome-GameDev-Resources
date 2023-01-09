@@ -129,6 +129,14 @@ Here, the underlying type of the enumeration is `char`, so the constants `Red`, 
 
 In C++, a string is a sequence of characters that is stored in an object of the `std::string` class. The `std::string` class is part of the C++ Standard Library and provides a variety of functions and operators for manipulating strings.
 
+### `void type` 
+
+When `void` type specifier is used in functions, it indicates that a function does not return a value.
+
+It can also be used as a placeholder for a pointer to a memory location to indicate that the pointer is "universal" and can point to data of any type, but this can be arguably a bad pattern, and should be used exceptionally when interchanging types with c-style API.
+
+We are going to cover this again when covering [pointers and functions](../06-functions/README.md).
+
 ## Variable Naming
 
 Variable names are called identifiers. In C++, you can use any combination of letters, digits, and underscores to name a variable, it should follow some rules:
