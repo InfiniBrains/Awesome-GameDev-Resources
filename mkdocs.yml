@@ -18,6 +18,21 @@ nav:
       - Sorting: intro/10-sorting/README.md
   - Portfolio:
       - portfolio/README.md
+      - Introduction: portfolio/01-introduction/README.md
+      - Case Study:
+        - portfolio/02-cases/README.md
+        - Case Study Example: portfolio/02-cases/example.com.md
+      - Portfolio Structure: portfolio/03-structure/README.md
+      - Communication: portfolio/04-communication/README.md
+      - Style: portfolio/05-style/README.md
+      - Strategy: portfolio/06-strategy/README.md
+      - Frontend: portfolio/07-frontend/README.md
+      - Getting Ready: portfolio/08-get-ready/README.md
+      - Hosting: portfolio/09-hosting/README.md
+      - Dynamic Content: portfolio/10-dynamic/README.md
+      - Promoting: portfolio/11-promoting/README.md
+      - Cover Letter: portfolio/12-cover-letter/README.md
+      - CV: portfolio/13-cv/README.md
   - AI:
       - artificialintelligence/README.md
 

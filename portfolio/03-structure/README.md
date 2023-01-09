@@ -2,8 +2,8 @@
 
 Create a single page app containing most of these features listed here.
 
-## HEAD
-Chose carefully what to you use as a head of your page. It is the first thing a person reads. It can be an impactful message, personal statement, background video or very limited interactive section.
+## Head
+Chose carefully what to you use as a head of your page. It is the first thing a person reads. It can be an impactful message, a headline, personal statement, background video or very limited interactive section.
 
 ## About
 This is a summary obout yourself, be brief and achievement oriented. What and who you are. Contact info via social 
