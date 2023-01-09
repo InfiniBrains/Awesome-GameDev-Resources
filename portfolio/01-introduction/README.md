@@ -22,17 +22,24 @@ Building a portfolio is not only about you, it is about making the life easier o
 giving insights if they should hire you, follow you or anything else. In order to make people understand you, you 
 have to know yourself better.
 
-## Who are you?
+## Who are you, what you excel and what do you enjoy doing?
 
 In your portfolio, you will have to express yourself in a way that others can understand who you are, and it can be 
 challenging for some. In order do help you discover **who you are, what you excel, and what do you really enjoy 
 doing**. I will be briefly vague here to point some emotional support and reasoning to help you answer the question. 
 **If you are clear about that, please skip this entire section**. Here goes a small amount of advices I wish I have 
-heard when I was young. 
+heard when I was young.
+
+<figure markdown>
+  [![](https://www.betterup.com/hs-fs/hubfs/Imported_Blog_Media/ikigai%20-%20sample%20ikigai%20diagram-1.png?width=2480&height=1418&name=ikigai%20-%20sample%20ikigai%20diagram-1.png){ loading=lazy }](https://www.betterup.com/blog/what-is-ikigai)
+  <figcaption>Ikigai</figcaption>
+</figure>
+
+The above image links to a very good reference to understand the drives that you should be aware while taking decisions on your future career. Visit it.
 
 You are a complex being and hard to define. I know. It is hard to put yourself in a frame or box, but this process is 
 relevant to make the life of the others to evaluate if they want more you or not. If for some reason a person is 
-reading your portfolio, it means that you are ahead of the others, so you must to respect their time and goals while 
+reading your portfolio, it means that you are ahead of the others, so you must respect their time and goals while 
 they are reading your content.
 
 What you do, do not define what you are, you can even work with something you dont love as long it is part of a bigger 
@@ -64,11 +71,9 @@ accept yourself, don't push too hard, and do some basic stuff. Just accept the c
 fancy, but relevant to build your career.
 
 ## Define and state your mission and goal
-Are you a generalist or a specialist type?
-
-What position you are looking for?
-
-What kind of person you want to become?
+- Are you a generalist or a specialist type?
+- What position you are looking for?
+- What kind of person you want to become?
 
 ## Gather information
 

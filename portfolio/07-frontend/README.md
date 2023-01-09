@@ -16,8 +16,10 @@ There are many frontend frameworks floating around, but in order to speed up you
 - [Vite](https://vitejs.dev/) for tooling;
 - [Tailwindcss](https://tailwindcss.com/) for styling;
 
+Some examples with this stack:
 
+- https://reactjsexample.com/a-portfolio-page-using-react-js-and-tailwind-css/
+- https://github.com/InfiniBrains/reactjs-vite-tailwindcss-boilerplate
 
-
-
+[Watch this video](https://www.youtube.com/watch?v=QTY2fLpQn44) to get a fast entry to this stack Here goes an introductory video about this combination.
 
