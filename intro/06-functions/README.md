@@ -357,7 +357,27 @@ This defines a lambda function that captures `x` by-value and `y` by-reference. 
 
 Lambda captures are a useful feature of C++ that allow you to write more concise and expressive code. They can be especially useful when working with algorithms from the Standard Template Library (STL), where you often need to pass a function as an argument.
 
-For a mor in depth understanding, go to [Manual Reference](https://en.cppreference.com/w/cpp/language/lambda) or check this [tutorial](https://www.learncpp.com/cpp-tutorial/lambda-captures/). 
+In order to capture everything automatically you can either capture by copy `[=]` or by reference `[&]`.
+
+```c++
+// capture everything via copy
+int x = 1, y = 2;
+auto lambda = [=] { 
+    // x += 1; // cannot be changed because it is read-only 
+    // y += 1; // cannot be changed because it is read-only
+    return x + y; 
+};
+int c = lambda(); // c will be 5, but x and y wont change their values
+```
+
+```c++
+// capture everything via reference
+int x = 1, y = 2;
+auto lambda = [&] { x += 1; y += 1; return x + y; };
+int c = lambda(); // c will be 5, x will be 2, and y will be 3.
+```
+
+For a more in depth understanding, go to [Manual Reference](https://en.cppreference.com/w/cpp/language/lambda) or check this [tutorial](https://www.learncpp.com/cpp-tutorial/lambda-captures/). 
 
 # Homework
 

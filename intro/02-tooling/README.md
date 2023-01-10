@@ -1,6 +1,6 @@
 # Tools for C++ development
 
-In order to effectively code in C++ you will need some tools.
+Every programing language use different set of tools in order to effectively code. In C++ you will need to learn how to use o bunch of them to be effective.
 
 ## Version Control - GIT 
 
@@ -164,10 +164,25 @@ If you are using an Ubuntu distro, you can try this to install most of the tools
   sudo apt-get update && sudo apt-get install -y build-essential git cmake lcov xcb libx11-dev libx11-xcb-dev libxcb-randr0-dev
 ```
 
+In order to compile:
+```shell
+g++ inputFile.cpp -o executableName
+```
+
+Where `g++` is the compiler frontend program to compile your C++ source code; `inputFile.cpp` is the filename you want to compile, you can pass multiple files here separated by spaces ex.: `inputFile1.cpp inputFile2.cpp`; `-o` means the next text will be the output program name where the executable will be built, (for windows, the name should end with `.exe` ex.: `program.exe`).
+
 You will have a plethora of editors and IDEs. The one I can suggest is the VSCode, Code::Blocks or KDevelop. But I 
 really prefer CLion.
-
 </details>
+
+# CLion project workflow with CMake
+When you create a a new project, select `New C++ Executable`, set the `C++ Standard` to the newest one, `C++20` is enough, and place in a folder location where you prefer.
+
+CLion automatically generate 2 files for you. 
+- `CMakeLists.txt` is the CMake multiplatform project descriptor, with that, you can share your project with colleagues that are using different platforms than you.
+- `main.cpp` is the entry point for your code.
+
+It is not the moment to talk about multiple file projects, but if you want to get ready for it, you will have to edit the `CMakeLists.txt` file and add them in the `add_executable` function. 
 
 # Hello World
 

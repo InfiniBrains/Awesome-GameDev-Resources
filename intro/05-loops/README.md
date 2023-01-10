@@ -264,6 +264,18 @@ while(i<10); // note the ';' here, it will run indefinitely an empty statement b
 }
 ```
 
+# Debugging
+
+Debugging is the act of instrumentalize your code in order to track problems and fix them.
+
+The most naive way of doing it is by printing variables random texts to find the problem. Don't do it. Use debugger tools instead. Each IDE has his its ows set of tools, if you are using CLion, use this [tutorial](https://www.jetbrains.com/help/clion/debugging-code.html).
+
+# Automated tests
+
+There are lots of methodologies to guarantee your code is correct and solve the problem it is supposed to solve. The one that stand out is Automated tests.
+
+When you are using beecrowd, leetcode, hackerrank or any other tool to solve problems to learn how to code, a problem is posted to be solved and they test your code solution against a set of expected outputs. This is automated testing. You can generate custom automated tests for your code and cover all cases that you can imagine before you start coding the solution. This is a good practice and is documented in the industry as Test Driven Development.
+
 # Homework
 
 Do all exercises up to this topic [here](https://www.w3schools.com/cpp/exercise.asp).
