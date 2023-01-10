@@ -5,6 +5,11 @@ Create a single page app containing most of these features listed here.
 ## Head
 Chose carefully what to you use as a head of your page. It is the first thing a person reads. It can be an impactful message, a headline, personal statement, background video or very limited interactive section.
 
+!!! note
+
+    Avoid bravado. You can be bold without being naive. Let the bravado statements for when you become a senior. If you write bravados right in the begining of your portifolio and you are still a junior, you are just communicating that you will be hard to work with. 
+    A senior developer reading your portfolio is more interested in developers eager to learn, humble, and looking for guidance so they will have a easier life hiring you.  
+
 ## About
 This is a summary obout yourself, be brief and achievement oriented. What and who you are. Contact info via social 
 medias. State your working status and target. If you are a narrative centred person, you can create something fancy 
@@ -16,6 +21,14 @@ here, but dont over-do, less is more!
 - Community Contributions
 
 You can showcase your personal work, a job you make for a client(if authorized).
+
+!!! note "Projects"
+
+    It is a good practice to showcase only the best works you made. You might find interesting to add more than 5, but there are chances of your reader clicking exactly on the worst one and have a bad first impression of you. In your showcase section, avoid showcasing bad work. Invite some of your friends to help you select the best ones to showcase.
+
+!!! note "Ability"
+
+    Avoid using percentage graphs to showcase your proficiency on specific tech stack or tool. The main reason is: how do you grade of your ability as 80%, 100% or 30%? Worse than that, how can the reader be sure of that? If you want to do that, it is better to apply for certificates, there are plenty on linkedin or specialized sites.
 
 ## Achievements
 - List key achievements and skills
@@ -33,9 +46,9 @@ You can showcase your personal work, a job you make for a client(if authorized).
 ## Contact
 Explicitly state what people should expect if they contact you and what they can expect from your return. Ex.: If 
 you aim to be a freelance, state your offer and ask for them to briefly state the job activity, time frame and the rate 
-they are willing to pay. 
+they are willing to pay. If you are looking for a full-time position, the most common way is to just share your email, so they can contact you.
 
-Another option is to list all of your social medias, but dont overuse this. Nowadays we have bunch of them, so if 
+Another option is to list all of your social medias, but dont overuse this. Nowadays we have a bunch of them, so if 
 you list all of them, there is chances, you are not active there and the link will guide the reader to a empty and 
 haunted house and they will not engage.
 

@@ -225,7 +225,10 @@ int main(){
 }
 ```
 
-# Common Errors
+# Common Bugs
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/First_Computer_Bug%2C_1945.jpg/2560px-First_Computer_Bug%2C_1945.jpg)
+
 ## 1. Syntax error
 > Syntax errors in C++ are usually caused by mistakes in the source code that prevent the compiler from being able to understand it. Some common causes of syntax errors include:
 > 1. Omitting a required component of a statement, such as a semicolon at the end of a line or a closing curly brace.

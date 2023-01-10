@@ -22,9 +22,13 @@ There are some basic integer container types with different sizes. It can have s
 
 The common size of the integer containers are `1`(`char`), `2`(`short int`), `4`(`int`) or `8`(`long long`) bytes. [For a more detailed coverage read this](https://en.cppreference.com/w/cpp/language/types).
 
-NOTE1: But the only guarantee the C++ imposes is: `1 == sizeof(char) <= sizeof(short) <= sizeof(int) <= sizeof(long) <= sizeof(long long)` and it can result in compiler defined behaviours where a `char` can have 8 bytes and a `long long` can be 1 byte.
+!!! note
 
-NOTE2: If you care about being cross-platform conformant, you have to always specify the sign modifier or use a more descriptive type such as listed [here](https://en.cppreference.com/w/cpp/header/cstdint).
+    But the only guarantee the C++ imposes is: `1 == sizeof(char) <= sizeof(short) <= sizeof(int) <= sizeof(long) <= sizeof(long long)` and it can result in compiler defined behaviours where a `char` can have 8 bytes and a `long long` can be 1 byte.
+
+!!! note
+
+    If you care about being cross-platform conformant, you have to always specify the sign modifier or use a more descriptive type such as listed [here](https://en.cppreference.com/w/cpp/header/cstdint).
 
 For floating pointing numbers, the container size can be `4`(`float`), `8`(`double`), `10`(deprecated) or `16`(`long double`) bytes.
 
@@ -32,13 +36,15 @@ The sign modifiers can be `signed` and `unsigned` and are applicable only for in
 
 The default behavior of the types in a x86 cpu are as signed numbers and the first bit of the container is the signal. If the first bit is `0`, it means it is positive.  If the first bit is `1`, it means it is negative. [More details](https://en.wikipedia.org/wiki/Two%27s_complement).
 
-Which means that if the container is the size of 1 byte(8 bits), it have 1 bit for the signal and 7 bit for the content. So this number goes from `-128` up to `127`, this container is typically a `char`. The positive size has 1 less quantity in absolute than the negative because 0 is represented in positive side. There are `256` numbers between `-128` and `127` inclusive.     
+Which means that if the container follow two complement and is the size of 1 byte(8 bits), it have 1 bit for the signal and 7 bit for the content. So this number goes from `-128` up to `127`, this container is typically a `signed char`. The positive size has 1 less quantity in absolute than the negative because 0 is represented in positive side. There are `256` numbers between `-128` and `127` inclusive.
 
 #### Char
 
-A standard `char` type uses 1 byte to store data.
+A standard `char` type uses 1 byte to store data and follows complement of 1. Going `-127` to `127`, so tipically represents `255` numbers.
 
-It can represent `2^8` or `256` different numbers. By default, in x86 machine char is signed and the represented numbers can go from `-2^7` or `-128` up to `2^7 - 1` or `127`.
+A `signed char` follows complement of 2 and it can represent `2^8` or `256` different numbers. By default, in x86 machine char is signed and the represented numbers can go from `-2^7` or `-128` up to `2^7 - 1` or `127`.
+
+An `unsigned char`
 
 Chars can be used to represent letters following the [ascii table](https://www.asciitable.com/) where each value means a specific letter, digit or symbol.
 

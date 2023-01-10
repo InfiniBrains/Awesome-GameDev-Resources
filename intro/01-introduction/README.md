@@ -218,6 +218,7 @@ It is expected for you to know superficially these terms and concepts. Research 
 1. Sign up on [beecrowd](https://www.beecrowd.com.br). If you are a enrolled student, look for the key in canvas to be assigned to the coding assignments. 
 2. https://blockly.games/mazeLinks - test your ability to solve small problems via block programming
 3. https://codecombat.com/ - very interesting game
+4. https://scratch.mit.edu/ - start a project and make it say hello when you click on it
 
 # Troubleshooting
 If you have problems here, start a
