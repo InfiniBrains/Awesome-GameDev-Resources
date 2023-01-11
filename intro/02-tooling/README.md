@@ -302,8 +302,7 @@ int main(){
 
 # Exercises:
 - Research and read about other notable errors: segmentation fault, stack overflow, buffer overflow.
-- [Hello World](https://www.beecrowd.com.br/judge/en/problems/view/1000) - just print `hello world`. 
-- [Extremely Basic](https://www.beecrowd.com.br/judge/en/problems/view/1001) - use `int` as variable to store data.
+- [Hello World](https://www.beecrowd.com.br/judge/en/problems/view/1000) - just print `hello world`.
 
 # Homework
 1. Setup your environment for your needs following the choices given above. If you are unsure, use CLion and you 

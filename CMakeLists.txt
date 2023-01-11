@@ -27,6 +27,7 @@ endif()
 # options to what include and use
 OPTION(ENABLE_INTRO "ENABLE_INTRO" ON)
 IF(ENABLE_INTRO)
+  set(CMAKE_CXX_STANDARD 20)
   add_subdirectory(intro)
 endif()
 
