@@ -5,7 +5,7 @@
 | Week | Date       | Topic                                                                        |
 |------|------------|------------------------------------------------------------------------------|
 | 1    | 2023/01/16 | [Introduction](01-introduction/README.md)                                    |
-| 2    | 2023/01/23 | [Tooling](02-tooling/README.md)                                              |
+| 2    | 2023/01/23 | [Tools for first Program](02-tooling/README.md)                              |
 | 3    | 2023/01/30 | [Data Types, Arithmetic Operations, Type conversion](03-datatypes/README.md) |
 | 4    | 2023/02/06 | [Conditionals, Boolean and Bitwise Operations](04-conditionals//README.md)   |
 | 5    | 2023/02/13 | [Loops, for, while, goto and debugging](05-loops//README.md)                 |

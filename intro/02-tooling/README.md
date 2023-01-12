@@ -176,7 +176,7 @@ really prefer CLion.
 </details>
 
 # CLion project workflow with CMake
-When you create a a new project, select `New C++ Executable`, set the `C++ Standard` to the newest one, `C++20` is enough, and place in a folder location where you prefer.
+When you create a new project, select `New C++ Executable`, set the `C++ Standard` to the newest one, `C++20` is enough, and place in a folder location where you prefer.
 
 CLion automatically generate 2 files for you. 
 - `CMakeLists.txt` is the CMake multiplatform project descriptor, with that, you can share your project with colleagues that are using different platforms than you.

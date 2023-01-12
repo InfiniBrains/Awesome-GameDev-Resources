@@ -12,7 +12,7 @@
 
 ## Generate traffic
 
-For more details see [promoting section](../11-promoting/README.md);
+For more details see [promoting section](portfolio/12-promoting/README.md);
 
 # Strategies for interviews
 
