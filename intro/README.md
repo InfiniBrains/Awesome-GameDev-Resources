@@ -15,8 +15,8 @@
 | 9    | 2023/03/13 | BREAK                                                                        |
 | 10   | 2023/03/20 | [Functions, Base Conversion, Pointers, Reference](06-functions/README.md)    |
 | 11   | 2023/03/27 | [Arrays, Vectors, String](08-arrays/README.md)                               |
-| 12   | 2023/04/03 | [Recursion](09-recursion/README.md)                                          |
-| 13   | 2023/04/10 | [Sorting](10-sorting/README.md)                                              |
+| 12   | 2023/04/03 | [Sorting](10-sorting/README.md)                                              |
+| 13   | 2023/04/10 | [Recursion](09-recursion/README.md)                                          |
 | 14   | 2023/04/17 |                                                                              |
 | 15   | 2023/04/24 | Review                                                                       |
 | 16   | 2023/05/01 | FINALS                                                                       |
