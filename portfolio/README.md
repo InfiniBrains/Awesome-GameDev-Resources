@@ -11,7 +11,7 @@
 | 5    | 2023/02/13 | [Style & Accessibility](05-style/README.md)                  |
 | 6    | 2023/02/20 | [Strategy & Analytics](06-strategy/README.md)                |
 | 7    | 2023/02/27 | [Frontend](07-frontend/README.md)                            |
-| 8    | 2023/03/06 | [Wordpress](08-wordpress/README.md)                          |
+| 8    | 2023/03/06 | [CMS](portfolio/08-cms/README.md)                            |
 | 9    | 2023/03/13 | BREAK                                                        |
 | 10   | 2023/03/20 | [Final Project & Coding Interviews](09-get-ready/README.md)  |
 | 11   | 2023/03/27 | [Hosting and Domain](10-hosting/README.md)                   |
