@@ -189,6 +189,7 @@ It is not the moment to talk about multiple file projects, but if you want to ge
 
 # Hello World
 
+[Hello World](hello.cpp)
 ```c++
 // this a single line comment and it is not compiled. comments are used to explain the code.
 // you can do single line comment by adding // in front of the line or
@@ -220,7 +221,7 @@ int main() {
 }
 ```
 
-[Hello User](hello.cpp)
+# Hello Username
 ```c++
 #include <iostream>
 #include <string> // structure to deal with a char sequence, it is called string
