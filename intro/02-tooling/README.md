@@ -17,23 +17,26 @@ Every programing language use different set of tools in order to effectively cod
 > developers to track changes to their codebase and collaborate with other developers on the same codebase. It also
 > includes a range of features such as bug tracking, project management, and team communication tools. In addition to 
 > being a platform for software development, GitHub is also a community of developers and a marketplace for buying and 
-> selling software development services. [Reference](https://chat.openai.com/).
+> selling software development services.
 
 In this course we are going to extensively use GITHUB functionalities. So create an account now with your 
 personal account. Use a meaningful username. Avoid names that hard to associate with you. If you have a educational 
 email or student id, apply for the [Github Student Pack](https://education.github.com/pack), so you will have access 
 to lots of free tools.
 
+It is nice to have `git` in your machine, but it is not required, because we are going to use gui via gui tools. See below 
+
 > [GitKraken](https://www.gitkraken.com/) GitKraken is a Git client for Windows, Mac, and Linux that provides a 
 > graphical interface for working with Git repositories. It allows users to manage Git repositories, create and review 
 > changes to code, and collaborate with other developers. Some features of GitKraken include a visual representation 
 > of the repository's commit history, the ability to stage and discard changes, and support for popular version 
 > control systems like GitHub and GitLab. GitKraken is designed to be user-friendly and to make it easier for 
-> developers to work with Git, particularly for those who may be new to version control systems. 
-> [Reference](https://chat.openai.com/).
+> developers to work with Git, particularly for those who may be new to version control systems..
 
 Gitkraken is a paid software, and it is free for public repositories, but you can have all enterprise and premium
 functionalities enabled for free with the student pack and described before.  
+
+[Install Gitkraken](https://www.gitkraken.com/). If you login into gitkraken using GitHub with student pack it will unlock all pro features.
 
 ## Compiler
 > A compiler is a type of computer program that translates source code written in a programming language into machine 
@@ -44,7 +47,7 @@ functionalities enabled for free with the student pack and described before.
 > cross-compilers, which can compile code for one type of computer to run on another type of computer, and 
 > just-in-time (JIT) compilers, which compile code at runtime. Compilers are an important part of the software 
 > development process, as they allow developers to write code in a high-level language that is then translated into 
-> machine code that can be run on a specific platform. [Reference](https://chat.openai.com/)
+> machine code that can be run on a specific platform.
 
 This where things get tricky, C++ compiles the code into a binary that runs directly on the processor and interacts 
 with the operating system. So we can have multiple combinations here. Most compilers are cross-platform, but there 
@@ -55,7 +58,7 @@ compiler. Which means the code will work as expected in most of the scenarios, t
 across all platforms. But GCC is the more bleeding edge, which means usually it is the first to support all new 
 fancy features C++ introduces.
 
-No need to download anything here.
+No need to download anything here. We are going to use the CLion IDE. See below topics.
 
 ## CMake
 > [CMake](https://cmake.org/) CMake is a cross-platform free and open-source software tool for managing the build
@@ -99,7 +102,7 @@ CMake provides many options and variables that can be used to customize the buil
 > highlighting, and code refactoring. Many IDEs also provide a code debugger, which allows the programmer to step through
 > code execution and find and fix errors. Some examples of popular IDEs include Eclipse, NetBeans, Visual Studio, and
 > Xcode. Each of these IDEs has its own set of features and capabilities, and developers may choose one based on their
-> specific needs and preferences. [Reference](https://chat.openai.com/).
+> specific needs and preferences.
 
 In this course, it is strongly suggested to use an IDE in order to achieve higher quality of deliveries, a good IDE 
 effectively flatten the C++ learning curve. You can opt out and use everything by hand, of course, and it will deepen 
