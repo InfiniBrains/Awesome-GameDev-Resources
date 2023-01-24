@@ -5,7 +5,7 @@
 - [Considerations](#considerations)
 - [Evaluated Portfolios](#evaluated-portfolios)
 
-# Activity
+# Activity 1
 This class is totally up to you. Here goes what you should do in class and finish at home. 
 
 1. Search a good portfolio published online
@@ -27,6 +27,14 @@ This class is totally up to you. Here goes what you should do in class and finis
     - General considerations
 5. Edit [this file](README.md) on github to link your work here if you want to showcase it here.
 6. Send a push request
+
+# Activity 2
+
+Start setting up your Github pages. We are going to use github pages mostly for two intentions: Webpage hosting for your portfolio and Demo project hosting.
+
+For your webpage you can create something from ground up our follow any template you want. Here goes a bunch of open sourced developer portfolios you can fork and modify for your intent. https://github.com/topics/developer-portfolio?l=html . Try to take a look on them and check if you want to fork any of them.
+
+For project hosting 
 
 # Considerations
 - The portfolios evaluated here are just opinions
