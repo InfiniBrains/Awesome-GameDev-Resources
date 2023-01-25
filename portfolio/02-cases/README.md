@@ -49,9 +49,10 @@ If you want to showcase your ability with Untiy, you can follow this boilerplate
 3. grab the generated file, and upload it to https://license.unity3d.com/manual
 4. get the signed licence and copy the text content to your clipboard 
 5. go to your repo settings, security, secrets and variables, actions and setup a new repository secret with the name 'UNITY_LICENSE' and the content from your clipboard
-6. run the main action
-7. enable actions and automatic page deployment from a branch gh-pages
-8. edit webgl template with your logo or image
+6. go to the repo settings, actions, general, in the bottom, enable workflow permission, read and write, save
+7. run the main action
+8. enable actions and automatic page deployment from a branch gh-pages
+9. edit webgl template with your logo or image
 
 # Activity 2
 This class is totally up to you. Here goes what you should do in class and finish at home. The idea is for you to feel a whole process on how to create merge and pull requests to a public repo.
