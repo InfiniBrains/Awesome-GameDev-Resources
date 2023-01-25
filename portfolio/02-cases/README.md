@@ -6,6 +6,8 @@
 - [Considerations](#considerations)
 - [Evaluated Portfolios](#evaluated-portfolios)
 
+This class will be focused in planning, portfolio evaluation, github processes, ci/cd and in-class activities.
+
 # Activity 1
 
 Start setting up your Github pages. We are going to use github pages mostly for two intentions: Webpage hosting for your portfolio and Demo project hosting.
