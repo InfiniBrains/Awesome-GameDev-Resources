@@ -22,7 +22,9 @@ For your webpage, you can develop something from ground up using your preferred 
 6. Deploy it to gh-pages either via automated ci/cd or via publishing a build from a empty branch or the main one
 
 ## Demo reels
-For project demo, game, or whatever interaction you want to allow the user to do, I built some boilerplates for you. Optionally you can add badges for your repo from here: https://shields.io/
+For project demo, game, or whatever interaction you want to allow the user to do, I built some boilerplates for you. Later on, you will be able to embed those webgl/html5 builds into your portfolio, so it is a good moment for you to start doing it now. As extras, optionally you can add badges for your repo from here: https://shields.io/
+
+### SDL2
 
 In order to showcase your ability to build something from ground up, this repo holds a boilerplate with C++, SDL2, IMGUI, SDL2IMAGE, SDL2TTF, SDL2MIXER, CI/CD automation for automatic deployment: https://github.com/InfiniBrains/SDL2-CPM-CMake-Example
 
@@ -30,6 +32,14 @@ In order to showcase your ability to build something from ground up, this repo h
 2. run github action at least once
 3. enable actions and automatic page deployment from a branch gh-pages
 
+### AI + SDL2
+If you enjoy AI programming and want to test yourself, you can try forking this repo and implement what is inside the examples folder https://github.com/InfiniBrains/mobagen 
+
+1. fork it
+2. run github action at least once
+3. enable actions and automatic page deployment from a branch gh-pages
+
+### Unity
 If you want to showcase your ability with Untiy, you can follow this boilerplate to have an automatic build set up. https://github.com/InfiniBrains/UnityBoilerplate
 
 1. Fork it 
