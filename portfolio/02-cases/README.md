@@ -31,8 +31,9 @@ For project demo, game, or whatever interaction you want to allow the user to do
 In order to showcase your ability to build something from ground up, this repo holds a boilerplate with C++, SDL2, IMGUI, SDL2IMAGE, SDL2TTF, SDL2MIXER, CI/CD automation for automatic deployment: https://github.com/InfiniBrains/SDL2-CPM-CMake-Example
 
 1. fork it
-2. run github action at least once
-3. enable actions and automatic page deployment from a branch gh-pages
+2. go to the repo settings, actions, general, in the bottom, enable workflow permission, read and write, save
+3. run github action at least once
+4. enable actions and automatic page deployment from a branch gh-pages
 
 ### AI + SDL2
 If you enjoy AI programming and want to test yourself, you can try forking this repo and implement what is inside the examples folder https://github.com/InfiniBrains/mobagen 
