@@ -22,7 +22,7 @@ For your webpage, you can develop something from ground up using your preferred 
 6. Deploy it to gh-pages either via automated ci/cd or via publishing a build from a empty branch or the main one
 
 ## Demo reels
-For project demo, game, or whatever interaction you want to allow the user to do, I built some boilerplates for you.
+For project demo, game, or whatever interaction you want to allow the user to do, I built some boilerplates for you. Optionally you can add badges for your repo from here: https://shields.io/
 
 In order to showcase your ability to build something from ground up, this repo holds a boilerplate with C++, SDL2, IMGUI, SDL2IMAGE, SDL2TTF, SDL2MIXER, CI/CD automation for automatic deployment: https://github.com/InfiniBrains/SDL2-CPM-CMake-Example
 
@@ -39,6 +39,7 @@ If you want to showcase your ability with Untiy, you can follow this boilerplate
 5. go to your repo settings, security, secrets and variables, actions and setup a new repository secret with the name 'UNITY_LICENSE' and the content from your clipboard
 6. run the main action
 7. enable actions and automatic page deployment from a branch gh-pages
+8. edit webgl template with your logo or image
 
 # Activity 2
 This class is totally up to you. Here goes what you should do in class and finish at home. The idea is for you to feel a whole process on how to create merge and pull requests to a public repo.
