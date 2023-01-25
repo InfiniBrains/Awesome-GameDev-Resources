@@ -62,7 +62,8 @@ This class is totally up to you. Here goes what you should do in class and finis
    - Why you would hire the owner of the portfolio
    - General considerations
 5. Edit [this file](README.md) on github to link your work here if you want to showcase it here.
-6. Send a push request
+6. Be Kind and constructive
+7. Send a push request
 
 # Considerations
 - The portfolios evaluated here are just opinions
