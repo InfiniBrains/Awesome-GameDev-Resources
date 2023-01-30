@@ -90,6 +90,15 @@ This will create a Makefile or a Visual Studio solution file in the build direct
 
 CMake provides many options and variables that can be used to customize the build process, such as setting compiler flags, specifying dependencies, and configuring installation targets. You can learn more about CMake by reading the documentation at https://cmake.org/.
 
+You cannot compile multiple files with main function. Each file with a main function describes a new executable program. If you want to have multiple executables in the same project, in other words, you want to manage in the same place multiple executables, you can change the cmake descriptor to match that as follows, and use your IDE to switch between them:
+
+```cmake
+cmake_minimum_required(VERSION 3.10)
+project(myproject)
+add_executable(myexecutable1 main1.cpp)
+add_executable(myexecutable2 main2.cpp)
+```
+
 </details>
 
 ## IDE
