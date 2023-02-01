@@ -1,4 +1,4 @@
-# Game Developer Structure
+# Game Developer Portfolio Structure
 
 Create a single page app containing most of these features listed here.
 
@@ -63,7 +63,7 @@ haunted house and they will not engage.
    - Create unity editor plugin to dynamically generate meshes via splines based on sample locations. https://www.youtube.com/watch?v=f5Q7Z2KxILE is a game with 50million downloads that used this technique to generate scenarios. Here you can watch a better explanation. https://www.youtube.com/watch?v=saAQNRSYU9k
    - Embed a shader toy behind your portfolio page. https://shadertoyunofficial.wordpress.com/2018/02/17/embedding-shadertoys-in-website/
    - A nice collection of fun ideas to code for your portfolio https://mrdoob.com/
-   - Board game simulation. Ex: chess https://www.chessprogramming.org/ or https://github.com/JuUnland/Chess/ 
+   - Board game simulation. Ex: chess https://www.chessprogramming.org/ or https://github.com/JuUnland/Chess/ or this https://www.youtube.com/watch?v=WKs685H6uOQ
 3. [Optional] Simulate a real test by creating a console based space invader in 48h. 
     - Efficiently draw (print on console)
     - Efficient collision check
