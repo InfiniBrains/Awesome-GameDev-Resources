@@ -39,6 +39,7 @@ If you follow this path, the main strategy is the common SEO optimization techni
 
 - https://searchengineland.com/guide/what-is-seo
 - https://www.wordstream.com/seo
+- https://searchengineland.com/yandex-leak-learnings-392393
 
 If you are a prolific writer and really into it. You can try to make wikipedia refer you and raise your rate on google algorithm. You can query google `site:wikipedia.org [your niche keyword] + "dead link"` and check the pages that are missing references to your content, then edit the wikipedia page to refer your website or blog post to give sources for something missing. 
 

@@ -31,12 +31,12 @@ You can showcase your personal work, a job you make for a client(if authorized).
     Avoid using percentage graphs to showcase your proficiency on specific tech stack or tool. The main reason is: how do you grade of your ability as 80%, 100% or 30%? Worse than that, how can the reader be sure of that? If you want to do that, it is better to apply for certificates, there are plenty on linkedin or specialized sites.
 
 ## Achievements
-- List key achievements and skills
+- List key achievements and skills. Dont use any kind of grading
 - Education
 - Testimonials or anything to prove your skills and capacity
 
-## Project Detail
-- You should create a way to explain more about what is showcased
+## Project Details
+- You should create a way to explain more about what is showcased. Ex.: redirect the user to the project description page, or open a modal
 
 ## Blog
 - Featured posts/content and call to action to read your ongoing content production
@@ -53,6 +53,29 @@ you list all of them, there is chances, you are not active there and the link wi
 haunted house and they will not engage.
 
 # Homework
+ 
+1. Create a wireframe draft of what you are going to do on [figma](https://www.figma.com/), [miro](https://miro.com/) or any other tool you find relevant.
+2. Scaffold your project in github. Describe in the README.md what you are going to do in your demo. You might try to convince a colleague to work with you.
+3. [Optional] Build a console based space invader. 
+    - Efficiently draw (print on console)
+    - Efficient collision check
 
-- Set your goal as your portfolio. 
-- Create a wireframe draft of what you are going to do on [figma](https://www.figma.com/) or any other tool you find relevant.
+# Most requested topics to be covered in this class
+- 13 #AI #flocking #BoardGames #MinMax #chess #procedural
+- 5 #gameplay
+- 4 #Rendering #vfx #grass #leaf #water #graphics #shader
+- 4 #UI #UX
+- 4 #networking
+- 4 #interview #questions
+- 3 #XR #VR
+- 3 #tools #unityeditor
+- 3 #backend #devops
+- 2 #physics
+- 2 #PortifolioPage #website #responsive
+- 2 #CV
+- 2 #github #githubpages
+- 2 #writing #narrative
+- 2 #itch
+- 1 #soundtrack #audio
+- 1 #LinkedIn
+- 1 #security
