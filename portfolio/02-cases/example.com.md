@@ -14,7 +14,7 @@ What things you judge as good and you are aiming to follow and target. Add image
 
 ## Improvements
 - What things you judge that needs attention or should be improved?
-- What questions you would do to this person?
+- What questions you would ask this person?
 
 ## Best fit
 - Why you would hire the owner of the portfolio? 
