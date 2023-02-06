@@ -54,7 +54,7 @@ haunted house and they will not engage.
 
 # Homework
  
-1. Create a wireframe draft of what you are going to do on [figma](https://www.figma.com/), [miro](https://miro.com/) or any other tool you find relevant. If you already have a Portfolio page already set, try to think on how do you make it be responsive on mobile devices.
+1. [Optional]Create a wireframe draft of what you are going to do on [figma](https://www.figma.com/), [miro](https://miro.com/) or any other tool you find relevant. If you already have a Portfolio page already set, try to think on how do you make it be responsive on mobile devices.
 2. Scaffold your project in github. Describe in the README.md what you are going to do in your demo. You might try to convince a colleague to work with you. You can do more than one demo if you want. Some examples:
    - Follow some of mobagen AI examples from here https://github.com/InfiniBrains/mobagen check some of them running here https://infinibrains.github.io/mobagen/ 
    - Raytrace demo for cloud and Human body. ref https://www.youtube.com/watch?v=Qj_tK_mdRcA
