@@ -46,5 +46,12 @@ The following metrics can be evaluated by reading your portfolio, interviews or 
 
 
 # Homework
+- Read resources on how to get ready for interviews
+    - Epic: https://www.epicgames.com/site/en-US/earlycareers/career-paths
+- Top interview questions https://leetcode.com/problem-list/top-interview-questions/. Some examples: 
+    - https://leetcode.com/problems/two-sum/ - the most asked question
+    - https://leetcode.com/problems/kth-largest-element-in-an-array/ - heap
+    - https://leetcode.com/problems/median-of-two-sorted-arrays/
+    - https://leetcode.com/problems/minimum-space-wasted-from-packaging/ - bin packing, try to solve for 2d image pack for textures
 - Write the content for each one of your projects and all other sections of your portfolio.
 - Watch this video https://www.youtube.com/watch?v=Kte-t1pQQ3I and start contributing into an open source project or community
