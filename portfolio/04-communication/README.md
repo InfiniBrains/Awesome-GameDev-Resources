@@ -44,5 +44,7 @@ The following metrics can be evaluated by reading your portfolio, interviews or 
 - Risk management 
 - Thinking big
 
+
 # Homework
 - Write the content for each one of your projects and all other sections of your portfolio.
+- Watch this video https://www.youtube.com/watch?v=Kte-t1pQQ3I and start contributing into an open source project or community
