@@ -27,7 +27,7 @@ The following metrics can be evaluated by reading your portfolio, interviews or 
 - Position Fit
     - They are going to search if your portfolio showcase experience in the same area of what they are looking for the specific position they received. Usually they will look for specific keywords for the requirements list;
 - Company fit
-    - They take count on your expressed ideas, stated goals, tone, alignment and supporting projects to evaluate your future evolution inside the company;
+    - They take count on your expressed ideas, stated goals, tone, alignment and supporting projects to evaluate your future evolution inside the company; ex. https://wa.aws.amazon.com/wat.pillars.wa-pillars.en.html 
 - Passion
     - Passionate developers tend to express projects they are proud of. The description of the projects are mostly achievement-based. Ex.: more than X million downloads. This example showcases that you were part of something huge, and it is easily understandable.
     - There is a high correlation on high performant people that they usually shine in side-projects or even hobbies. So they look for it. Ex.: Google encourages employees to devote 20% of their time to hobbies or skill-building.
@@ -36,7 +36,7 @@ The following metrics can be evaluated by reading your portfolio, interviews or 
 - Innovation and Curiosity
     - Innovative developers solve problems out of the box. It doesn't matter how complex the problem is, but if you solve in a innovative way, reframe it or do any magic to solve it, chances are to have good points here;
     - Good companies incentives research and test new stuff. So they usually like to see your deliverables with new bleeding-edge technology tools.
-- Protectiveness
+- Proactiveness
     - Usually the more proactive developers tend to have more leadership positions. So if you want to give the readers a glimpse of your ability in this area, a good place to showcase that is in project description section. Express problems that arise and how do you manage that before it become a real problem.   
 - Learner
     - It is good to be always tuned with the current evolution of the technology, so try to keep the education section always updated with some courses or publish blog posts about some new tech. 
@@ -46,12 +46,15 @@ The following metrics can be evaluated by reading your portfolio, interviews or 
 
 
 # Homework
-- Read resources on how to get ready for interviews
+- Write the content for each one of your projects and all other sections of your portfolio.
+- 1st round of Portfolio Feedbacks. 
+- Research in a game company you like the resources on their hiring process. Take notes on how they hire and which positions you want to apply. Here goes some examples on how to get ready for interviews:
     - Epic: https://www.epicgames.com/site/en-US/earlycareers/career-paths
+    - AWS: https://aws.amazon.com/careers/how-we-hire/
+    - General interview questions https://www.mockquestions.com/
 - Top interview questions https://leetcode.com/problem-list/top-interview-questions/. Some examples: 
     - https://leetcode.com/problems/two-sum/ - the most asked question
     - https://leetcode.com/problems/kth-largest-element-in-an-array/ - heap
     - https://leetcode.com/problems/median-of-two-sorted-arrays/
     - https://leetcode.com/problems/minimum-space-wasted-from-packaging/ - bin packing, try to solve for 2d image pack for textures
-- Write the content for each one of your projects and all other sections of your portfolio.
 - Watch this video https://www.youtube.com/watch?v=Kte-t1pQQ3I and start contributing into an open source project or community
