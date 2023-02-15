@@ -28,4 +28,13 @@ HTML_HEADER = """<!-- Google tag (gtag.js) -->
   gtag('js', new Date());
 
   gtag('config', 'G-76LZTVL113');
-</script>"""
+</script>
+<script type='text/javascript'>
+  window.smartlook||(function(d) {
+    var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+    var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+    c.charset='utf-8';c.src='https://web-sdk.smartlook.com/recorder.js';h.appendChild(c);
+    })(document);
+    smartlook('init', '2f5d1221ea7a962d4adf10180eedd4eab3e00fc4', { region: 'eu' });
+</script>
+"""
