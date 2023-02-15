@@ -18,6 +18,18 @@ Create a strategy to get hired on a AAA game studio as a game programmer
 5. Apply for internships: Consider applying for internships in a AAA game studio. This is an excellent opportunity to gain industry experience and build your skills. Even if the internship is unpaid, the experience and contacts you gain could be invaluable for your future career.
 6. Prepare for the interview: Once you get an interview, make sure to prepare thoroughly. Research common interview questions and practice your responses. Be ready to talk about your experience, skills, and passion for game development. Also, prepare questions to ask the interviewer about the company and the job position to show your interest and enthusiasm.
 
+```
+Write a strategy to get hired as a Game Programmer in a Indie Game Studio
+```
+1. Develop a strong portfolio: Your portfolio is your calling card, so it needs to showcase your programming skills, creativity, and technical abilities. Create a portfolio that showcases your best work, including your personal game development projects, demos, and samples of your code. Highlight your experience with programming languages, software, tools, and engines that are commonly used in the indie game development industry.
+2. Research indie game studios: Do your research on the indie game studios that interest you. Find out what kind of games they make, the size of the studio, the company culture, and their current job openings. Look for studios that align with your interests, values, and career goals.
+3. Build a network: Building a network of like-minded professionals in the game development industry can be invaluable. Attend industry events, join online forums and communities, and engage with indie game developers on social media. This will help you stay up-to-date on the latest trends, technologies, and job openings.
+4. Gain experience: Gain experience by creating your own games, participating in game jams, contributing to open-source projects, or volunteering for a non-profit game development organization. This will help you gain valuable experience and demonstrate your passion and commitment to game development.
+5. Apply for internships: Many indie game studios offer internships or junior positions for game programmers. This is an excellent opportunity to gain hands-on experience, build your skills, and make contacts in the industry. Even if the internship is unpaid, the experience and contacts you gain could be invaluable for your future career.
+6. Tailor your resume and cover letter: Tailor your resume and cover letter to showcase your programming skills, experience, and passion for game development. Highlight your technical skills, programming languages, software, and engines that you are proficient in. Be sure to mention any experience you have working in a team and collaborating with other game developers.
+7. Prepare for the interview: Once you get an interview, make sure to prepare thoroughly. Research the indie game studio, their current projects, and their company culture. Be ready to talk about your experience, skills, and passion for game development. Also, prepare questions to ask the interviewer about the company and the job position to show your interest and enthusiasm.
+
+
 ## Analytics
 
 - Analytics. Recommendation: [Google Analytics](https://analytics.google.com/) or [Firebase Analytics](https://firebase.google.com/products/analytics);
