@@ -49,4 +49,3 @@ If you are a prolific writer and really into it. You can try to make wikipedia r
 - Follow other professionals in your field and check what they are posting to try replicate their behavior.
 - Follow companies you want to work
 - Connect with the hiring personal from the companies you want to work for, so when they search for people, you will be on the top suggestions.
-- 
