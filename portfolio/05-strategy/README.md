@@ -5,6 +5,19 @@
 - [Social Network](#strategies-for-social-networks)
 
 # Strategies for your portfolio
+
+Ask some questions for [ChatGPT](https://chat.openai.com/chat). Here goes a sample extracted from this prompt:
+
+```
+Create a strategy to get hired on a AAA game studio as a game programmer
+```
+1. Develop the right skills: The first step to getting hired in a AAA game studio is to develop the right skills for the job. Start by researching the job positions in the studio and look for the required skills, experience, and qualifications. Then, focus on building those skills through relevant education, training, and projects. You can also take courses, attend workshops or conferences, and create a portfolio of your work to showcase your abilities.
+2. Network with industry professionals: Networking with industry professionals can help you gain exposure and insights into the game development industry. Attend industry events, join online forums, participate in game development communities, and reach out to professionals in the field to build relationships. You can also consider working on collaborative projects with other game developers to expand your network.
+3. Stay up-to-date with industry trends: Keeping up with the latest trends and news in the gaming industry can help you stay ahead of the game and impress your potential employers. Read industry blogs, participate in online discussions, follow industry influencers on social media, and stay up-to-date with the latest game releases to show that you are knowledgeable and passionate about the industry.
+4. Research the game studio: Before applying for a job, research the game studio to learn about their culture, values, and work environment. Look for information about their current projects, the team structure, and the company's mission statement. This will help you tailor your resume and cover letter to match the company's requirements and demonstrate that you are a good fit for the team.
+5. Apply for internships: Consider applying for internships in a AAA game studio. This is an excellent opportunity to gain industry experience and build your skills. Even if the internship is unpaid, the experience and contacts you gain could be invaluable for your future career.
+6. Prepare for the interview: Once you get an interview, make sure to prepare thoroughly. Research common interview questions and practice your responses. Be ready to talk about your experience, skills, and passion for game development. Also, prepare questions to ask the interviewer about the company and the job position to show your interest and enthusiasm.
+
 ## Analytics
 
 - Analytics. Recommendation: [Google Analytics](https://analytics.google.com/) or [Firebase Analytics](https://firebase.google.com/products/analytics);
@@ -19,6 +32,7 @@ For more details see [promoting section](portfolio/12-promoting/README.md);
 Train yourself in coding interviews with some materials:
 - [Crack the Coding Interview](https://amzn.to/3W1ICea)
 - [Interviews on AWS](https://www.amazon.jobs/en/landing_pages/software-development-topics)
+- [Interview on Google](https://www.geeksforgeeks.org/google-interview-preparation-for-software-engineer-a-complete-guide/)
 - [Course on get ready for an AWS interview](https://www.amazon.jobs/en/software-development-interview-prep#/)
 
 ## Coding resources
@@ -27,6 +41,7 @@ Train yourself in coding interviews with some materials:
 - [Geeksforgeeks](https://www.geeksforgeeks.org/)
 - [Interview Questions](https://www.youtube.com/watch?v=il_t1WVLNxk&list=PLqM7alHXFySGqCvcwfqqMrteqWukz9ZoE&ab_channel=GeeksforGeeks)
 - [Review on algorithms](https://www.youtube.com/channel/UCxX9wt5FWQUAAz4UrysqK9A)
+- [Practice code interviews](https://www.geeksforgeeks.org/practice-for-cracking-any-coding-interview/)
 
 ## Curated videos on most common programming interview questions
 
