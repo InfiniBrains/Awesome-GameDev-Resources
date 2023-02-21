@@ -9,7 +9,7 @@
 | 3    | 2023/01/30 | [Game Developer Portfolio Structure](03-structure/README.md) |
 | 4    | 2023/02/06 | [Communication & Audience](04-communication/README.md)       |
 | 5    | 2023/02/13 | [Strategy & Analytics](05-strategy/README.md)                |
-| 6    | 2023/02/20 | [Style & Accessibility](06-style/README.md)                  |
+| 6    | 2023/02/20 | [Demo Reels](06-reels/README.md)                             |
 | 7    | 2023/02/27 | [Frontend](07-frontend/README.md)                            |
 | 8    | 2023/03/06 | [Content Management System](08-cms/README.md)                |
 | 9    | 2023/03/13 | BREAK                                                        |
