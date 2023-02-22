@@ -143,3 +143,7 @@ Video Specifications:
 - No X-rated content
 - Use audio that won't get removed from Vimeo (where we store the files) because of copyright infringement. 
 
+## Homework
+
+Watch some videos from [Sample Portfolio Reels](https://gamestudio.champlain.edu/graduates/?show_year=2022) and create a script detailing what you are going to present yourself. Start creating the timeline of feelings and you are going to present at each time.
+
