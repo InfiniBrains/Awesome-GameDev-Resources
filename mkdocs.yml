@@ -26,10 +26,10 @@ nav:
       - Communication: portfolio/04-communication/README.md
       - Style: portfolio/05-style/README.md
       - Strategy: portfolio/06-strategy/README.md
-      - Frontend: portfolio/07-frontend/README.md
+      - Frontend: portfolio/10-frontend/README.md
       - Wordpress: portfolio/08-frontend/README.md
       - Getting Ready: portfolio/09-get-ready/README.md
-      - Hosting: portfolio/10-hosting/README.md
+      - Hosting: portfolio/07-hosting/README.md
       - Dynamic Content: portfolio/11-dynamic/README.md
       - Promoting: portfolio/12-promoting/README.md
       - Cover Letter: portfolio/13-cover-letter/README.md
