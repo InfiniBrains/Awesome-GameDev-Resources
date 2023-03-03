@@ -8,7 +8,8 @@ time for you to revisit them.
 # Topics
 1. [Intro to Programming](intro/README.md)
 2. [Developer Portfolio](portfolio/README.md)
-3. [Artificial Intelligence](artificialintelligence/README.md)
+3. [Coding Dojo](dojo/README.md)
+[//]: # (3. [Artificial Intelligence]&#40;artificialintelligence/README.md&#41;)
 
 # Philosophy
 
