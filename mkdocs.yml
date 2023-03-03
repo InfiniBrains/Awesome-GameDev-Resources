@@ -34,8 +34,11 @@ nav:
       - Promoting: portfolio/12-promoting/README.md
       - Cover Letter: portfolio/13-cover-letter/README.md
       - CV: portfolio/14-cv/README.md
-  - AI:
-      - artificialintelligence/README.md
+  - Dojo:
+      - dojo/Readme.md
+      - Full Cycle Game Dev: dojo/Full-Cycle-SDL-Development.md
+#  - AI:
+#      - artificialintelligence/README.md
 
 docs_dir: .
 
