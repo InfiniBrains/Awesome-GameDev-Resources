@@ -17,7 +17,7 @@ This Dojo is focused in training professionals on setting up a full cycle projec
 - Write down what do you expect from this Dojo [here](https://github.com/InfiniBrains/Introduction-to-Game-Programming-With-CPP/issues/2);
 
 ## Setup
-You can either fork [this repo](https://github.com/InfiniBrains/ModernCppStarter) (and star it) or create your own from scratch.
+You can either fork [Modern CPP Starter Repo](https://github.com/InfiniBrains/ModernCppStarter) (and star it) or create your own from scratch.
 
 Ensure that you have the following software installed in your machine:
 
@@ -29,7 +29,7 @@ Ensure that you have the following software installed in your machine:
 ## Action
 ### 1. Clone.
 
-Clone your repository you created or forked in the last step;
+Clone your repository you created or forked in the last step ([Modern CPP Starter Repo](https://github.com/InfiniBrains/ModernCppStarter));
 
 ### 2. CMake Glob
 
@@ -140,6 +140,8 @@ Create folder `.github` and inside it another one `workflows`. Inside it create 
 Here you will code declaratively how your build should proceed. The basic steps are usually: Clone, Cache, Install dependencies, Configure, Build, Test and Release conditionally to branch.
 
 Check and try to reproduce the same thing you see [here](https://github.com/InfiniBrains/mobagen/tree/master/.github/workflows). 
+
+If you are following the [Modern CPP Starter Repo](https://github.com/InfiniBrains/ModernCppStarter), you can explore automated tests. Be my guest and try it.
 
 ## Review
 How far you went? Share your repos [here](https://github.com/InfiniBrains/Introduction-to-Game-Programming-With-CPP/issues/2).
