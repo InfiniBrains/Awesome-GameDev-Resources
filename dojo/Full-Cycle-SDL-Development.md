@@ -5,8 +5,8 @@ This Dojo is focused in training professionals on setting up a full cycle projec
 # Agenda:
 - Introduction (5 minutes): The facilitator introduces the coding dojo and the goal of the session, which is to create a CMake build system for an SDL project using GitHub Actions.
 - Warm-up exercise (10 minutes): A brief exercise is conducted to get participants warmed up and familiar with SDL and CMake.
-- Setting up the project (20 minutes): Participants work in pairs or small groups to clone the SDL project from GitHub and create a CMake build system for it.
-- Adding GitHub Actions (40 minutes): Participants continue to work on their CMake build systems and add GitHub Actions to automate the build and test process.
+- Setting up the project (30 minutes): Participants work in pairs or small groups to clone the SDL project from GitHub and create a CMake build system for it.
+- Adding GitHub Actions (30 minutes): Participants continue to work on their CMake build systems and add GitHub Actions to automate the build and test process.
 - Review and discussion (10 minutes): Participants share their solutions and discuss the various approaches taken to create the CMake build system and implement GitHub Actions.
 - Retrospective (5 minutes): Participants reflect on the session and provide feedback on what went well and what could be improved for future sessions.
 - Closing (5 minutes): The facilitator concludes the session and thanks the participants for their contributions.
