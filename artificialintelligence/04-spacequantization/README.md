@@ -123,24 +123,112 @@ It can be implemented as single dimension array, but you need to be careful with
 
 For simplicity, we are going to use the first conformation, where the first line is aligned to the left, and the hexagons are pointy top. The quantization is done by using the following formula.
 
-!!! note
-
-    This code is not working yet, it is just a draft. Please send a merge request to fix it. Mobagen has an implementation of this. 
- 
 ```c++
-Vector2int quantize(Vector2f position, float resolution) {
-    int x = (int)(position.x / resolution);
-    int y = (int)(position.y / resolution);
-    int rx = abs(x - (int)floor(x/2.0f) * 2);
-    int ry = abs(y - (int)floor(y/2.0f) * 2);
-    if(rx == 1 && ry == 1) {
-        x = (int)floor(x/2.0f) * 2;
-        y = (int)floor(y/2.0f) * 2;
-    } else {
-        x = (int)floor(x/2.0f) * 2 + 1;
-        y = (int)floor(y/2.0f) * 2 + 1;
-    }
+// I am assuming that the hexagon is pointy top, and the first line is aligned to the left
+// I am also assuming that the hexagon is centered in the cell, and the top left corner is at (0,0), 
+// y axis is pointing down and x axis is pointing right
+// this dont work for all the cases, but it is a good approximation for locations near the center of the hexagon
+/*
+  / \ / \ / \ 
+ | A | B | C |
+  \ / \ / \ / \
+   | D | E | F |
+  / \ / \ / \ /
+ | G | H | I |
+  \ / \ / \ /
+ */
+Vector2int quantize(Vector2f position, float hexagonSide) {
+    int y = (position.y - hexagonSide)/(hexagonSide * 2);
+    int x = y%2==0 ?
+      (position.x - hexagonSide * sqrt3over2) / (hexagonSide * sqrt3over2 * 2) : // even lines
+      (position.x - hexagonSide * sqrt3over2 * 2)/(hexagonSide * sqrt3over2 * 2) // odd lines
+    return Vector2int(x, y);
+}
+Vector2f dequantize(Vector2int index, float hexagonSide) {
+    return Vector2f(index.y%2==0 ? 
+      hexagonSide * sqrt3over2 + index.x * hexagonSide * sqrt3over2 * 2 : // even lines
+      hexagonSide * sqrt3over2 * 2 + index.x * hexagonSide * sqrt3over2 * 2, // odd lines
+      hexagonSide + index.y * hexagonSide * 2);
 }
 ```
 
-If you need to get the center of the cell in the world coordinates following the quantization resolution, you can use the following code.
+You will have to figure out the formula for the other conformations. Or send a merge request to this repository adding more information.
+
+# Voxels and Grid 3D
+
+Grids in 3D works the same way as in 2D, but you need to use 3D vectors/arrays or voxel volumes. Most concepts applies here. If you want to expand this section, send a merge request.
+
+# Quadtree
+
+Quadtree is a tree data structure where each node has 4 children. It is used to partition a space in 2D. It is used to optimize collision detection, pathfinding, and other algorithms that need to iterate over a space. It is also used to optimize rendering, because you can render only the visible part of the space.
+
+## Quadtree implementation
+
+Quadtree is a recursive data structure, so you can implement it using a recursive data structure. The following code is a simple implementation of a quadtree.
+
+
+```c++
+// this code is not tested, but it should work. It is just an example and send a merge request if you find any errors.
+// node
+template<class T>
+struct DataAtPosition {
+    Vector2f center;
+    T data;
+};
+
+template<class T>
+struct QuadtreeNode {
+    Rectangle2f bounds;
+    std::vector<DataAtPosition<T>> data;
+    std::vector<QuadtreeNode<T>> children;
+};
+
+// insert
+template<class T>
+void insert(QuadtreeNode<T>& root, DataAtPosition<T> data) {
+    if (root.children.empty()) {
+        root.data.push_back(data);
+        if (root.data.size() > 4) {
+            root.children.resize(4);
+            for (int i = 0; i < 4; ++i) {
+                root.children[i].bounds = root.bounds;
+            }
+            root.children[0].bounds.max.x = root.bounds.center().x; // top left
+            root.children[0].bounds.max.y = root.bounds.center().y; // top left
+            root.children[1].bounds.min.x = root.bounds.center().x; // top right
+            root.children[1].bounds.max.y = root.bounds.center().y; // top right
+            root.children[2].bounds.min.x = root.bounds.center().x; // bottom right
+            root.children[2].bounds.min.y = root.bounds.center().y; // bottom right
+            root.children[3].bounds.max.x = root.bounds.center().x; // bottom left
+            root.children[3].bounds.min.y = root.bounds.center().y; // bottom left
+            for (auto& data : root.data) {
+                insert(root, data);
+            }
+            root.data.clear();
+        }
+    } else {
+        for (auto& child : root.children) {
+            if (child.bounds.contains(data.center)) {
+                insert(child, data);
+                break;
+            }
+        }
+    }
+}
+        
+
+// query
+template<class T>
+void query(QuadtreeNode<T>& root, Rectangle2f bounds, std::vector<DataAtPosition<T>>& result) {
+    if (root.bounds.intersects(bounds)) {
+        for (auto& data : root.data) {
+            if (bounds.contains(data.center)) {
+                result.push_back(data);
+            }
+        }
+        for (auto& child : root.children) {
+            query(child, bounds, result);
+        }
+    }
+}
+```
