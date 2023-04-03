@@ -2,7 +2,7 @@
 
 Space quantization is a way to sample continuous space to be used in in many fields, such as Artificial Intelligence, Physics, Rendering, and more. Here we are going to focus primarily Spatial Quantization for AI, because it is the base for pathfinding, line of sight, field of view, and many other techniques.
 
-Some of the most common techniques for space quantization are: grids, voxels, graphs, quadtrees, octrees, BSP, Spatial Hashing and more. Another notable techniques are line of sight(or field of view), map flooding, caching, and movement zones.
+Some of the most common techniques for space quantization are: grids, voxels, graphs, quadtrees, octrees, KD-trees, BSP, Spatial Hashing and more. Another notable techniques are line of sight(or field of view), map flooding, caching, and movement zones.
 
 # Grids
 
@@ -166,7 +166,6 @@ Quadtree is a tree data structure where each node has 4 children. It is used to 
 
 Quadtree is a recursive data structure, so you can implement it using a recursive data structure. The following code is a simple implementation of a quadtree.
 
-
 ```c++
 // this code is not tested, but it should work. It is just an example and send a merge request if you find any errors.
 // node
@@ -215,7 +214,6 @@ void insert(QuadtreeNode<T>& root, DataAtPosition<T> data) {
         }
     }
 }
-        
 
 // query
 template<class T>
@@ -232,3 +230,50 @@ void query(QuadtreeNode<T>& root, Rectangle2f bounds, std::vector<DataAtPosition
     }
 }
 ```
+
+## Quadtree optimization
+
+The quadtree is a recursive data structure, so it is not cache friendly. You can optimize it by using a flat array instead of a recursive data structure. 
+
+
+# Octree
+
+Section WiP. Send a merge request if you want to contribute.
+
+# KD-Tree
+
+KD-Trees are a tree data structure that are used to partition a spaces in any dimension (2D, 3D, 4D, etc). They are used to optimize collision detection(Physics), pathfinding(AI), and other algorithms that need to iterate over a space. Also they are also used to optimize rendering, because you can render only the visible part of the space. Pay attention that KD-Trees are not the same as Quadtree and Octrees, even if they are similar.
+
+In KD-trees, every node defines an orthogonal partition plan that alternate every deepening level of the tree. The partition plan is defined by a dimension, a value. The dimension is the axis that is used to partition the space, and the value is the position of the partition plan. The partition plan is orthogonal to the axis, so it is a line in 2D, a plane in 3D, and a hyperplane in 4D.
+
+# BSP Tree
+
+BSP inherits almost all characteristics of KD-Trees, but it is not a tree data structure, it is a graph data structure. The main difference is to instead of being orthogonal you define the plane of the section. The plane is defined by a point and a normal. The normal is the direction of the plane, and the point is a point in the plane. 
+
+# Spatial Hashing
+
+Spatial hashing is a data structure that is used to partition a space. It consists in a hash table where the keys are the positions of the elements, and the values are the elements in buckets. It is very fast to insert and query elements. But it is not good for iteration, because it is not cache friendly.
+
+Usually when you want to use a spatial hashing, you create hash functions for the bucket keys, there is no limit on how you do that, but you have to keep in mind that the hash functions have to be fast and have to be good for the distribution of the elements. Here is a good example of a hashing function for 2D vectors.
+
+```c++
+namespace std {
+    template<>
+    struct hash<Vector2f> {
+        // I am assuming size_t is 64 bits and the float is 32 bits
+        size_t operator()(const Vector2f& v) const {
+            // get the bits of the float in a integer
+            uint64_t x = *(uint64_t*)&v.x;
+            uint64_t y = *(uint64_t*)&v.y;
+            // mix the bits of the floats
+            uint64_t hash = x & (y << 32);
+            return hash;
+        }
+    };
+}
+```
+
+Pay attention that the hashing function above generates collisions, so you have to use a data structure that can handle collisions. You will use datastructures like `unordered_map<Vector2D, unordered_set<DATATYPE>>` or `unordered_map<Vector2D, vector<DATATYPE>>`. The first one is better for insertion and query, but it is not cache friendly. 
+
+To avoid having one bucket per every possible position, you have to setup properly the dimension of the bucket, a good sugestion is to alwoys floor the position and have buckets dimension of 1.0f. That would be good enough for most cases.
+
