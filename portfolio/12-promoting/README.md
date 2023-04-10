@@ -33,7 +33,7 @@ Before creating and running a promotion campaigns, we need to define the audienc
 To reach specific audiences, we need to be in the same platform they are. For example:
 - Game players: Steam, Twitch, YouTube, itchio, GameJolt, Discord;
 - Journalists: Twitter, LinkedIn;
-- Investors: AngelList, LinkedIn;
+- Investors: AngelList, Ycombinator, LinkedIn, Crunchbase;
 - Communities: Reddit, Discord, Facebook, Twitter;
 - Recruiters: mostly Linkedin.
 
@@ -41,7 +41,7 @@ Social media is a great way to promote yourself as a game developer. You can use
 
 Here goes my opinion about the most important platforms:
 
-- Twitter: it is the best and easy way to communicate with anyone in the world. The distance between to reach anyone is zero. And it hawe an awesome tagging structure. It is a great way to share your thoughts and ideas and ask for feedbacks. It is a great way to connect with other developers and learn from them. You can also use it to share your work and promote your games.
+- Twitter: it is the best and easy way to communicate with anyone in the world. The distance between to reach anyone is zero. And it has an awesome tagging structure. It is a great way to share your thoughts and ideas and ask for feedbacks. It is a great way to connect with other developers and learn from them. You can also use it to share your work and promote your games.
 - LinkedIn: It is a great way to connect with recruiters and hiring managers. Usually you will see other developers publishing their thoughts and ideas, so try to post relevant comments on their publications to get noticed and improve your visibility.
 - Facebook: It is mostly a general purpose social media. You can use it to connect with your friends and family, and collect feedbacks for your content. It is a great way to promote your finished games.
 - Instagram and Tiktok: Are more focused in fast, small and visual content. You can use it to promote your games and your work, but it is not the best way to share your thoughts and ideas.
@@ -52,7 +52,7 @@ Here goes my opinion about the most important platforms:
 
 ## Mediums
 
-The mediums are: Social media, Blogs, Email, Podcasts, Videos, Events, Conferences, Meetups, Workshops, Webinars, Webcasts, and more.
+The mediums are: Social media posts, Blog posts, Email, Podcasts, Videos, Events, Conferences, Meetups, Workshops, Webinars, Webcasts, and more.
 
 For each type of medium, we need to plan the content, the frequency, and the duration. We have very nice tools to help us with that, like [Buffer](https://buffer.com/), [Hootsuite](https://hootsuite.com/) and many others.
 
