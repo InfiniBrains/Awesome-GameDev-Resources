@@ -2,6 +2,27 @@
 
 Sorting are algorithms that put elements of a list in a certain order. It is cruxial to understand the basics of sorting in order to start understanding more complex algorithms and why you have to pay attention to efficiency.
 
+Before going deep, please watch this video:
+
+[![Sorting Algorithms](https://img.youtube.com/vi/kPRA0W1kECg/0.jpg)](https://www.youtube.com/watch?v=kPRA0W1kECg)
+
+and this one:
+
+[![Sorting Algorithms](https://img.youtube.com/vi/ZZuD6iUe3Pc/0.jpg)](https://www.youtube.com/watch?v=ZZuD6iUe3Pc)
+
+Explore the concepts interactively at [visualgo.net](https://visualgo.net/en/sorting).
+
+Try to answer the following questions, before continuing:
+
+- What is the difference between a stable and unstable sorting algorithm?
+- What is the difference between a comparison and a non-comparison sorting algorithm?
+- What is the difference between an in-place and a non-in-place sorting algorithm?
+- What is the difference between a recursive and a non-recursive sorting algorithm?
+- What are the fastest sorting algorithms?
+- What are the slowest sorting algorithms?
+
+## The basics
+
 Many of the algorithms will have to swap elements from the array, vector or list. In order to do that, we will need to create a function that swaps two elements. Here is the function:
 
 ```c++
