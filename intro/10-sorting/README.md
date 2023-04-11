@@ -4,7 +4,7 @@ Sorting are algorithms that put elements of a list in a certain order. It is cru
 
 Before going deep, please watch this video:
 
-[![Sorting Algorithms](https://img.youtube.com/vi/kPRA0W1kECg/0.jpg)](https://www.youtube.com/watch?v=kPRA0W1kECg)
+SEIZURE WARNING!! [![Sorting Algorithms](https://img.youtube.com/vi/kPRA0W1kECg/0.jpg)](https://www.youtube.com/watch?v=kPRA0W1kECg)
 
 and this one:
 
