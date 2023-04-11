@@ -14,12 +14,12 @@ Explore the concepts interactively at [visualgo.net](https://visualgo.net/en/sor
 
 Try to answer the following questions, before continuing:
 
-- What is the difference between a stable and unstable sorting algorithm?
-- What is the difference between a comparison and a non-comparison sorting algorithm?
-- What is the difference between an in-place and a non-in-place sorting algorithm?
-- What is the difference between a recursive and a non-recursive sorting algorithm?
-- What are the fastest sorting algorithms?
 - What are the slowest sorting algorithms?
+- What are the fastest sorting algorithms?
+- Con you infer the difference between a stable and unstable sorting algorithm?
+- What is the difference between a comparison and a non-comparison sorting algorithm?
+- What would be an in-place and a non-in-place sorting algorithm?
+- What is the difference between a recursive and a non-recursive sorting algorithm?
 
 ## The basics
 
@@ -34,6 +34,21 @@ void swap(int *xp, int *yp) {
 }  
 ```
 
+The `*` operator used in the function signature means that the function will receive a pointer to an integer. So it will efectivelly change the content in another scope. The `*` operator is used to dereference a pointer, which means that it will return the value stored in the memory address pointed by the pointer. Given the declaration is `int *xp`, the `*xp` will return the value stored in the memory address pointed by `xp`.
+
+Alternatively you could use the `&` operator to pass the reference to that variable in the similar fashion, but the usage wont be requiring the `*` before the variable name as follows:
+
+```c++
+// A function to swap two elements
+void swap(int &xp, int &yp) {  
+    int temp = xp;  
+    xp = yp;  
+    yp = temp;  
+}  
+```
+
+The result is the same, but the usage is different. The first one is more common in C++, while the second one is more common in C.
+
 ## Bubble sort
 
 Bubble sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
@@ -41,6 +56,10 @@ Bubble sort is the simplest sorting algorithm that works by repeatedly swapping 
 ```c++
 // A function to implement bubble sort
 void bubbleSort(int arr[], int n) {  
+    // if the array has only one element, it is already sorted
+    if(n<=1)
+        return;
+    
     int i, j;  
     for (i = 0; i < n-1; i++)
         // Last i elements are already in place  
@@ -61,6 +80,10 @@ Insertion sort is a simple sorting algorithm that works the way we sort playing 
 ```c++
 // A function to implement insertion sort
 void insertionSort(int arr[], int n) {  
+    // if the array has only one element, it is already sorted
+    if(n<=1)
+        return;
+    
     int i, key, j;  
     for (i = 1; i < n; i++) {  
         key = arr[i];  
@@ -88,7 +111,11 @@ Selection sort is a simple sorting algorithm. This sorting algorithm is an in-pl
 
 ```c++
 // A function to implement selection sort
-void selectionSort(int arr[], int n) {  
+void selectionSort(int arr[], int n) {
+    // if the array has only one element, it is already sorted
+    if(n<=1)
+        return;
+    
     int i, j, min_idx;  
   
     // One by one move boundary of unsorted subarray  
@@ -230,6 +257,10 @@ Counting sort is a specialized algorithm for sorting numbers. It only works well
 ```c++
 // counting sort
 void countingSort(int arr[], int n) {  
+    // if the array has only one element, it is already sorted
+    if(n<=1)
+        return;
+    
     int max=arr[0];
     int min[0];
     
@@ -279,7 +310,12 @@ Radix sort is a specialized algorithm for sorting numbers. It only works well if
 
 ```c++
 // Radix sort
-void radixSort(int arr[], int n) {  
+void radixSort(int arr[], int n) {
+    // if the array has only one element, return
+    if(n<=1)
+        return;
+    
+    // initialize the max number as the first number. 
     int max=arr[0];
     
     // find the max number
