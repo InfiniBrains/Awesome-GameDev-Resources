@@ -1,5 +1,7 @@
 # Sorting algorithms
 
+TODO: Note for my furune self: add complete example of how to use those algorithms
+
 Sorting are algorithms that put elements of a list in a certain order. It is cruxial to understand the basics of sorting in order to start understanding more complex algorithms and why you have to pay attention to efficiency.
 
 Before going deep, please watch this video:
