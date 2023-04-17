@@ -1,7 +1,7 @@
 ---
 name: Request For Comments
 about: Breaking Changes or Brainstorming Session About a Specific Topic
-title: "[RFC]"
+title: "[RFC] - Proposal Name"
 labels: RFC
 assignees: ''
 
