@@ -15,7 +15,7 @@ If you want to attend this dojo, please vote by reacting with 👍 in the issue.
 - Tools Required: [What the attendees need to do beforehand to get ready] Ex.: `Tools: Any C++ compiler and an IDE`
 - Knowledge Required: [The minimum skill level to follow the dojo] Ex.: `Knowledge: basic data structures and algorithms`
 
-# Suggested Timeline Structure
+# Timeline Structure
 
 - Introduction (5 minutes): The facilitator introduces the coding dojo and the coding challenge for the session.
 - Warm-up exercise (10 minutes): A brief exercise is conducted to get participants warmed up and ready for the coding challenge.
