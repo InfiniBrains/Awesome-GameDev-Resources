@@ -14,7 +14,7 @@ This Dojo is focused in training professionals on setting up a full cycle projec
 ## Introduction
 
 ## Warm-up
-- Write down what do you expect from this Dojo [here](https://github.com/InfiniBrains/Introduction-to-Game-Programming-With-CPP/issues/2);
+- Write down what do you expect from this Dojo [here](https://github.com/InfiniBrains/Awesome-GameDev-Resources/issues/2);
 
 ## Setup
 You can either fork [Modern CPP Starter Repo](https://github.com/InfiniBrains/ModernCppStarter) (and star it) or create your own from scratch.
@@ -144,14 +144,14 @@ Check and try to reproduce the same thing you see [here](https://github.com/Infi
 If you are following the [Modern CPP Starter Repo](https://github.com/InfiniBrains/ModernCppStarter), you can explore automated tests. Be my guest and try it.
 
 ## Review
-How far you went? Share your repos [here](https://github.com/InfiniBrains/Introduction-to-Game-Programming-With-CPP/issues/2).
+How far you went? Share your repos [here](https://github.com/InfiniBrains/Awesome-GameDev-Resources/issues/2).
 
 ## Retrospective
 
-Please give me feedbacks in what we did today. If you like or have something to improve, say something in [here](https://github.com/InfiniBrains/Introduction-to-Game-Programming-With-CPP/issues/2). Ah! you can always fork this repo, improve it and send a pull request back to this repo.
+Please give me feedbacks in what we did today. If you like or have something to improve, say something in [here](https://github.com/InfiniBrains/Awesome-GameDev-Resources/issues/2). Ah! you can always fork this repo, improve it and send a pull request back to this repo.
 
 ## Closing
 
-Give stars to all repos you saw here as a way to contribute to the continuity of the project. [![say thanks](https://img.shields.io/badge/Say%20Thanks-👍-1EAEDB.svg)](https://github.com/InfiniBrains/Introduction-to-Game-Programming-With-CPP/stargazers)
+Give stars to all repos you saw here as a way to contribute to the continuity of the project. [![say thanks](https://img.shields.io/badge/Say%20Thanks-👍-1EAEDB.svg)](https://github.com/InfiniBrains/Awesome-GameDev-Resources/stargazers)
 
 Propose a new Dojo and be in touch. [![Discord](https://img.shields.io/discord/956922983727915078)](https://discord.gg/9CdJeQ2XKB)

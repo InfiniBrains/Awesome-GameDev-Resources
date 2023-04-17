@@ -321,7 +321,7 @@ int main(){
 1. Setup your environment for your needs following the choices given above. If you are unsure, use CLion and you 
    will be mostly safe. 
 2. Fork this repo privately. You will have to do your assignments there. Go to the home repo and hit
-[fork](https://github.com/InfiniBrains/Introduction-to-Game-Programming-With-CPP/fork).
+[fork](https://github.com/InfiniBrains/Awesome-GameDev-Resources/fork).
 3. Clone this repo to your machine. [gitkraken + github](https://www.youtube.com/watch?v=5nhNfMcczlQ)
 [gitkraken clone](https://www.youtube.com/watch?v=Mxd-0dO2uyI)
 [gitkraken big tutorial](https://www.youtube.com/watch?v=ceT3pm5hYvs)
@@ -333,5 +333,5 @@ And do the activities described there.
 
 # Troubleshooting
 If you have problems here, start a
-[discussion](https://github.com/InfiniBrains/Introduction-to-Game-Programming-With-CPP/discussions) this is publicly 
+[discussion](https://github.com/InfiniBrains/Awesome-GameDev-Resources/discussions) this is publicly 
 visible and not FERPA compliant. Use discussions in Canvas if you are enrolled in a class with me.

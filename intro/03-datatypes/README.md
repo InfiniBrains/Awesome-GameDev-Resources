@@ -496,4 +496,4 @@ cents %= 10000; // update the remaining cents by removing the amount of 100 doll
 ```
 
 # Troubleshooting
-If you have problems here, start a [discussion](https://github.com/InfiniBrains/Introduction-to-Game-Programming-With-CPP/discussions). Nhis is publicly visible and not FERPA compliant. Use discussions in Canvas if you are enrolled in a class with me. Or visit the tutoring service.
+If you have problems here, start a [discussion](https://github.com/InfiniBrains/Awesome-GameDev-Resources/discussions). Nhis is publicly visible and not FERPA compliant. Use discussions in Canvas if you are enrolled in a class with me. Or visit the tutoring service.

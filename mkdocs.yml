@@ -1,6 +1,6 @@
-site_name: Awesome CPP Course
+site_name: Awesome GameDev Resources
 site_url: https://courses.tolstenko.net
-repo_url: https://github.com/InfiniBrains/Introduction-to-Game-Programming-With-CPP
+repo_url: https://github.com/InfiniBrains/Awesome-GameDev-Resources
 
 nav:
   - Home: README.md
@@ -110,7 +110,7 @@ theme:
 edit_uri: blob/main/
 
 site_description: >-
-  Awesome CPP Course
+  Awesome GameDev Resources
 
 site_author: https://tolstenko.net
 

@@ -18,7 +18,7 @@ LINKS_NAVBAR1 = [
 #     (None, 'files', [(None, 'concurrency_8h')]),
 # ]
 
-FINE_PRINT = """Awesome Cpp Course. Created by <a href="https://linktree.com/tolstenko">Alexandre Tolstenko</a> and <a href="https://github.com/InfiniBrains/Introduction-to-Game-Programming-With-CPP/graphs/contributors">Others</a>. 2023. All rights reserved."""
+FINE_PRINT = """Awesome GameDev Resources. Created by <a href="https://linktree.com/tolstenko">Alexandre Tolstenko</a> and <a href="https://github.com/InfiniBrains/Awesome-GameDev-Resources/graphs/contributors">Others</a>. 2023. All rights reserved."""
 
 HTML_HEADER = """<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-76LZTVL113"></script>

@@ -17,7 +17,7 @@ endif()
 # ---- Doxygen variables ----
 
 # set Doxyfile variables
-set(DOXYGEN_PROJECT_NAME "Awesome Cpp Course")
+set(DOXYGEN_PROJECT_NAME "Awesome GameDev Resources")
 #set(DOXYGEN_PROJECT_VERSION ${Concurrency_VERSION})
 set(DOXYGEN_PROJECT_ROOT "${CMAKE_CURRENT_LIST_DIR}/..")
 set(DOXYGEN_OUTPUT_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/doxygen")
