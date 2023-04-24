@@ -379,10 +379,114 @@ int c = lambda(); // c will be 5, x will be 2, and y will be 3.
 
 For a more in depth understanding, go to [Manual Reference](https://en.cppreference.com/w/cpp/language/lambda) or check this [tutorial](https://www.learncpp.com/cpp-tutorial/lambda-captures/). 
 
+# Multiple files
+
+In bigger projects, it is useful to split your code in multiple files isolating intention and organizing your code. To do so, you can create a header file with the extension `.h` and a source file with the extension `.cpp`. The header file will contain the declarations of the functions and the source file will contain the definitions of the functions. The header file will be included in the source file and the source file will be compiled together with the main file.
+
+```c++ title="main.cpp"
+#include <iostream>
+#include "functions.h"
+using namespace std;
+
+int main() {
+  cout << sum(1, 2) << endl;
+  return 0;
+}
+```
+
+```c++ title="functions.h"
+// Preprocessor directive (macro) to ensure that this header file is only included once
+#ifndef FUNCTIONS_H
+#define FUNCTIONS_H
+
+// Function declaration without body
+int sum(int a, int b);
+
+#endif
+```
+
+Alternatively, you can use `#pragma once` instead of `#ifndef`, `#define` end `#endif` to ensure that the header file is only included once.
+This is a non-standard preprocessor directive, but it is supported by most compilers.
+Ex.:
+
+```c++ title="functions.h"
+// Preprocessor directive (macro) to ensure that this header file is only included once
+#pragma once
+
+// Function declaration without body
+int sum(int a, int b);
+```
+
+```c++ title="functions.cpp"
+// include the header file that contains the function declaration
+#include "functions.h"
+
+// function definition with body 
+int sum(int a, int b) {
+  return a + b;
+}
+```
+
+# Preprocessor directives and macros
+
+In C++, the preprocessor is a text substitution tool. It runs before compiling the code. It scans a program for special commands called preprocessor directives, which begin with a `#` symbol. When it finds a preprocessor directive, it performs the specified text substitutions before the program is compiled. 
+
+The most common preprocessor directive is `#include`, which tells the preprocessor to include the contents of another file in the current file. The included file is called a header file, and commonly has a `.h` extension. For example:
+
+```c++
+#include <iostream>
+```
+
+Another extensively used macro is `#define`, which defines a macro. A macro is a symbolic name for a constant value or a small piece of code. For example:
+
+```c++
+#define PI 3.14159
+```
+
+It will replace all occurrences of `PI` with `3.14159` before compiling the code. But pay attention that is not recommended to use macros for constants, because they are not type safe and can cause unexpected behavior. It is recommended to declare `const` variable instead.
+
+See more about some cases against macros here:
+
+- https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#enum1-prefer-enumerations-over-macros
+- https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#es30-dont-use-macros-for-program-text-manipulation
+- https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#es31-dont-use-macros-for-constants-or-functions
+
+Nowadays the best use case for macros are for conditional compilation or platform specification. For example:
+
+```c++
+#define DEBUG 1
+
+int main() {
+  #if DEBUG
+    std::cout << "Debug mode" << std::endl;
+  #else
+    std::cout << "Release mode" << std::endl;
+  #endif
+}
+```
+
+Another example is to define the operating system:
+
+```c++
+#ifdef _WIN32
+  #define OS "Windows"
+#elif __APPLE__
+  #define OS "MacOS"
+#elif __linux__
+  #define OS "Linux"
+#else
+  #define OS "Unknown"
+#endif
+
+int main() {
+  std::cout << "OS: " << OS << std::endl;
+}
+```
+
 # Homework
 
 - Do all exercises up to this topic [here](https://www.w3schools.com/cpp/exercise.asp).
-- [Hexadecimal converter](https://www.beecrowd.com.br/judge/en/problems/view/1957). In this activity, you will have to code a way to find the convert to hexadecimal without using any std library to do it for you.
+- [Hexadecimal converter](https://www.beecrowd.com.br/judge/en/problems/view/1957). In this activity, you will have to code a way to find the convert to hexadecimal without using any std library to do it for you. DON'T USE `std::hex`.
 
 # Outcomes
 

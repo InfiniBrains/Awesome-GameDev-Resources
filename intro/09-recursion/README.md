@@ -51,17 +51,20 @@ int binarySearch(int arr[], int start, int end, int number) {
     else {
         // recursive case
         int mid = (start + end) / 2;
+        // return the middle if wi find the number
         if (arr[mid] == number)
             return mid;
+        // if the number is smaller than the middle, search in left side
         else if (arr[mid] > number)
             return binarySearch(arr, start, mid - 1, number);
+        // if the number is bigger than the middle, search in right side
         else
             return binarySearch(arr, mid + 1, end, number);
     }
 }
 ```
 
-Binary search plays a fundamental role in Newton's method, which is a method to find and approximate the result of complex mathematical functions such as the square root of a number. Binary sort are extensively used in sorting algorithms such as quick sort and merge sort. 
+Binary search plays a fundamental role in Newton's method, which is a method to find and approximate the result of complex mathematical functions such as the square root of a number. Binary-sort is extensively used in sorting algorithms such as quick sort and merge sort. 
 
 ## Merge sort
 

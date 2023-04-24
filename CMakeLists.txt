@@ -24,11 +24,20 @@ if(EMSCRIPTEN)
   set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Oz -s WASM=2")
 endif()
 
+CPMAddPackage("gh:onqtam/doctest@2.4.8")
+
 # options to what include and use
 OPTION(ENABLE_INTRO "ENABLE_INTRO" ON)
 IF(ENABLE_INTRO)
   set(CMAKE_CXX_STANDARD 20)
   add_subdirectory(intro)
+endif()
+
+# options to what include and use
+OPTION(ENABLE_ADVANCED_CPP "ENABLE_ADVANCED_CPP" ON)
+IF(ENABLE_ADVANCED_CPP)
+  set(CMAKE_CXX_STANDARD 20)
+  add_subdirectory(advancedcpp)
 endif()
 
 # todo: do the same for the other topics
