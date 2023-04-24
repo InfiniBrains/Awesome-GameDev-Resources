@@ -1,4 +1,4 @@
-# Awesome Programming Course with C++ and Games
+# Awesome GameDev Resources
 
 How to use this repo: Read the topics, and if you are unsure if you understand the topics covered here it is a good 
 time for you to revisit them. 
