@@ -279,7 +279,7 @@ int main() {
   greet(); // the default parameter user is used here
 
   // Prints "Hello John"
-  printMessage("John");
+  greet("John");
   
   return 0;
 }
