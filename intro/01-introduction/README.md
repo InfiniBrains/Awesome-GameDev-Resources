@@ -40,6 +40,10 @@ as a mad horse while trying to be easier than assembly. Remember, it can always 
 
 [![](https://media.tenor.com/lc0byR9CdzAAAAAC/trampling-charge.gif)](https://tenor.com/view/trampling-charge-gif-19264241)
 
+The main philosophy that guides C++ is the **"Zero-cost abstractions"**, and it is the main reason why C++ is so fast. It means that **the language does not add any overhead to assembly**. So, if someone proposes a new core feature as a Technical specification, it should pass through this filter. And it is a very high bar to pass. I am looking at you, [ts reflection](https://en.cppreference.com/w/cpp/compiler_support), everyone I know that want to make games, ask for this feature, but it is not there yet. 
+
+[![](https://imgs.xkcd.com/comics/abstraction.png)](https://xkcd.com/676/)
+
 ## Why does speed matter?
 
 Mainly because we don’t want to waste time. Right? But it has more impactful consequences. Let’s think a bit more, you 

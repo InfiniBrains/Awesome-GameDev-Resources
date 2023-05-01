@@ -200,7 +200,7 @@ int main() {
 }
 ```
 
-Example on hov to jump over and skip statements:
+Example on how to jump over and skip statements:
 ```c++
 #include <iostream>
 
@@ -262,6 +262,37 @@ while(i<10); // note the ';' here, it will run indefinitely an empty statement b
     cout << i << endl;
     i++;
 }
+```
+
+# Accumulator Pattern
+
+The accumulator pattern is a way to accumulate values in a loop. Here is an example of how to use it:
+
+```c++
+int fact = 1; // accumulator variable
+for(int i=2; i<5; i++){
+    fact *= i; // multiply the accumulator by the current value of i
+}
+// fact = 1*1*2*3*4 = 24
+cout << fact << endl;
+```
+
+# Search pattern
+
+The search pattern is a way to search for a value in a loop, the most common implementation is a boolean flag. Here is an example of how to use it:
+
+```c++
+int num;
+cin >> num; // read the number to be checked if is prime or not
+bool isPrime = true; // flag to indicate if the number is prime or not
+for(int i=2; i<num; i++){
+    if(num%i==0){ // check if i divides num
+        isPrime = false;
+        break; // this will break the loop and prevent further precessing
+    }
+}
+cout << num << " is " << (isPrime ? "" : "not ") << "prime" << endl;
+// (isPrime ? "" : "not ") is the ternary operator, it is a shorthand for if-else
 ```
 
 # Debugging
