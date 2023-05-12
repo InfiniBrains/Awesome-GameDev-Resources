@@ -7,7 +7,7 @@ assignees: germano123
 
 ---
 
-# [Workshop Name]
+# [Lecture Name]
 
 The lecture must be an event model with a duration of up to 60 minutes that will serve as a basis for the presentation over a certain time.If you want this event to be executed, please vote by reacting with 👍 in the issue.
 
