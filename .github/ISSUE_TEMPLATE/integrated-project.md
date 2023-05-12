@@ -9,7 +9,7 @@ assignees: germano123
 
 # [Project Name]
 
-If you want this project to be executed, feel free to react with 👍 in the issue meaning you want to contribute with it.
+This project should work carried out by the community in order to practice and exchange development experiences in different lines with all members. If you want this project to be executed, feel free to react with 👍 in the issue meaning you want to contribute with it.
 
 - Goals: [Write the goals of each session] Ex.: `Create a website for our awesome community.`
 - Techs: [What techs are supposed to be used] Ex.: `Next, NestJS, TS, Postgres`
