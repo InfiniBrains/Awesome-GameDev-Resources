@@ -17,9 +17,10 @@ Quality: [![codecov](https://codecov.io/gh/InfiniBrains/Awesome-GameDev-Resource
 Metrics: [![Codacy Badge](https://app.codacy.com/project/badge/Grade/bd231b45a10a41c98f2bbe5bf0e3c808)](https://www.codacy.com/gh/InfiniBrains/Awesome-GameDev-Resources/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=InfiniBrains/Awesome-GameDev-Resources&amp;utm_campaign=Badge_Grade) ![GitHub language count](https://img.shields.io/github/languages/count/InfiniBrains/Awesome-GameDev-Resources) ![GitHub search hit counter](https://img.shields.io/github/search/InfiniBrains/Awesome-GameDev-Resources/todo) ![Lines of code](https://img.shields.io/tokei/lines/github.com/InfiniBrains/Awesome-GameDev-Resources) ![GitHub all releases](https://img.shields.io/github/downloads/InfiniBrains/Awesome-GameDev-Resources/total) ![GitHub contributors](https://img.shields.io/github/contributors/InfiniBrains/Awesome-GameDev-Resources)
 
 # Topics
-1. [Intro to Programming](intro/README.md)
-2. [Developer Portfolio](portfolio/README.md)
 
+1. [Intro to Programming](intro/README.md)
+2. [Advanced Programming](advanced/README.md)
+3. [Developer Portfolio](portfolio/README.md)
 
 # Philosophy
 

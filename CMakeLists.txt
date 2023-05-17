@@ -37,7 +37,7 @@ endif()
 OPTION(ENABLE_ADVANCED_CPP "ENABLE_ADVANCED_CPP" ON)
 IF(ENABLE_ADVANCED_CPP)
   set(CMAKE_CXX_STANDARD 20)
-  add_subdirectory(advancedcpp)
+  add_subdirectory(advanced)
 endif()
 
 # todo: do the same for the other topics
