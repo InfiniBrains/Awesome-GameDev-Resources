@@ -86,6 +86,24 @@ arr = nullptr; // Reset the pointer to null to avoid dangling pointers and other
 
 The `delete` operator takes a pointer to the beginning of the block of memory to free. The `[]` operator is used to indicate that the block of memory contains an array, and that the `delete` operator should free the entire array.
 
+## Dynamic allocation of multi-dimensional arrays
+
+In the case of dynamically allocate memory for a multidimensional array, first you have to understand that in the same way you can have an array of arrays, you can have a pointer to a pointer. This is called a double pointer. So, if you want to allocate a 2-dimensional array dynamically, you can do it like this:
+
+```c++
+int lines, columns;
+cin >> lines >> columns;
+int **arr = new int*[lines]; // Allocate an array of pointers to pointers
+for (int i = 0; i < lines; i++) {
+  arr[i] = new int[columns]; // Allocate an array of integers for each pointer
+}
+// do stuff with the array
+for (int i = 0; i < lines; i++) {
+  delete[] arr[i]; // Free the memory for each array of integers
+}
+delete[] arr; // Free the memory for the array of pointers
+```
+
 # Smart pointers to rescue
 
 You probably noticed the number of bugs and vulnerabilities that can be caused by improper memory management. To help address that, C++ introduced smart pointers. The general purpose smart contract you will be mostly using is `shared_ptr` that in the end of the scope and when all references to it become 0 will automatically free the memory. The other smart pointers are `unique_ptr` and `weak_ptr` that are used in more advanced scenarios. But for now, we will focus on `shared_ptr`.
@@ -145,6 +163,51 @@ void printArray(int arr[], int size) // Pass the array by reference to avoid cop
     std::cout << '\n';
 }
 ```
+
+Alternativelly you can pass the array as a pointer:
+
+```c++
+void printArray(int *arr, int size)
+{
+    for (int i = 0; i < size; ++i)
+        std::cout << arr[i] << ' ';
+    std::cout << '\n';
+}
+```
+
+If you want to pass a two dimension array, you can do it in multiple ways:
+
+```c++
+void printArray(int rows, int columns, int **arr); // Pass the array as a pointer of pointers
+```
+
+This approach is problematic as you can see it in depth [here](https://c-faq.com/aryptr/pass2dary.html). It does not check for types and it is not safe. You can also pass the array as a pointer to an array:
+
+```c++
+void printArray(int rows, int arr[][10]); // if you know the number of columns and it is fixed, in this case 10 
+```
+
+```c++
+void printArray(int rows, int (*arr)[10]); // if you know the number of columns and it is fixed, in this case 10 
+```
+
+```c++
+void printArray(int arr[10][10]); // if you know the number of rows and columns and they are fixed, in this case both 10
+```
+
+There is others ways to pass arrays to functions, such as **templates** but they are more advanced and **we will not cover them now**.
+
+# EXTRA: Standard Template Library (STL)
+
+Those are the most common data structures that you will be using in C++. But it is outside the scope of this course to cover them in depth. So we will only give entry-points for you to learn more about them.
+
+## Arrays
+
+If you are using fixed sized arrays, and want to be safe to avoid problems related to out of bounds, you should use the STL arrays. It is a template class that encapsulates fixed size arrays and adds protections for it. It is a safer alternative to C-style arrays. Read more about it [here](https://en.cppreference.com/w/cpp/container/array).
+
+## Vectors
+
+Vectors are the safest way to deal with dynamic arrays in C++, the cpp core guideline even states that you should use it whenever you can. Vector is implemented in the standard template library and provide a lot of useful functions. Read more about them [here](https://en.cppreference.com/w/cpp/container/vector).
 
 # Extra curiosities
 
