@@ -21,3 +21,15 @@
 | 15   | 2023/04/24 | Review                                                                       |
 | 16   | 2023/05/01 | FINALS                                                                       |
 
+# References
+
+- [learncpp](https://www.learncpp.com/)
+- [cpluslus](https://cplusplus.com/doc/tutorial/)
+- [cprogramming](https://www.cprogramming.com/tutorial/c++-tutorial.html)
+- [programming-books](https://www.programming-books.io/essential/cpp/)
+- [google style guide](https://google.github.io/styleguide/cppguide.html)
+- [riptutorial](https://riptutorial.com/cplusplus)
+- [cpp manual](https://cppreference.com/)
+- [cpp core guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
+- [rooksguide](https://rooksguide.files.wordpress.com/2013/12/rooks-guide-isbn-version.pdf)
+- [cpp best practices](https://lefticus.gitbooks.io/cpp-best-practices/content/)

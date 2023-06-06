@@ -18,7 +18,7 @@ Holidays:
 | Week 6 2023/10/02  | Operator overloading, type conversion operators, convert constructors, aggregation and composition, namespaces                                                 |
 | Week 7 2023/10/09  | Mid term / break                                                                                                                                               |
 | Week 8 2023/10/16  | Vectors and arrays of objects. Linked lists, linked list operations                                                                                            |
-| Week 9 2023/10/23  | Thanksgiving Break - No Class on Friday) Inheritance, protected members, constructors/destructors                                                              |
+| Week 9 2023/10/23  | Thanksgiving Break - No Class on Friday Inheritance, protected members, constructors/destructors                                                               |
 | Week 10 2023/10/30 | inheritance, overriding base class functions                                                                                                                   |
 | Week 11 2023/11/06 | Inheritance hierarchies, polymorphism and virtual member functions, abstract base classes and pure virtual functions                                           |
 | Week 12 2023/11/13 | Exceptions, function and class templates, STL and STL containers, iterators                                                                                    |
