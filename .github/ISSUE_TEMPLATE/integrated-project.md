@@ -28,7 +28,7 @@ Once you have the team create a working plan to explain how the project will be 
 
 > It should be something like this:
 > 1. Introduction
-> Inicie a apresentação com uma breve introdução sobre o projeto e os objetivos a serem alcançados.
+> Start the presentation with a short introduction about the project and clear objectives to be achieved.
 > 
 > 2. Objectives
 > Describe the specific objectives of the project clearly and succinctly.
