@@ -1,105 +1,186 @@
 # Tools for C++ development
 
-Every programing language use different set of tools in order to effectively code. In C++ you will need to learn how to use o bunch of them to be effective.
+!!! tip inline end "Opinion"
 
-## Version Control - GIT 
+    This list is a mix of standard tools and personal choice. It is a good starting point, but in the future you will be impacted by other options, just keep your mind open to new choices.
 
-> [Git](https://git-scm.com/downloads) is a version control system that is used to track changes to files, including 
-> source code, documents, and other types of files. It allows multiple people to work on the same files concurrently, 
-> and it keeps track of all changes made to the files, making it easy to go back to previous versions or merge changes 
-> made by different people. Git is widely used by developers for managing source code, but it can be used to track changes
-> to any type of file. It is particularly useful for coordinating work on projects that involve multiple 
-> people, as it allows everyone to see and track changes made by others. [Reference](https://chat.openai.com/).
->
-> [Github](https://github.com) is a web-based platform for version control and collaboration on software 
-> projects. It is a popular platform for developers to share and collaborate on code, as well as to track and manage 
-> software development projects. GitHub provides version control using Git, a version control system that allows 
-> developers to track changes to their codebase and collaborate with other developers on the same codebase. It also
-> includes a range of features such as bug tracking, project management, and team communication tools. In addition to 
-> being a platform for software development, GitHub is also a community of developers and a marketplace for buying and 
-> selling software development services.
+- [:octicons-versions-16: Version Control](#version-control)
+    - [:fontawesome-brands-git: GIT](#git)
+    - [:fontawesome-brands-github: Github](#github)
+    - [:fontawesome-brands-gitkraken: GitKraken](#gitkraken)
+- [:material-language-cpp: Compiler](#compiler)
+- [:simple-cmake: CMake](#cmake)
 
-In this course we are going to extensively use GITHUB functionalities. So create an account now with your 
-personal account. Use a meaningful username. Avoid names that hard to associate with you. If you have a educational 
-email or student id, apply for the [Github Student Pack](https://education.github.com/pack), so you will have access 
-to lots of free tools.
+Every programing language use different set of tools in order to effectively code. In C++ you will need to learn how to use a bunch of them to solve problems and develop software.
 
-It is nice to have `git` in your machine, but it is not required, because we are going to use gui via gui tools. See below 
+## Version Control :octicons-versions-16:
 
-> [GitKraken](https://www.gitkraken.com/) GitKraken is a Git client for Windows, Mac, and Linux that provides a 
-> graphical interface for working with Git repositories. It allows users to manage Git repositories, create and review 
-> changes to code, and collaborate with other developers. Some features of GitKraken include a visual representation 
-> of the repository's commit history, the ability to stage and discard changes, and support for popular version 
-> control systems like GitHub and GitLab. GitKraken is designed to be user-friendly and to make it easier for 
-> developers to work with Git, particularly for those who may be new to version control systems..
+Version control are tools that help you to keep track of your code changes. It is a must have tool for any developer. You can keep track the state of your code, and if you mess up something, you can go back to a previous state. It is also a great tool to collaborate with other developers. You can work on the same codebase without messing up each other work.
 
-Gitkraken is a paid software, and it is free for public repositories, but you can have all enterprise and premium
-functionalities enabled for free with the student pack and described before.  
+### GIT :simple-git:
+
+!!! note inline end "Optional"
+
+    [Install Git](https://github.com/git-guides/install-git){ .md-button }
+
+[:simple-git: Git](https://git-scm.com/downloads) is a version control system that is used to track changes to files, including source code, documents, and other types of files. It allows multiple people to work on the same files concurrently, and it keeps track of all changes made to the files, making it easy to go back to previous versions or merge changes made by different people. Git is widely used by developers for managing source code, but it can be used to track changes to any type of file. It is particularly useful for coordinating work on projects that involve multiple people, as it allows everyone to see and track changes made by others.
+
+
+### Github :fontawesome-brands-github:
+
+!!! warning inline end "Action"
+
+    [Github Student Pack](https://education.github.com/pack){ .md-button .md-button--primary }
+
+[:fontawesome-brands-github: Github](https://github.com) is a web-based platform for version control and collaboration on software projects. It is a popular platform for developers to share and collaborate on code, as well as to track and manage software development projects. GitHub provides version control using Git, a version control system that allows developers to track changes to their codebase and collaborate with other developers on the same codebase. It also includes a range of features such as bug tracking, project management, and team communication tools. In addition to being a platform for software development, GitHub is also a community of developers and a marketplace for buying and selling software development services.
+
+In this course we are going to extensively use GITHUB functionalities. So create an account now with your personal account. Use a meaningful username. Avoid names that hard to associate with you. If you have a educational email or student id, apply for the [Github Student Pack](https://education.github.com/pack), so you will have access to lots of free tools.
+
+It is nice to have `git` in your machine, but it is not required, because we are going to use gui via gui tools. See [:fontawesome-brands-gitkraken: GitKraken](#gitkraken) below. 
+
+### GitKraken :fontawesome-brands-gitkraken:
+
+!!! warning inline end "Action"
+
+    [Install Gitkraken](https://www.gitkraken.com/download){ .md-button .md-button--primary }
+
+[GitKraken :fontawesome-brands-gitkraken:](https://www.gitkraken.com/) is a Git client for Windows, Mac, and Linux that provides a graphical interface for working with Git repositories. It allows users to manage Git repositories, create and review changes to code, and collaborate with other developers. Some features of GitKraken include a visual representation of the repository's commit history, the ability to stage and discard changes, and support for popular version control systems like GitHub and GitLab. GitKraken is designed to be user-friendly and to make it easier for developers to work with Git, particularly for those who may be new to version control systems.
+
+Gitkraken is a paid software, and it is free for public repositories, but you can have all enterprise and premium functionalities enabled for free with the student pack and described before.  
 
 [Install Gitkraken](https://www.gitkraken.com/). If you login into gitkraken using GitHub with student pack it will unlock all pro features.
 
-## Compiler
-> A compiler is a type of computer program that translates source code written in a programming language into machine 
-> code that can be executed by a computer. The machine code is a sequence of instructions that are specific to a 
-> particular computer architecture and operating system. The source code is written in a high-level programming 
-> language, such as C++, Java, or Python, which is easier for humans to read and write. The compiler converts the 
-> source code into machine code that can be run on a computer. There are different types of compilers, including 
-> cross-compilers, which can compile code for one type of computer to run on another type of computer, and 
-> just-in-time (JIT) compilers, which compile code at runtime. Compilers are an important part of the software 
-> development process, as they allow developers to write code in a high-level language that is then translated into 
-> machine code that can be run on a specific platform.
+## :material-language-cpp: Compiler
 
-This where things get tricky, C++ compiles the code into a binary that runs directly on the processor and interacts 
-with the operating system. So we can have multiple combinations here. Most compilers are cross-platform, but there 
-is exceptions. And to worsen it, some Compilers are tightly coupled with some IDEs(see below, next item). 
+A compiler is a type of computer program that translates source code into machine instructions that can be run  or the `CPU` or interpreted in a `Virtual Machine`.
 
-I personally prefer to use CLang to be my target because it is the one that is most reliable cross-platform 
-compiler. Which means the code will work as expected in most of the scenarios, the feature support table is the same 
-across all platforms. But GCC is the more bleeding edge, which means usually it is the first to support all new 
-fancy features C++ introduces.
+``` mermaid
+graph TD
+  SRC[Source Code] --> |Assembly| OBJ[Machine Code];
+  OBJ --> EXE[Executable];
+  OBJ --> LIB[Library];
+```
+
+- `Source Code` in C++, is associated to two different type of textual file extensions: `.cpp` for sources and `.h` for header files. It is what the developer writes.
+- `Assembly` is a human readable representation of the `Machine Code`. It is not the `Machine Code` itself, but it is a representation of it. It is a way to make the `Machine Code` human readable.
+- `Machine Code` is what the `CPU` can run and understand. It is a sequence of `0` and `1` that the `CPU` can understand and execute. It is not human readable.
+- `Executable` is the result of the compilation process. It is a file that can be executed by the `Operating System`.
+- `Library` is a collection of `Machine Code` that can be used by other programs.
+- `Executable` and `Library` Are binary file that contains the `Machine Code` instructions that the `CPU` can execute.
+
+!!! note
+
+    In compiled languages, the end user only receives the executables and libraries. The source code is not distributed.
+
+Here you can see briefly a small function to square a number in `C++` compiled via `GCC` into a `x86-64` `assembly`. The left side is the `Source Code` and the right side is the code compiled into a human-readble `Assembly`. This code still needs links to the `Operation System` in order to be executed.
+
+<iframe width="800px" height="300px" src="https://godbolt.org/e?readOnly=true&hideEditorToolbars=true#g:!((g:!((g:!((h:codeEditor,i:(filename:'1',fontScale:14,fontUsePx:'0',j:1,lang:c%2B%2B,selection:(endColumn:2,endLineNumber:4,positionColumn:2,positionLineNumber:4,selectionStartColumn:2,selectionStartLineNumber:4,startColumn:2,startLineNumber:4),source:'//+Type+your+code+here,+or+load+an+example.%0Aint+square(int+num)+%7B%0A++++return+num+*+num%3B%0A%7D'),l:'5',n:'0',o:'C%2B%2B+source+%231',t:'0')),k:50,l:'4',n:'0',o:'',s:0,t:'0'),(g:!((h:compiler,i:(compiler:gsnapshot,deviceViewOpen:'1',filters:(b:'0',binary:'1',binaryObject:'1',commentOnly:'0',debugCalls:'1',demangle:'0',directives:'0',execute:'1',intel:'0',libraryCode:'0',trim:'1'),flagsViewOpen:'1',fontScale:14,fontUsePx:'0',j:1,lang:c%2B%2B,libs:!(),options:'-O0',overrides:!(),selection:(endColumn:1,endLineNumber:1,positionColumn:1,positionLineNumber:1,selectionStartColumn:1,selectionStartLineNumber:1,startColumn:1,startLineNumber:1),source:1),l:'5',n:'0',o:'+x86-64+gcc+(trunk)+(Editor+%231)',t:'0')),k:50,l:'4',n:'0',o:'',s:0,t:'0')),l:'2',n:'0',o:'',t:'0')),version:4"></iframe>
+
+
+### Notes on Virtual Machines (VM)
+
+!!! tip inline end
+
+    The knowledge of this section is not required for this course, but it is good to know.
+
+Some languages such as `Java`, `C#` and others, compile the `Source Code` into `bytecode` that runs on top of an abstraction layer called `Virtual Machine` (VM). The VM is a software that runs on top of the `Operating System` and it is responsible to translate the `bytecode` into `Machine Code` that the `CPU` can understand. This is a way to make the `Source Code` portable across different `Operating Systems` and `CPU` architectures - `cross-platform`. But this abstraction layer has it cost and it is not as efficient as the `Machine Code` itself. 
+
+To speed up the execution, some `VM` can `Just In Time` (`JIT`) compile the `bytecode` into `Machine Code` at runtime when the `VM` detects parts of `Source Code` is running a lot(`Hotspots`), to speed up the execution. When this optmization step is happening, the machine is warming up.
+
+``` mermaid
+graph TD
+  SRC[Source Code] --> |Compiles| BYT[Bytecode];
+  BYT --> |JIT Compiler| CPU[Machine Code];
+```
+
+!!! note
+
+    In languages that uses VMs, the end user receives the bytecode. The source code is not distributed.
+
+### Notes on Interpreters
+
+!!! tip inline end
+
+    The knowledge of this section is not required for this course, but it is good to know.
+
+Some languages such as `Python`, `Javascript` and others, do not compile the `Source Code`, instead, they run on top a program called `Interpreter` that reads the `Source Code` and executes it line by line.
+
+``` mermaid
+graph TD
+  SRC[Source Code] --> |read line| INT[Interpreter];
+  INT --> |translates| CPU[Machine Code];
+```
+
+Some `Interpreters` are `Ahead Of Time` (`AOT`) and they compile the `Source Code` into `Machine Code` before the `Source Code` is executed.
+
+``` mermaid
+graph TD
+  SRC[Source Code] --> |AoT compile| INT[Bytecode / Machine Code];
+  INT --> CPU;
+```
+
+!!! note
+
+    In intrepreted languages, the end user receives the source code. Sometimes the source code is obfuscated, but it is still readable. 
+
+### Platform specific
+
+This where things get tricky, C++ compiles the code into a binary that runs directly on the processor and interacts with the operating system. So we can have multiple combinations here. Most compilers are cross-platform, but there is exceptions. And to worsen it, some Compilers are tightly coupled with some IDEs(see below, next item). 
+
+I personally prefer to use CLang to be my target because it is the one that is most reliable cross-platform compiler. Which means the code will work as expected in most of the scenarios, the feature support table is the same across all platforms. But GCC is the more bleeding edge, which means usually it is the first to support all new fancy features C++ introduces.
 
 No need to download anything here. We are going to use the CLion IDE. See below topics.
 
-## CMake
-> [CMake](https://cmake.org/) CMake is a cross-platform free and open-source software tool for managing the build
-> process of software using a compiler-independent method. It is designed to support directory hierarchies and
-> applications that depend on multiple libraries. It is used to control the software compilation process using simple
-> platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice. [Reference](https://chat.openai.com/).
+## :simple-cmake: CMake
 
-If you use a good IDE(see next topic), you won't need to download anything here. 
+[CMake](https://cmake.org/) CMake is a cross-platform free and open-source software tool for managing the build process of software using a compiler-independent method. It is designed to support directory hierarchies and applications that depend on multiple libraries. It is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice.
 
-<details>
-CMake is typically used in conjunction with native build environments such as Make, Ninja, or Visual Studio. It can 
-also generate project files for IDEs such as Eclipse, Xcode, and Visual Studio.
+!!! note
 
-Here is a simple example of a CMakeLists.txt file that can be used to build a program called "myproject" that consists of a single source file called "main.cpp":
+    If you use a good IDE(see next topic), you won't need to download anything here. 
+
+CMake is typically used in conjunction with native build environments such as Make, Ninja, or Visual Studio. It can also generate project files for IDEs such as Xcode and Visual Studio. You can see a full list of supported generators [here](https://cmake.org/cmake/help/latest/manual/cmake-generators.7.html). 
+
+Here is a simple example of a `CMakeLists.txt` file that can be used to build a program called "myproject" that consists of a single source file called "main.cpp":
 
 ```cmake
+# Set minimum version of CMake that can be used
 cmake_minimum_required(VERSION 3.10)
+# Set the project name
 project(myproject)
+# Add executable named "myproject" to be built from the source "main.cpp"
 add_executable(myproject main.cpp)
 ```
 
-To build the project, you would first generate a build directory, and then run CMake to build the files using the 
-detected compiler or IDE:
+!!! warning
+
+    Every executable can only cave one `main` function. Each file with a main function describes a new executable program. If you want to have multiple executables in the same project, in other words, you want to manage multiple executables in the same place, you can change the cmake descriptor to match that as follows, and use your IDE to switch between them:
+
+    ```cmake
+    cmake_minimum_required(VERSION 3.10)
+    project(myproject)
+    add_executable(myexecutable1 main1.cpp)
+    add_executable(myexecutable2 main2.cpp)
+    ```
+
+
+!!! tip inline end
+
+    If you are using a nice IDE, you won't need to run this on the command line. So go to next topic.    
+
+If you want to build via command line this project, you would first generate a build directory, and then run CMake to build the files using the detected compiler or IDE:
+
 ```bash
 cmake -S. -Bbuild
 cmake --build build -j20
 ```
+
 This will create a Makefile or a Visual Studio solution file in the build directory, depending on your platform and compiler. You can then use the native build tools to build the project by running "make" or opening the solution file in Visual Studio.
 
 CMake provides many options and variables that can be used to customize the build process, such as setting compiler flags, specifying dependencies, and configuring installation targets. You can learn more about CMake by reading the documentation at https://cmake.org/.
 
-You cannot compile multiple files with main function. Each file with a main function describes a new executable program. If you want to have multiple executables in the same project, in other words, you want to manage in the same place multiple executables, you can change the cmake descriptor to match that as follows, and use your IDE to switch between them:
+[Subscribe to our newsletter][#]{ .md-button }
 
-```cmake
-cmake_minimum_required(VERSION 3.10)
-project(myproject)
-add_executable(myexecutable1 main1.cpp)
-add_executable(myexecutable2 main2.cpp)
-```
-
-</details>
 
 ## IDE
 
@@ -312,6 +393,7 @@ int main(){
 > to crash during run-time
 > 
 > [Reference](https://chat.openai.com/)
+
 
 # Exercises:
 - Research and read about other notable errors: segmentation fault, stack overflow, buffer overflow.

@@ -5,7 +5,6 @@ time for you to revisit them.
 - If you just want to read use the [pre-rendered documentation here](https://courses.tolstenko.net) the examples will work better there.
 - If you want to go deep and propose changes to repo, use the [github repo](https://github.com/InfiniBrains/Awesome-GameDev-Resources).
 
-
 # Badges
 
 CI: [![Documentation](https://github.com/InfiniBrains/Awesome-GameDev-Resources/actions/workflows/documentation.yaml/badge.svg)](https://github.com/InfiniBrains/Awesome-GameDev-Resources/actions/workflows/documentation.yaml)
@@ -73,3 +72,5 @@ For every type of style, I try to give a bit of insights:
     - I usually follow this strategy on advanced classes;
 - Demonstrator: explain and show things to students;
     - I usully provide a stream of references or even create my own content to show them how to do things;
+
+
