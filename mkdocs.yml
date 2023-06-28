@@ -1,6 +1,7 @@
 site_name: Awesome GameDev Resources
 site_url: https://courses.tolstenko.net
 repo_url: https://github.com/InfiniBrains/Awesome-GameDev-Resources
+repo_name: InfiniBrains/Awesome-GameDev-Resources
 
 nav:
   - Home: README.md
@@ -44,23 +45,24 @@ docs_dir: .
 
 theme:
   name: material
+  custom_dir: overrides
   features:
-    # - announce.dismiss
+    - announce.dismiss
     - content.action.edit
     - content.action.view
     - content.code.annotate
     - content.code.copy
-    - content.tabs.link
+    # - content.tabs.link
     - content.tooltips
     # - header.autohide
-    - navigation.expand
+    # - navigation.expand
     - navigation.footer
     - navigation.indexes
-    # - navigation.instant
-    # - navigation.prune
+    - navigation.instant
+    - navigation.prune
     - navigation.sections
     - navigation.tabs
-#    - navigation.tabs.sticky
+    - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
     - search.highlight
@@ -104,7 +106,8 @@ theme:
     text: Roboto
     code: Roboto Mono
 #  favicon: assets/favicon.png
-#  icon:
+  icon:
+    repo: fontawesome/brands/git-alt
 #    logo: logo
 
 edit_uri: blob/main/
@@ -138,10 +141,10 @@ markdown_extensions:
       anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.keys
-#  - pymdownx.magiclink:
-#      repo_url_shorthand: true
-#      user: squidfunk
-#      repo: mkdocs-material
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: InfiniBrains
+      repo: Awesome-GameDev-Resources
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences:
@@ -156,20 +159,46 @@ markdown_extensions:
   - pymdownx.tilde
 
 plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
+#  - git-committers:
+#      repository: InfiniBrains/Awesome-GameDev-Resources
+#      branch: main
+#  - git-authors
   - same-dir
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-  - minify
+  - minify:
+      minify_html: true
+#  - optimize
   - exclude:
       glob:
         - node_modules/*
         - buildDocs/*
         - cmake-build-debug/*
+        - .cache
 
 extra:
+  generator: false
+  annotate:
+    json: [ .s2 ]
   analytics:
     provider: google
     property: G-347541715
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/InfiniBrains

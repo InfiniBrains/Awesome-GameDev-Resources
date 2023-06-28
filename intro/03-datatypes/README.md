@@ -155,6 +155,7 @@ Keep in mind that it is a good practice to choose descriptive and meaningful nam
 
 It is also important to note that C++ has some naming conventions that are commonly followed by programmers. For example, it is common to use camelCase or snake_case to separate words in a variable name, and to use all lowercase letters for variables that are local to a function and all uppercase letters for constants.
 
+
 ## Variable declaration
 
 Variable declaration in C++ follows this pattern.
