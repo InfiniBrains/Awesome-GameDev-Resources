@@ -2,8 +2,6 @@ name: Documentation
 
 on:
   push:
-#    tags:
-#      - '*'
     branches:
       - master
       - main
@@ -45,7 +43,7 @@ jobs:
 #        run: cmake --build build -j4 --config Release
 
       - name: mkdocs
-        run:  ENABLE_PDF_EXPORT=1 mkdocs build
+        run:  ENABLE_PDF_EXPORT=0 mkdocs build
 
       - name: COPY CNAME
         run: cp CNAME ./site

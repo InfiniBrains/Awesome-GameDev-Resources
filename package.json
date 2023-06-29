@@ -1,7 +1,7 @@
 {
   "name": "awesome-programming-course",
   "version": "0.0.1",
-  "description": "Modern Cross Platform Job Scheduler and Runner with Job Stealing for Game Engines",
+  "description": "Awesome GameDev Resources",
   "main": "placeholder.js",
   "directories": {
     "test": "test"
@@ -22,22 +22,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/InfiniBrains/concurrency.git"
+    "url": "git+https://github.com/InfiniBrains/Awesome-GameDev-Resources.git"
   },
   "keywords": [
-    "GameEngine",
-    "JobStealing",
-    "TaskScheduler",
+    "C++",
     "CPP",
+    "Game Patterns",
+    "Game Programming",
+    "GameDev",
     "WASM",
-    "EMSCRIPTEN"
+    "EMSCRIPTEN",
+    "Game Engine"
   ],
   "author": "InfiniBrains",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/InfiniBrains/concurrency/issues"
+    "url": "https://github.com/InfiniBrains/Awesome-GameDev-Resources/issues"
   },
-  "homepage": "https://infinibrains.github.io/concurrency/",
+  "homepage": "https://infinibrains.github.io/InfiniBrains/Awesome-GameDev-Resources",
   "dependencies": {
     "@semantic-release/changelog": "^6.0.2",
     "@semantic-release/commit-analyzer": "^9.0.2",
@@ -53,7 +55,7 @@
       "master",
       "main"
     ],
-    "repositoryUrl": "https://github.com/InfiniBrains/concurrency",
+    "repositoryUrl": "https://github.com/InfiniBrains/Awesome-GameDev-Resources",
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
@@ -70,7 +72,8 @@
             "CHANGELOG.md"
           ]
         }
-      ]
+      ],
+      "@semantic-release/github"
     ]
   }
 }
