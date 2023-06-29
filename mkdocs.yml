@@ -165,6 +165,7 @@ plugins:
 #  - git-authors
   - git-revision-date-localized:
       enable_creation_date: true
+      fallback_to_build_date: true #todo: fix git security issue on github that prevents getting the full log
   - same-dir
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
