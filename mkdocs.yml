@@ -111,7 +111,6 @@ theme:
 #    logo: logo
 
 edit_uri: edit/main/
-view_uri: blob/main/
 
 site_description: >-
   Awesome GameDev Resources
