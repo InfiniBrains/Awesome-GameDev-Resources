@@ -91,11 +91,12 @@ runs straight on the CPU efficiently with lots of quality-of-life additions.
 you do not play around with memory-intensive problems. Another honorable mention is WASM - Web Assembly, although it is 
 a bytecode for a virtual machine, many programming languages are able to target it(compile for it), it is becoming blazing fast and it is getting traction nowadays, keep tuned. 
 
-[![](https://pics.me.me/me-i-need-64-bytes-of-memory-rust-yeah-umm-41882293.png)](https://me.me/i/me-i-need-64-bytes-of-memory-rust-yeah-umm-0d048f5778154bf3aa0bcd6dc1499677)
+![[rust vs c](https://www.reddit.com/r/ProgrammerHumor/comments/acgqbf/rust_vs_c/)](rust_vs_c.jpg)
+
 
 ## Who should learn C++
 
-[![](https://media.tenor.com/ur0xcQWCkegAAAAC/the-office-michael-scott.gif)](https://tenor.com/view/the-office-michael-scott-steve-carell-pointing-you-gif-15115246)
+[![You](https://media.tenor.com/ur0xcQWCkegAAAAC/the-office-michael-scott.gif)](https://tenor.com/view/the-office-michael-scott-steve-carell-pointing-you-gif-15115246)
 
 **YOU!** Yes, seriously, I don’t know you, but I am pretty sure **you should know how to code in any language**. C++ 
 can be challenging, it is a fact, but if you dare to challenge yourself to learn it, your life will be somewhat better.

@@ -1,11 +1,16 @@
 # Awesome GameDev Resources
 
-How to use this repo: Read the topics, and if you're unsure if you understand the topics covered here it is a good 
-time for you to revisit them. 
-- If you just want to read use the [pre-rendered documentation here](https://courses.tolstenko.net) the examples will work better there.
-- If you want to go deep and propose changes to repo, use the [github repo](https://github.com/InfiniBrains/Awesome-GameDev-Resources).
+How to use this repo: Read the topics, and if you're unsure if you understand the topics covered here it is a good time for you to revisit them.
 
-# Badges
+Ways of reading:
+
+- Website: [read through your browser](https://courses.tolstenko.net) the interactive examples and animations will work better in this version;
+- Github: [You read through the github repo](https://github.com/InfiniBrains/Awesome-GameDev-Resources);
+- PDF: [automatically built from the latest version](https://courses.tolstenko.net/pdf/document.pdf).
+- Amazon Kindle: [You can buy the book in Amazon]() and read it in your kindle device;
+- Contribute!: If you want to go deep and propose changes to repo, use the [github repo](https://github.com/InfiniBrains/Awesome-GameDev-Resources).
+
+## Badges
 
 CI: [![Documentation](https://github.com/InfiniBrains/Awesome-GameDev-Resources/actions/workflows/documentation.yaml/badge.svg)](https://github.com/InfiniBrains/Awesome-GameDev-Resources/actions/workflows/documentation.yaml)
 
@@ -15,26 +20,26 @@ Quality: [![codecov](https://codecov.io/gh/InfiniBrains/Awesome-GameDev-Resource
 
 Metrics: [![Codacy Badge](https://app.codacy.com/project/badge/Grade/bd231b45a10a41c98f2bbe5bf0e3c808)](https://www.codacy.com/gh/InfiniBrains/Awesome-GameDev-Resources/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=InfiniBrains/Awesome-GameDev-Resources&amp;utm_campaign=Badge_Grade) ![GitHub language count](https://img.shields.io/github/languages/count/InfiniBrains/Awesome-GameDev-Resources) ![GitHub search hit counter](https://img.shields.io/github/search/InfiniBrains/Awesome-GameDev-Resources/todo) ![Lines of code](https://img.shields.io/tokei/lines/github.com/InfiniBrains/Awesome-GameDev-Resources) ![GitHub all releases](https://img.shields.io/github/downloads/InfiniBrains/Awesome-GameDev-Resources/total) ![GitHub contributors](https://img.shields.io/github/contributors/InfiniBrains/Awesome-GameDev-Resources)
 
-# Topics
+## Topics
 
 1. [Intro to Programming](intro/README.md)
 2. [Advanced Programming](advanced/README.md)
 3. [Developer Portfolio](portfolio/README.md)
 
-# Philosophy
+## Philosophy
 
 This repository aims to be practical, and it will be updated as we test the methodology. Frame it as a guidebook, not a manual. Most of the time, we are constrained by the time, so in order to move fast, we won't cover deeply some topics, but the basics that allows you to explore by yourself or point the directions for you to study in other places acting as a self-taught student, so you really should look for more information elsewhere if you feels so. I use lots of references and highly incentive you to look for other too and propose changes in this repo. Sometimes, it will mostly presented in a chaotic way, which implies that you will need to explore the concepts by yourself or read the manual/books. Every student should follow your own path to learning, it is impossible to cover every learning style, so it is up to you to build your own path and discover the best way to learn. What worked for me or what works for a given student probably won't work for you, so dont compare yourself to others too much, but be assured that we're here to help you to succeed. If you need help, just send private messages, or use public forums such as github issues and discussions.
 
-# Reflections on teaching and learning processes
+## Reflections on teaching and learning processes
 
-## Philosophies
+### Philosophies
 
 I would like to categorize the classes into philosophies. so I can address them properly:
 - Advanced classes: are more focused on work and deliveries than theory, they are tailored toward the student goals more than the closed boxes and fixed expected results. It comprehends AI and Adv. AI;
 - Introduction classes: are focused on theory and practice. In those classes, they have more focus on structural knowledge and basic content. It comprehends classes such as Introduction to Programming.
 - Guidance: are more focused on how can we bring the student to the highest standard and get ready to be hired. It comprehends classes such as Capstone, Portfolio classes, and Mentoring activities.
 
-## Learning Styles
+### Learning Styles
 
 - Visual: You prefer using pictures, images, and spatial understanding;
    - For this style I recently acquired a pen-tablet monitor, so I will be adding this type of content more often.
@@ -60,7 +65,7 @@ I would like to categorize the classes into philosophies. so I can address them 
     - This is usually the most common way to learn, and I always keep an eye on the ones that are struggling to keep up with the class. I always try to reach them and help them to keep up with the class.
     - To compensate this solitude I incentive them to present their work to the class no they can experience having attention even when the lack social skills.
 
-## Teaching Styles
+### Teaching Styles
 
 For every type of style, I try to give a bit of insights:
 

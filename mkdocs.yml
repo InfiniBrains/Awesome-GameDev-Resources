@@ -1,7 +1,7 @@
 site_name: Awesome GameDev Resources
 site_url: https://courses.tolstenko.net
 repo_url: https://github.com/InfiniBrains/Awesome-GameDev-Resources
-#repo_name: InfiniBrains/Awesome-GameDev-Resources
+repo_name: InfiniBrains/Awesome-GameDev-Resources
 
 nav:
   - Home: README.md
@@ -110,7 +110,8 @@ theme:
 #    repo: fontawesome/brands/git-alt
 #    logo: logo
 
-edit_uri: blob/main/
+edit_uri: edit/main/
+view_uri: blob/main/
 
 site_description: >-
   Awesome GameDev Resources
@@ -163,20 +164,52 @@ plugins:
 #      repository: InfiniBrains/Awesome-GameDev-Resources
 #      branch: main
 #  - git-authors
-#  - git-revision-date-localized:
-#      enable_creation_date: true
+  - git-revision-date-localized:
+      enable_creation_date: true
   - same-dir
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify:
       minify_html: true
-#  - optimize
   - exclude:
       glob:
         - node_modules/*
         - buildDocs/*
         - cmake-build-debug/*
         - .cache
+        - site
+  - with-pdf:
+      author: InfiniBrains
+      copyright: Copyleft by InfiniBrains
+      #cover: false
+      #back_cover: true
+      cover_title: Awesome GameDev Book
+      cover_subtitle: InfiniBrains Community Innitiative
+      #custom_template_path: TEMPLATES PATH
+      #toc_title: TOC TITLE TEXT
+      #heading_shift: false
+      toc_level: 2
+      #ordered_chapter_level: 2
+      #excludes_children:
+      #    - 'release-notes/:upgrading'
+      #    - 'release-notes/:changelog'
+      #exclude_pages:
+      #    - 'bugs/'
+      #    - 'appendix/contribute/'
+      #convert_iframe:
+      #    - src: IFRAME SRC
+      #      img: POSTER IMAGE URL
+      #      text: ALTERNATE TEXT
+      #    - src: ...
+      two_columns_level: 3
+#      render_js: true
+#      headless_chrome_path: headless-chromium
+      #output_path: any-place/document.pdf
+      enabled_if_env: ENABLE_PDF_EXPORT
+      #debug_html: true
+      #show_anchors: true
+#      verbose: true
+#  - optimize
 
 extra:
   generator: false
