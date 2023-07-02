@@ -31,8 +31,9 @@ jobs:
 
       - name: Install dependencies
         run: |
-          apt install -y doxygen gource libgs-dev
-          pip3 install jinja2 Pygments mkdocs-material mkdocs mkdocs-same-dir mkdocs-minify-plugin mkdocs-redirects mkdocs-exclude mkdocs-git-revision-date-localized-plugin mkdocs-git-committers-plugin-2 mkdocs-git-authors-plugin mkdocs-with-pdf
+          sudo apt-get install -y doxygen gource libgs-dev
+          pip install git+https://${{ secrets.GH_SQUID_TOKEN }}@github.com/squidfunk/mkdocs-material-insiders.git
+          pip install jinja2 Pygments mkdocs mkdocs-same-dir mkdocs-minify-plugin mkdocs-redirects mkdocs-exclude mkdocs-git-committers-plugin-2 mkdocs-git-revision-date-localized-plugin mkdocs-with-pdf
           npm install 
 
       - name: Configure

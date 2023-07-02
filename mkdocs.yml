@@ -1,7 +1,12 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
 site_name: Awesome GameDev Resources
+site_description: Awesome GameDev Resources for learning how to make games
 site_url: https://courses.tolstenko.net
 repo_url: https://github.com/InfiniBrains/Awesome-GameDev-Resources
 repo_name: InfiniBrains/Awesome-GameDev-Resources
+
+site_author: See contributors and authors at https://github.com/InfiniBrains/Awesome-GameDev-Resources/graphs/contributors
 
 nav:
   - Home: README.md
@@ -35,23 +40,30 @@ nav:
       - Promoting: portfolio/12-promoting/README.md
       - Cover Letter: portfolio/13-cover-letter/README.md
       - CV: portfolio/14-cv/README.md
-  - Dojo:
-      - dojo/README.md
-      - Full Cycle Game Dev: dojo/Full-Cycle-SDL-Development.md
+#  - Dojo:
+#      - dojo/README.md
+#      - Full Cycle Game Dev: dojo/Full-Cycle-SDL-Development.md
 #  - AI:
 #      - artificialintelligence/README.md
 
 docs_dir: .
 
 theme:
+  language: en
   name: material
   custom_dir: overrides
+#  favicon: overrides/favicon/apple-touch-icon.png
+#  logo: overrides/favicon/apple-touch-icon.png
   features:
+    - attr_list
+    - md_in_html
+    - pymdownx.superfences
     - announce.dismiss
     - content.action.edit
     - content.action.view
     - content.code.annotate
     - content.code.copy
+    - content.code.select
     # - content.tabs.link
     - content.tooltips
     # - header.autohide
@@ -59,17 +71,20 @@ theme:
     - navigation.footer
     - navigation.indexes
     - navigation.instant
-    - navigation.prune
-    - navigation.sections
+    - navigation.instant.prefetch
+    - navigation.prune # prune is incompatible with expand
+#    - navigation.sections
     - navigation.tabs
-    - navigation.tabs.sticky
+#    - navigation.tabs.sticky
     - navigation.top
+#    - navigation.expand
     - navigation.tracking
+    - navigation.path
     - search.highlight
     - search.share
     - search.suggest
     - toc.follow
-    # - toc.integrate
+#    - toc.integrate
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -111,11 +126,6 @@ theme:
 #    logo: logo
 
 edit_uri: edit/main/
-
-site_description: >-
-  Awesome GameDev Resources
-
-site_author: https://tolstenko.net
 
 copyright: Copyright &copy; 2023 Tolstenko and Others
 
@@ -159,13 +169,18 @@ markdown_extensions:
   - pymdownx.tilde
 
 plugins:
-#  - git-committers:
-#      repository: InfiniBrains/Awesome-GameDev-Resources
-#      branch: main
+  - git-committers:
+      repository: InfiniBrains/Awesome-GameDev-Resources
+      branch: main
+      enabled: true
+      docs_path: ./
+      cache_dir: /tmp/cache/awesome-gamedev-resources
 #  - git-authors
   - git-revision-date-localized:
       enable_creation_date: true
-      fallback_to_build_date: true #todo: fix git security issue on github that prevents getting the full log
+      fallback_to_build_date: true
+      locale: en
+      timezone: America/New_York
   - same-dir
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
@@ -205,13 +220,20 @@ plugins:
 #      render_js: true
 #      headless_chrome_path: headless-chromium
       #output_path: any-place/document.pdf
-      enabled_if_env: ENABLE_PDF_EXPORT
+      enabled_if_env: 'CI'
       #debug_html: true
       #show_anchors: true
 #      verbose: true
 #  - optimize
 
 extra:
+  privacy:
+    enabled: true
+  consent:
+    cookies:
+      smartlook: SmartLook
+    description: >-
+      This site uses cookies to provide you with a better user experience. By using this site you consent to our use of cookies.
   generator: false
   annotate:
     json: [ .s2 ]
