@@ -14,6 +14,8 @@ jobs:
     container: emscripten/emsdk
     runs-on: ubuntu-latest
     steps:
+      - run: git config --global --add safe.directory '*'
+
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
