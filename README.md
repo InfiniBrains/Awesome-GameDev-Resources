@@ -6,7 +6,7 @@ Ways of reading:
 
 - Website: [read through your browser](https://courses.tolstenko.net) the interactive examples and animations will work better in this version;
 - Github: [You read through the github repo](https://github.com/InfiniBrains/Awesome-GameDev-Resources);
-- PDF: [automatically built from the latest version](https://courses.tolstenko.net/pdf/document.pdf).
+- PDF: [automatically built from the latest version](https://github.com/InfiniBrains/Awesome-GameDev-Resources/releases/download/latest/document.pdf).
 - Amazon Kindle: [You can buy the book in Amazon]() and read it in your kindle device;
 - Contribute!: If you want to go deep and propose changes to repo, use the [github repo](https://github.com/InfiniBrains/Awesome-GameDev-Resources).
 
