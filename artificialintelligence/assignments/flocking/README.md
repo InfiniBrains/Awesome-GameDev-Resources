@@ -9,10 +9,12 @@ Flocking is a behavior that is observed in birds, fish and other animals that mo
 !!! note "Formal Notation Review"
 
     - $\overrightarrow{F}$ means a vector $F$ that has components. In a 2 dimensional vector it will hold $F_x$ and $F_y$. For example, if $F_x = 1$ and $F_y = 1$, then $\overrightarrow{F} = (1,1)$
+    - Simple math operations between vectors are done component-wise. For example, if $\overrightarrow{F} = (1,1)$ and $\overrightarrow{G} = (2,2)$, then $\overrightarrow{F} + \overrightarrow{G} = (3,3)$
     - $\overrightarrow{P_1P_2}$ means the vector that goes from $P_1$ to $P_2$. It is the same as $P_2-P_1$
     - The modulus notation means the length (magnitude) of the vector. $|\overrightarrow{F}| = \sqrt{F_x^2+F_y^2}$ For example, if $\overrightarrow{F} = (1,1)$, then $|\overrightarrow{F}| = \sqrt{2}$
     - The hat ^ notation means the unitary vector of the vector. $\hat{F} = \frac{\overrightarrow{F}}{|\overrightarrow{F}|}$ For example, if $\overrightarrow{F} = (1,1)$, then $\hat{F} = (\frac{1}{\sqrt{2}},\frac{1}{\sqrt{2}})$
     - The hat notation over 2 points means the unit vector that goes from the first point to the second point. $\widehat{P_1P_2} = \frac{\overrightarrow{P_1P_2}}{|\overrightarrow{P_1P_2}|}$ For example, if $P_1 = (0,0)$ and $P_2 = (1,1)$, then $\widehat{P_1P_2} = (\frac{1}{\sqrt{2}},\frac{1}{\sqrt{2}})$
+    - The sum $\sum$ notation means the sum of all elements in the list going from `0` to `n-1`. Ex. $\sum_{i=0}^{n-1} \overrightarrow{V_i} = \overrightarrow{V_0} + \overrightarrow{V_1} + \overrightarrow{V_2} + ... + \overrightarrow{V_{n-1}}$
 
 It is your job to implement those 3 behaviors following the ruleset below:
 
@@ -20,10 +22,9 @@ It is your job to implement those 3 behaviors following the ruleset below:
 
 Apply a force towards the center of mass of the group.
 
-1. The neighbors of an agent are all the other agents that are within a certain radius of the agent;
+1. The $n$ neighbors of an agent are all the other agents that are within a certain radius of the agent;
 2. Compute the location of the center of mass of the group ($P_{CM}$);
-3. Compute the force that will move the agent towards the center of mass($F_{cohesion}$);
-4. The farther the agent is from the center of mass, the force increases linearly up to the limit of the cohesion radius $r_c$.
+3. Compute the force that will move the agent towards the center of mass($\overrightarrow{F_{c}}$); The farther the agent is from the center of mass, the force increases linearly up to the limit of the cohesion radius $r_c$.
 
 $$ 
 P_{CM} = \frac{\sum_{i=0}^{n-1} P_i}{n}
@@ -44,10 +45,9 @@ $$
 
 It will move the agent away from other agents when they get too close.
 
-1. The neighbors of an agent are all the other agents that are within the separation radius of the agent;
+1. The $n$ neighbors of an agent are all the other agents that are within the separation radius of the agent;
 2. If the distance to a neighbor is less than the separation radius, then the agent will move away from it inversely proportionally to the distance between them.
-3. Accumulate the forces that will move the agent away from each neighbor ($F_{separation}$);
-4. Clamp the force to a maximum value of $F_{Smax}$.
+3. Accumulate the forces that will move the agent away from each neighbor ($\overrightarrow{F_{s}}$). And then, clamp the force to a maximum value of $F_{Smax}$.
 
 $$
 \overrightarrow{F_s} = \sum_{i=0}^{n-1} \begin{cases}
@@ -61,12 +61,12 @@ $$
 
     Here you can see that if we have more than one neighbor and one of them is way too close, the force will be very high and make the influence of the other neighbors irrelevant. This is the expected behavior.
 
-The force will go near infinite when the distance between the agent and the neighbor is 0. To avoid this, after accumulating all the influences from every neighbor, the force will be clamped to a maximum magnitude of $F_{Smax}$.
+The force will go near infinite when the distance between the agent and the $n$ neighbor is 0. To avoid this, after accumulating all the influences from every neighbor, the force will be clamped to a maximum magnitude of $F_{Smax}$.
 
 $$
 \overrightarrow{F_{s}} = \begin{cases} 
     \overrightarrow{F_s} & \text{if } |\overrightarrow{F_s}| \leq F_{Smax} \\
-    \frac{\overrightarrow{F_s}}{|\overrightarrow{F_s}|} * F_{Smax} & \text{if } |\overrightarrow{F_s}| > F_{Smax}
+    \frac{\overrightarrow{F_s}}{|\overrightarrow{F_s}|} \cdot F_{Smax} & \text{if } |\overrightarrow{F_s}| > F_{Smax}
 \end{cases}
 $$
 
@@ -79,19 +79,19 @@ $$
 
 It is the force that will align the velocity of the agent with the average velocity of the group.
 
-1. The neighbors of an agent are all the agents that are within the alignment radius of the agent, including itself;
+1. The $n$ neighbors of an agent are all the agents that are within the alignment radius of the agent, including itself;
 2. Compute the average velocity of the group ($\overrightarrow{V_{avg}}$);
-3. Compute the force that will move the agent towards the average velocity ($F_{alignment}$);
+3. Compute the force that will move the agent towards the average velocity ($\overrightarrow{F_{a}}$);
 
 $$
-V_{avg} = \frac{\sum_{i=0}^{n-1} V_i}{n}
+\overrightarrow{V_{avg}} = \frac{\sum_{i=0}^{n-1} \overrightarrow{V_i}}{n}
 $$
 
 ## Behavior composition
 
 The force composition is made by a weighted sum of the influences of those 3 behaviors. This is the way we are going to work, this is not the only way to do it, nor the more correct. It is just a way to do it. 
 
-- $ \overrightarrow{F} = K_c*\overrightarrow{F_c} + K_s*\overrightarrow{F_s} + K_a*\overrightarrow{F_a} $  `This is a weighted sum!`
+- $ \overrightarrow{F} = K_c \cdot \overrightarrow{F_c} + K_s \cdot \overrightarrow{F_s} + K_a \cdot \overrightarrow{F_a} $  `This is a weighted sum!`
 - $ \overrightarrow{V_{new}} = \overrightarrow{V_{cur}} + \overrightarrow{F} \cdot \Delta t $  `This is a simplification!`
 - $ P_{new} = P_{cur}+\overrightarrow{V_{new}} \cdot \Delta t $  `This is an approximation!`
 
@@ -155,11 +155,9 @@ EOF
 
 ## Output
 
-The expected output are the position and velocity for each simulation step after the time frame. After printing each simulation step, the program should wait for the next time frame and then simulate the next step.
+The expected output are the position and velocity for each agent after the simulation step using the time frame. After printing each simulation step, the program should wait for the next time frame and then simulate the next step.
 
 ```text
 0.000 0.490 0.000 -0.010
 0.000 -0.490 0.000 0.010
 ```
-
-## Test cases
