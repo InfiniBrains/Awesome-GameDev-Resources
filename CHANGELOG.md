@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.1.2...v1.1.3) (2023-07-13)
+
+
+### Bug Fixes
+
+* **flocking:** fix dot multiplication notation ([f3bde7d](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/f3bde7dbbaf60463c73017e32535f25a4981b89c))
+
 ## [1.1.2](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.1.1...v1.1.2) (2023-07-13)
 
 
