@@ -75,8 +75,8 @@ theme:
     # - navigation.expand
     - navigation.footer
     - navigation.indexes
-    - navigation.instant
-    - navigation.instant.prefetch
+#    - navigation.instant
+#    - navigation.instant.prefetch
     - navigation.prune # prune is incompatible with expand
 #    - navigation.sections
     - navigation.tabs
