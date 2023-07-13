@@ -46,7 +46,7 @@ jobs:
 #        run: cmake --build build -j4 --config Release
 
       - name: mkdocs
-        run:  ENABLE_PDF_EXPORT=0 mkdocs build
+        run: CI=1 mkdocs build
 
       - name: COPY CNAME
         run: cp CNAME ./site
@@ -59,3 +59,46 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
+
+      - name: Semantic Release
+        id: semantic
+        uses: cycjimmy/semantic-release-action@v2
+        with:
+          semantic_version: 19.0.2
+          # You can specify specifying version range for the extra plugins if you prefer.
+          extra_plugins: |
+            @semantic-release/changelog@6.0.2
+            @semantic-release/git@10.0.1
+            @semantic-release/commit-analyzer@9.0.2
+            @semantic-release/github@8.0.7
+            @semantic-release/npm@9.0.1
+            @semantic-release/release-notes-generator@10.0.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Version
+        id: version
+        run: |
+          if [[ ${{ steps.semantic.outputs.new_release_published }} == true ]]
+          then     
+            export version=v${{ steps.semantic.outputs.new_release_version }}
+          else
+            export version=`git describe --abbrev=0 --tags $tag`
+          fi
+          echo "version=${version}" >> $GITHUB_OUTPUT
+
+      - name: Latest pdf
+        uses: ncipollo/release-action@v1
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main' #|| startsWith(github.ref, 'refs/tags')
+        with:
+          allowUpdates: true
+          artifacts: site/pdf/document.pdf
+          tag: latest
+
+      - name: Versined pdf
+        uses: ncipollo/release-action@v1
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main' #|| startsWith(github.ref, 'refs/tags')
+        with:
+          allowUpdates: true
+          artifacts: site/pdf/document.pdf
+          tag: ${{ steps.version.outputs.version }}
