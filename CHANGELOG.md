@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.2.0...v1.2.1) (2023-07-13)
+
+
+### Performance Improvements
+
+* **pdf:** improve pdf link download ([dce4279](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/dce42794e0f1d6de139d4e078dd805004efa8719))
+
 # [1.2.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.1.3...v1.2.0) (2023-07-13)
 
 
