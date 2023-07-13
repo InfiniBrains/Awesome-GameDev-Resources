@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.1.0...v1.1.1) (2023-07-13)
+
+
+### Bug Fixes
+
+* disable instant navigation to avoid latex rendering problem ([5b08e0e](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/5b08e0e2123b91b55fbfa1508fe89cc21eac5256))
+
 # [1.1.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.0.0...v1.1.0) (2023-07-13)
 
 
