@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.1.3...v1.2.0) (2023-07-13)
+
+
+### Features
+
+* **pdf:** automatic deploy pdf releases ([a48edc5](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/a48edc5a83bbec62d5835a26d4531c6e4aff6e47))
+
 ## [1.1.3](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.1.2...v1.1.3) (2023-07-13)
 
 
