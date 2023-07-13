@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.1.1...v1.1.2) (2023-07-13)
+
+
+### Performance Improvements
+
+* **flocking:** improve tests ([228dec9](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/228dec9cc8019e046718da19f90848d226eb8548))
+
 ## [1.1.1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.1.0...v1.1.1) (2023-07-13)
 
 
