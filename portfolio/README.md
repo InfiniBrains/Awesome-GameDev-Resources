@@ -1,5 +1,7 @@
 # Portfolio
 
+Main resources for the course.
+
 ## Schedule
 
 | Week | Date       | Topic                                                     |
@@ -20,3 +22,5 @@
 | 14   | 2023/04/17 | [Cover Letters](13-cover-letter/README.md)                |
 | 15   | 2023/04/24 | [Traditional CVs](14-cv/README.md)                        |
 | 16   | 2023/05/01 | FINALS                                                    |
+
+https://www.champlain.edu/career-success/career-collaborative/resources-for-students/career-resources/computer-science-and-innovation

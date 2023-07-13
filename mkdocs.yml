@@ -10,6 +10,11 @@ site_author: See contributors and authors at https://github.com/InfiniBrains/Awe
 
 nav:
   - Home: README.md
+  - AI:
+      - artificialintelligence/README.md
+      - Introduction:
+          - artificialintelligence/00-introduction/README.md
+          - Flocking Assignment: artificialintelligence/assignments/flocking/README.md
   - Programming:
       - intro/README.md
       - Introduction to C++: intro/01-introduction/README.md
@@ -196,6 +201,8 @@ plugins:
   - with-pdf:
       author: InfiniBrains
       copyright: Copyleft by InfiniBrains
+#      render_js: true
+#      headless_chrome_path:
       #cover: false
       #back_cover: true
       cover_title: Awesome GameDev Book
@@ -216,9 +223,7 @@ plugins:
       #      img: POSTER IMAGE URL
       #      text: ALTERNATE TEXT
       #    - src: ...
-      two_columns_level: 3
-#      render_js: true
-#      headless_chrome_path: headless-chromium
+      two_columns_level: 2
       #output_path: any-place/document.pdf
       enabled_if_env: 'CI'
       #debug_html: true
@@ -265,6 +270,14 @@ extra:
 #      link: https://pypi.org/project/mkdocs-material/
 #    - icon: fontawesome/brands/twitter
 #      link: https://twitter.com/squidfunk
+
+extra_javascript:
+  - javascripts/katex.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
 
 watch:
   - advanced

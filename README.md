@@ -24,7 +24,8 @@ Metrics: [![Codacy Badge](https://app.codacy.com/project/badge/Grade/bd231b45a10
 
 1. [Intro to Programming](intro/README.md)
 2. [Advanced Programming](advanced/README.md)
-3. [Developer Portfolio](portfolio/README.md)
+3. [Artificial Intelligence](artificialintelligence/README.md)
+4. [Developer Portfolio](portfolio/README.md)
 
 ## Philosophy
 

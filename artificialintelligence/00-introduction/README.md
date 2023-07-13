@@ -1,8 +1,8 @@
 # Introduction to AI
 
-Before starting the class, the students did a small survey on what they want to be covered in this advanced class.
+!!! note
 
-Please refer to this repository in order follow the previous assignments for the first course of AI. https://github.com/InfiniBrains/mobagen
+    Please refer to this repository in order follow the previous assignments for the first course of AI. https://github.com/InfiniBrains/mobagen
 
 Topics suggested in the survey, and some of my considerations.
 - Procedural Content Generation. Advanced terrain generation - It was previously covered in the last class, I am going to focus other topics

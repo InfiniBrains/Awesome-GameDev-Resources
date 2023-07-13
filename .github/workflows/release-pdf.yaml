@@ -1,4 +1,4 @@
-name: Documentation
+name: PDF
 
 on:
   push:
@@ -81,15 +81,26 @@ jobs:
       - name: version
         id: version
         run: |
-          export commit=`git rev-list --tags --max-count=1`
-          export last_release_version=`git describe --abbrev=0 --tags $tag`
-          export new_release_version=v${{ steps.semantic.outputs.new_release_version }}
-          export version=${new_release_version:-$last_release_version}
+          if [[ ${{ steps.semantic.outputs.new_release_published }} == true ]]
+          then     
+            export version=v${{ steps.semantic.outputs.new_release_version }}
+          else
+            export version=`git describe --abbrev=0 --tags $tag`
+          fi
           echo "version=${version}" >> $GITHUB_OUTPUT
 
-      - uses: ncipollo/release-action@v1
+      - name: Latest pdf
+        uses: ncipollo/release-action@v1
         if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main' #|| startsWith(github.ref, 'refs/tags')
         with:
           allowUpdates: true
-          artifacts: site/document.pdf
+          artifacts: site/pdf/document.pdf
+          tag: latest
+
+      - name: Versined pdf
+        uses: ncipollo/release-action@v1
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main' #|| startsWith(github.ref, 'refs/tags')
+        with:
+          allowUpdates: true
+          artifacts: site/pdf/document.pdf
           tag: ${{ steps.version.outputs.version }}
