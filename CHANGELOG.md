@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.0.0...v1.1.0) (2023-07-13)
+
+
+### Features
+
+* flocking assignment ([2be7cf9](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/2be7cf9dc8028aeea68bdf983b28736a6d8a9748))
+
 # 1.0.0 (2023-07-02)
 
 
