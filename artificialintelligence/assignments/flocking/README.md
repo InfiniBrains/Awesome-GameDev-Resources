@@ -26,6 +26,8 @@ Apply a force towards the center of mass of the group.
 2. Compute the location of the center of mass of the group ($P_{CM}$);
 3. Compute the force that will move the agent towards the center of mass($\overrightarrow{F_{c}}$); The farther the agent is from the center of mass, the force increases linearly up to the limit of the cohesion radius $r_c$.
 
+![cohesion](cohesion.png)
+
 $$ 
 P_{CM} = \frac{\sum_{i=0}^{n-1} P_i}{n}
 $$
@@ -41,6 +43,10 @@ $$
 
     Note that the maximum magnitude of $F_c$ is 1. Inclusive. This value can be multiplied by a constant $K_c$ to increase or decrease the cohesion force to looks more appealing.
 
+??? example "Cohesion Example"
+
+    ![cohesion](cohesion.gif)
+
 ### Separation
 
 It will move the agent away from other agents when they get too close.
@@ -48,7 +54,9 @@ It will move the agent away from other agents when they get too close.
 1. The $n$ neighbors of an agent are all the other agents that are within the separation radius of the agent;
 2. If the distance to a neighbor is less than the separation radius, then the agent will move away from it inversely proportionally to the distance between them.
 3. Accumulate the forces that will move the agent away from each neighbor ($\overrightarrow{F_{s}}$). And then, clamp the force to a maximum value of $F_{Smax}$.
-   
+
+![separation](separation.png)   
+
 $$
 \overrightarrow{F_s} = \sum_{i=0}^{n-1} \begin{cases}
       \frac{\widehat{AN_i}}{|\overrightarrow{AN_i}|} & \text{if } 0 < |\overrightarrow{AN_i}| \leq r_s \\
@@ -74,6 +82,10 @@ $$
     - You can implement those two math together, but it is better to isolate in two steps to make it easier to understand and debug.
     - This is not an averaged force like the cohesion force, it is a sum of forces. So, the maximum magnitude of the force can be higher than 1.
 
+??? example "Separation Example"
+
+    ![separation](separation.gif)
+
 ### Alignment
 
 It is the force that will align the velocity of the agent with the average velocity of the group.
@@ -82,9 +94,15 @@ It is the force that will align the velocity of the agent with the average veloc
 2. Compute the average velocity of the group ($\overrightarrow{V_{avg}}$);
 3. Compute the force that will move the agent towards the average velocity ($\overrightarrow{F_{a}}$);
 
+![alignment](alignment.png)
+
 $$
 \overrightarrow{V_{avg}} = \frac{\sum_{i=0}^{n-1} \overrightarrow{V_i}}{n}
 $$
+
+??? example "Alignment Example"
+
+    ![alignment](alignment.gif)
 
 ## Behavior composition
 
@@ -117,6 +135,24 @@ The $\overrightarrow{V_{new}}$ and $P_{new}$ are the ones that will be used in t
 
     - For simplicity, we are going to assume that the mass of all agents is 1.
     - In a real game simulation, it would be nice to apply some friction to the velocity of the agent to make it stop eventually or just clamp it to prevent the velocity get too high. But, for simplicity, we are going to ignore it.
+
+??? example "Combined behavior examples"
+
+    Alignment + Cohesion:
+
+    ![alignment+cohesion](alignment_cohesion.gif)
+
+    Separation + Cohesion:
+
+    ![separation+cohesion](separation_cohesion.gif)
+
+    Separation + Alignment:
+
+    ![separation+alignment](separation_alignment.gif)
+
+    All 3:
+
+    ![alignment+cohesion+separation](all3.gif)
 
 ## Input
 
