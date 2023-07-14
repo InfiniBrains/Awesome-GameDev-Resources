@@ -23,8 +23,10 @@ jobs:
 
       - uses: actions/cache@v2
         with:
-          path: "**/cpm_modules"
-          key: ${{ github.workflow }}-cpm-modules-${{ hashFiles('**/CMakeLists.txt', '**/*.cmake') }}
+          path: |
+            "**/cpm_modules"
+            "/tmp/cache/awesome-gamedev-resources"
+          key: ${{ github.workflow }}-cpm-modules-${{ hashFiles('**/CMakeLists.txt', '**/*.cmake', '/tmp/cache/awesome-gamedev-resources/*.json' ) }}
 
       - name: APT Update
         run: apt update
