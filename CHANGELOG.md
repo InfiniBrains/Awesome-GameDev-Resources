@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.2.1...v1.2.2) (2023-07-14)
+
+
+### Performance Improvements
+
+* **math:** change math formula processor to mathjax ([4a03dc4](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/4a03dc4826dd6f44d39948b0bdfe3c9b9b45e289))
+
 ## [1.2.1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.2.0...v1.2.1) (2023-07-13)
 
 
