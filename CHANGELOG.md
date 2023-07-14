@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.2.2...v1.2.3) (2023-07-14)
+
+
+### Performance Improvements
+
+* **flocking:** add gifs to the repo and start lfs attributes ([4063fd7](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/4063fd7a132cef0c1eb358fd84ed4033cf6164a7))
+
 ## [1.2.2](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.2.1...v1.2.2) (2023-07-14)
 
 
