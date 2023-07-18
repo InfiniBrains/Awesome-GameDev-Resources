@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.2.3...v1.2.4) (2023-07-18)
+
+
+### Performance Improvements
+
+* **rng:** add pseudo random number generation assignment ([da4663a](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/da4663a31e16e15c99a02a5b0d9be35e4017087f))
+
 ## [1.2.3](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.2.2...v1.2.3) (2023-07-14)
 
 
