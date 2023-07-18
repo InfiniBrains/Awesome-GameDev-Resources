@@ -2,8 +2,8 @@
 
 | Week | Date       | Topic                                               | Assignment                                                                                                                   |
 |------|------------|-----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
-| 1    | 2023/01/16 | [Introduction]()                                    | [Beecrowd](assignments/flocking/README.md) [Flocking](https://github.com/InfiniBrains/mobagen/tree/master/examples/flocking) |
-| 2    | 2023/01/23 | [Behavior and Decision trees, State machines]()     | [Flocking](https://github.com/InfiniBrains/mobagen/tree/master/examples/flocking)                                            |
+| 1    | 2023/01/16 | [Introduction]()                                    | [Beecrowd](assignments/flocking/README.md) [MoBaGEn](https://github.com/InfiniBrains/mobagen/tree/master/examples/flocking)  |
+| 2    | 2023/01/23 | [Behavior and Decision trees, State machines]()     | [Beecrowd](assignments/flocking/README.md) [MoBaGEn](https://github.com/InfiniBrains/mobagen/tree/master/examples/flocking)  |
 | 3    | 2023/01/30 | [BFS, DFS, Procedural Content Generation - Mazes]() | [Maze](https://github.com/InfiniBrains/mobagen/tree/master/examples/maze)                                                    |
 | 4    | 2023/02/06 | [BFS, DFS, Procedural Content Generation - Mazes]() | [Maze](https://github.com/InfiniBrains/mobagen/tree/master/examples/maze)                                                    |
 | 5    | 2023/02/13 | [Spatial Quantization and Partitioning]()           | [Catch the Cat](https://github.com/InfiniBrains/mobagen/tree/master/examples/catchthecat)                                    |
