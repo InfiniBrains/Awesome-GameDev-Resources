@@ -12,9 +12,13 @@ nav:
   - Home: README.md
   - AI:
       - artificialintelligence/README.md
-      - Introduction:
-          - artificialintelligence/00-introduction/README.md
-          - Flocking Assignment: artificialintelligence/assignments/flocking/README.md
+      - Assignments:
+          - artificialintelligence/README.md
+          - Flocking: artificialintelligence/assignments/flocking/README.md
+          - Game of Life: artificialintelligence/assignments/life/README.md
+          - Pseudo-Random Number Generator: artificialintelligence/assignments/rng/README.md
+          - Maze: artificialintelligence/assignments/maze/README.md
+          - Catch the Cat: artificialintelligence/assignments/catchthecat/README.md
   - Programming:
       - intro/README.md
       - Introduction to C++: intro/01-introduction/README.md
