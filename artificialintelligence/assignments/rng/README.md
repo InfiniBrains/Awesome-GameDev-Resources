@@ -35,7 +35,7 @@ In order to clamp a random number the value between two numbers (max and min), y
 
 ## Input
 
-Receives the seed, the number of random numbers to be generated and the range of the numbers should be in. The range is inclusive. All numbers are unsigned 32 bits integer.
+Receives the seed `S`, the number `N` of random numbers to be generated and the range `R1` and `R2` of the numbers should be in, there is no guarantee the range numbers are in order. The range numbers are both inclusive. `S` and `N` are both `32 bits` unsigned integers and `R1` and `R2` are both `32 bits` signed integers.
 
 ```
 1 1 0 99
