@@ -1,3 +1,10 @@
+## [1.2.5](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.2.4...v1.2.5) (2023-07-19)
+
+
+### Performance Improvements
+
+* **life:** add game of life assignment ([0d15638](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/0d15638e62913f7c9e0bf2582cc4b6033325e7ca))
+
 ## [1.2.4](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.2.3...v1.2.4) (2023-07-18)
 
 
