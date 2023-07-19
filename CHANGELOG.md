@@ -1,3 +1,11 @@
+## [1.2.8](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.2.7...v1.2.8) (2023-07-19)
+
+
+### Performance Improvements
+
+* **maze:** add maze desciption ([dd05bd0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/dd05bd0b50eb28683cc77b734768f1cbbeef6bfe))
+* **rng:** better input type description ([0d27624](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/0d276247f0db0638a6f5833101da13da323d09e9))
+
 ## [1.2.7](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.2.6...v1.2.7) (2023-07-19)
 
 
