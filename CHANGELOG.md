@@ -1,3 +1,10 @@
+## [1.2.9](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.2.8...v1.2.9) (2023-07-19)
+
+
+### Bug Fixes
+
+* **IA:** better indexing for maze ([11631cb](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/11631cb10eb58c44846feb8b54c80def46bd4ccd))
+
 ## [1.2.8](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.2.7...v1.2.8) (2023-07-19)
 
 
