@@ -1,3 +1,10 @@
+## [1.2.7](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.2.6...v1.2.7) (2023-07-19)
+
+
+### Performance Improvements
+
+* **rng:** better input example and description ([8ab58ff](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/8ab58ff5bb1219cf101893f4728e903f5aa193d2))
+
 ## [1.2.6](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.2.5...v1.2.6) (2023-07-19)
 
 
