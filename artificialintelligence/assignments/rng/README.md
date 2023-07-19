@@ -25,8 +25,9 @@ The `xorshift` algorithm from Marsaglia is a combination of 3 `xorshifts`:
 
 1. `xorshift` the seed by `13` bits to the left;
 2. `xorshift` the seed by `17` bits to the right;
-3. `xorshift` the seed by `5` bits to the left;
-4. the current state of the seed is your current random number from $0$ to $2^{32}-1$.
+3. `xorshift` the seed by `5` bits to the left; 
+
+At the end of this 3 `xorshifts`, the current state of the seed is your current random number.
 
 In order to clamp a random number the value between two numbers (max and min), you should follow this idea:
 
@@ -42,8 +43,39 @@ Receives the seed, the number of random numbers to be generated and the range of
 
 ## Output
 
-The list of numbers to be generated, one per line.
+The list of numbers to be generated, one per line. In this case, it would be only one and the random number should be clamped to be between 0 and 99.
 
+```text
+seed in decimal:       1
+seed in binary:        0b00000000000000000000000000000001 
+
+seed:                  0b00000000000000000000000000000001
+seed << 13:            0b00000000000000000001000000000000
+seed xor (seed << 13): 0b00000000000000000001000000000001
+
+seed:                  0b00000000000000000001000000000001
+seed >> 17:            0b00000000000000000000000000000000
+seed xor (seed >> 17): 0b00000000000000000001000000000001
+
+seed:                  0b00000000000000000001000000000001
+seed << 5:             0b00000000000000100000000000100000
+seed xor (seed << 5):  0b00000000000000100001000000100001
+
+The final result is 0b00000000000000100001000000100001 which is 135201 in decimal.
 ```
-WiP
+
+Now in order to clamp it to be between 0 and 99, we do:
+
+```text
+value = min + (random % (max - min + 1))
+value = 0 + (135201 % (99 - 0 + 1))
+value = 0 + (135201 % 100)
+value = 0 + 1
+value = 1
+```
+
+So this output would be:
+
+```text
+1
 ```
