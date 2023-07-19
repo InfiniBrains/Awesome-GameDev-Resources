@@ -1,3 +1,10 @@
+## [1.2.6](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.2.5...v1.2.6) (2023-07-19)
+
+
+### Bug Fixes
+
+* **IA:** fix new line on schedule ([b669e68](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/b669e68eeeeab18e07b2102e5cfd421d321ea21e))
+
 ## [1.2.5](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.2.4...v1.2.5) (2023-07-19)
 
 
