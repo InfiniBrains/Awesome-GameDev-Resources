@@ -210,7 +210,7 @@ plugins:
       #cover: false
       #back_cover: true
       cover_title: Awesome GameDev Book
-      cover_subtitle: InfiniBrains Community Innitiative
+      cover_subtitle: InfiniBrains Community Initiative
       #custom_template_path: TEMPLATES PATH
       #toc_title: TOC TITLE TEXT
       #heading_shift: false
