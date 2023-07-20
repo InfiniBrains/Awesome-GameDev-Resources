@@ -31,16 +31,29 @@ jobs:
       - name: APT Update
         run: apt update
 
+      - name: install chrome dependencies
+        run: |
+          apt install -y ca-certificates fonts-liberation libappindicator3-1 libasound2 libatk-bridge2.0-0 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgbm1 libgcc1 libglib2.0-0 libgtk-3-0 libnspr4 libnss3 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 lsb-release wget xdg-utils
+          alias google-chrome=google-chrome-stable
+#          wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+#          sudo apt install ./google-chrome-stable_current_amd64.deb
+#          alias chrome="/usr/bin/google-chrome-stable"
+#          alias chromium="/usr/bin/google-chrome-stable"
+#          alias chromium-browser="/usr/bin/google-chrome-stable"
+#          alias google-chrome="/usr/bin/google-chrome-stable"
+
+#      - uses: browser-actions/setup-chrome@v1
+#        with:
+#          version: 'latest'
+
+      - uses: nanasess/setup-chromedriver@v2
+
       - name: Install dependencies
         run: |
           sudo apt-get install -y doxygen gource libgs-dev
           pip install git+https://${{ secrets.GH_SQUID_TOKEN }}@github.com/squidfunk/mkdocs-material-insiders.git
           pip install jinja2 Pygments mkdocs mkdocs-same-dir mkdocs-minify-plugin mkdocs-redirects mkdocs-exclude mkdocs-git-committers-plugin-2 mkdocs-git-revision-date-localized-plugin mkdocs-with-pdf beautifulsoup4==4.9.3
           npm install 
-
-      - uses: browser-actions/setup-chrome@v1
-        with:
-          version: 'latest'
 
       - name: Configure
         run: emcmake cmake -S. -Bbuild -DENABLE_TEST_COVERAGE=OFF -DENABLE_STANDALONE=ON -DENABLE_DOCUMENTATION=ON
