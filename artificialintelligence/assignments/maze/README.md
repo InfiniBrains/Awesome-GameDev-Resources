@@ -35,6 +35,12 @@ In order to give consistency on how to decide the direction of the next cell, th
 3. If there are one visitable, do not call random, just return the first neighbor found;
 4. If there are two or more visitable neighbors, call random and return the neighbor at the index of the random number modulo the number of visitable neighbors. `vec[i]%visitableCount`
 
+??? example Simulation
+
+    If you simulate the algorithm visually, the result would be something similar to the following
+
+    ![Maze generation](maze.gif)
+
 ## Input
 
 The input is a single line with three `32 bits` unsigned integer numbers, `C`, `L` and `I`, where `C` and `L` are the number of columns and lines of the maze, respectively, and `I` is the index of the first random number to be used> `I` can varies from `0` to `99`.
