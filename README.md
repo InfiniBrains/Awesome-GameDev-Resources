@@ -6,7 +6,7 @@ Ways of reading:
 
 - Website: [read through your browser](https://courses.tolstenko.net) the interactive examples and animations will work better in this version;
 - Github: [You read through the github repo](https://github.com/InfiniBrains/Awesome-GameDev-Resources);
-- PDF: [automatically built from the latest version](https://github.com/InfiniBrains/Awesome-GameDev-Resources/releases/download/latest/document.pdf).
+- PDF: download the latest [![GitHub release](https://img.shields.io/github/v/release/InfiniBrains/Awesome-GameDev-Resources)](https://github.com/InfiniBrains/Awesome-GameDev-Resources/releases/download/latest/document.pdf)
 - Amazon Kindle: [You can buy the book in Amazon]() and read it in your kindle device;
 - Contribute!: If you want to go deep and propose changes to repo, use the [github repo](https://github.com/InfiniBrains/Awesome-GameDev-Resources).
 
@@ -16,9 +16,8 @@ CI: [![Documentation](https://github.com/InfiniBrains/Awesome-GameDev-Resources/
 
 Join us: [![say thanks](https://img.shields.io/badge/Say%20Thanks-👍-1EAEDB.svg)](https://github.com/InfiniBrains/Awesome-GameDev-Resources/stargazers) [![Discord](https://img.shields.io/discord/956922983727915078)](https://discord.gg/9CdJeQ2XKB)
 
-Quality: [![codecov](https://codecov.io/gh/InfiniBrains/Awesome-GameDev-Resources/branch/master/graph/badge.svg?token=dafs9Weols)](https://codecov.io/gh/InfiniBrains/Awesome-GameDev-Resources)
+Metrics: [![Codacy Badge](https://app.codacy.com/project/badge/Grade/bd231b45a10a41c98f2bbe5bf0e3c808)](https://www.codacy.com/gh/InfiniBrains/Awesome-GameDev-Resources/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=InfiniBrains/Awesome-GameDev-Resources&amp;utm_campaign=Badge_Grade) ![GitHub language count](https://img.shields.io/github/languages/count/InfiniBrains/Awesome-GameDev-Resources) ![GitHub search hit counter](https://img.shields.io/github/search/InfiniBrains/Awesome-GameDev-Resources/todo) ![Lines of code](https://img.shields.io/tokei/lines/github/InfiniBrains/Awesome-GameDev-Resources) ![GitHub all releases](https://img.shields.io/github/downloads/InfiniBrains/Awesome-GameDev-Resources/total) ![GitHub contributors](https://img.shields.io/github/contributors/InfiniBrains/Awesome-GameDev-Resources) ![GitHub](https://img.shields.io/github/license/InfiniBrains/Awesome-GameDev-Resources)
 
-Metrics: [![Codacy Badge](https://app.codacy.com/project/badge/Grade/bd231b45a10a41c98f2bbe5bf0e3c808)](https://www.codacy.com/gh/InfiniBrains/Awesome-GameDev-Resources/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=InfiniBrains/Awesome-GameDev-Resources&amp;utm_campaign=Badge_Grade) ![GitHub language count](https://img.shields.io/github/languages/count/InfiniBrains/Awesome-GameDev-Resources) ![GitHub search hit counter](https://img.shields.io/github/search/InfiniBrains/Awesome-GameDev-Resources/todo) ![Lines of code](https://img.shields.io/tokei/lines/github.com/InfiniBrains/Awesome-GameDev-Resources) ![GitHub all releases](https://img.shields.io/github/downloads/InfiniBrains/Awesome-GameDev-Resources/total) ![GitHub contributors](https://img.shields.io/github/contributors/InfiniBrains/Awesome-GameDev-Resources)
 
 ## Topics
 

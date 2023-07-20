@@ -1,5 +1,8 @@
 # Artificial Intelligence
 
+!!! warning
+    This is a work in progress, and the schedule is subject to change. Every change will be communicated in class. Use the github repo as the source of truth for the schedule and materials. The materials provided in canvas are just a copy for archiving purposes and might be outdated.
+
 ## Schedule for Fall 2023
 
 <div class="grid cards" markdown>
@@ -128,7 +131,7 @@
     - Week 15. 2023/12/04
     - Topic: Work sessions for final project
 
--   ### :warning:{ .lg .middle } __Finals__
+-   ### :material-presentation:{ .lg .middle } __Finals__
 
     ---
 
