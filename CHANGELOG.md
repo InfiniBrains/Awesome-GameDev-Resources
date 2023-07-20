@@ -1,3 +1,10 @@
+## [1.2.12](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.2.11...v1.2.12) (2023-07-20)
+
+
+### Bug Fixes
+
+* **typo:** innitiative -> intitiative ([92b25fa](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/92b25fabd983bd8e8c41b0f7fbbbd284166e9be8))
+
 ## [1.2.11](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.2.10...v1.2.11) (2023-07-20)
 
 
