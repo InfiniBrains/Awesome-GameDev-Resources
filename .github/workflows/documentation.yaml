@@ -33,10 +33,14 @@ jobs:
 
       - name: Install dependencies
         run: |
-          sudo apt-get install -y doxygen gource libgs-dev chromium-browser
+          sudo apt-get install -y doxygen gource libgs-dev
           pip install git+https://${{ secrets.GH_SQUID_TOKEN }}@github.com/squidfunk/mkdocs-material-insiders.git
           pip install jinja2 Pygments mkdocs mkdocs-same-dir mkdocs-minify-plugin mkdocs-redirects mkdocs-exclude mkdocs-git-committers-plugin-2 mkdocs-git-revision-date-localized-plugin mkdocs-with-pdf beautifulsoup4==4.9.3
           npm install 
+
+      - uses: browser-actions/setup-chrome@v1
+        with:
+          version: 'latest'
 
       - name: Configure
         run: emcmake cmake -S. -Bbuild -DENABLE_TEST_COVERAGE=OFF -DENABLE_STANDALONE=ON -DENABLE_DOCUMENTATION=ON
