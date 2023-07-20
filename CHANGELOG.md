@@ -1,3 +1,16 @@
+## [1.2.11](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.2.10...v1.2.11) (2023-07-20)
+
+
+### Bug Fixes
+
+* **pdf:** add chromium to render js formulas ([045f296](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/045f296aaf46e3ea67bcbcf900837cbe50d97e06))
+* **pdf:** convert $$ to notation \[ in order to properly render formulas ([ade71c6](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/ade71c6d173f501e44c5622f4e0cb93779b3c37b))
+
+
+### Performance Improvements
+
+* **maze:** add gif maze animation ([6ea4ce4](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/6ea4ce4e0b49a940bb46e58020674ea1cb3c195b))
+
 ## [1.2.10](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.2.9...v1.2.10) (2023-07-19)
 
 
