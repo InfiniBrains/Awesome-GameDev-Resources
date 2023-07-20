@@ -1,3 +1,10 @@
+## [1.2.10](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.2.9...v1.2.10) (2023-07-19)
+
+
+### Performance Improvements
+
+* **AI:** improve AI index ([a3b2ef2](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/a3b2ef2f1c9111865e6f0eaf51dd7849a2cfc621))
+
 ## [1.2.9](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.2.8...v1.2.9) (2023-07-19)
 
 
