@@ -62,8 +62,8 @@ theme:
   language: en
   name: material
   custom_dir: overrides
-#  favicon: overrides/favicon/apple-touch-icon.png
-#  logo: overrides/favicon/apple-touch-icon.png
+  favicon: overrides/assets/logo.png
+  logo: overrides/assets/logo.png
   features:
     - attr_list
     - md_in_html
