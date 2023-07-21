@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.3.1...v1.3.2) (2023-07-21)
+
+
+### Performance Improvements
+
+* **home:** add stars to home ([ff8d497](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/ff8d497023b3d3985aef3efa93533f732ac8c2e9))
+
 ## [1.3.1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.3.0...v1.3.1) (2023-07-21)
 
 

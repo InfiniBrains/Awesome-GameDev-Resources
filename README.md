@@ -80,7 +80,7 @@ For every type of style, I try to give a bit of insights:
 
 # Credits
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/InfiniBrains/Awesome-GameDev-Resources)](https://github.com/InfiniBrains/mobagen/stargazers)
+Give us stars! Click -> [![GitHub Repo stars](https://img.shields.io/github/stars/InfiniBrains/Awesome-GameDev-Resources)](https://github.com/InfiniBrains/mobagen/stargazers)
 
 [![Star History Chart](https://api.star-history.com/svg?repos=InfiniBrains/Awesome-GameDev-Resources&type=Date)](https://star-history.com/#InfiniBrains/Awesome-GameDev-Resources&Date)
 
