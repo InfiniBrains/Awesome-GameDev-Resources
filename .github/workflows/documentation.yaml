@@ -65,7 +65,7 @@ jobs:
         with:
           version: 'latest'
 
-      - uses: nanasess/setup-chromedriver@v2
+#      - uses: nanasess/setup-chromedriver@v2
 
       - name: Install dependencies
         run: |
