@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.3.0...v1.3.1) (2023-07-21)
+
+
+### Performance Improvements
+
+* **social:** add logo ([618c4ed](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/618c4ed4b7e2de9aac6b3ff2843d22cc487b3965))
+
 # [1.3.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.2.14...v1.3.0) (2023-07-21)
 
 
