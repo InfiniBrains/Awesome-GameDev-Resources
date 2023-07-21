@@ -1,3 +1,10 @@
+## [1.3.4](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.3.3...v1.3.4) (2023-07-21)
+
+
+### Bug Fixes
+
+* **lfs:** undo lfs track ([6ff23f7](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/6ff23f793b400dececdd466a5148fbc5380253d8))
+
 ## [1.3.3](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.3.2...v1.3.3) (2023-07-21)
 
 
