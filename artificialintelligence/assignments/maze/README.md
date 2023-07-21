@@ -55,7 +55,7 @@ In this case, our map will have `2` columns, `2` lines and the first random numb
 
 Every line is a combination of underscore `_`, pipe `|` and  empty ` ` characters. The `_` character represents a horizontal wall and the `|` character represents a vertical wall.
 
-The initial state of the 3 x 3 map is:
+The initial state of the 2 x 2 map is:
 
 ```
  _ _
