@@ -69,7 +69,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          sudo apt-get install -y doxygen gource libgs-dev
+          sudo apt-get install -y doxygen gource libgs-dev pngquant libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev
           pip install git+https://${{ secrets.GH_SQUID_TOKEN }}@github.com/squidfunk/mkdocs-material-insiders.git
           pip install jinja2 Pygments mkdocs mkdocs-same-dir mkdocs-minify-plugin mkdocs-redirects mkdocs-exclude mkdocs-git-committers-plugin-2 mkdocs-git-revision-date-localized-plugin mkdocs-with-pdf beautifulsoup4==4.9.3 cairosvg pillow 
           npm install 
@@ -94,8 +94,8 @@ jobs:
       - name: 'Gource Action'
         uses: nbprojekt/gource-action@v1
         with:
-          gource_title: 'CoPaJE'
-          logo_url: 'overrides/favicon/android-chrome-192x192.png'
+          gource_title: 'Awesome Gamedev Resources'
+#          logo_url: 'overrides/favicon/android-chrome-192x192.png'
           gource_resolution: '1080p'
           gource_fps: 60
           avatars_url: contrubitors
