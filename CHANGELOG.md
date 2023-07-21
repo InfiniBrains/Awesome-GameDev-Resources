@@ -1,3 +1,10 @@
+## [1.3.3](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.3.2...v1.3.3) (2023-07-21)
+
+
+### Bug Fixes
+
+* **gh-pages:** force orphan ([a689097](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/a689097a93e628cf5b346fcafd0410b455cfe551))
+
 ## [1.3.2](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.3.1...v1.3.2) (2023-07-21)
 
 
