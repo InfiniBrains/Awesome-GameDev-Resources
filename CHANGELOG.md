@@ -1,3 +1,13 @@
+## [1.2.13](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.2.12...v1.2.13) (2023-07-21)
+
+
+### Bug Fixes
+
+* **lfs:** disable lfs ([c2dc8fb](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/c2dc8fb52803d6b36fe313ddca98dbe4863dcd17))
+* **pdf:** disable setup-chrome action ([83a8690](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/83a86903785e490a75b181355c276b966e9890dc))
+* **pdf:** install chrome manually ([90602ec](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/90602ec1a1b618110f878d716a5b39db19d3040f))
+* **pdf:** install chrome properly to render js ([096b0e6](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/096b0e61a9fb9d105519b7e7ac6a23fe500f51c7))
+
 ## [1.2.12](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.2.11...v1.2.12) (2023-07-20)
 
 
