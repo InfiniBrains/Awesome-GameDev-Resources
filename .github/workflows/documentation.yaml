@@ -71,7 +71,7 @@ jobs:
         run: |
           sudo apt-get install -y doxygen gource libgs-dev
           pip install git+https://${{ secrets.GH_SQUID_TOKEN }}@github.com/squidfunk/mkdocs-material-insiders.git
-          pip install jinja2 Pygments mkdocs mkdocs-same-dir mkdocs-minify-plugin mkdocs-redirects mkdocs-exclude mkdocs-git-committers-plugin-2 mkdocs-git-revision-date-localized-plugin mkdocs-with-pdf beautifulsoup4==4.9.3
+          pip install jinja2 Pygments mkdocs mkdocs-same-dir mkdocs-minify-plugin mkdocs-redirects mkdocs-exclude mkdocs-git-committers-plugin-2 mkdocs-git-revision-date-localized-plugin mkdocs-with-pdf beautifulsoup4==4.9.3 cairosvg pillow 
           npm install 
 
       - name: Configure
@@ -88,6 +88,22 @@ jobs:
 
       - name: COPY CNAME
         run: cp CNAME ./site
+
+      - run: cp ./robots.txt ./site/
+
+      - name: 'Gource Action'
+        uses: nbprojekt/gource-action@v1
+        with:
+          gource_title: 'CoPaJE'
+          logo_url: 'overrides/favicon/android-chrome-192x192.png'
+          gource_resolution: '1080p'
+          gource_fps: 60
+          avatars_url: contrubitors
+          #          avatars_auto_fetch: true
+          gource_seconds_per_day: 0.1
+          gource_hide_items: mouse
+
+      - run: cp ./gource/gource.mp4 ./site/gource.mp4
 
 #      - name: Copy Emscripten build to docs
 #        run: cp -R build/out/* build/documentation/doxygen/html/

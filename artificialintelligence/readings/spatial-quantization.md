@@ -1,6 +1,6 @@
 # Space quantization
 
-Space quantization is a way to sample continuous space to be used in in many fields, such as Artificial Intelligence, Physics, Rendering, and more. Here we are going to focus primarily Spatial Quantization for AI, because it is the base for pathfinding, line of sight, field of view, and many other techniques.
+Space quantization is a way to sample continuous space, and it can to be used in in many fields, such as Artificial Intelligence, Physics, Rendering, and more. Here we are going to focus primarily Spatial Quantization for AI, because it is the base for pathfinding, line of sight, field of view, and many other techniques.
 
 Some of the most common techniques for space quantization are: grids, voxels, graphs, quadtrees, octrees, KD-trees, BSP, Spatial Hashing and more. Another notable techniques are line of sight(or field of view), map flooding, caching, and movement zones.
 

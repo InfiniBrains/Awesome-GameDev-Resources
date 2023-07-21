@@ -186,6 +186,8 @@ plugins:
       docs_path: ./
       cache_dir: /tmp/cache/awesome-gamedev-resources
 #  - git-authors
+  - social:
+      cards_layout: default/accent
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true

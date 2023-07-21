@@ -82,6 +82,7 @@
 
     - Week 9. 2023/10/23
     - Topic: Spatial Quantization and Partitioning
+    - Readings: [Spatial Quantization](readings/spatial-quantization.md)
     - Formal Assignment: Hide and Seek
 
 -   ### :material-sine-wave:{ .lg .middle } __Noise Functions__
