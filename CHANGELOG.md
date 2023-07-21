@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.2.14...v1.3.0) (2023-07-21)
+
+
+### Bug Fixes
+
+* **social:** fix gource output ([9f3e386](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/9f3e38660c5d769ac6fca21d60d776814a685c17))
+
+
+### Features
+
+* **social:** add social cards ([96564eb](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/96564eb5a7546aafa1676f6f764f4c9f6848ef96))
+
 ## [1.2.14](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.2.13...v1.2.14) (2023-07-21)
 
 
