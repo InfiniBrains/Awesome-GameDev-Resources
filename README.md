@@ -14,7 +14,7 @@ Ways of reading:
 
 CI: [![Documentation](https://github.com/InfiniBrains/Awesome-GameDev-Resources/actions/workflows/documentation.yaml/badge.svg)](https://github.com/InfiniBrains/Awesome-GameDev-Resources/actions/workflows/documentation.yaml)
 
-Join us: [![say thanks](https://img.shields.io/badge/Say%20Thanks-👍-1EAEDB.svg)](https://github.com/InfiniBrains/Awesome-GameDev-Resources/stargazers) [![Discord](https://img.shields.io/discord/956922983727915078)](https://discord.gg/9CdJeQ2XKB)
+Join us: [![say thanks](https://img.shields.io/badge/Say%20Thanks-👍-1EAEDB.svg)](https://github.com/InfiniBrains/Awesome-GameDev-Resources/stargazers) [![Discord](https://img.shields.io/discord/956922983727915078)](https://discord.gg/9CdJeQ2XKB) [![GitHub Repo stars](https://img.shields.io/github/stars/InfiniBrains/Awesome-GameDev-Resources)](https://github.com/InfiniBrains/mobagen/stargazers).
 
 Metrics: [![Codacy Badge](https://app.codacy.com/project/badge/Grade/bd231b45a10a41c98f2bbe5bf0e3c808)](https://www.codacy.com/gh/InfiniBrains/Awesome-GameDev-Resources/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=InfiniBrains/Awesome-GameDev-Resources&amp;utm_campaign=Badge_Grade) ![GitHub language count](https://img.shields.io/github/languages/count/InfiniBrains/Awesome-GameDev-Resources) ![GitHub search hit counter](https://img.shields.io/github/search/InfiniBrains/Awesome-GameDev-Resources/todo) ![Lines of code](https://img.shields.io/tokei/lines/github/InfiniBrains/Awesome-GameDev-Resources) ![GitHub all releases](https://img.shields.io/github/downloads/InfiniBrains/Awesome-GameDev-Resources/total) ![GitHub contributors](https://img.shields.io/github/contributors/InfiniBrains/Awesome-GameDev-Resources) ![GitHub](https://img.shields.io/github/license/InfiniBrains/Awesome-GameDev-Resources)
 
@@ -77,5 +77,15 @@ For every type of style, I try to give a bit of insights:
     - I usually follow this strategy on advanced classes;
 - Demonstrator: explain and show things to students;
     - I usully provide a stream of references or even create my own content to show them how to do things;
+
+# Credits
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/InfiniBrains/Awesome-GameDev-Resources)](https://github.com/InfiniBrains/mobagen/stargazers)
+
+[![Star History Chart](https://api.star-history.com/svg?repos=InfiniBrains/Awesome-GameDev-Resources&type=Date)](https://star-history.com/#InfiniBrains/Awesome-GameDev-Resources&Date)
+
+<video controls>
+  <source src="gource.mp4" type="video/mp4">
+</video>
 
 
