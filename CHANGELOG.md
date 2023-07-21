@@ -1,3 +1,10 @@
+## [1.2.14](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.2.13...v1.2.14) (2023-07-21)
+
+
+### Performance Improvements
+
+* **spatial-quantization:** add spatial quantization to the AI index ([2225e2e](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/2225e2e23e1206d4ea9287104becaa892ef661ba))
+
 ## [1.2.13](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.2.12...v1.2.13) (2023-07-21)
 
 
