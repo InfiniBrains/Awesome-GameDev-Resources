@@ -12,6 +12,7 @@ nav:
   - Home: README.md
   - AI:
       - artificialintelligence/README.md
+      - Spatial Quantization: artificialintelligence/readings/spatial-quantization.md
       - Assignments:
           - artificialintelligence/README.md
           - Flocking: artificialintelligence/assignments/flocking/README.md

@@ -71,8 +71,9 @@
 
     ---
 
-    - Week 8. 2023/10/16 
+    - Week 8. 2023/10/16
     - Topic: Spatial Quantization and Partitioning
+    - Readings: [Spatial Quantization](readings/spatial-quantization.md)
     - Formal Assignment: Hide and Seek
 
 -   ### :simple-shadow:{ .lg .middle } __Spatial Quantization__
