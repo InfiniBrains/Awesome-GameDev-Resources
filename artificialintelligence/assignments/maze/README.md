@@ -24,7 +24,7 @@ There are many ways to implement a maze generation and one of the most common is
 
 ## Random Number Generation
 
-In order do be consistent with all languages and random functions the pseudo random number generation should follow the following sequence of 100 numbers:
+In order to be consistent with all languages and random functions the pseudo random number generation should follow the following sequence of 100 numbers:
 
 ```
 [72, 99, 56, 34, 43, 62, 31, 4, 70, 22, 6, 65, 96, 71, 29, 9, 98, 41, 90, 7, 30, 3, 97, 49, 63, 88, 47, 82, 91, 54, 74, 2, 86, 14, 58, 35, 89, 11, 10, 60, 28, 21, 52, 50, 55, 69, 76, 94, 23, 66, 15, 57, 44, 18, 67, 5, 24, 33, 77, 53, 51, 59, 20, 42, 80, 61, 1, 0, 38, 64, 45, 92, 46, 79, 93, 95, 37, 40, 83, 13, 12, 78, 75, 73, 84, 81, 8, 32, 27, 19, 87, 85, 16, 25, 17, 68, 26, 39, 48, 36];
@@ -38,7 +38,7 @@ In order to give consistency on how to decide the direction of the next cell, th
 
 1. List all visitable neighbors of the current cell;
 2. Sort the list of visitable neighbors by clockwise order, starting from the top neighbor: UP, RIGHT, DOWN, LEFT;
-3. If there are one visitable, do not call random, just return the first neighbor found;
+3. If there is one visitable, do not call random, just return the first neighbor found;
 4. If there are two or more visitable neighbors, call random and return the neighbor at the index of the random number modulo the number of visitable neighbors. `vec[i]%visitableCount`
 
 ## Input
@@ -58,12 +58,12 @@ Every line is a combination of underscore `_`, pipe `|` and  empty ` ` character
 The initial state of the 2 x 2 map is:
 
 ```
- _ _
-|_|_|
-|_|_|
+ _ _  
+|_|_| 
+|_|_| 
 ```
 
-In order to interactively solve this, we will, add `(0,0)` to the queue.
+In order to interactively solve this, we will add `(0,0)` to the queue.
 
 The neighbors of the current top (0,0) are RIGHT and DOWN, `(0,1)` and `(1,0)` respectively.
 
@@ -76,9 +76,9 @@ The random number is `72` and the number of neighbors is `2`, so the index of th
 The wall between `(0,0)` and `(0,1)` is removed, and `(0,1)` is added to the queue. Now it holds `[(0,0), (0,1)]`. The map is now:
 
 ```
- _ _
-|_ _|
-|_|_|
+ _ _  
+|_ _| 
+|_|_| 
 ```
 
 Now the only neighbor of (0,1) is DOWN, (1,1). So no need to call random, we just choose the only neighbor.
@@ -86,9 +86,9 @@ Now the only neighbor of (0,1) is DOWN, (1,1). So no need to call random, we jus
 The wall between `(0,1)` and `(1,1)` is removed, and `(1,1)` is added to the queue. Now it holds `[(0,0), (0,1), (1,1)]`. The map is now:
 
 ```
- _ _
-|_  |
-|_|_|
+ _ _  
+|_  | 
+|_|_| 
 ```
 
 Now the only neighbor of `(1,1)` is LEFT, `(1,0)`. So no need to call random, we just choose the only neighbor.
@@ -96,9 +96,9 @@ Now the only neighbor of `(1,1)` is LEFT, `(1,0)`. So no need to call random, we
 The wall between (1,1) and (1,0) is removed, and (1,0) is added to the queue. Now it holds `[(0,0), (0,1), (1,1), (1,0)]`. The map is now:
 
 ```
- _ _
-|_  |
-|_ _|
+ _ _  
+|_  | 
+|_ _| 
 ```
 
 Now, the current top of the queue is `(1,0)` and there isn't any neighbor to be visited, so we remove the current top `(1,0)` from the queue and backtrack. The queue is now `[(0,0), (0,1), (1,1)]`.
@@ -110,43 +110,43 @@ The current top is `(0,1)` and there isn't any neighbor to be visited, so we rem
 The current top is `(0,0)` and there isn't any neighbor to be visited, so we remove `(0,0)` from the queue and backtrack. The queue is now empty and we finish priting the map state. The final map is:
 
 ```
- _ _
-|_  |
-|_ _|
+ _ _  
+|_  | 
+|_ _| 
 ```
 
 And this the only one that should be printed. No intermediary maps should be printed.
 
-!!! example "Example 1"
+## Example 1
 
-    === "Input" 
+### Input 1 
 
-        ```
-        3 3 0
-        ```
+```
+3 3 0
+```
 
-    === "Output"
+### Output 1
     
-        ```
-         _ _ _  
-        |_  | | 
-        |  _| | 
-        |_ _ _| 
-        ```
+```
+ _ _ _  
+|_  | | 
+|  _| | 
+|_ _ _| 
+```
 
-!!! example "Example 2"
+## Example 2
 
-    === "Input" 
+### Input 2 
 
-        ```
-        3 3 1
-        ```
+```
+3 3 1
+```
 
-    === "Output"
+### Output2
     
-        ```
-         _ _ _  
-        | |_  | 
-        |_ _  | 
-        |_ _ _| 
-        ```
+```
+ _ _ _  
+| |_  | 
+|_ _  | 
+|_ _ _| 
+```
