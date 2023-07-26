@@ -71,10 +71,10 @@ In order to interactively solve this, we will, add `(0,0)` to the queue.
 
 The neighbors of the current top (0,0) are RIGHT and DOWN, `(0,1)` and `(1,0)` respectively.
 
-Following the clockwise order, the sorted neighbor list will be `[(0,1), (1,0)]`. 
+Following the clockwise order, the sorted neighbor list will be `[(0,1), (1,0)]`.
 
 We have more than one neighbor, so we call random. The current random index is `0`, so the random number is `72` and we increment the index.
- 
+
 The random number is `72` and the number of neighbors is `2`, so the index of the neighbor to be chosen is `72 % 2 = 0`, so we choose the neighbor `(0,1)`, the RIGHT one.
 
 The wall between `(0,0)` and `(0,1)` is removed, and `(0,1)` is added to the queue. Now it holds `[(0,0), (0,1)]`. The map is now:
@@ -105,7 +105,7 @@ The wall between (1,1) and (1,0) is removed, and (1,0) is added to the queue. No
 |_ _|
 ```
 
-Now, the current top of the queue is `(1,0)` and there isn't any neighbor to be visited, so we remove the current top `(1,0)` from the queue and backtrack. The queue is now `[(0,0), (0,1), (1,1)]`. 
+Now, the current top of the queue is `(1,0)` and there isn't any neighbor to be visited, so we remove the current top `(1,0)` from the queue and backtrack. The queue is now `[(0,0), (0,1), (1,1)]`.
 
 The current top is `(1,1)` and there isn't any neighbor to be visited, so we remove `(1,1)` from the queue and backtrack. The queue is now `[(0,0), (0,1)]`.
 
@@ -122,7 +122,7 @@ The current top is `(0,0)` and there isn't any neighbor to be visited, so we rem
 And this the only one that should be printed. No intermediary maps should be printed.
 
 !!! example "Example 1"
-    
+
     === "Input" 
 
         ```
