@@ -128,11 +128,11 @@ And this the only one that should be printed. No intermediary maps should be pri
     === "Output"
     
         ```
-             _ _ _  
-            |_  | | 
-            |  _| | 
-            |_ _ _| 
-       ```
+         _ _ _  
+        |_  | | 
+        |  _| | 
+        |_ _ _| 
+        ```
 
 !!! example "Example 2"
 
@@ -145,8 +145,8 @@ And this the only one that should be printed. No intermediary maps should be pri
     === "Output"
     
         ```
-             _ _ _  
-            | |_  |
-            |_ _  |
-            |_ _ _|
-       ```
+         _ _ _  
+        | |_  | 
+        |_ _  | 
+        |_ _ _| 
+        ```
