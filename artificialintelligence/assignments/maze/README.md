@@ -16,6 +16,10 @@ There are many ways to implement a maze generation and one of the most common is
     2. Else:
         1. Remove the top cell from the stack, backtracking;
 
+??? example
+
+    ![Maze generation](maze.gif)
+
 ## Random Number Generation
 
 In order do be consistent with all languages and random functions the pseudo random number generation should follow the following sequence of 100 numbers:
@@ -116,3 +120,37 @@ The current top is `(0,0)` and there isn't any neighbor to be visited, so we rem
 ```
 
 And this the only one that should be printed. No intermediary maps should be printed.
+
+!!! example "Example 1"
+    
+    === "Input" 
+
+        ```
+        3 3 0
+        ```
+
+    === "Output"
+    
+        ```
+             _ _ _  
+            |_  | | 
+            |  _| | 
+            |_ _ _| 
+       ```
+
+!!! example "Example 2"
+
+    === "Input" 
+
+        ```
+        3 3 1
+        ```
+
+    === "Output"
+    
+        ```
+             _ _ _  
+            | |_  |
+            |_ _  |
+            |_ _ _|
+       ```
