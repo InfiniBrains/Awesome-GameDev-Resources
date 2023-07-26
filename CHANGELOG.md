@@ -1,3 +1,10 @@
+## [1.3.8](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.3.7...v1.3.8) (2023-07-26)
+
+
+### Bug Fixes
+
+* **maze:** fix endlines for maze examples ([95c18c1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/95c18c19bca98b20de73c6dc1931c2753ddb2cbc))
+
 ## [1.3.7](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.3.6...v1.3.7) (2023-07-26)
 
 
