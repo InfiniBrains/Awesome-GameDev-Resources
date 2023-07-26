@@ -1,3 +1,10 @@
+## [1.3.7](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.3.6...v1.3.7) (2023-07-26)
+
+
+### Bug Fixes
+
+* **maze:** add empty spaces at the end of the line ([7350899](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/7350899e8eeeb258bcec0cfa0e8eb5d7374261b7))
+
 ## [1.3.6](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.3.5...v1.3.6) (2023-07-26)
 
 
