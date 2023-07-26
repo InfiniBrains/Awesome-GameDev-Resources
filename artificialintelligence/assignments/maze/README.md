@@ -16,7 +16,9 @@ There are many ways to implement a maze generation and one of the most common is
     2. Else:
         1. Remove the top cell from the stack, backtracking;
 
-??? example
+??? example "Simulation"
+
+    If you simulate the algorithm visually, the result would be something similar to the following
 
     ![Maze generation](maze.gif)
 
@@ -38,12 +40,6 @@ In order to give consistency on how to decide the direction of the next cell, th
 2. Sort the list of visitable neighbors by clockwise order, starting from the top neighbor: UP, RIGHT, DOWN, LEFT;
 3. If there are one visitable, do not call random, just return the first neighbor found;
 4. If there are two or more visitable neighbors, call random and return the neighbor at the index of the random number modulo the number of visitable neighbors. `vec[i]%visitableCount`
-
-??? example Simulation
-
-    If you simulate the algorithm visually, the result would be something similar to the following
-
-    ![Maze generation](maze.gif)
 
 ## Input
 
