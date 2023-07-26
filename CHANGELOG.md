@@ -1,3 +1,10 @@
+## [1.3.5](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.3.4...v1.3.5) (2023-07-26)
+
+
+### Performance Improvements
+
+* **maze:** improve maze generation examples ([5210f70](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/5210f70e152df9d0fbf46423aec632325f23c90f))
+
 ## [1.3.4](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.3.3...v1.3.4) (2023-07-21)
 
 
