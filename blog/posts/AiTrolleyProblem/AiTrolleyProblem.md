@@ -1,5 +1,4 @@
 ---
-draft: true 
 date: 2022-07-28
 categories:
   - AI
