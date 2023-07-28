@@ -1,3 +1,22 @@
+# [1.4.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.3.8...v1.4.0) (2023-07-28)
+
+
+### Bug Fixes
+
+* **mkdocs:** fix mkdocs watching wrong folder ([e3de093](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/e3de093569acb0b89cab75b76be778a97bf53f99))
+* **mkdocs:** improve blog exclusion on pdf generation ([8719186](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/8719186dabf159acc75ab7c87c0f3498a9f2748d))
+
+
+### Features
+
+* **blog:** add blogging system ([fb77f86](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/fb77f863cefacda19018330f7612eb5b421ec268))
+
+
+### Performance Improvements
+
+* **life:** game of life automated tests ([eaeca18](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/eaeca18b66a77dc781026104d640906752ed52ea))
+* **maze:** add automated tests for maze ([988c4c7](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/988c4c7745e7b1dfd3dfff5f9aa08b07cfe110a3))
+
 ## [1.3.8](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.3.7...v1.3.8) (2023-07-26)
 
 
