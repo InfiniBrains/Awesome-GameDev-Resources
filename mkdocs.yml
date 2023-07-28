@@ -241,7 +241,7 @@ plugins:
       #    - 'release-notes/:upgrading'
       #    - 'release-notes/:changelog'
       exclude_pages:
-          - 'blog/*'
+          - 'blog/'
       #    - 'appendix/contribute/'
       #convert_iframe:
       #    - src: IFRAME SRC
