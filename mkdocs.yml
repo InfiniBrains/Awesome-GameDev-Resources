@@ -50,6 +50,9 @@ nav:
       - Promoting: portfolio/12-promoting/README.md
       - Cover Letter: portfolio/13-cover-letter/README.md
       - CV: portfolio/14-cv/README.md
+  - Blog:
+      - blog/index.md
+
 #  - Dojo:
 #      - dojo/README.md
 #      - Full Cycle Game Dev: dojo/Full-Cycle-SDL-Development.md
@@ -179,6 +182,21 @@ markdown_extensions:
   - pymdownx.tilde
 
 plugins:
+  - blog:
+#      blog_toc: true
+      blog_authors: true
+      post_url_date_format: yyyy/MM/dd
+      post_url_format: "{date}/{slug}"
+      post_date_format: short
+  - rss:
+      match_path: blog/posts/.*
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
+  - timetoread:
+      wpm: 100
   - git-committers:
       repository: InfiniBrains/Awesome-GameDev-Resources
       branch: main
@@ -222,8 +240,8 @@ plugins:
       #excludes_children:
       #    - 'release-notes/:upgrading'
       #    - 'release-notes/:changelog'
-      #exclude_pages:
-      #    - 'bugs/'
+      exclude_pages:
+          - 'blog/*'
       #    - 'appendix/contribute/'
       #convert_iframe:
       #    - src: IFRAME SRC
@@ -301,3 +319,4 @@ watch:
   - overrides
   - portfolio
   - networking
+  - blog
