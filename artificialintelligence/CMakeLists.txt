@@ -1,1 +1,2 @@
 add_subdirectory(assignments/maze)
+add_subdirectory(assignments/life)

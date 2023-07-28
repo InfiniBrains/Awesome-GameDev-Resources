@@ -4,6 +4,7 @@
 
     Please refer to this repository in order follow the previous assignments for the first course of AI. https://github.com/InfiniBrains/mobagen
 
+
 Topics suggested in the survey, and some of my considerations.
 - Procedural Content Generation. Advanced terrain generation - It was previously covered in the last class, I am going to focus other topics
 - AI applied to improve 3D Animation Movement. Follow this https://github.com/sebastianstarke/AI4Animation
