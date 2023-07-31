@@ -2,6 +2,7 @@ function(add_custom_test TEST_NAME TEST_EXECUTABLE TEST_INPUT_LIST TEST_EXPECTED
     list(LENGTH TEST_INPUT_LIST num_tests)
 
     MATH(EXPR num_tests "${num_tests} - 1")
+    message(STATUS "Adding ${num_tests} tests for ${TEST_NAME}.")
 
     set(TEST_COMMANDS "")
     foreach(index RANGE 0 ${num_tests})
