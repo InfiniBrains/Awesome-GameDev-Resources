@@ -20,11 +20,12 @@ The map is continuous on every direction, so the cells on the edges have the cel
 The first line of the input are three numbers, C, L and T, the number of columns, lines and turns, respectively. The next L lines are the initial state of the cells, where each line has C characters, either `.` for dead cells or `#` for alive cells.
 
 ```text
-4 4 4
-.#..
-..#.
-###.
-....
+5 5 4
+.#...
+..#..
+###..
+.....
+.....
 ```
 
 ## Output
@@ -32,8 +33,9 @@ The first line of the input are three numbers, C, L and T, the number of columns
 The output should be the state of the cells after T turns, in the same format as the input.
 
 ```text
-....
-..#.
-...#
-.###
+.....
+..#..
+...#.
+.###.
+.....
 ```
