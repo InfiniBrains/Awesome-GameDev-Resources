@@ -1,5 +1,5 @@
 ---
-date: 2022-07-28
+date: 2023-07-28T18:42:39Z
 categories:
   - AI
   - Philosophy
