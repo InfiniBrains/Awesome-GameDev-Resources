@@ -71,7 +71,7 @@ jobs:
         run: |
           sudo apt-get install -y doxygen gource libgs-dev pngquant libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev
           pip install git+https://${{ secrets.GH_SQUID_TOKEN }}@github.com/squidfunk/mkdocs-material-insiders.git
-          pip install jinja2 Pygments mkdocs mkdocs-same-dir mkdocs-minify-plugin mkdocs-redirects mkdocs-exclude mkdocs-git-committers-plugin-2 mkdocs-git-revision-date-localized-plugin mkdocs-with-pdf beautifulsoup4==4.9.3 cairosvg pillow mkdocs-rss-plugin mkdocs-timetoread-plugin 
+          pip install jinja2 Pygments mkdocs mkdocs-same-dir mkdocs-minify-plugin mkdocs-redirects mkdocs-exclude mkdocs-git-committers-plugin-2 mkdocs-git-revision-date-localized-plugin mkdocs-with-pdf beautifulsoup4==4.9.3 cairosvg pillow mkdocs-rss-plugin mkdocs-timetoread-plugin tzdata
           npm install 
 
       - name: Configure
