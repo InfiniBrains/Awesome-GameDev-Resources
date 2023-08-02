@@ -1,5 +1,7 @@
 # Artificial Intelligence
 
+[slides](slides/test)
+
 !!! warning
     This is a work in progress, and the schedule is subject to change. Every change will be communicated in class. Use the github repo as the source of truth for the schedule and materials. The materials provided in canvas are just a copy for archiving purposes and might be outdated.
 

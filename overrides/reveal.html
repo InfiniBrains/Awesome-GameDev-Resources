@@ -42,6 +42,9 @@
 <script src="{{ config.reveal.plugin.path }}/highlight/highlight.js"></script>
 <script src="{{ config.reveal.plugin.path }}/zoom/zoom.js"></script>
 <script src="{{ config.reveal.plugin.path }}/notes/notes.js"></script>
+<script src="{{ config.reveal.plugin.path }}/math/math.js"></script>
+
+
 
 <script>
     // Full list of configuration options available here:
@@ -55,7 +58,7 @@
 
         transition: '{{ config.reveal.transition }}', // default/cube/page/concave/zoom/linear/fade/none
         // Learn about plugins: https://revealjs.com/plugins/
-        plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+        plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX ]
     });
 </script>
 

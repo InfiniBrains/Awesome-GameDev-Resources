@@ -138,6 +138,15 @@ theme:
 #    repo: fontawesome/brands/git-alt
 #    logo: logo
 
+reveal:
+  path: reveal.js/dist
+  transition: slide
+  theme:
+    name: white.css
+    path: theme
+  plugin:
+    path: reveal.js/plugin
+
 edit_uri: edit/main/
 
 copyright: Copyright &copy; 2023 Tolstenko and Others
@@ -188,6 +197,7 @@ plugins:
       post_url_date_format: yyyy/MM/dd
       post_url_format: "{date}/{slug}"
       post_date_format: short
+      blog_dir: blog
   - rss:
       match_path: blog/posts/.*
       date_from_meta:
