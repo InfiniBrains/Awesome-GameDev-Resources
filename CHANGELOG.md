@@ -1,3 +1,11 @@
+## [1.5.1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.5.0...v1.5.1) (2023-08-03)
+
+
+### Bug Fixes
+
+* **reveal:** make reveal be cloned before ci/cd ([bf40550](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/bf40550e1d8537752cc3b1287c25a67106b8a5bc))
+* RNG bit shift ([1ae6421](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/1ae642130150dbd43daccd19e34ce3f8617b6416))
+
 # [1.5.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.4.0...v1.5.0) (2023-08-02)
 
 
