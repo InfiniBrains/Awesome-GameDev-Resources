@@ -20,6 +20,7 @@ jobs:
         with:
           fetch-depth: 0
           lfs: false
+          submodules: true
 
       - uses: actions/cache@v2
         with:
