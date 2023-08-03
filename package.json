@@ -18,7 +18,10 @@
     "build:docs": " CI=1 cmake --build buildDocs --target GenerateDocs",
     "preserve": "npm run build:docs",
     "serve": "npx http-serve site",
-    "serve:dev": "mkdocs serve"
+    "serve:dev": "mkdocs serve",
+    "prelist:all": "cmake -S. -Bbuild",
+    "list:all": "cmake --build build --target help",
+    "git:pull": "git pull"
   },
   "repository": {
     "type": "git",
