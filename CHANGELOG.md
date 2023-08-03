@@ -1,3 +1,19 @@
+# [1.5.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.4.0...v1.5.0) (2023-08-02)
+
+
+### Bug Fixes
+
+* **blog:** disable draft ([c459e7d](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/c459e7da402885de926f939c7c0869f6a4ddc614))
+* **blog:** timezone ([665167b](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/665167bcd6c046d37cd414ebb13dcd4094cefbf3))
+* **life:** fix game of life automated tests endlines ([cfc4364](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/cfc43649969d2423e3de7ef8862385ce0fef0902))
+* **life:** fixed some tests ([0e97dcb](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/0e97dcbdc0dcb89893423850f11c79a49ff6094c))
+* **tzdata:** add tzdata as dependency ([b71de98](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/b71de9801e8d31bc440502b87a7c60ed63e3a0b3))
+
+
+### Features
+
+* **reveal:** add reveal to embed presentations ([f6e4cc6](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/f6e4cc6ba281a0c68c70c00bd26c5061bfaccbbf))
+
 # [1.4.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.3.8...v1.4.0) (2023-07-28)
 
 
