@@ -1,3 +1,15 @@
+## [1.5.2](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.5.1...v1.5.2) (2023-08-04)
+
+
+### Bug Fixes
+
+* **cmake:** disable default build flag ENABLE_DOCUMENTATION ([cd1c805](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/cd1c805b42e7ba5faad48391bb82b539bf0b5214))
+
+
+### Performance Improvements
+
+* **package:** add more scripts ([7c073ba](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/7c073ba7f31abe59d717e75c30cdef1e8d67fbeb))
+
 ## [1.5.1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.5.0...v1.5.1) (2023-08-03)
 
 
