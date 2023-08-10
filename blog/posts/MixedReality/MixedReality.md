@@ -103,7 +103,7 @@ There are virtually infinite applications for immersive technologies, but I will
 - Social: Virtual meetings, parties, dating, etc.;
 - Psychological Treatment: Virtual exposure therapy(Ex.: PTSD, phobias), virtual reality therapy, etc.;
 - Medical: Surgery planning, surgery simulation, etc.;
-- Design: 
+- Design: Architecture, interior design, etc.; 
 
 ## Future
 
