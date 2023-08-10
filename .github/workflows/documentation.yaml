@@ -11,7 +11,6 @@ env:
 jobs:
   build:
     name: Build and publish documentation
-    container: emscripten/emsdk
     runs-on: ubuntu-latest
     steps:
       - run: git config --global --add safe.directory '*'
@@ -32,51 +31,40 @@ jobs:
       - name: APT Update
         run: apt update
 
-      - name: install chrome dependencies
+      - name: chrome
         run: |
-          apt install -y ca-certificates fonts-liberation libappindicator3-1 libasound2 libatk-bridge2.0-0 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgbm1 libgcc1 libglib2.0-0 libgtk-3-0 libnspr4 libnss3 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 lsb-release wget xdg-utils unzip gnupg2
-          wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
-          echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
+          apt install -y software-properties-common
+          add-apt-repository -y ppa:saiarcot895/chromium-beta
           apt update
-          apt install -y google-chrome-stable
-          alias google-chrome=google-chrome-stable
-          alias chrome=google-chrome-stable
-          alias chromium=google-chrome-stable
-          alias chromium-browser=google-chrome-stable
-          alias chrome-browser=google-chrome-stable
-          CHROMEAPP=google-chrome-stable
-          echo $CHROMEAPP
-          CHROME_VERSION=$("$CHROMEAPP" --version | cut -f 3 -d ' ' | cut -d '.' -f 1)
-          echo $CHROME_VERSION
-          VERSION=$(curl --location --fail --retry 10 http://chromedriver.storage.googleapis.com/LATEST_RELEASE)
-          echo $VERSION
-          wget -c -nc --retry-connrefused --tries=0 https://chromedriver.storage.googleapis.com/${VERSION}/chromedriver_linux64.zip
-          unzip -o -q chromedriver_linux64.zip
-          mv chromedriver /usr/local/bin/chromedriver
-          rm chromedriver_linux64.zip
+          apt install -y chromium-browser chromium-chromedriver
+          chromium-browser --no-sandbox --headless --disable-gpu --dump-dom https://google.com
+          apt install -y ca-certificates fonts-liberation libappindicator3-1 libasound2 libatk-bridge2.0-0 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgbm1 libgcc1 libglib2.0-0 libgtk-3-0 libnspr4 libnss3 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 lsb-release wget xdg-utils unzip gnupg2
 
-      #          wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-#          sudo apt install ./google-chrome-stable_current_amd64.deb
-#          alias chrome="/usr/bin/google-chrome-stable"
-#          alias chromium="/usr/bin/google-chrome-stable"
-#          alias chromium-browser="/usr/bin/google-chrome-stable"
-#          alias google-chrome="/usr/bin/google-chrome-stable"
-
-      - uses: browser-actions/setup-chrome@v1
-        with:
-          version: 'latest'
+#      - uses: browser-actions/setup-chrome@v1
+#        with:
+#          version: 'latest'
 
 #      - uses: nanasess/setup-chromedriver@v2
 
       - name: Install dependencies
         run: |
           sudo apt-get install -y doxygen gource libgs-dev pngquant libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev
-          pip install git+https://${{ secrets.GH_SQUID_TOKEN }}@github.com/squidfunk/mkdocs-material-insiders.git
-          pip install jinja2 Pygments mkdocs mkdocs-same-dir mkdocs-minify-plugin mkdocs-redirects mkdocs-exclude mkdocs-git-committers-plugin-2 mkdocs-git-revision-date-localized-plugin mkdocs-with-pdf beautifulsoup4==4.9.3 cairosvg pillow mkdocs-rss-plugin mkdocs-timetoread-plugin tzdata
-          npm install 
 
-      - name: Configure
-        run: emcmake cmake -S. -Bbuild -DENABLE_TEST_COVERAGE=OFF -DENABLE_STANDALONE=ON -DENABLE_DOCUMENTATION=ON
+      - name: install mkdocs deps
+        run: |
+          pip install jinja2 Pygments mkdocs mkdocs-same-dir mkdocs-minify-plugin mkdocs-redirects mkdocs-exclude mkdocs-git-committers-plugin-2 mkdocs-git-revision-date-localized-plugin mkdocs-with-pdf beautifulsoup4==4.9.3 cairosvg pillow mkdocs-rss-plugin mkdocs-timetoread-plugin tzdata
+          npm install
+
+      - name: install squidfunk mkdocs material
+        run: |
+          if [ "${{ secrets.GH_SQUID_TOKEN }}" != '' ]; then
+          pip install git+https://${{ secrets.GH_SQUID_TOKEN }}@github.com/squidfunk/mkdocs-material-insiders.git
+          else
+          pip install mkdocs-material==9.2.0b3
+          fi          
+
+#      - name: Configure
+#        run: cmake -S. -Bbuild -DENABLE_TEST_COVERAGE=OFF -DENABLE_STANDALONE=ON -DENABLE_DOCUMENTATION=ON
 
 #      - name: Build Docs
 #        run: cmake --build build --target GenerateDocs
