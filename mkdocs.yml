@@ -198,6 +198,7 @@ plugins:
       post_url_format: "{date}/{slug}"
       post_date_format: short
       blog_dir: blog
+      post_readtime_words_per_minute: 100
   - rss:
       match_path: blog/posts/.*
       date_from_meta:
