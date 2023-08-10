@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.5.2...v1.6.0) (2023-08-10)
+
+
+### Features
+
+* **blog:** add ideas on mixed reality ([1b1b44f](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/1b1b44f010a7bd931c34c0fa0b737dbc2feb7072))
+
 ## [1.5.2](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.5.1...v1.5.2) (2023-08-04)
 
 
