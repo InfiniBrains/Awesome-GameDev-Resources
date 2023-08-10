@@ -238,7 +238,7 @@ plugins:
       author: InfiniBrains
       copyright: Copyleft by InfiniBrains
       render_js: true
-      headless_chrome_path: chrome
+      headless_chrome_path: chromium
       #cover: false
       #back_cover: true
       cover_title: Awesome GameDev Book

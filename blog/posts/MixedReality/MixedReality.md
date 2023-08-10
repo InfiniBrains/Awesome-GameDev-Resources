@@ -95,7 +95,15 @@ I will add to this list a personal experience that I don't see many people talki
 
 ## Applications
 
+There are virtually infinite applications for immersive technologies, but I will focus on the ones that I think are the most important ones in my opinion:
 
+- Entertainment: Games in general, but also movies, etc.;
+- Data Visualization: the ability to visualize data in a 3D space can be very useful to understand complex data;
+- Education: Training, virtual classrooms, virtual museums, virtual tours, etc.;
+- Social: Virtual meetings, parties, dating, etc.;
+- Psychological Treatment: Virtual exposure therapy(Ex.: PTSD, phobias), virtual reality therapy, etc.;
+- Medical: Surgery planning, surgery simulation, etc.;
+- Design: 
 
 ## Future
 
