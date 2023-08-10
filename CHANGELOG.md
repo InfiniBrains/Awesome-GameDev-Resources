@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.6.0...v1.6.1) (2023-08-10)
+
+
+### Bug Fixes
+
+* **blog:** readtime ([f7dc6ad](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/f7dc6adc3387eb67721c1d182df869c238e82df0))
+
 # [1.6.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.5.2...v1.6.0) (2023-08-10)
 
 
