@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.7.0...v1.7.1) (2023-08-22)
+
+
+### Bug Fixes
+
+* **blog:** remove compatibility author data ([b2d40cf](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/b2d40cf7412ac190761dd728d2de216918dcf825))
+
 # [1.7.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.6.2...v1.7.0) (2023-08-22)
 
 
