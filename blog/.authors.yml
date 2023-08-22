@@ -1,3 +1,10 @@
+authors:
+  tolstenko:
+    name: Alexandre Tolstenko
+    description: Professor, Startuper, AI and Blockchain evangelist
+    avatar: https://github.com/tolstenko.png
+
+# for campatibility purposes
 tolstenko:
   name: Alexandre Tolstenko
   description: Professor, Startuper, AI and Blockchain evangelist
