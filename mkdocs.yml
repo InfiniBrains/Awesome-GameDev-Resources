@@ -20,7 +20,7 @@ nav:
           - Pseudo-Random Number Generator: artificialintelligence/assignments/rng/README.md
           - Maze: artificialintelligence/assignments/maze/README.md
           - Catch the Cat: artificialintelligence/assignments/catchthecat/README.md
-  - Programming:
+  - Intro. Programming:
       - intro/README.md
       - Introduction to C++: intro/01-introduction/README.md
       - Setup: intro/02-tooling/README.md
@@ -32,6 +32,8 @@ nav:
       - Arrays: intro/08-arrays/README.md
       - Recursion: intro/09-recursion/README.md
       - Sorting: intro/10-sorting/README.md
+  - Adv. Programming:
+      - advanced/README.md
   - Portfolio:
       - portfolio/README.md
       - Introduction: portfolio/01-introduction/README.md

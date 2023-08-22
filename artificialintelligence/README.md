@@ -1,11 +1,14 @@
 # Artificial Intelligence
 
-[slides](slides/test)
-
 !!! warning
     This is a work in progress, and the schedule is subject to change. Every change will be communicated in class. Use the github repo as the source of truth for the schedule and materials. The materials provided in canvas are just a copy for archiving purposes and might be outdated.
 
 ## Schedule for Fall 2023
+
+Relevant dates for the Fall 2023 semester:
+- 09-10 Oct 2023 - Midterms Week
+- 20-24 Nov 2023 - Thanksgiving Break
+- 11-15 Dec 2023 - Finals Week
 
 <div class="grid cards" markdown>
 

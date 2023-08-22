@@ -2,27 +2,47 @@
 
 ## Schedule
 
-| Week | Date       | Topic                                                                        |
-|------|------------|------------------------------------------------------------------------------|
-| 1    | 2023/01/16 | [Introduction](01-introduction/README.md)                                    |
-| 2    | 2023/01/23 | [Tools for first Program](02-tooling/README.md)                              |
-| 3    | 2023/01/30 | [Data Types, Arithmetic Operations, Type conversion](03-datatypes/README.md) |
-| 4    | 2023/02/06 | [Conditionals, Boolean and Bitwise Operations](04-conditionals//README.md)   |
-| 5    | 2023/02/13 | [Loops, for, while, goto and debugging](05-loops//README.md)                 |
-| 6    | 2023/02/20 | [Streams, File IO](07-streams/README.md)                                     |
-| 7    | 2023/02/27 | Review                                                                       |
-| 8    | 2023/03/06 | Midterm                                                                      |
-| 9    | 2023/03/13 | BREAK                                                                        |
-| 10   | 2023/03/20 | [Functions, Base Conversion, Pointers, Reference](06-functions/README.md)    |
-| 11   | 2023/03/27 | [Arrays, Vectors, String](08-arrays/README.md)                               |
-| 12   | 2023/04/03 | [Sorting](10-sorting/README.md)                                              |
-| 13   | 2023/04/10 | [Recursion](09-recursion/README.md)                                          |
-| 14   | 2023/04/17 |                                                                              |
-| 15   | 2023/04/24 | Review                                                                       |
-| 16   | 2023/05/01 | FINALS                                                                       |
+!!! warning
+    
+    This is a work in progress, and the schedule is subject to change. Every change will be communicated in class. Use the github repo as the source of truth for the schedule and materials. The materials provided in canvas are just a copy for archiving purposes and might be outdated.
+
+Relevant dates for the Fall 2023 semester:
+- 09-13 Oct 2023 - Midterms Week
+- 20-24 Nov 2023 - Thanksgiving Break
+- 11-15 Dec 2023 - Finals Week
+
+| Week | Date       | Topic                                                                                     |
+|------|------------|-------------------------------------------------------------------------------------------|
+| 1    | 2023/08/28 | [Introduction](01-introduction/README.md) [Tools for first Program](02-tooling/README.md) |
+| 2    | 2023/09/04 | [Data Types, Arithmetic Operations, Type conversion](03-datatypes/README.md)              |
+| 3    | 2023/09/11 | [Conditionals, Boolean and Bitwise Operations](04-conditionals//README.md)                |
+| 4    | 2023/09/18 | [Loops, for, while, goto and debugging](05-loops//README.md)                              |
+| 5    | 2023/09/25 | [Functions, Base Conversion, Pointers, Reference](06-functions/README.md)                 |
+| 6    | 2023/10/02 | [Streams, File IO](07-streams/README.md)                                                  |
+| 7    | 2023/10/09 | Midterm                                                                                   |
+| 8    | 2023/10/16 | [Arrays, Vectors, String](08-arrays/README.md)                                            | 
+| 9    | 2023/10/23 | [Recursion](09-recursion/README.md)                                                       |
+| 10   | 2023/10/30 | [Sorting](10-sorting/README.md)                                                           |
+| 11   | 2023/11/06 | [Structs, Unions, Enumerations](11-structs/README.md)                                     |
+| 12   | 2023/11/13 | Work sessions                                                                             |
+| 13   | 2023/11/20 | Thanks giving week                                                                        |
+| 14   | 2023/11/27 | Work sessions / Review                                                                    |
+| 15   | 2023/12/04 | Review / Presentations                                                                    |
+| 16   | 2023/12/11 | Finals                                                                                    |
+
 
 # References
 
+
+ 
+
+10th edition
+Gaddis, T. (2020) Starting out with C++. Early objects / Tony Gaddis, Judy Walters, Godfrey Muganda. Pearson Education, Inc. Available at: https://research-ebsco-com.cobalt.champlain.edu/linkprocessor/plink?id=047f7203-3c9c-399b-834f-42cdaac4c1da
+
+9th edition
+Gaddis, T. (2017) Starting out with C++. Early objects / Tony Gaddis, Judy Walters, Godfrey Muganda. Pearson. Available at: https://discovery-ebsco-com.cobalt.champlain.edu/linkprocessor/plink?id=502e29d6-3b46-38ff-9dc2-65e79c81c29b
+
+- C++ early objects. [Amazon](https://a.co/d/3L7C77q) (Champlain: [9th](https://research-ebsco-com.cobalt.champlain.edu/linkprocessor/plink?id=047f7203-3c9c-399b-834f-42cdaac4c1da) [10th](https://discovery-ebsco-com.cobalt.champlain.edu/linkprocessor/plink?id=502e29d6-3b46-38ff-9dc2-65e79c81c29b)) 
 - [learncpp](https://www.learncpp.com/)
 - [cpluslus](https://cplusplus.com/doc/tutorial/)
 - [cprogramming](https://www.cprogramming.com/tutorial/c++-tutorial.html)

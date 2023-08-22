@@ -1,5 +1,9 @@
 # Awesome GameDev Resources
 
+!!! info inline end "Join is on Discord!"
+
+    <iframe src="https://discord.com/widget?id=956922983727915078&theme=dark" width="250" height="400" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+
 How to use this repo: Read the topics, and if you're unsure if you understand the topics covered here it is a good time for you to revisit them.
 
 Ways of reading:
@@ -18,6 +22,7 @@ Join us: [![say thanks](https://img.shields.io/badge/Say%20Thanks-👍-1EAEDB.sv
 
 Metrics: [![Codacy Badge](https://app.codacy.com/project/badge/Grade/bd231b45a10a41c98f2bbe5bf0e3c808)](https://www.codacy.com/gh/InfiniBrains/Awesome-GameDev-Resources/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=InfiniBrains/Awesome-GameDev-Resources&amp;utm_campaign=Badge_Grade) ![GitHub language count](https://img.shields.io/github/languages/count/InfiniBrains/Awesome-GameDev-Resources) ![GitHub search hit counter](https://img.shields.io/github/search/InfiniBrains/Awesome-GameDev-Resources/todo) ![Lines of code](https://img.shields.io/tokei/lines/github/InfiniBrains/Awesome-GameDev-Resources) ![GitHub all releases](https://img.shields.io/github/downloads/InfiniBrains/Awesome-GameDev-Resources/total) ![GitHub contributors](https://img.shields.io/github/contributors/InfiniBrains/Awesome-GameDev-Resources) ![GitHub](https://img.shields.io/github/license/InfiniBrains/Awesome-GameDev-Resources)
 
+Code of conduct: [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
 ## Topics
 
