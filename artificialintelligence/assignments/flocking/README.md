@@ -196,3 +196,10 @@ The expected output are the position and velocity for each agent after the simul
 0.000 0.490 0.000 -0.010
 0.000 -0.490 0.000 0.010
 ```
+
+## Grading 
+
+20 points total:
+- 5 Points – by following standards;
+- 5 Points – properly submitted in Canvas;
+- 10 Points – passed on test cases;

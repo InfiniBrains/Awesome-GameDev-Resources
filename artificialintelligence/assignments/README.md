@@ -34,3 +34,14 @@ There are two types of coding assignments:
 ## Development tools
 
 I will be using CMake for the classes, but you can use whatever you want. Please [read this](../../intro/02-tooling/README.md) to understand the C++ toolset.
+
+## Recordings
+
+In all interactive assignmets, you will have to record a 5 minute video explaing your code. Use [OBS](https://obsproject.com/) or any software you prefer to record your screen while you explain your code. But for this one, just send me the video showing the repo and the repo invites sent to me.
+
+## Grading
+
+20 points total:
+- 5 Points – inviting me to the repos;
+- 5 Points – sending me the video explaining the repo and the invite sent to me;
+- 10 Points - Show the repos cloned on your computer;
