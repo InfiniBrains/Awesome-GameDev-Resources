@@ -228,7 +228,7 @@ lack of functionalities. It is better to use REPLIT than this tool, in my opinio
 
 [XCode](https://developer.apple.com/xcode/) - for OSX and Apple devices. It is required at least to have the Command 
 Line Tools. CLion on Macs depends on that. 
-<details>
+
 Xcode Command Line Tools is a small suite of software development tools that are installed on your Mac along with Xcode. These tools include the GCC compiler, which is used to compile C and C++ programs, as well as other tools such as Make and GDB, which are used for debugging and development. The Xcode Command Line Tools are necessary for working with projects from the command line, as well as for using certain software development tools such as Homebrew.
 
 To install the Xcode Command Line Tools, you need to have Xcode installed on your Mac. To check if Xcode is already installed, open a Terminal window and type:
@@ -245,12 +245,10 @@ This will open a window that prompts you to install the Xcode Command Line Tools
 
 Once the Xcode Command Line Tools are installed, you can use them from the command line by typing commands such as gcc, make, and gdb. You can also use them to install and manage software packages with tools like Homebrew.
 
-</details>
-
 ### On Linux
 
-If you are using Linux, you know the drill. No need for further explanations here, you are ahead of the others. 
-<details>
+If you are using Linux, you know the drill. No need for further explanations here, you are ahead of the others.
+
 If you are using an Ubuntu distro, you can try this to install most of the tools you will need here:
 
 ```console
@@ -266,7 +264,6 @@ Where `g++` is the compiler frontend program to compile your C++ source code; `i
 
 You will have a plethora of editors and IDEs. The one I can suggest is the VSCode, Code::Blocks or KDevelop. But I 
 really prefer CLion.
-</details>
 
 # CLion project workflow with CMake
 When you create a new project, select `New C++ Executable`, set the `C++ Standard` to the newest one, `C++20` is enough, and place in a folder location where you prefer.

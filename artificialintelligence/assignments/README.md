@@ -18,9 +18,9 @@ There are two types of coding assignments:
 
 ## Code assignments
 
-!!! inline end warning "Educational Students"
+!!! inline end warning
 
-    If you are a enrolled in a class that uses this material, SHOULD use the internal git server to be [FERPA](https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html) compliant. If you want to use part of this assignments to build a portfolio I recommend you to use github and make it public. If you are just worried about privacy concerns, you can use a private repo on github.
+    If you are a enrolled in a class that uses this material, you SHOULD use the institutional and internal git server to be [FERPA](https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html) compliant. If you want to use part of this assignments to build your portfolio I recommend you to use github and make the interactive assignment public. If you are just worried about privacy concerns, you can use a private repo on github.
 
 1. Create an account on github.com or any `git` hosting on your preference;
 2. Fork repos or duplicate the target repo on your account; 
@@ -31,3 +31,6 @@ There are two types of coding assignments:
 3. Add my user to your repo to it with `read` role. My userid is `tolstenko` on github, for other options, talk with me in class. Follow [this](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-teams-and-people-with-access-to-your-repository);
 4. Send me a message on canvas with the link to your repo;
 
+## Development tools
+
+I will be using CMake for the classes, but you can use whatever you want. Please [read this](../../intro/02-tooling/README.md) to understand the C++ toolset.
