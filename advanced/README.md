@@ -2,9 +2,15 @@
 
 This course builds on the content from Introduction to Programming. Students study the Object Oriented Programming (OOP) Paradigm with topics such as objects, classes, encapsulation, abstraction, modularity, inheritance, and polymorphism. Students examine and use structures such as arrays, structs, classes, and linked lists to model complex information. Pointers and dynamic memory allocation are covered, as well as principles such as overloading and overriding. Students work to solve problems by selecting implementation options from competing alternatives.
 
+!!! warning
+
+    This is a work in progress, and the schedule is subject to change. Every change will be communicated in class. Use the github repo as the source of truth for the schedule and materials. The materials provided in canvas are just a copy for archiving purposes and might be outdated.
+
+
 ## Schedule
 
 Relevant dates for the Fall 2023 semester:
+
 - 09-13 Oct 2023 - Midterms Week
 - 20-24 Nov 2023 - Thanksgiving Break
 - 11-15 Dec 2023 - Finals Week

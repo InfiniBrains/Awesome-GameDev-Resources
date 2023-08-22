@@ -6,6 +6,7 @@
 ## Schedule for Fall 2023
 
 Relevant dates for the Fall 2023 semester:
+
 - 09-10 Oct 2023 - Midterms Week
 - 20-24 Nov 2023 - Thanksgiving Break
 - 11-15 Dec 2023 - Finals Week
