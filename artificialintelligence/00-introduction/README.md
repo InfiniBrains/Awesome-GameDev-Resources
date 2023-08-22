@@ -16,7 +16,7 @@ Topics suggested in the survey, and some of my considerations.
 - Prediction algorithms for multiplayer - We can cover some techniques to extrapolate data to compensate lag instead of just mathematically extrapolate position, this is mostly an application of agent theory. 
 - Stable diffusion/chatbot - This is a hot topic, I didn't went too deep on that, but I can help you at least surf this wave to create fun stuff for games, such as dialog creation.
 - Procedural audio generation - Most of them use convolutional networks mixed with recurrent neuron network. It can be real hard, so if we cover that, we are just goint to understand the overall idea, and learn how to use pre-determined models available for free.
-- Behavior trees - I have to be honest
+- Behavior trees - I have to be honest this is a topic that I don't like, but it is a good tool to have in your toolbox, so I can cover it.
 - ChatGPT and its siblings to generate text - I can cover at least how to modify small scoped model and use for your own intent.
 - Stable Diffusion and its siblings to generate images - I can cover at least how to modify small scoped model and use for your own intent.
 - AI subsystems and how to debug it.

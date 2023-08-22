@@ -14,7 +14,8 @@ nav:
       - artificialintelligence/README.md
       - Spatial Quantization: artificialintelligence/readings/spatial-quantization.md
       - Assignments:
-          - artificialintelligence/README.md
+          - artificialintelligence/assignments/README.md
+          - Setup: artificialintelligence/assignments/README.md
           - Flocking: artificialintelligence/assignments/flocking/README.md
           - Game of Life: artificialintelligence/assignments/life/README.md
           - Pseudo-Random Number Generator: artificialintelligence/assignments/rng/README.md
