@@ -1,3 +1,10 @@
+## [1.6.2](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.6.1...v1.6.2) (2023-08-10)
+
+
+### Bug Fixes
+
+* **vr:** add missing application ([c259b37](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/c259b379685f0954f55b12f9a3c358b5e109bdff))
+
 ## [1.6.1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.6.0...v1.6.1) (2023-08-10)
 
 
