@@ -1,3 +1,16 @@
+# [1.7.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.6.2...v1.7.0) (2023-08-22)
+
+
+### Bug Fixes
+
+* better indexes ([74b68ce](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/74b68cea43235f4c12c39a3dd626c2943fe0d7f6))
+* **blog:** fix authors ([0e15062](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/0e150626223b316088fe60d7e939a06da3031410))
+
+
+### Features
+
+* adv schedule ([4bb1186](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/4bb11868122b46357702dbf864770eefeca010a8))
+
 ## [1.6.2](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.6.1...v1.6.2) (2023-08-10)
 
 
