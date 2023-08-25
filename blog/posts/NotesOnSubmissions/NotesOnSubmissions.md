@@ -16,7 +16,9 @@ authors:
 
 # Notes on Submissions
 
-Here goes my personal opinions, rules and processes that I follow about submissions. Here I will cover gradings, deadlines, tolerances, and AI-assistant tools.
+Here goes my personal opinions, rules and processes that I follow about submissions. I will cover gradings, deadlines, tolerances, and AI-assistant tools usage.
+
+<!-- more -->
 
 ## Policy on Limited use of AI-assisted tools 
 

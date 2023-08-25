@@ -42,6 +42,7 @@ In all interactive assignmets, you will have to record a 5 minute video explaing
 ## Grading
 
 20 points total:
+
 - 5 Points – inviting me to the repos;
 - 5 Points – sending me the video explaining the repo and the invite sent to me;
 - 10 Points - Show the repos cloned on your computer;
