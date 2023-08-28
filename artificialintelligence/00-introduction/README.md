@@ -6,6 +6,7 @@
 
 
 Topics suggested in the survey, and some of my considerations.
+
 - Procedural Content Generation. Advanced terrain generation - It was previously covered in the last class, I am going to focus other topics
 - AI applied to improve 3D Animation Movement. Follow this https://github.com/sebastianstarke/AI4Animation
 - Topics relating to an AI Fighting game - Mostly Agents, State Machines and latency simulation (reflex)
