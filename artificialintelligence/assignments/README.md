@@ -10,7 +10,7 @@ We are going to use the following repositories:
 There are two types of coding assignments:
 
 1. Algorithm: [Beecrowd](https://www.beecrowd.com.br/) - This is an automatic grading system, and I am still creating assignments for it. I will try my best to make it work through it. If it does not work, you could just submit the code on canvas and I will grade it manually;
-2. Interactive: For the interactive assignments you can choose whatever Game Engine you like, but I recommend you to use the framework I created for you: [MoBaGEn](https://github.com/InfiniBrains/mobagen). 
+2. Interactive: For the interactive assignments you can choose whatever Game Engine you like, but I recommend you to use the framework I created for you: [MoBaGEn](https://github.com/InfiniBrains/mobagen).
 
 !!! danger
 
