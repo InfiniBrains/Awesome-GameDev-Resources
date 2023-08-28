@@ -1,3 +1,10 @@
+## [1.7.4](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.7.3...v1.7.4) (2023-08-28)
+
+
+### Bug Fixes
+
+* **slide:** test ([290b4a7](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/290b4a747a601d930122dcd0b408e91d752c8a68))
+
 ## [1.7.3](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.7.2...v1.7.3) (2023-08-28)
 
 
