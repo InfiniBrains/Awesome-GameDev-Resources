@@ -43,7 +43,8 @@ Gaddis, T. (2020) Starting out with C++. Early objects / Tony Gaddis, Judy Walte
 9th edition
 Gaddis, T. (2017) Starting out with C++. Early objects / Tony Gaddis, Judy Walters, Godfrey Muganda. Pearson. Available at: https://discovery-ebsco-com.cobalt.champlain.edu/linkprocessor/plink?id=502e29d6-3b46-38ff-9dc2-65e79c81c29b
 
-- C++ early objects. [Amazon](https://a.co/d/3L7C77q) (Champlain: [9th](https://research-ebsco-com.cobalt.champlain.edu/linkprocessor/plink?id=047f7203-3c9c-399b-834f-42cdaac4c1da) [10th](https://discovery-ebsco-com.cobalt.champlain.edu/linkprocessor/plink?id=502e29d6-3b46-38ff-9dc2-65e79c81c29b)) 
+- C++ early objects. [Amazon](https://a.co/d/3L7C77q) (Champlain: [9th](https://research-ebsco-com.cobalt.champlain.edu/linkprocessor/plink?id=047f7203-3c9c-399b-834f-42cdaac4c1da) [10th](https://discovery-ebsco-com.cobalt.champlain.edu/linkprocessor/plink?id=502e29d6-3b46-38ff-9dc2-65e79c81c29b))
+- [Modern C++ Programming](https://github.com/federico-busato/Modern-CPP-Programming)
 - [learncpp](https://www.learncpp.com/)
 - [cpluslus](https://cplusplus.com/doc/tutorial/)
 - [cprogramming](https://www.cprogramming.com/tutorial/c++-tutorial.html)
