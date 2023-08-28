@@ -77,5 +77,5 @@ value = 69
 So this output would be:
 
 ```text
-1
+69
 ```

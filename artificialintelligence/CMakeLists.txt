@@ -33,3 +33,4 @@ endfunction()
 
 add_subdirectory(assignments/maze)
 add_subdirectory(assignments/life)
+add_subdirectory(assignments/rng)
