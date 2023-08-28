@@ -1,3 +1,10 @@
+## [1.7.2](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.7.1...v1.7.2) (2023-08-24)
+
+
+### Bug Fixes
+
+* **blog:** add blog post meta details ([f8ddc16](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/f8ddc16c82e45d0137daac25d9435961f709e907))
+
 ## [1.7.1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.7.0...v1.7.1) (2023-08-22)
 
 
