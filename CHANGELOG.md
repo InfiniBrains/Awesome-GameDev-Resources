@@ -1,3 +1,10 @@
+## [1.7.3](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.7.2...v1.7.3) (2023-08-28)
+
+
+### Bug Fixes
+
+* end lines ([b8ec525](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/b8ec525099511440dbc03361efd719ed8bbd4c21))
+
 ## [1.7.2](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.7.1...v1.7.2) (2023-08-24)
 
 
