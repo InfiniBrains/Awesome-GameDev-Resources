@@ -1,3 +1,10 @@
+## [1.7.6](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.7.5...v1.7.6) (2023-08-29)
+
+
+### Bug Fixes
+
+* **blog:** add image to notes on submission ([8b6fa3a](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/8b6fa3ab38e073569df36c2b55a4ec675fe0963c))
+
 ## [1.7.5](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.7.4...v1.7.5) (2023-08-29)
 
 
