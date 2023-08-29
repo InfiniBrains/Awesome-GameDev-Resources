@@ -16,6 +16,11 @@ authors:
 
 # Notes on Submissions
 
+<figure markdown>
+  ![](ai-coding-assistant-robot-in-front-of-a-computer-typing-in-a-keyboard.jpeg){ width="300" align=center loading=lazy }
+  <figcaption> Source: ideogram  </figcaption>
+</figure>
+
 Here goes my personal opinions, rules and processes that I follow about submissions. I will cover gradings, deadlines, tolerances, and AI-assistant tools usage.
 
 <!-- more -->
@@ -26,7 +31,7 @@ Here goes my personal opinions, rules and processes that I follow about submissi
 
     "During our classes, we may use AI writing tools such as ChatGPT in certain specific cases. You will be informed as to when, where, and how these tools are permitted to be used, along with guidance for attribution. Any use outside of these specific cases  constitutes a violation of Academic Honesty Policy." [Source](https://clt.champlain.edu/kb/communicating-your-chatgpt-ai-policies/).
 
-The learner has to produce original content. You can use tools like ChatGPT to answer questions, but not to solve the problems, assignments or quizzes.
+The learner has to produce original content. You can use tools like ChatGPT to help yu learn by propting your own questions, but not to solve the problems, assignments or quizzes.
 
 The rationale is that the student has to learn the concepts and ideas, and not just copy and paste the answers.
 
@@ -34,7 +39,7 @@ The rationale is that the student has to learn the concepts and ideas, and not j
 
 - On writting, coding assignments or interactive assignments, you can ask AI questions about concepts, ideas, sintaxes etc;
 - You can ask AI assistants what is wrong with your code, but you cannot use the answer 1 to 1 copy to your final submission, you have to modify it;
-- If your submission contains part of AI assisted tool, you have to cite it. Ex.: "I prompted ____ in ChatGPT and the answer was ____.", and an a professor, I will deduct points from your submission with fairness instead of giving you zero points;
+- If your submission contains part of AI assisted tool, you have to cite it. Ex.: "I prompted ____ in ChatGPT and the answer was ____.", and as a professor, I will deduct points from your submission with fairness instead of giving you zero points;
 
 ### What is not acceptable
 
@@ -56,7 +61,7 @@ I usually take up to 1 week to grade assignments, but I will try to grade them a
 
 ## Late Submissions Policy
 
-If you submit an assignment late, you will receive a flat 25% deduction on your grade.
+If you submit an assignment late, you will receive a flat 20% deduction on your grade.
 
 If you have accomodations, send me a message through me and I will try to accomodate you. But always send a message on every submission stating that. Canvas is a nice tool, but it does not cover accomodations well.
 
