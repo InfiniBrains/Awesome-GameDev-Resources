@@ -1,3 +1,10 @@
+## [1.7.5](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.7.4...v1.7.5) (2023-08-29)
+
+
+### Bug Fixes
+
+* **rng:** fix AI RNG tests ([8f9d2ff](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/8f9d2ffa1b0a588dc8126358a8278b07d11f3737))
+
 ## [1.7.4](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.7.3...v1.7.4) (2023-08-28)
 
 
