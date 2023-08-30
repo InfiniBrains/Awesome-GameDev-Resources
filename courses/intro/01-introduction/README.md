@@ -128,7 +128,17 @@ the same instruction set available on the target CPU you want to run it. Some co
 runs in your machine on your CPU with its instruction set, but the binary generated only runs on a target machine with 
 its own instruction set.
 
-[![](https://www.tutorialspoint.com/compiler_design/images/language_processing_system.jpg)](https://www.tutorialspoint.com/compiler_design/compiler_design_overview.htm)
+``` mermaid
+graph TD
+    START((Start))-->
+    |Source Code|PreProcessor-->
+    |Pre-processed Code|Compiler-->
+    |Target Assembly Code|Assembler-->
+    |Relacable Machine Code|Linker-->
+    |Executable Machine Code|Loader-->
+    |Operation System|Memory-->
+    |CPU|RUN((Run))
+```
 
 # Program Life Cycle
 

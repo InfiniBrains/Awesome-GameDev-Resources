@@ -1,9 +1,33 @@
 # Intro to Programming
 
+## Learning Objectives
+
+- Understand the fundamental concepts of programming and computer science;
+- Practice how to solve problems programatically using C++;
+- Use tools to write and compile C++ programs;
+- Code, document, test, and implement a well-structured, robust computer program using the C++ programming language.
+- Write reusable modules (collections of functions).
+- Use version control to manage your code;
+- Use the debugger to find and fix bugs in your code;
+- Understand the basics of file input/output;
+- Work in groups to solve problems;
+
+## Learning Outcomes
+
+- Be able to understand computer science concepts and terminology;
+- To describe the basic components of a computer system and their functions;
+- Differentiate between the various types of programming languages;
+- To describe and use software tools in the programming process;
+- Use modern concepts and principles of C++ programming language;
+- To design, code, test, and debug a computer program using the C++ programming language;
+- To demonstrate an understanding of primitive data types, values, operators and expressions in C/C++;
+- Manage and manipulate files in C++;
+- Deliver a full working project collaboratively;
+
 ## Schedule
 
 !!! warning
-    
+
     This is a work in progress, and the schedule is subject to change. Every change will be communicated in class. Use the github repo as the source of truth for the schedule and materials. The materials provided in canvas are just a copy for archiving purposes and might be outdated.
 
 Relevant dates for the Fall 2023 semester:
@@ -32,10 +56,7 @@ Relevant dates for the Fall 2023 semester:
 | 16   | 2023/12/11 | Finals                                                                                     |
 
 
-# References
-
-
- 
+## References
 
 10th edition
 Gaddis, T. (2020) Starting out with C++. Early objects / Tony Gaddis, Judy Walters, Godfrey Muganda. Pearson Education, Inc. Available at: https://research-ebsco-com.cobalt.champlain.edu/linkprocessor/plink?id=047f7203-3c9c-399b-834f-42cdaac4c1da
