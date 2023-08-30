@@ -1,3 +1,15 @@
+# [1.8.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.7.6...v1.8.0) (2023-08-30)
+
+
+### Bug Fixes
+
+* **intro:** better description on the learning objectives and outcomes ([ab5606d](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/ab5606d87958694699d89b4047f7fb243027fd5f))
+
+
+### Features
+
+* **courses:** restructure ([da9bc19](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/da9bc19b3515270efc997dfa74639564f76e4c56))
+
 ## [1.7.6](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.7.5...v1.7.6) (2023-08-29)
 
 
