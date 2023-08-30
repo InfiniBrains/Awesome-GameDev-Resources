@@ -1,6 +1,6 @@
 # Flocking agents behavior assignment
 
-You are in charge to implement some functions to make some AI agents flock together in a game. After finishing it, uou will be one step further to render it in a game engine, and start making reactive NPCs and enemies. You will learn all the basics concepts needed to code and customize your own AI behaviors.
+You are in charge of implementing some functions to make some AI agents flock together in a game. After finishing it, you will be one step further to render it in a game engine, and start making reactive NPCs and enemies. You will learn all the basic concepts needed to code and customize your own AI behaviors.
 
 ## What is flocking?
 

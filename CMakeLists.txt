@@ -30,14 +30,14 @@ CPMAddPackage("gh:onqtam/doctest@2.4.8")
 OPTION(ENABLE_INTRO "ENABLE_INTRO" ON)
 IF(ENABLE_INTRO)
   set(CMAKE_CXX_STANDARD 20)
-  add_subdirectory(intro)
+  add_subdirectory(courses/intro)
 endif()
 
 # options to what include and use
 OPTION(ENABLE_ADVANCED_CPP "ENABLE_ADVANCED_CPP" ON)
 IF(ENABLE_ADVANCED_CPP)
   set(CMAKE_CXX_STANDARD 20)
-  add_subdirectory(advanced)
+  add_subdirectory(courses/advanced)
 endif()
 
 # todo: do the same for the other topics
@@ -48,4 +48,4 @@ ENDIF()
 
 CPMAddPackage("gh:TheLartians/Format.cmake@1.7.3")
 
-add_subdirectory(artificialintelligence)
+add_subdirectory(courses/artificialintelligence)
