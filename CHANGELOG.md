@@ -1,3 +1,11 @@
+## [1.8.1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.8.0...v1.8.1) (2023-08-31)
+
+
+### Bug Fixes
+
+* **ci:** add lxml dependency ([4dbbc72](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/4dbbc721425dacbbfa3f0f63412f777e336eef08))
+* **ferpa:** add ferpa considerations ([6e8930f](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/6e8930f6f9b85b8d4dc66f89f9e7b65986fa04cf))
+
 # [1.8.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.7.6...v1.8.0) (2023-08-30)
 
 
