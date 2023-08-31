@@ -194,7 +194,7 @@ looks like this:
 > By using a combination of these symbols and notations, you can create a clear and concise flowchart that effectively communicates the steps involved in a process or system. [Reference](https://chat.openai.com/)
 
 I suggest using the tool [Code2Flow](https://code2flow.com/) to write pseudocode and see the flowchart drawn in real 
-time. But you can draw them on [Diagrams](https://diagrams.net).
+time. But you can draw them on [Diagrams](https://diagrams.net). If you are into sequence diagrams, I suggest using [sequencediagram.org](https://sequencediagram.org/).
 
 # Practice
 Try to think ahead the problem definition by questioning yourself before expressing the algorithm as pseudocode or 
