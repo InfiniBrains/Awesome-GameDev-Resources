@@ -2,8 +2,9 @@
 
 We are going to use the following repositories:
 
-1. This one, for in class coding assignments. https://github.com/InfiniBrains/Awesome-GameDev-Resources
-2. MoBaGEn, for interactive assignments. https://github.com/InfiniBrains/mobagen
+1. Read about Privacy and FERPA compliance [here](../../../blog/posts/FerpaCompliance/FerpaCompliance.md)
+2. This one, for in class coding assignments. https://github.com/InfiniBrains/Awesome-GameDev-Resources
+3. MoBaGEn, for interactive assignments. https://github.com/InfiniBrains/mobagen
 
 ## Types of coding assignments
 
