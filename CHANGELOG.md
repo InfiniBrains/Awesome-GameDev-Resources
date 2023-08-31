@@ -1,3 +1,10 @@
+## [1.8.3](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.8.2...v1.8.3) (2023-08-31)
+
+
+### Bug Fixes
+
+* **ferpa:** add ferpa consent to ai setup assignment ([69fe9b7](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/69fe9b703c133114e752a9ba352cf534ab5d851a))
+
 ## [1.8.2](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.8.1...v1.8.2) (2023-08-31)
 
 
