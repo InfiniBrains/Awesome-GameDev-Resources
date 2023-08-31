@@ -207,6 +207,7 @@ plugins:
       match_path: blog/posts/.*
       date_from_meta:
         as_creation: date
+      comments_path: "#__comments"
       categories:
         - categories
         - tags
