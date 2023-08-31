@@ -1,3 +1,10 @@
+## [1.8.2](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.8.1...v1.8.2) (2023-08-31)
+
+
+### Bug Fixes
+
+* **ferpa:** add ferpa waiver consent ([9f8a4d0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/9f8a4d0c21057f484e5ef1f2f3005da329d18fad))
+
 ## [1.8.1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.8.0...v1.8.1) (2023-08-31)
 
 
