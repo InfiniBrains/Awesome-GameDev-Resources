@@ -53,7 +53,7 @@ jobs:
 
       - name: install mkdocs deps
         run: |
-          pip install jinja2 Pygments mkdocs mkdocs-same-dir mkdocs-minify-plugin mkdocs-redirects mkdocs-exclude mkdocs-git-committers-plugin-2 mkdocs-git-revision-date-localized-plugin mkdocs-with-pdf beautifulsoup4==4.9.3 cairosvg pillow mkdocs-rss-plugin mkdocs-timetoread-plugin tzdata
+          pip install jinja2 Pygments mkdocs mkdocs-same-dir mkdocs-minify-plugin mkdocs-redirects mkdocs-exclude mkdocs-git-committers-plugin-2 mkdocs-git-revision-date-localized-plugin mkdocs-with-pdf beautifulsoup4==4.9.3 cairosvg pillow mkdocs-rss-plugin mkdocs-timetoread-plugin tzdata lxml
           npm install
 
       - name: install squidfunk mkdocs material
