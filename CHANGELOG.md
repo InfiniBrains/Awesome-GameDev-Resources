@@ -1,3 +1,10 @@
+## [1.8.5](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.8.4...v1.8.5) (2023-09-01)
+
+
+### Bug Fixes
+
+* **intro:** add numberings for the first class ([33fc80c](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/33fc80cff6c1c0efaaaaa915e9e79d1cd60098ce))
+
 ## [1.8.4](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.8.3...v1.8.4) (2023-08-31)
 
 
