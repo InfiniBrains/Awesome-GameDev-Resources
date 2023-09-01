@@ -24,6 +24,7 @@
 - Manage and manipulate files in C++;
 - Deliver a full working project collaboratively;
 
+
 ## Schedule
 
 !!! warning
@@ -36,24 +37,24 @@ Relevant dates for the Fall 2023 semester:
 - 20-24 Nov 2023 - Thanksgiving Break
 - 11-15 Dec 2023 - Finals Week
 
-| Week | Date       | Topic                                                                                      |
-|------|------------|--------------------------------------------------------------------------------------------|
-| 1    | 2023/08/28 | [Introduction](01-introduction/README.md) [Tools for first Program](02-tooling/README.md)  |
-| 2    | 2023/09/04 | [Data Types, Arithmetic Operations, Type conversion](03-datatypes/README.md)               |
-| 3    | 2023/09/11 | [Conditionals, Boolean and Bitwise Operations](04-conditionals/README.md)                  |
-| 4    | 2023/09/18 | [Loops, for, while, goto and debugging](05-loops/README.md)                                |
-| 5    | 2023/09/25 | [Functions, Base Conversion, Pointers, Reference](06-functions/README.md)                  |
-| 6    | 2023/10/02 | [Streams, File IO](07-streams/README.md)                                                   |
-| 7    | 2023/10/09 | Midterm                                                                                    |
-| 8    | 2023/10/16 | [Arrays, Vectors, String](08-arrays/README.md)                                             | 
-| 9    | 2023/10/23 | [Recursion](09-recursion/README.md)                                                        |
-| 10   | 2023/10/30 | [Sorting](10-sorting/README.md)                                                            |
-| 11   | 2023/11/06 | [Structs, Unions, Enumerations](11-structs/README.md)                                      |
-| 12   | 2023/11/13 | Work sessions                                                                              |
-| 13   | 2023/11/20 | Thanks giving week                                                                         |
-| 14   | 2023/11/27 | Work sessions / Review                                                                     |
-| 15   | 2023/12/04 | Review / Presentations                                                                     |
-| 16   | 2023/12/11 | Finals                                                                                     |
+| Week | Date       | Topic                                                                                            |
+|------|------------|--------------------------------------------------------------------------------------------------|
+| 1    | 2023/08/28 | [1. Introduction](01-introduction/README.md), [2. Tools for first Program](02-tooling/README.md) |
+| 2    | 2023/09/04 | [Data Types, Arithmetic Operations, Type conversion](03-datatypes/README.md)                     |
+| 3    | 2023/09/11 | [Conditionals, Boolean and Bitwise Operations](04-conditionals/README.md)                        |
+| 4    | 2023/09/18 | [Loops, for, while, goto and debugging](05-loops/README.md)                                      |
+| 5    | 2023/09/25 | [Functions, Base Conversion, Pointers, Reference](06-functions/README.md)                        |
+| 6    | 2023/10/02 | [Streams, File IO](07-streams/README.md)                                                         |
+| 7    | 2023/10/09 | Midterm                                                                                          |
+| 8    | 2023/10/16 | [Arrays, Vectors, String](08-arrays/README.md)                                                   | 
+| 9    | 2023/10/23 | [Recursion](09-recursion/README.md)                                                              |
+| 10   | 2023/10/30 | [Sorting](10-sorting/README.md)                                                                  |
+| 11   | 2023/11/06 | [Structs, Unions, Enumerations](11-structs/README.md)                                            |
+| 12   | 2023/11/13 | Work sessions                                                                                    |
+| 13   | 2023/11/20 | Thanks giving week                                                                               |
+| 14   | 2023/11/27 | Work sessions / Review                                                                           |
+| 15   | 2023/12/04 | Review / Presentations                                                                           |
+| 16   | 2023/12/11 | Finals                                                                                           |
 
 
 ## References
