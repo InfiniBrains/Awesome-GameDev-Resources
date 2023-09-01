@@ -1,3 +1,10 @@
+## [1.8.4](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.8.3...v1.8.4) (2023-08-31)
+
+
+### Bug Fixes
+
+* **intro:** add sequence diagram suggestion into intro programming ([5182e5d](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/5182e5dd905bf0c0b3b127968c8a365c87e93547))
+
 ## [1.8.3](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.8.2...v1.8.3) (2023-08-31)
 
 
