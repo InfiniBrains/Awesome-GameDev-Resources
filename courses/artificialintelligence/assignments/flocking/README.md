@@ -174,7 +174,11 @@ Every agent is represented by 4 values in the same line, separated by a space:
 - \( vx \) - X velocity
 - \( vy \) - Y velocity
 
-After reading the agents data, the program should read the time frame (\( \Delta t \)), simulate the agents and then output the new position of the agents in the same sequence and format it was read. The program should keep reading the time frame and simulating the agents until the end of the input.
+After reading the agent's data, the program should read the time frame (\( \Delta t \)), simulate the agents and then output the new position of the agents in the same sequence and format it was read. The program should keep reading the time frame and simulating the agents until the end of the input.
+
+!!! note "Data Types"
+
+    All values are double precision floating point numbers to improve consistency between different languages.
 
 ### Input Example
 
@@ -185,12 +189,11 @@ In this example we are going to test only the cohesion behavior. The input is co
 0.000 0.500 0.000 0.000
 0.000 -0.500 0.000 0.000
 0.010
-EOF
 ```
 
 ## Output
 
-The expected output is the position and velocity for each agent after the simulation step using the time frame. After printing each simulation step, the program should wait for the next time frame and then simulate the next step. All values should have exactly 3 decimal places and should not be rounded.
+The expected output is the position and velocity for each agent after the simulation step using the time frame. After printing each simulation step, the program should wait for the next time frame and then simulate the next step. All values should have exactly 3 decimal places and should be rounded to the nearest (this is the standard rounding behavior in many languages).
 
 ```text
 0.000 0.490 0.000 -0.010
