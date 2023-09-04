@@ -109,7 +109,7 @@ It is the force that will align the velocity of the agent with the average veloc
 The force composition is made by a weighted sum of the influences of those 3 behaviors. This is the way we are going to work, this is not the only way to do it, nor the more correct. It is just a way to do it. 
 
 - \(  \vec{F} = K_c \cdot \vec{F_c} + K_s \cdot \vec{F_s} + K_a \cdot \vec{F_a}  \)  `This is a weighted sum!`
-- \(  \vec{V_{new}} = \vec{V_{cur}} + \vec{F} \cdot \Delta t  \)  `This is a simplification!`
+- \(  \vec{V_{new}} = \vec{V_{cur}} + \vec{F}  \)  `This is a simplification!`
 - \(  P_{new} = P_{cur}+\vec{V_{new}} \cdot \Delta t  \)  `This is an approximation!`
 
 !!! warning
@@ -190,11 +190,11 @@ EOF
 
 ## Output
 
-The expected output are the position and velocity for each agent after the simulation step using the time frame. After printing each simulation step, the program should wait for the next time frame and then simulate the next step.
+The expected output is the position and velocity for each agent after the simulation step using the time frame. After printing each simulation step, the program should wait for the next time frame and then simulate the next step. All values should have exactly 3 decimal places and should not be rounded.
 
 ```text
-0.000 0.490 0.000 -0.010
-0.000 -0.490 0.000 0.010
+0.000 0.490 0.000 -1.000
+0.000 -0.490 0.000 1.000
 ```
 
 ## Grading 
