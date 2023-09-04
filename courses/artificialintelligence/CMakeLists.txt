@@ -31,6 +31,7 @@ function(add_custom_test TEST_NAME TEST_EXECUTABLE TEST_INPUT_LIST TEST_EXPECTED
     )
 endfunction()
 
+add_subdirectory(assignments/flocking)
 add_subdirectory(assignments/maze)
 add_subdirectory(assignments/life)
 add_subdirectory(assignments/rng)
