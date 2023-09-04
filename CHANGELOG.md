@@ -1,3 +1,11 @@
+## [1.8.7](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.8.6...v1.8.7) (2023-09-04)
+
+
+### Bug Fixes
+
+* **flocking:** add flocking cmake automation ([ac1365a](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/ac1365ae02568e2de2a4434f0e60365420f8df83))
+* **flocking:** fix flocking description ([84fd158](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/84fd1584747f6c61a8ba8d151c0bd1cbc4124f6f))
+
 ## [1.8.6](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.8.5...v1.8.6) (2023-09-04)
 
 
