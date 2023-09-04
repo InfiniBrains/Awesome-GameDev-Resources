@@ -1,3 +1,10 @@
+## [1.8.6](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.8.5...v1.8.6) (2023-09-04)
+
+
+### Bug Fixes
+
+* **flocking:** fix flocking rule composition ([52b690f](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/52b690f4b5409b3efb94ed4fd5181451e89d4768))
+
 ## [1.8.5](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.8.4...v1.8.5) (2023-09-01)
 
 
