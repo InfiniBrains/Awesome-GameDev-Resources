@@ -188,16 +188,16 @@ In this example we are going to test only the cohesion behavior. The input is co
 1.000 0.000 0.000 0.000 1.000 0.000 0.000 2
 0.000 0.500 0.000 0.000
 0.000 -0.500 0.000 0.000
-0.010
+0.125
 ```
 
 ## Output
 
-The expected output is the position and velocity for each agent after the simulation step using the time frame. After printing each simulation step, the program should wait for the next time frame and then simulate the next step. All values should have exactly 3 decimal places and should be rounded to the nearest (this is the standard rounding behavior in many languages).
+The expected output is the position and velocity for each agent after the simulation step using the time frame. After printing each simulation step, the program should wait for the next time frame and then simulate the next step. All values should have exactly 3 decimal places and should be rounded to the nearest.
 
 ```text
-0.000 0.490 0.000 -0.010
-0.000 -0.490 0.000 0.010
+0.000 0.484 0.000 -0.125
+0.000 -0.484 0.000 0.125
 ```
 
 ## Grading 
