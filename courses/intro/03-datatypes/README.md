@@ -238,6 +238,7 @@ int bina = 0b101010;
 ```
 
 Suffixes:
+
 - `no suffix` provided: it will use the first smallest signed integer container that can hold the data starting from `int`;
 - `u` or `U`: it will use the first smallest unsigned integer container that can hold the data starting from `unsigned int`;
 - `l` or `L`: it will use the first smallest signed integer container that can hold the data starting from `long`;
@@ -254,11 +255,13 @@ unsigned long long l1 = 15731685574866854135ull;
 ## Float point literals
 
 There are 3 suffixes in floating point decimals.
+
 - `no suffix` means the container is a double;
 - `f` suffix means it is a float container;
 - `l` suffix means it is a long double container;
 
 A floating point literal can be defined by 3 ways:
+
 - digit-sequence decimal-exponent suffix(optional). 
     - `1e2` means its a `double` with the value of `1*10^2` or `100`;
     - `1e-2f` means its a `float` with the value of `1*10^-2` or `0.01`;
@@ -284,10 +287,12 @@ In C++, you can perform common arithmetic operations is statements using the fol
 - Modulus (remainder): `%`
 
 There are two special cases called unary increment / decrement operators that may occur in before(prefixed) or after(postfixed) the variable name [reference](https://en.cppreference.com/w/cpp/language/operator_incdec). If prefixed it is executed first and then return the result, if postfixed, it returns the current value and then execute the operation:
+
 - Increment: `++`; 
 - Decrement: `--`;
 
 There are shorthand assignment operators [reference](https://en.cppreference.com/w/cpp/language/operator_assignment) that reassign the value of the variable after executing the arithmetic operation with the right side of the operator with the old value of the variable:
+
 - Addition: `+=`
 - Subtraction: `-=`
 - Multiplication: `*=`
@@ -295,6 +300,7 @@ There are shorthand assignment operators [reference](https://en.cppreference.com
 - Modulus (remainder): `%=`
 
 Here is an example of how to use these operators in a C++ program:
+
 ```c++
 #include <iostream>
 
@@ -337,6 +343,7 @@ Also, the modulus operator (`%`) returns the remainder of an integer division. F
 Implicit casting, also known as type coercion, is the process of converting a value of one data type to another data type without the need for an explicit cast operator. In C++, this can occur when an expression involves operands of different data types and the compiler automatically converts one of the operands to the data type of the other in order to perform the operation.
 
 For example:
+
 ```c++
 int a = 1;
 double b = 1.5;
@@ -346,10 +353,12 @@ int c = a + b; // c is automatically converted to a double before the addition
 In this example, the value of `b` is a double, while the value of `a` is an `int`. When the addition operator is used, the compiler will automatically convert a to a `double` before performing the addition. The result of the expression is a `double`, so `c` is also automatically converted to a `double` before being assigned the result of the expression.
 
 Implicit casting can also occur when assigning a value to a variable of a different data type. For example:
+
 ```c++
 int a = 2;
 double b = a; // a is automatically converted to a double before the assignment
 ```
+
 In this case, the value of `a` is an int, but it is being assigned to a double variable. The compiler will automatically convert the value of `a` to a `double` before making the assignment.
 
 It's important to be aware of implicit casting, because it can sometimes lead to unexpected results or loss of precision if not handled properly. In some cases, it may be necessary to use an explicit cast operator to explicitly convert a value to a specific data type.
@@ -414,6 +423,7 @@ int main() {
   return 0;
 }
 ```
+
 You can also use the `std::setw` manipulator to set the minimum field width for the output, which can be useful for aligning the decimal points in a table of numbers.
 
 For example:
@@ -433,11 +443,13 @@ int main() {
   return 0;
 }
 ```
+
 Note that these manipulators only affect the output stream, and do not modify the values of the floating point variables themselves. If you want to store the numbers with a fixed precision, you will need to use a different method such as rounding or truncating the numbers.
 
 To align text to the right or left in C++, you can use the `setw` manipulator in the `iomanip` header and the `right` or `left` flag. [More details here](https://en.cppreference.com/w/cpp/io/manip/left) 
 
 Here is an example:
+
 ```c++
 #include <iostream>
 #include <iomanip>
