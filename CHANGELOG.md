@@ -1,3 +1,10 @@
+## [1.8.11](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.8.10...v1.8.11) (2023-09-06)
+
+
+### Bug Fixes
+
+* **font:** change to jost ([00125a0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/00125a0944cc3cdf9e96449bc5e83a5d3f666bc2))
+
 ## [1.8.10](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.8.9...v1.8.10) (2023-09-06)
 
 
