@@ -1,3 +1,11 @@
+## [1.8.12](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.8.11...v1.8.12) (2023-09-06)
+
+
+### Bug Fixes
+
+* **ai:** add link to flocking materials to AI summary ([5c500f4](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/5c500f44fba0fe34395ee1f0c09eb411c8a01a1e))
+* **blog:** notes on submissions ([f66ddc6](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/f66ddc6b14f5d52b9709ff947b9e63cf1adcc2cf))
+
 ## [1.8.11](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.8.10...v1.8.11) (2023-09-06)
 
 
