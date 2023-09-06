@@ -1,3 +1,10 @@
+## [1.8.8](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.8.7...v1.8.8) (2023-09-05)
+
+
+### Performance Improvements
+
+* **flocking:** add better arrows ([def6512](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/def65128a795bb394ea5ddbd2d7e33e20379ad4f))
+
 ## [1.8.7](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.8.6...v1.8.7) (2023-09-04)
 
 
