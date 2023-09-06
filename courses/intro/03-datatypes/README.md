@@ -146,6 +146,7 @@ We are going to cover this again when covering [pointers and functions](../06-fu
 ## Variable Naming
 
 Variable names are called identifiers. In C++, you can use any combination of letters, digits, and underscores to name a variable, it should follow some rules:
+
 - Variables can have numbers, en any position, except the first character, so the name does not begin with a digit. Ex. `point2` and `vector2d` are allowed, but `9life` isn't;
 - Variable names are case-sensitive, so "myVar" and "myvar" are considered to be different variables;
 - Can have `_` in any position of the identifier. Ex. `_myname` and `user_name` are allowed;
