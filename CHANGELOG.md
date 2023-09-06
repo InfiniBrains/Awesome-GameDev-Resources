@@ -1,3 +1,10 @@
+## [1.8.10](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.8.9...v1.8.10) (2023-09-06)
+
+
+### Bug Fixes
+
+* **data-types:** fix data types descriptions ([78fc0d4](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/78fc0d4329d05641cc0c7666971899853d1c4715))
+
 ## [1.8.9](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.8.8...v1.8.9) (2023-09-06)
 
 
