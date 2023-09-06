@@ -1,3 +1,11 @@
+## [1.8.9](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.8.8...v1.8.9) (2023-09-06)
+
+
+### Bug Fixes
+
+* **data-types:** add spacing on the data-types specification ([b361d98](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/b361d987b8c5fd947a4e498cda2766cf3bd03290))
+* **typo:** remove unused button ([061968d](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/061968d83936c885fafe4f2b6b7b4984a22f7240))
+
 ## [1.8.8](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.8.7...v1.8.8) (2023-09-05)
 
 
