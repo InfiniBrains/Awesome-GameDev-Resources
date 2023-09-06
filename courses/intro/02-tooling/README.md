@@ -179,8 +179,6 @@ This will create a Makefile or a Visual Studio solution file in the build direct
 
 CMake provides many options and variables that can be used to customize the build process, such as setting compiler flags, specifying dependencies, and configuring installation targets. You can learn more about CMake by reading the documentation at https://cmake.org/.
 
-[Subscribe to our newsletter][#]{ .md-button }
-
 
 ## IDE
 
