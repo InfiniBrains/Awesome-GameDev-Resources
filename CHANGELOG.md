@@ -1,3 +1,10 @@
+## [1.8.13](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.8.12...v1.8.13) (2023-09-07)
+
+
+### Performance Improvements
+
+* **intro:** add ascii table ([6cd497c](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/6cd497c0720d0c9a7546feba75610b3a023c455c))
+
 ## [1.8.12](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.8.11...v1.8.12) (2023-09-06)
 
 
