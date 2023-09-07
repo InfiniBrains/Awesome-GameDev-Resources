@@ -18,7 +18,7 @@ Relevant dates for the Fall 2023 semester:
     ---
 
     - Week 1. 2023/08/28
-    - Topic: [Introduction](https://docs.google.com/presentation/d/1OBEY-tb_ubgoq6Mk9lEsCFaYLINni3oPwjH8iAXEQQM/edit?usp=sharing)
+    - Topic: Introduction
     - Formal Assignment: [Flocking at Beecrowd](assignments/flocking/README.md)
     - Interactive Assignment: [Flocking at MoBaGEn](https://github.com/InfiniBrains/mobagen/tree/master/examples/flocking)
 
@@ -27,7 +27,7 @@ Relevant dates for the Fall 2023 semester:
     ---
 
     - Week 2. 2023/09/04
-    - Topic: Behavioral agents
+    - Topic: [Flocking](https://docs.google.com/presentation/d/1OBEY-tb_ubgoq6Mk9lEsCFaYLINni3oPwjH8iAXEQQM/edit?usp=sharing)
     - Formal Assignment: [Flocking at Beecrowd](assignments/flocking/README.md)
     - Interactive Assignment: [Flocking at MoBaGEn](https://github.com/InfiniBrains/mobagen/tree/master/examples/flocking)
 
