@@ -524,7 +524,7 @@ In C++, you can use an explicit cast operator to explicitly convert a value of o
 // ref: https://en.wikibooks.org/wiki/C%2B%2B_Programming/Programming_Languages/C%2B%2B/Code/Statements/Variables/Type_Casting
 (TYPENAME) value; // regular c-style. do not use this extensively
 static_cast<TYPENAME>(value); // c++ style conversion, arguably it is the preferred style. use this if you know what you are doing.
-TYPENAME(value); // functional initialization, slower but safer. might not work for every case. use this if you are unsure or want to be safe.
+TYPENAME(value); // functional initialization, slower but safer. might not work for every case. Use this if you are unsure or want to be safe.
 TYPENAME{value}; // initialization style, faster, convenient, concise and arguably safer because it triggers warnings. use this for the general case. 
 ```
 

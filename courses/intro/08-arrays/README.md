@@ -212,6 +212,7 @@ Vectors are the safest way to deal with dynamic arrays in C++, the cpp core guid
 # Extra curiosities
 
 Context on common bugs and vulnerabilities:
+
 - [Weaknesses in the 2022 CWE Top 25 Most Dangerous Software Weaknesses](https://cwe.mitre.org/data/definitions/1387.html)
 - [US Government enforces cyber security requirements](https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8397.pdf)
 - https://en.cppreference.com/w/cpp/language/array
