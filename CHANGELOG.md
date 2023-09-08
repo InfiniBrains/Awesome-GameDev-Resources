@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.8.15...v1.9.0) (2023-09-08)
+
+
+### Features
+
+* **cattrap:** add catch the cat assignment ([d78cc50](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/d78cc50f50277e2c050c3f4e6951ab56becfc76d))
+
 ## [1.8.15](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.8.14...v1.8.15) (2023-09-08)
 
 
