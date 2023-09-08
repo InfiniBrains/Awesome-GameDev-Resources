@@ -60,7 +60,10 @@ It is a 7 bit table, so it can represent `2^7` or `128` different characters. Th
 
 The printable chacacters starts at number 32 and goes up to 126. The first 32 characters are control characters and the rest are printable.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ASCII-Table-wide.svg/875px-ASCII-Table-wide.svg.png)
+<figure markdown>
+  ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ASCII-Table-wide.svg/1024px-ASCII-Table-wide.svg.png){align=center}
+  <figcaption>ASCII Table</figcaption>
+</figure>
 
 As you can imagine, this table is not enough to represent all the characters in the world(latin, chinese, japanese, etc). So there are other tables that extend the ASCII table to 8 bits, or even 16 bits.
 
