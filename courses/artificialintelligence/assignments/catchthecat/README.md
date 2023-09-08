@@ -1,6 +1,6 @@
 # Catch the Cat
 
-You are in charge of creating 2 agents that will be playing the game of Catch the Cat.
+You are in charge of creating 2 agents that will be playing the game of [Catch the Cat](https://llerrah.com/cattrap.htm).
 
 ## Game rules
 
