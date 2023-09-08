@@ -1,3 +1,11 @@
+## [1.8.15](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.8.14...v1.8.15) (2023-09-08)
+
+
+### Bug Fixes
+
+* **ai:** assignments description ([eb039be](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/eb039bed5102bfa316fbba615e004f6c4de8d8df))
+* **intro:** remove ascii table from the material ([69f7f8b](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/69f7f8b7da62526a01e3bbb9c646b8d4df76e8f7))
+
 ## [1.8.14](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.8.13...v1.8.14) (2023-09-07)
 
 
