@@ -1,3 +1,15 @@
+# [1.10.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.9.1...v1.10.0) (2023-09-09)
+
+
+### Bug Fixes
+
+* **blog:** add "more" to the latest post ([2d3d34e](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/2d3d34e8e80692a3bb085367c85b40d33ef53d92))
+
+
+### Features
+
+* **blog:** add post about SDL, CPM and CMake ([fc03a8c](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/fc03a8c6d2b63b1db8f7e1deaf449e8ff5b144f6))
+
 ## [1.9.1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.9.0...v1.9.1) (2023-09-08)
 
 
