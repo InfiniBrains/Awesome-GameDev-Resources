@@ -26,14 +26,9 @@ In my opinion, the minimum toolset needed to give you the hability to start crea
 
 2. (Required for Windows) [Git](https://git-scm.com/) - Version control system
 
-    - [Download](https://git-scm.com/downloads) only if you are on Windows and add don't forget to tick the option to add it to your environment path (CMake will be calling it). On Mac and Linux, you can install via your package manager (ex. brew on Mac e apt on Ubuntu).
+    - [Download](https://git-scm.com/downloads) only if you are on Windows and don't forget to tick the option to add it to your environment path (CMake will be calling it). On Mac and Linux, you can install via your package manager (ex. brew on Mac e apt on Ubuntu).
 
-3. (Optional but desirable) [GitKraken](https://www.gitkraken.com/) - Git GUI
-
-    - [Apply for a student license through GitHub Student Pack](https://education.github.com/pack)
-    - [Login into GitKraken via social login with your GitHub account](https://www.gitkraken.com/github-student-developer-pack-bundle)
-
-After installing the tools above, you can follow the steps below to create a new project:
+After installing the tool(s) above, you can follow the steps below to create a new project:
 
 ## CLion project
 
@@ -41,7 +36,7 @@ After installing the tools above, you can follow the steps below to create a new
 
 ![Welcome](CLionWelcome.png)
 
-2. Create a new project and select `C++ Executable` and `C++XX` as the language standard. Use the default compiler and toolchain:
+2. Create a new project and select `C++ Executable` and `C++XX` as the language standard, where `XX` is the latest one available for you. Use the default compiler and toolchain:
 
 ![New Project](CLionNewProject.png)
 
