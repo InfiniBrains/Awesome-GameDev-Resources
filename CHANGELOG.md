@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.10.0...v1.10.1) (2023-09-09)
+
+
+### Bug Fixes
+
+* Update CppCmakeCPMandSDL3.md ([219e0ba](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/219e0ba96b82e1ad3eaab88c06216bd8677af8e8))
+
 # [1.10.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.9.1...v1.10.0) (2023-09-09)
 
 
