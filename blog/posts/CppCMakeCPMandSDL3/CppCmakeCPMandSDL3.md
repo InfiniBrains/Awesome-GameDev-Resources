@@ -16,6 +16,8 @@ authors:
 
 In my opinion, the minimum toolset needed to give you the hability to start creating games cross-platform from scratch is the combination of the following tools:
 
+<!-- more -->
+
 1. [CLion](https://www.jetbrains.com/clion/) - Cross-platform C++ IDE with embedded CMake support
     
     - [Apply for a student license](https://www.jetbrains.com/community/education);
