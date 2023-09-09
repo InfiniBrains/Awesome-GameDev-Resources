@@ -1,3 +1,11 @@
+## [1.9.1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.9.0...v1.9.1) (2023-09-08)
+
+
+### Bug Fixes
+
+* **datatypes:** add caption to ascii table ([4a6ca34](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/4a6ca341d43d443c0353add698bebfb8e519e2f4))
+* **flocking:** catch the cat assignment reference ([948da2a](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/948da2ae627b024420eac0a78567bde92e3d8679))
+
 # [1.9.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.8.15...v1.9.0) (2023-09-08)
 
 
