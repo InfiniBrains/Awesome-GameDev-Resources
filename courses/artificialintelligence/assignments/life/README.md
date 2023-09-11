@@ -1,6 +1,6 @@
 # Game of Life
 
-You are are applying for a internship position at Valvule Corp and they want to test your abilities to manage states. You were tasked to code the Conway's Game of Life.
+You are applying for an internship position at Valvule Corp, and they want to test your abilities to manage states. You were tasked to code the Conway's Game of Life.
 
 The game consists in a C x L matrix of cells (Columns and Lines), where each cell can be either alive or dead. The game is played in turns, where each turn the state of the cells are updated according to the following rules:
 
@@ -39,3 +39,9 @@ The output should be the state of the cells after T turns, in the same format as
 .###.
 .....
 ```
+
+## References
+
+- [Animated Example](https://playgameoflife.com/)
+- [Conway's Game of Life Wiki](https://conwaylife.com/wiki/Conway%27s_Game_of_Life)
+- [Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
