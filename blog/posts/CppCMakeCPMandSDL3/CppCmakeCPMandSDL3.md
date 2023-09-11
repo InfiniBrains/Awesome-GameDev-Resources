@@ -139,6 +139,16 @@ CPMAddPackage(
 
 ## SDL
 
+In order to generate `SDL` libraries and link it corretly in our executable, we have to state the lib should be at the same folder as the executable, so you have to add this to your `CMakeLists.txt` file:
+
+```cmake 
+# Set all outputs to be at the same location
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
+link_directories(${CMAKE_BINARY_DIR})
+```
+
 Now that we have `CPM` set up, we can use it to download and install `SDL`. If you want to try the stable version `v2`, add the following lines to your `CMakeLists.txt` file and refresh CMake:
 
 ```cmake
@@ -181,6 +191,7 @@ target_link_libraries(MyGame SDL2::SDL2)
 And this will make `SDL` available to our project. Now we can start coding. Let's create a simple window:
 
 ```cpp
+#define SDL_MAIN_HANDLED true
 #include <SDL.h>
 
 int main(int argc, char** argv) {
@@ -222,6 +233,7 @@ int main(int argc, char** argv) {
 If you feel that you want to test the bleeding-edge version, you can use this code instead:
 
 ```cpp
+#define SDL_MAIN_HANDLED true
 #include <SDL.h>
 
 int main(int argc, char* argv[]) {
