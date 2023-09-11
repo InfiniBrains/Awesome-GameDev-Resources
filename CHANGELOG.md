@@ -1,3 +1,10 @@
+## [1.10.2](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.10.1...v1.10.2) (2023-09-11)
+
+
+### Bug Fixes
+
+* **ai:** maze description fix ([26c3ffb](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/26c3ffb36abb2382b815ff2d0804978c5f053e22))
+
 ## [1.10.1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.10.0...v1.10.1) (2023-09-09)
 
 
