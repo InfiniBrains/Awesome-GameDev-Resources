@@ -3,6 +3,7 @@
 1. Read about Privacy and FERPA compliance [here](../../../blog/posts/FerpaCompliance/FerpaCompliance.md)
 2. This one, for in class coding assignments. https://github.com/InfiniBrains/Awesome-GameDev-Resources
 3. MoBaGEn, for interactive assignments. https://github.com/InfiniBrains/mobagen
+4. Install CLion (has CMake embedded) or see [#development-tools](#development-tools)
 
 ## Types of coding assignments
 
@@ -30,13 +31,43 @@ There are two types of coding assignments:
     1. If you want to make it count as part of your portfolio, fork the repo follow [this](https://docs.github.com/en/get-started/quickstart/fork-a-repo);
     2. If you want to keep it private or be FERPA compliant, duplicate the repo following [this](https://docs.github.com/en/repositories/creating-and-managing-repositories/duplicating-a-repository);
    
-3. Add my user to your repo to it with `read` role. My userid is `tolstenko` on github, for other options, talk with me in class. Follow [this](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-teams-and-people-with-access-to-your-repository);
+3. Add my user to your repo to it with `read` role. My userid is `tolstenko`(or your professor) on github, for other options, talk with me in class. Follow [this](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-teams-and-people-with-access-to-your-repository);
 4. Send me a message on canvas with the link to your repo;
-
-## Development tools
-
-I will be using CMake for the classes, but you can use whatever you want. Please [read this](../../intro/02-tooling/README.md) to understand the C++ toolset.
 
 ## Recordings
 
 In all interactive assignmets, you will have to record a 5 minute video explaing your code. Use [OBS](https://obsproject.com/) or any software you prefer to record your screen while you explain your code. But for this one, just send me the video showing the repo and the repo invites sent to me.
+
+## Development tools
+
+I will be using `CMake` for the classes, but you can use whatever you want. Please [read this](../../intro/02-tooling/README.md) to understand the `C++` toolset.
+
+In this class, I am going to use `CLion` as the IDE, because it has nice support for `CMake` and automated tests.
+
+- Download it [here](https://www.jetbrains.com/clion/).
+- If you are a student, you can get a free license [here](https://www.jetbrains.com/community/education/#students).
+
+If you want to use `Visual Studio`, be assured that you have the `C++ Desktop Development` workload installed, more info [this](https://docs.microsoft.com/en-us/cpp/build/vscpp-step-0-installation?view=msvc-160). And then go to `Individual Components` and install `CMake Tools for Windows`.
+
+!!! note
+
+    If you use `Visual Studio`, you won't be able to use the automated testing system that comes with the assignments.
+
+[OPINION]: If you want to use a lightweight environment, don't use Visual Studio Code for C++ development. Period. It is not a good IDE for that. It is preferred to code via sublime, notepad, vim, or any other text editor and then compile your code via terminal, and debug via gdb, than using VS Code for C++ development.
+
+### Openning the Repos
+
+1. (Fork and) clone the repos;
+2. Open `CLion` or yor preferred `IDE` with `CMake` support;
+3. Open the `CMakeLists.txt` as project from the root of the repo;
+4. Wait for the setup to finish (it will download the dependencies automatically, such as `SDL`);
+
+For the interactive assignments, use this [repo](https://github.com/InfiniBrains/mobagen) and the assignments are located in the `examples` folder.
+
+For the algorithmic assignments, use this [repo](https://github.com/InfiniBrains/Awesome-GameDev-Resources) and the assignments are located in the `courses/artificialintelligence/assignments` folder.
+
+For the algorithmic assignments, I created some automated tests to help you debug your code and ensure 100% of correctness. To run them, follow the steps (only available though `CLion` or terminal, not `Visual Studio`):
+
+1. Go to the executable drop down selection (top right, near the green `run` or `debug` button) and select the assignment you want to run. It will be something like `ai-XXX` where `XXX` is the name of the assignment;
+2. If you want to test your assignment against the automated inputs/outputs, select the `ai-XXX-test` build target. Here you should use the `build` button, not the `run` or `debug` button. It will run the tests and show the results in the `Console` tab;
+
