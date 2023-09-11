@@ -21,7 +21,7 @@ There are two types of coding assignments:
 
 ## Code assignments
 
-!!! inline end warning
+!!! warning inline end
 
     If you are a enrolled in a class that uses this material, you SHOULD use the institutional and internal git server to be [FERPA](https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html) compliant. If you want to use part of this assignments to build your portfolio I recommend you to use github and make only the interactive assignment public. If you are just worried about privacy concerns, you can use a private repo on github.
 
@@ -64,10 +64,8 @@ If you want to use `Visual Studio`, be assured that you have the `C++ Desktop De
 
 For the interactive assignments, use this [repo](https://github.com/InfiniBrains/mobagen) and the assignments are located in the `examples` folder.
 
-For the algorithmic assignments, use this [repo](https://github.com/InfiniBrains/Awesome-GameDev-Resources) and the assignments are located in the `courses/artificialintelligence/assignments` folder.
+For the algorithmic assignments, use this [repo](https://github.com/InfiniBrains/Awesome-GameDev-Resources) and the assignments are located in the `courses/artificialintelligence/assignments` folder. I created some automated tests to help you debug your code and ensure 100% of correctness. To run them, follow the steps (only available though `CLion` or terminal, not `Visual Studio`):
 
-For the algorithmic assignments, I created some automated tests to help you debug your code and ensure 100% of correctness. To run them, follow the steps (only available though `CLion` or terminal, not `Visual Studio`):
-
-1. Go to the executable drop down selection (top right, near the green `run` or `debug` button) and select the assignment you want to run. It will be something like `ai-XXX` where `XXX` is the name of the assignment;
-2. If you want to test your assignment against the automated inputs/outputs, select the `ai-XXX-test` build target. Here you should use the `build` button, not the `run` or `debug` button. It will run the tests and show the results in the `Console` tab;
+1. Go to the executable drop down selection (top right, near the green `run` :material-play: or `debug` :material-bug: button) and select the assignment you want to run. It will be something like `ai-XXX` where `XXX` is the name of the assignment;
+2. If you want to test your assignment against the automated inputs/outputs, select the `ai-XXX-test` build target. Here you should use the `build` :fontawesome-solid-hammer: button, not the `run` :material-play: or `debug` :material-bug: button. It will run the tests and show the results in the `Console` :material-console: tab;
 
