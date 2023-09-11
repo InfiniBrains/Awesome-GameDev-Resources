@@ -1,3 +1,10 @@
+## [1.10.3](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.10.2...v1.10.3) (2023-09-11)
+
+
+### Bug Fixes
+
+* **blog:** add SDL statements to generate libs at the same path ([e1b3377](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/e1b3377323026c926198cdbb92de9e8dca78de07))
+
 ## [1.10.2](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.10.1...v1.10.2) (2023-09-11)
 
 
