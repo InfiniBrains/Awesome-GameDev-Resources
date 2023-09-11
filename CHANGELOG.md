@@ -1,3 +1,10 @@
+## [1.10.5](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.10.4...v1.10.5) (2023-09-11)
+
+
+### Bug Fixes
+
+* **ai:** inline warning ([eccdfee](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/eccdfee3bd9b108bfef2d708a87cc38cd0c360d9))
+
 ## [1.10.4](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.10.3...v1.10.4) (2023-09-11)
 
 
