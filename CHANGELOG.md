@@ -1,3 +1,10 @@
+## [1.10.4](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.10.3...v1.10.4) (2023-09-11)
+
+
+### Performance Improvements
+
+* **ai:** improved the clion setup ([6b63caf](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/6b63cafcdfa18098788e38f54e51e6031cfcde05))
+
 ## [1.10.3](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.10.2...v1.10.3) (2023-09-11)
 
 
