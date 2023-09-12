@@ -52,22 +52,95 @@ The Catcher moves by blocking a cell. A cell can be blocked only once each turn.
     - Block a cell outside the board;
     - Block a cell where the cat is;
 
-## Suggested coding interface
-
-The move function should return a `std::pair<int, int>` with the `{x, y}` position. And receives as parameter `const std::vector<bool>&` as the blocked cells, where `true` means blocked and `false` means free, and `const std::pair<int, int>&` as the current position of the cat.
-
-Suggested interface of an agent:
-
-```cpp
-class Agent {
-public:
-    Agent() = default;
-    virtual ~Agent() = default;
-
-    virtual pair<int, int> move(const vector<bool>& blocked, const pair<int, int>& cat) = 0;
-};
-```
-
 ## Competition
 
-All students enrolled in the competition will submit both agents. The agents will play against each other and the winner will be the one that wins the most games. In case of a tie, the winner will be the one that wins the fastest game.
+All students enrolled in the competition will submit both agents. The agents will play against each other, and the winner will be the one that wins the most games. 
+
+The points will be counted as how many moves each one does;
+
+If Cat Wins:
+
+- CatPoints: SideSize * SideSize - CatMoves - K * CPU time;
+- CatcherPoints: CatcherMoves - K * CPU time;
+
+If Catcher Wins:
+
+- CatPoints: CatMoves - K * CPU time;
+- CatcherPoints: SideSize * SideSize - CatcherMoves - K * CPU time;
+
+## How to participate:
+
+I will create an automation that will use your agents to play against each other.
+
+1. Place the interface [below](#iagenth) in a file called `IAgent.h` on the root of your repo;
+2. Agents are stateless. At every turn, the state of all classes everything will be reset.
+3. The classes should be named `Cat` and `Catcher`;
+4. The simulator will include `Cat.h` and `Catcher.h`, so you should have at least these two files;
+5. Both agents should inherit `IAgent.h` and include `#include "IAgent.h"`; 
+6. All `.cpp` and `.h` files should be at the same directory level. Don't use subdirs; 
+7. Your submission will be a zip containing only `.h` and `.cpp` files. 
+8. Do not submit any file with a `main` function;
+
+The reasoning is: I will create an automation for:
+
+1. Receive your zip and version them for auditing purposes and diagnostics;
+2. Create a folder for your user if not created yet;
+3. Clear the folder and keep the executable;
+4. Unzip the contents of your submission into a folder with your username;
+5. Add a `main.cpp` for the simulator;
+6. Compile the whole folder into one executable named as your username. Only the last working subimission will be kept;
+
+It will generate `N` executables that will be managed and called via terminal to generate the final report with points;
+
+The report will be generated via another automation that will generate 100 initial states randomly. All agents from all students play against each other.
+
+```
+executables = fetchAllExecutables() 
+initialstates = generateRandomStates(100);
+foreach cat of executables{
+  foreach catcher of executables {
+    turnIsCat = true;
+    foreach state of initialstate {
+      while(nat have winner && correct output){
+        if(turnIsCat)
+          state = cat(state)
+        else
+          state = catcher(state)
+        turnIsCat = !turnIsCat
+      }
+      generate partial report from current cat and catcher  
+    }
+  }
+}
+compose final report of the run
+```
+
+### IAgent.h
+
+```cpp title="IAgent.h"
+#include <vector>
+#include <utility>
+#include <string>
+
+// NO NOT CHANGE THIS FILE
+struct IAgent {
+public:
+    /**
+     * @brief the agent implementation. the center of the world is {0,0}, top left is {-sideSize/2, -sideSize/2} and the bottom right is {sideSize/2, sideSize/2}.
+     *
+     * @param world the world as a vector of booleans. true means there is a wall, false means there is no wall. The vector is the linearization of the matrix of the world.
+     * @param catPos the position of the cat in the world {x,y} relative to the center of the world.
+     * @param sideSize the side size of the world. it will be always a square that follows the sequence of 4*i+1: 5, 9, 13, 17, 21, 25, 29, 33, 37, 41, ...
+     *
+     * @return the position to move to {x,y}. relative to the center of the world.
+     */
+    virtual std::pair<int,int> move(const std::vector<bool>& world, std::pair<int,int> catPos, int sideSize ) = 0;
+
+    /**
+     * @brief the name of the agent. it will be used to identify the agent in the ranking.
+     *
+     * @return the name of the agent. Follow this pattern: "CAT_<username>" or "Cat_<username>_<modifier>" if you have more than one Cat; "CATCHER_<username>" or "Catcher_<username>_<modifier>" if you have more than one Catcher.
+     */
+    virtual std::string name() = 0;
+};
+```
