@@ -118,9 +118,9 @@ compose final report of the run
 ### IAgent.h
 
 ```cpp title="IAgent.h"
+#pragma once
 #include <vector>
 #include <utility>
-#include <string>
 
 // NO NOT CHANGE THIS FILE
 struct IAgent {
@@ -135,12 +135,5 @@ public:
      * @return the position to move to {x,y}. relative to the center of the world.
      */
     virtual std::pair<int,int> move(const std::vector<bool>& world, std::pair<int,int> catPos, int sideSize ) = 0;
-
-    /**
-     * @brief the name of the agent. it will be used to identify the agent in the ranking.
-     *
-     * @return the name of the agent. Follow this pattern: "CAT_<username>" or "Cat_<username>_<modifier>" if you have more than one Cat; "CATCHER_<username>" or "Catcher_<username>_<modifier>" if you have more than one Catcher.
-     */
-    virtual std::string name() = 0;
 };
 ```
