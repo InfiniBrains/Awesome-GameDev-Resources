@@ -1,3 +1,10 @@
+## [1.10.9](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.10.8...v1.10.9) (2023-09-12)
+
+
+### Performance Improvements
+
+* **ai:** better rng assignment description ([cf141e1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/cf141e1c31ff76dcd9988e6521ecd014b78685c1))
+
 ## [1.10.8](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.10.7...v1.10.8) (2023-09-12)
 
 
