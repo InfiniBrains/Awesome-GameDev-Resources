@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.10.11...v1.11.0) (2023-09-12)
+
+
+### Features
+
+* **catchthecat:** add automated tests ([1819997](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/1819997d23017dd7d48ae0824f80d20575bb1a66))
+
 ## [1.10.11](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.10.10...v1.10.11) (2023-09-12)
 
 
