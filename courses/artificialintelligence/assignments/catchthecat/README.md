@@ -14,16 +14,20 @@ The board position follows `{x, y}` notation.
 
 The center of the board is `{0,0}` and the board is a square with `N` cells on each side.
 
-The board is a pointy top hexagon with the first line aligned to the left:
+The board is a pointy top hexagon with the first line aligned to the left. Here goes an example of a 5x5 board indexes:
 
 ```
- /  \ /  \ /  \ 
-|-1-1| 0-1| 1-1|
- \  / \  / \  / \
-  |-1 0| 0 0| 1 0|
- /  \ /  \ /  \ /
-|-1 1| 0 1| 1 1|
- \  / \  / \  /
+ /  \ /  \ /  \ /  \ /  \
+|-2-2|-1-2| 0-2| 1-2| 2-2|
+ \  / \  / \  / \  / \  / \
+  |-2-1|-1-1| 0-1| 1-1| 2-1|
+ /  \ /  \ /  \ /  \ /  \ /
+|-2 0|-1 0| 0 0| 1 0| 2 0|
+ \  / \  / \  / \  / \  / \
+  |-2 1|-1 1| 0 1| 1 1| 2 1|
+ /  \ /  \ /  \ /  \ /  \ /
+|-2 2|-1 2| 0 2| 1 2| 2 2|
+ \  / \  / \  / \  / \  /
 ```
 
 ### Moves
