@@ -1,3 +1,10 @@
+## [1.10.6](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.10.5...v1.10.6) (2023-09-12)
+
+
+### Performance Improvements
+
+* **ai:** add more emojis and icons ([67db6cf](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/67db6cf5490b085571e2104d056a0bc8feb7d6b7))
+
 ## [1.10.5](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.10.4...v1.10.5) (2023-09-11)
 
 
