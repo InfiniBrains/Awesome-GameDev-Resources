@@ -1,3 +1,10 @@
+## [1.10.11](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.10.10...v1.10.11) (2023-09-12)
+
+
+### Performance Improvements
+
+* **catchthecat:** better description for the competition ([2ab568c](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/2ab568c11c99a33dd7b7964b280784413bd355d4))
+
 ## [1.10.10](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.10.9...v1.10.10) (2023-09-12)
 
 
