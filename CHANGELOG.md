@@ -1,3 +1,10 @@
+## [1.10.10](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.10.9...v1.10.10) (2023-09-12)
+
+
+### Performance Improvements
+
+* **ai:** improve catch the cat assignment description ([ed4b7b5](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/ed4b7b58ab8d1db2aa57b2fdcefb01431ca9d97e))
+
 ## [1.10.9](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.10.8...v1.10.9) (2023-09-12)
 
 
