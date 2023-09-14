@@ -1,3 +1,10 @@
+## [1.11.1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.11.0...v1.11.1) (2023-09-14)
+
+
+### Bug Fixes
+
+* **ai:** add tests to catchthecat assignment ([383ba04](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/383ba04e407823b4011a568cacd626352512ada0))
+
 # [1.11.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.10.11...v1.11.0) (2023-09-12)
 
 
