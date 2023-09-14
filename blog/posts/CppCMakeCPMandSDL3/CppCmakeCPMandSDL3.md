@@ -14,7 +14,7 @@ authors:
 
 # Setup SDL with CMake and CPM
 
-In my opinion, the minimum toolset needed to give you the hability to start creating games cross-platform from scratch is the combination of the following tools:
+In my opinion, the minimum toolset needed to give you the ability to start creating games cross-platform from scratch is the combination of the following tools:
 
 <!-- more -->
 
@@ -24,7 +24,7 @@ In my opinion, the minimum toolset needed to give you the hability to start crea
     - [Download](https://www.jetbrains.com/clion/download) and install it;
     - For Macs, you will need extra tools: `XCode` and the command line tools. You can install them by running `xcode-select --install` on the terminal;
 
-2. (Required for Windows) [Git](https://git-scm.com/) - Version control system
+2. (Required for Windows and if you don't use CLion) [Git](https://git-scm.com/) - Version control system
 
     - [Download](https://git-scm.com/downloads) only if you are on Windows and don't forget to tick the option to add it to your environment path (CMake will be calling it). On Mac and Linux, you can install via your package manager (ex. brew on Mac e apt on Ubuntu).
 
@@ -44,7 +44,7 @@ After installing the tool(s) above, you can follow the steps below to create a n
 
 ![CLionIDE](CLionIDE.png)
 
-You might note the existence of a `CMakeLists.txt` file on the left side of the IDE on the `Project` tab. This file is used by CMake to generate the build files for your project. Now we are going it to set up everything you need to use `SDL3`. If you open the `CMakeLists.txt` file, you will see something similar to the following:
+You might note the existence of a `CMakeLists.txt` file on the left side of the IDE on the `Project` tab. This file is used by CMake to generate the build files for your project. Now, we are going to set up everything you need to use `SDL3`. If you open the `CMakeLists.txt` file, you will see something similar to the following:
 
 ```cmake
 # cmake_minimum_required(VERSION <specify CMake version here>)
@@ -59,7 +59,7 @@ add_executable(MyGame main.cpp)
 
 ## CPM - C++ Package Manager
 
-CPM is a setup-free C++ package manager. It is a single CMake script that you can add to your project and use it to download and install packages from GitHub. It is a great tool to manage dependencies and it is used by many C++ projects.
+CPM is a setup-free C++ package manager. It is a single CMake script that you can add to your project and use to download and install packages from GitHub. It is a great tool to manage dependencies and many C++ projects use it.
 
 You can make this as simple as adding the following lines to your `CMakeLists.txt` file (after the `project` command):
 
@@ -99,13 +99,13 @@ endif()
 include(${CPM_DOWNLOAD_LOCATION})
 ```
 
-This will download the `CPM.cmake` file to your project and you can use it to download and install packages from GitHub. 
+This will download the `CPM.cmake` file to your project, and you can use it to download and install packages from GitHub. 
 
-In order to checx if `CPM` is being automatically downloaded, you can go to `CLion` and click on `CMake` :simple-cmake: icon the left side of the `Project`, it is the first one on the bottom. And then click the `Reload CMake Project` :material-reload: button:
+To check if `CPM` is being automatically downloaded, you can go to `CLion` and click on `CMake` :simple-cmake: icon on the left side of the `Project`. It is the first one on the bottom. And then click the `Reload CMake Project` :material-reload: button:
 
 ![CLionRefreshCMake](CLionRefreshCMake.png)
 
-Now that you have `CPM`, you can start adding packages to your project. Here goes some ways of doing that:
+Now that you have `CPM`, you can start adding packages to your project. Here are some ways of doing that:
 
 ```cmake
 # A git package from a given uri with a version
@@ -139,7 +139,7 @@ CPMAddPackage(
 
 ## SDL
 
-In order to generate `SDL` libraries and link it corretly in our executable, we have to state the lib should be at the same folder as the executable, so you have to add this to your `CMakeLists.txt` file:
+In order to generate `SDL` libraries and link them corretly in our executable, we have to state the lib should be in the same folder as the executable, so you have to add this to your `CMakeLists.txt` file:
 
 ```cmake 
 # Set all outputs to be at the same location
@@ -160,7 +160,7 @@ CPMAddPackage(
 )
 ```
 
-If you don't have `git` installed on your machine, you might want to use the `ZIP` version(it is even faster to download, but slower to switch versions). In this case, you can use the following lines and refresh CMake:
+If you don't have `git` installed on your machine, you might want to use the `ZIP` version(it is even faster to download but slower to switch versions). In this case, you can use the following lines and refresh CMake:
 
 ```cmake
 CPMAddPackage(
