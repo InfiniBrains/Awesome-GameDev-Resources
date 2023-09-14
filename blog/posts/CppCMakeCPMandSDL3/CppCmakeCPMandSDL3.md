@@ -24,7 +24,7 @@ In my opinion, the minimum toolset needed to give you the ability to start creat
     - [Download](https://www.jetbrains.com/clion/download) and install it;
     - For Macs, you will need extra tools: `XCode` and the command line tools. You can install them by running `xcode-select --install` on the terminal;
 
-2. (Required for Windows) [Git](https://git-scm.com/) - Version control system
+2. (Required for Windows and if you don't use CLion) [Git](https://git-scm.com/) - Version control system
 
     - [Download](https://git-scm.com/downloads) only if you are on Windows and don't forget to tick the option to add it to your environment path (CMake will be calling it). On Mac and Linux, you can install via your package manager (ex. brew on Mac e apt on Ubuntu).
 
