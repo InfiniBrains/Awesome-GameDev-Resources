@@ -1,4 +1,5 @@
-#pragma once
+#ifndef CATCHER_H
+#define CATCHER_H
 #include "IAgent.h"
 
 struct Catcher : public IAgent {
@@ -6,3 +7,4 @@ struct Catcher : public IAgent {
     return {0,0}; // todo: change this
   }
 };
+#endif

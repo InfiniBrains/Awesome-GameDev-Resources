@@ -1,4 +1,5 @@
-#pragma once
+#ifndef CAT_h
+#define CAT_h
 #include "IAgent.h"
 
 struct Cat : public IAgent {
@@ -6,3 +7,4 @@ struct Cat : public IAgent {
     return {0,0}; // todo: change this
   }
 };
+#endif

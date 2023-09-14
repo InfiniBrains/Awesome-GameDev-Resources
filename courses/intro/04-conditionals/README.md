@@ -301,7 +301,52 @@ In this example, the output would be "x is 2" and "x is 3", as the break stateme
 
 It is generally considered good practice to include a `break` statement at the end of each case in a `switch` statement to avoid unintended fallthrough. However, there may be cases where a fallthrough is desired behavior. In such cases, it is important to document the intended fallthrough in the code to make it clear to other programmers.
 
-# Homework
+### Issues with switch and enums
+
+A nice usecase for `switch`es is to be used to select between possible choices and `enum`s are one of the best ways of expressing choices. So it seems natural to combine both, right? Well, not so fast. There are some issues with this combination that you might be aware of.
+
+The main issue with this approach relies on the `switch`'s `default` behavior. If you use `deafult` on `swich`es in conjunction with stringly typed `enum`s (`enum class` or `enum struct`), the compiler won't be able to warn you about missing cases. This is because the `default` case will be triggered for any value that is not explicitly handled by the `switch`. This is a problem because it is very easy to forget to add a new case when a new value is added to the `enum` and the compiler won't warn you about it. Example:
+
+```c++ title="ColorEnum.h"
+enum class Color { Red, Green };
+```
+
+```c++ title="UseCaseX.cpp"
+// this code goes inside some function that uses Color c
+switch(c){
+  case Color::Red:
+    // do something
+    break;
+  default: // covers Color::Green and any other value
+    // do something else
+    break;
+}
+```
+
+But you just remembered that now you should cover the `Blue` state. So you add it to the `enum`:
+
+```c++ title="ColorEnum.h"
+enum class Color { Red, Green, Blue };
+```
+
+But you might forget to add the coverage for the new case to the `switch`, it will fall into the `default` case without warnings.
+
+So the best combination is to use `switch`es with `enum class`es and **do not** use `default` cases. This way, the compiler will warn you about missing cases. So if you add a new `enum` value had this code instead, you will be warned about missing cases.
+
+```c++ title="UseCaseX.cpp"
+// this code goes inside some function that uses Color c
+switch(c){
+  case Color::Red:
+    // do something
+    break;
+  case Color::Green:
+    // do something else
+    break;
+}
+// this code will throw a warning if you forget to add a case for the new enum value
+```
+
+## Homework
 
 - Do all exercises up to this topic [here](https://www.w3schools.com/cpp/exercise.asp).
 

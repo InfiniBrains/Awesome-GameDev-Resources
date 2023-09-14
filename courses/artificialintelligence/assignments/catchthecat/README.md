@@ -60,13 +60,13 @@ The points will be counted as how many moves each one does;
 
 If Cat Wins:
 
-- CatPoints: SideSize * SideSize - CatMoves - K * CPU time;
-- CatcherPoints: CatcherMoves - K * CPU time;
+- CatPoints: SideSize * SideSize/2 - CatMoves - K*CpuCatTime;
+- CatcherPoints: CatcherMoves - K*CpuCatcherTime;
 
 If Catcher Wins:
 
-- CatPoints: CatMoves - K * CPU time;
-- CatcherPoints: SideSize * SideSize - CatcherMoves - K * CPU time;
+- CatPoints: CatMoves - K*CpuCatTime;
+- CatcherPoints: SideSize * SideSize/2 - CatcherMoves - K*CpuCatherTime;
 
 ## How to participate:
 

@@ -148,7 +148,7 @@ Here, the underlying type of the enumeration is `char`, so the constants `Red`, 
 // You can make the value of the constants
 // explicit to make your debugging easier:
 enum class Color : char {
-  Red = 'r', //  
+  Red = 'r',
   Green = 'g',
   Blue = 'b'
 };

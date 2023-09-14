@@ -6,7 +6,7 @@
 #include "Cat.h"
 #include "Catcher.h"
 
-void print(const std::vector<bool>& state, int sideSize, std::pair<int,int> catPos, char turn) {
+void print(const std::vector<bool>& state, int sideSize, std::pair<int,int> catPos, const std::string& turn){
   std::cout << turn << " " << sideSize << " " << catPos.first << " " << catPos.second << std::endl;
   catPos.first += sideSize/2;
   catPos.second += sideSize/2;
@@ -47,20 +47,21 @@ std::vector<bool> readBoard(int sideSize) {
 }
 
 int main() {
-  char turn;
+  std::string turn;
   int sideSize;
   int catX, catY;
   std::vector<bool> blocked;
   std::cin >> turn >> sideSize >> catX >> catY;
   blocked = readBoard(sideSize);
-  if(turn == 'C'){
+  // while(not win){ simulate; } // todo: create your own logic to test and simulate, check for win conditions etc.
+  if(turn == "CAT"){
     Cat cat;
     auto catMove = cat.move(blocked, {catX, catY}, sideSize);
-    print(blocked, sideSize, {catMove.first, catMove.second}, 'T');
-  } else {
+    print(blocked, sideSize, {catMove.first, catMove.second}, "CATCHER");
+  } else if (turn == "CATCHER") {
     Catcher catcher;
     auto catcherMove = catcher.move(blocked, {catX, catY}, sideSize);
     blocked[(catcherMove.second + sideSize/2) * sideSize + catcherMove.first+sideSize/2] = true;
-    print(blocked, sideSize, {catX, catY}, 'C');
+    print(blocked, sideSize, {catX, catY}, "CATCHER");
   }
 }

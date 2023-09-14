@@ -1,4 +1,5 @@
-#pragma once
+#ifndef IAgent_h
+#define IAgent_h
 #include <vector>
 #include <utility>
 #include <string>
@@ -17,3 +18,4 @@ public:
    */
   virtual std::pair<int,int> move(const std::vector<bool>& world, std::pair<int,int> catPos, int sideSize ) = 0;
 };
+#endif
