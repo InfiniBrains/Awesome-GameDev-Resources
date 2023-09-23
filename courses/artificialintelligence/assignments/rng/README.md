@@ -15,7 +15,7 @@ So you remembered a strange professor talking about the xorshift algorithm and d
 
 The xorshift is a family of pseudo random number generators created by George Marsaglia. The xorshift is a very simple algorithm that is very fast and have a good statistical quality. It is a very good choice for games and simulations.
 
-`xorshift` is the process of shifting a number and then `xor`'ing it to the original value to create a new value. 
+`xorshift` is the process of shifting the binary value of a number and then `xor`'ing that binary to the original value to create a new value. 
 
 ```value = value xor (value shift by number)```
 
