@@ -84,7 +84,7 @@ In this version, WallData will use 1 byte per room(40x improvement). But we will
 vector<bool> topWalls, rightWals, bottomWalls, leftWalls;
 ```
 
-For vector, depending on the implementation, it needs to store the size of it, the capacity, and the pointer to the data, which will use 24 bytes per vector. It can reaches 32 if it stores the reference count to it as a smart pointer.
+For vector, depending on the implementation, it needs to store the size of it, the capacity, and the pointer to the data, which will use 24 bytes per vector. If  can reach 32 if it stores the reference count to it as a smart pointer.
 
 So what we are going to do next? Reduce the number of vectors used to reduce overhead. If you want to go deeper, you can use only one vector<bool> where every bit is a wall. So we will have only 4 bits per room and do some math to get the right bit(80x improvement). 
 

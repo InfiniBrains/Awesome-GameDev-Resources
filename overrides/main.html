@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+<!--<meta property="og:type" content="website">-->
+<!--<meta property="og:title" content="Awesome Gamedev Guild">-->
+<!--<meta property="og:description" content="Game Guild">-->
+<!--<meta property="og:url" content="https://gameguild.gg/">-->
+<!--<meta property="og:image" content="https://gameguild.gg/overrides/favicon/apple-touch-icon.png">-->
+{% endblock %}
+
+
+{% block scripts %}
+<!-- Add scripts that need to run before here -->
+{{ super() }}
+<!-- Add scripts that need to run afterwards here -->
+<!-- Smartlook tag (recorder.js) -->
+<script type='text/javascript'>
+    window.smartlook||(function(d) {
+        var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+        var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+        c.charset='utf-8';c.src='https://web-sdk.smartlook.com/recorder.js';h.appendChild(c);
+    })(document);
+    smartlook('init', '2f5d1221ea7a962d4adf10180eedd4eab3e00fc4', { region: 'eu' });
+</script>
+<!--SEMRUSH-->
+<!--<script>-->
+<!--    ;(function() {-->
+<!--        var script = document.createElement('script');-->
+<!--        script.id = 'e07e28c9-2f81-4614-9daa-dcc86fab2401';-->
+<!--        script.type = 'module';-->
+<!--        script.src = 'https://pageimprove.io';-->
+<!--        document.head.appendChild(script);-->
+<!--    })()-->
+<!--</script>-->
+{% endblock %}

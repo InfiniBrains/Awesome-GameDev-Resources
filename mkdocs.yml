@@ -153,7 +153,7 @@ reveal:
 
 edit_uri: edit/main/
 
-copyright: Copyright &copy; 2023 Tolstenko and Others
+copyright: Copyright &copy; 2023 Tolstenko, Game Guild Community and Others
 
 markdown_extensions:
   - abbr
@@ -195,6 +195,10 @@ markdown_extensions:
   - pymdownx.tilde
 
 plugins:
+  - social:
+      cards: true
+      cards_layout: default
+      enabled: true
   - blog:
 #      blog_toc: true
       blog_authors: true
@@ -221,8 +225,6 @@ plugins:
       docs_path: ./
       cache_dir: /tmp/cache/awesome-gamedev-resources
 #  - git-authors
-  - social:
-      cards_layout: default/accent
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true

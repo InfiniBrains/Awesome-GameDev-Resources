@@ -61,7 +61,7 @@ jobs:
           if [ "${{ secrets.GH_SQUID_TOKEN }}" != '' ]; then
           pip install git+https://${{ secrets.GH_SQUID_TOKEN }}@github.com/squidfunk/mkdocs-material-insiders.git
           else
-          pip install mkdocs-material==9.2.0b3
+          pip install mkdocs-material
           fi          
 
 #      - name: Configure

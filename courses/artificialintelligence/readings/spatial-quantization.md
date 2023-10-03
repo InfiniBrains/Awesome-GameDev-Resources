@@ -26,10 +26,12 @@ int index = x + y * width; // index of the cell at x,y
 There is a catch here, given we usually represent points as X and Y coordinates, we need to be careful with the order of the coordinates. While you are iterating over all the matrix, you need to iterate over the Y coordinate first, and then the X coordinate. This is because the Y coordinate is the one that changes the most, so it is better to have it in the inner loop. By doing that, you will have better cache locality and effectively the index will be sequential.
 
 ```c++
+vector<YourStructure> data; // data is filled with some data elsewhere
 for(int y = 0; y < height; y++) {
-    for(int x = 0; x < width; x++) { 
-        int index = x + y * width;
-        // do something with the cell at index
+    for(int x = 0; x < width; x++) {
+        // do something with the cell at index x,y
+        data[y * width + y] = yourstrucure;
+        // it is the same as: data[y][x] = yourstructure;
     }
 }
 ```
@@ -68,6 +70,12 @@ std::vector<Vector2int> get_neighbors(Vector2int index) {
             {index.x+1, index.y}, {index.x, index.y+1}};
 }
 ```
+
+We already understood the idea of matrix flattening to improve efficiency, we can use it to represent a maze. But in a maze, we have walls to 
+
+Imagine that you are willing to be as memory efficient and more cache friendly as possible. You can use a single array to store the maze, and you can use the following formula to convert from matrix indexes to the index of the cell in the array.
+
+```c++
 
 ## Hexagonal Grid
 
@@ -276,4 +284,3 @@ namespace std {
 Pay attention that the hashing function above generates collisions, so you have to use a data structure that can handle collisions. You will use datastructures like `unordered_map<Vector2D, unordered_set<DATATYPE>>` or `unordered_map<Vector2D, vector<DATATYPE>>`. The first one is better for insertion and query, but it is not cache friendly. 
 
 To avoid having one bucket per every possible position, you have to setup properly the dimension of the bucket, a good sugestion is to alwoys floor the position and have buckets dimension of 1.0f. That would be good enough for most cases.
-
