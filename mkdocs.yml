@@ -13,6 +13,7 @@ nav:
   - AI:
       - courses/artificialintelligence/README.md
       - Spatial Quantization: courses/artificialintelligence/readings/spatial-quantization.md
+      - Maze Data Structure: blog/posts/MazeDataStructure/MazeDataStructures.md
       - Assignments:
           - courses/artificialintelligence/assignments/README.md
           - Setup: courses/artificialintelligence/assignments/README.md
@@ -134,7 +135,7 @@ theme:
 #        icon: material/brightness-4
 #        name: Switch to light mode
   font:
-    text: jost
+    text: Roboto
     code: Roboto Mono
 #  favicon: assets/favicon.png
 #  icon:
