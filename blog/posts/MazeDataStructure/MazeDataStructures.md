@@ -14,7 +14,7 @@ authors:
   - tolstenko
 ---
 
-# Memory-efficient Data Structure for Maze Generation
+# Memory-efficient Data Structure for Procedural Maze Generation
 
 In this post, you will learn how to create a memory-efficient data structure for maze generation. We will jump from a 320 bits data structure to just 2! It is achieved by taking a bunch of clever decisions, changing the referential and doing some math. Be warned, this not for the fainted hearts. Are you brave enough? 
 
