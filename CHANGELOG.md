@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.12.1...v1.13.0) (2023-10-03)
+
+
+### Features
+
+* **social:** add social media ([0ba237e](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/0ba237e08a0a1191a2308e8f5f9c0433cf07c08f))
+
 ## [1.12.1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.12.0...v1.12.1) (2023-10-03)
 
 
