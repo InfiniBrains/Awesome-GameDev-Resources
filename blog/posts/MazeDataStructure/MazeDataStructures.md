@@ -50,7 +50,7 @@ This one above will work, but it is:
 
 **Random Access**: To access the room `{x,y}` will have to iterate over node by node from the origin. The access of a room will have the algorithmic complexity of O(rows+columns) or simply O(n). For small mazes it is not a problem, but for big mazes it will be.
 
-**Memory inefficiency**: The memory allocation for each room is 4 pointers and 4 booleans. If the size of the pointer is 8 bytes and each boolean is 1 byte, we might think it will have 32 bytes per room, right? Wrong! The compiler will add padding to the struct, so it will have 40 bytes per room. If we have a 1000x1000 maze, we will have 40MB of memory allocated for the maze. It is a lot of memory for a simple maze.
+**Memory inefficiency**: The memory allocation for each room is 4 pointers and 4 booleans. If the size of the pointer is 8 bytes and each boolean is 1 byte, we might think it will have 36 bytes per room, right? Wrong! The compiler will add padding to the struct, so it will have 40 bytes per room. If we have a 1000x1000 maze, we will have 40MB of memory allocated for the maze. It is a lot of memory for a simple maze.
 
 **Data redundancy**: The wall data is stored in two neighbors. If we break a wall, we have to break the wall in two places. It is not a big deal, but it is a waste of memory.
 
