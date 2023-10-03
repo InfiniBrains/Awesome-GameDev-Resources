@@ -78,18 +78,25 @@ struct WallData {
 };
 ```
 
-In this version, WallData will use 1 byte per room(40x improvement). But we will be using only 4 bits of the byte. Another way of optmizing it is to use vector of bools for every type of wall.
+In this version, WallData will use 1 byte per room(40x improvement). But we will be using only 4 bits of the byte. Another way of optmizing it is to use vector of bools for every type of wall. Let's group them into vectors. 
 
 ```c++
 vector<bool> topWalls, rightWals, bottomWalls, leftWalls;
 ```
 
-But a vector alone, depending on the implementation, needs to store the size of the vector, the capacity of the vector, and the pointer to the data. So it will use 24 bytes per vector. In nome implémentations, it can reaches 32 if it stores the reference count to it. If you want to go deeper, you can use only one vector<bool> where every bit is a wall. So we will have only 4 bits per room and do some math to get the right bit(80x improvement). Can we do it better?
+For vector, depending on the implementation, it needs to store the size of it, the capacity, and the pointer to the data, which will use 24 bytes per vector. It can reaches 32 if it stores the reference count to it as a smart pointer.
 
-Yes! As you might have noticed, every wall data is being stored in two nodes redundantly. So we will jump from 40 bytes(320 bits) to 2 bits per room (approximately 160x improvement). But in order to achieve that, you have to follow a strict set of rules.
+So what we are going to do next? Reduce the number of vectors used to reduce overhead. If you want to go deeper, you can use only one vector<bool> where every bit is a wall. So we will have only 4 bits per room and do some math to get the right bit(80x improvement). 
+
+```c++
+vector<bool> walls;
+```
+
+Can we do it better? Yes! As you might have noticed, every wall data is being stored in two nodes redundantly. So we will jump from 40 bytes(320 bits) to 2 bits per room (approximately 160x improvement). But in order to achieve that, you have to follow a strict set of rules andodifications.
 
 1. Every even bit is a top wall, and every odd bit is a right wall relative to an intersection;
 2. Every dimension of the maze will be increased by one unity in order to properly address the borders.
+3. We need to create accessors via matrix index and flaten with linearization technique. 
 
 ```text
  _ _ _
