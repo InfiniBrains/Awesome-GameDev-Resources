@@ -30,7 +30,7 @@ vector<YourStructure> data; // data is filled with some data elsewhere
 for(int y = 0; y < height; y++) {
     for(int x = 0; x < width; x++) {
         // do something with the cell at index x,y
-        data[y * width + y] = yourstrucure;
+        data[y * width + x] = yourstrucure;
         // it is the same as: data[y][x] = yourstructure;
     }
 }
