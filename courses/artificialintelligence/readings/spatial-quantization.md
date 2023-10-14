@@ -274,7 +274,7 @@ namespace std {
             uint64_t x = *(uint64_t*)&v.x;
             uint64_t y = *(uint64_t*)&v.y;
             // mix the bits of the floats
-            uint64_t hash = x & (y << 32);
+            uint64_t hash = x | (y << 32);
             return hash;
         }
     };
