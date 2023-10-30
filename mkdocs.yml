@@ -22,6 +22,7 @@ nav:
           - Pseudo-Random Number Generator: courses/artificialintelligence/assignments/rng/README.md
           - Maze: courses/artificialintelligence/assignments/maze/README.md
           - Catch the Cat: courses/artificialintelligence/assignments/catchthecat/README.md
+          - GenAI: courses/artificialintelligence/assignments/genai/README.md
   - Intro. Programming:
       - courses/intro/README.md
       - Introduction to C++: courses/intro/01-introduction/README.md
