@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.13.0...v1.14.0) (2023-10-30)
+
+
+### Features
+
+* **AI:** genai extra assignment ([ed63469](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/ed63469e35cc016a8ab6544fae459875d0e44ef4))
+
 # [1.13.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.12.1...v1.13.0) (2023-10-03)
 
 
