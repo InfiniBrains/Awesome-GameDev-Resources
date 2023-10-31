@@ -297,7 +297,7 @@ switch (x) {
 }
 ```
 
-In this example, the output would be "x is 2" and "x is 3", as the break statement is omitted in the `case 2` block and the code in the `case 3` block is executed as a result.
+In this example, the output would be "x is 2", "x is 3" and "x is not 1, 2, or 3", as the break statement is omitted in the `case 2` block and the code in the `case 3` block is executed as a result.
 
 It is generally considered good practice to include a `break` statement at the end of each case in a `switch` statement to avoid unintended fallthrough. However, there may be cases where a fallthrough is desired behavior. In such cases, it is important to document the intended fallthrough in the code to make it clear to other programmers.
 
