@@ -10,7 +10,7 @@ The steps to understand GenAI are as follows:
 
 ## TLDR;
 
-1. Install the latest Python. Add it to the environment PATH. [Windows:] Install directly to C drive and select the 3.10.6 version of python;
+1. Install the latest Python. Add it to the environment PATH. [Windows:] Install directly to C drive and select the 3.10.6 version of python, install for all users;
 2. Download latest release from [Automatic1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui) or clone the repository;
 3. Unzip the release. Run the `webui` bash file;
 4. Select a bunch of the images that you are willing to train the network with;
