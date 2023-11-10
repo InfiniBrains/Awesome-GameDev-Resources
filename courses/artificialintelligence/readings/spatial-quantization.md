@@ -1,29 +1,29 @@
 # Space quantization
 
-Space quantization is a way to sample continuous space, and it can to be used in in many fields, such as Artificial Intelligence, Physics, Rendering, and more. Here we are going to focus primarily Spatial Quantization for AI, because it is the base for pathfinding, line of sight, field of view, and many other techniques.
+Space quantization is a way to sample continuous space, and it can to be used in in many fields, such as Artificial Intelligence, Physics, Rendering, and more. Here we are going to focus primarily on Spatial Quantization for AI, because it is the base for pathfinding, line of sight, field of view, and many other techniques.
 
-Some of the most common techniques for space quantization are: grids, voxels, graphs, quadtrees, octrees, KD-trees, BSP, Spatial Hashing and more. Another notable techniques are line of sight(or field of view), map flooding, caching, and movement zones.
+Some of the most common techniques for space quantization are: grids, voxels, graphs, quadtrees, octrees, KD-trees, BSP, Spatial Hashing and more. Other notable techniques are line of sight(or field of view), map flooding, caching, and movement zones.
 
 # Grids
 
-Grids are the most common technique for space quantization. It is a very simple technique, but it is very powerful. It consists in dividing the space in a grid of cells, and then we can use the cell coordinates to represent the space. The most common grid is the square grid, but we can use hexagonal and triangular grids, you might find some irregular shapes useful to exploit the space conformation better.
+Grids are the most common technique for space quantization. It is a very simple technique, but it is very powerful. It consists in dividing the space into a grid of cells, and then we can use the cell coordinates to represent the space. The most common grid is the square grid, but we can use hexagonal and triangular grids, you might find some irregular shapes useful to exploit the space conformation better.
 
 ## Square Grid
 
 The square grid is a regular grid, where the cells are squares. It is very simple to implement and understand.
 
-There are some ways to store data for squared grids. Arguably you could 2D arrays, arrays of arrays or vector of vectors, but depending on the way you implement it, it can hurt the performance. Example: if you use an array of arrays or vector of vectors, where every entry from de outer array is a pointer to the inner array, you will have a lot of cache misses, because the inner arrays are not contiguous in memory. 
+There are some ways to store data for squared grids. Arguably you could 2D arrays, arrays of arrays, or vector of vectors, but depending on the way you implement it, it can hurt the performance. Example: if you use an array of arrays or vector of vectors, where every entry from the outer array is a pointer to the inner array, you will have a lot of cache misses, because the inner arrays are not contiguous in memory. 
 
 ### Notes on cache locality
 
-So in order do increase data locality for squared grids, you can use a single array, and then use the following formula to calculate the index of the cell. We call this strategy matrix flattening.
+So in order to increase data locality for squared grids, you can use a single array, and then use the following formula to calculate the index of the cell. We call this strategy matrix flattening.
 
 ```c++
 int arrray[width * height]; // 1D array with the total size of the grid
 int index = x + y * width; // index of the cell at x,y
 ```
 
-There is a catch here, given we usually represent points as X and Y coordinates, we need to be careful with the order of the coordinates. While you are iterating over all the matrix, you need to iterate over the Y coordinate first, and then the X coordinate. This is because the Y coordinate is the one that changes the most, so it is better to have it in the inner loop. By doing that, you will have better cache locality and effectively the index will be sequential.
+There is a catch here, given we usually represent points as X and Y coordinates, we need to be careful with the order of the coordinates. While you are iterating over all the matrix, you need to iterate over the Y coordinate first, and then the X coordinate. This is because the Y coordinate is the one that changes the most, so it is better to have it in the inner loop. By doing that, you will have better cache locality, and effectively the index will be sequential.
 
 ```c++
 vector<YourStructure> data; // data is filled with some data elsewhere
@@ -164,7 +164,7 @@ You will have to figure out the formula for the other conformations. Or send a m
 
 # Voxels and Grid 3D
 
-Grids in 3D works the same way as in 2D, but you need to use 3D vectors/arrays or voxel volumes. Most concepts applies here. If you want to expand this section, send a merge request.
+Grids in 3D work the same way as in 2D, but you need to use 3D vectors/arrays or voxel volumes. Most concepts apply here. If you want to expand this section, send a merge request.
 
 # Quadtree
 
