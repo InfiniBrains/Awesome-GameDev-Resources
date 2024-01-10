@@ -275,6 +275,7 @@ plugins:
       #show_anchors: true
 #      verbose: true
 #  - optimize
+  - glightbox
 
 extra:
   privacy:
