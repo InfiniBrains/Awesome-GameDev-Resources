@@ -1,3 +1,10 @@
+# [1.15.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.14.0...v1.15.0) (2024-01-10)
+
+
+### Features
+
+* **algorithms:** Algorithms index ([4e79d47](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/4e79d475a305f75b8ed312241ec8a69e70e8634a))
+
 # [1.14.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.13.0...v1.14.0) (2023-10-30)
 
 
