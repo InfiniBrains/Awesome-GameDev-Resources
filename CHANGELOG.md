@@ -1,3 +1,10 @@
+## [1.15.1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.15.0...v1.15.1) (2024-01-10)
+
+
+### Bug Fixes
+
+* **instant-loading:** disable instant loading ([e50f758](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/e50f75828e0cf487aaaa89bd05d0a5e9e3f95dd5))
+
 # [1.15.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.14.0...v1.15.0) (2024-01-10)
 
 
