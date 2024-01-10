@@ -18,8 +18,8 @@ Upon completion of the Data Structures and Algorithms course in C++, students sh
 ### Objective Outcomes
 
 <figure markdown>
-  ![Bloom's Taxonomy](https://cdn.vanderbilt.edu/vu-wp0/wp-content/uploads/sites/59/2019/03/27124326/Blooms-Taxonomy-650x366.jpg){ loading=lazy width="600" }
-  <figcaption>Bloom's Taxonomy on Learning Outcomes</figcaption>
+  [![Bloom's Taxonomy](https://cdn.vanderbilt.edu/vu-wp0/wp-content/uploads/sites/59/2019/03/27124326/Blooms-Taxonomy-650x366.jpg){ loading=lazy width="600" }](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/)
+  <figcaption><a href="https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/">Bloom's Taxonomy on Learning Outcomes</a></figcaption>
 </figure>
 
 - **Analyze** and contrast diverse data structures

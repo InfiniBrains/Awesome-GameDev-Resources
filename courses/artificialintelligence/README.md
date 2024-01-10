@@ -149,3 +149,6 @@ Relevant dates for the Fall 2023 semester:
 </div>
 
 slide test: [test](slides/test.md)
+
+
+LangChain

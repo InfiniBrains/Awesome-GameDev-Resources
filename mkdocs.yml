@@ -10,19 +10,19 @@ site_author: See contributors and authors at https://github.com/InfiniBrains/Awe
 
 nav:
   - Home: README.md
-  - AI:
-      - courses/artificialintelligence/README.md
-      - Spatial Quantization: courses/artificialintelligence/readings/spatial-quantization.md
-      - Maze Data Structure: blog/posts/MazeDataStructure/MazeDataStructures.md
-      - Assignments:
-          - courses/artificialintelligence/assignments/README.md
-          - Setup: courses/artificialintelligence/assignments/README.md
-          - Flocking: courses/artificialintelligence/assignments/flocking/README.md
-          - Game of Life: courses/artificialintelligence/assignments/life/README.md
-          - Pseudo-Random Number Generator: courses/artificialintelligence/assignments/rng/README.md
-          - Maze: courses/artificialintelligence/assignments/maze/README.md
-          - Catch the Cat: courses/artificialintelligence/assignments/catchthecat/README.md
-          - GenAI: courses/artificialintelligence/assignments/genai/README.md
+#  - AI:
+#      - courses/artificialintelligence/README.md
+#      - Spatial Quantization: courses/artificialintelligence/readings/spatial-quantization.md
+#      - Maze Data Structure: blog/posts/MazeDataStructure/MazeDataStructures.md
+#      - Assignments:
+#          - courses/artificialintelligence/assignments/README.md
+#          - Setup: courses/artificialintelligence/assignments/README.md
+#          - Flocking: courses/artificialintelligence/assignments/flocking/README.md
+#          - Game of Life: courses/artificialintelligence/assignments/life/README.md
+#          - Pseudo-Random Number Generator: courses/artificialintelligence/assignments/rng/README.md
+#          - Maze: courses/artificialintelligence/assignments/maze/README.md
+#          - Catch the Cat: courses/artificialintelligence/assignments/catchthecat/README.md
+#          - GenAI: courses/artificialintelligence/assignments/genai/README.md
   - Intro. Programming:
       - courses/intro/README.md
       - Introduction to C++: courses/intro/01-introduction/README.md
@@ -37,6 +37,24 @@ nav:
       - Sorting: courses/intro/10-sorting/README.md
   - Adv. Programming:
       - courses/advanced/README.md
+  - Algorithms:
+      - courses/algorithms/README.md
+      - Introduction to Algorithms: courses/algorithms/01-introduction/README.md
+      - Algorithm Analysis: courses/algorithms/02-analysis/README.md
+      - Dynamic Dana: courses/algorithms/03-dynamic-data/README.md
+      - Sorting: courses/algorithms/04-sorting/README.md
+      - Divide and Conquer: courses/algorithms/05-divide-and-conquer/README.md
+      - Hashtables: courses/algorithms/06-hashtables/README.md
+      - Midterm: courses/algorithms/07-midterm/README.md
+      - Stack and Queue: courses/algorithms/08-stack-and-queue/README.md
+      - Break: courses/algorithms/09-break/README.md
+      - Graphs: courses/algorithms/10-graphs/README.md
+      - Dijkstra: courses/algorithms/11-dijkstra/README.md
+      - Prims: courses/algorithms/12-prims/README.md
+      - Binary Search Tree: courses/algorithms/13-bsp/README.md
+      - Heap: courses/algorithms/14-heap/README.md
+      - Project: courses/algorithms/15-project/README.md
+      - Final: courses/algorithms/16-final/README.md
   - Portfolio:
       - courses/portfolio/README.md
       - Introduction: courses/portfolio/01-introduction/README.md
