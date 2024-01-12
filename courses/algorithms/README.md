@@ -13,14 +13,15 @@ Students compare and contrast a variety of data structures. Students compare alg
 
 ## Student-centered Learning Outcomes
 
-Upon completion of the Data Structures and Algorithms course in C++, students should be able to:
-
-### Objective Outcomes
-
 <figure markdown>
   [![Bloom's Taxonomy](https://cdn.vanderbilt.edu/vu-wp0/wp-content/uploads/sites/59/2019/03/27124326/Blooms-Taxonomy-650x366.jpg){ loading=lazy width="600" }](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/)
   <figcaption><a href="https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/">Bloom's Taxonomy on Learning Outcomes</a></figcaption>
 </figure>
+
+
+Upon completion of the Data Structures and Algorithms course in C++, students should be able to:
+
+### Objective Outcomes
 
 - **Analyze** and contrast diverse data structures
 - **Evaluate** algorithmic efficiency using time complexity analysis
@@ -35,7 +36,6 @@ Upon completion of the Data Structures and Algorithms course in C++, students sh
 - Develop and implement solutions using appropriate data structures and algorithms to address real-world problems, demonstrating proficiency in translating solution designs into C++ code.
 - Investigate and compare the merits and drawbacks of brute-force and divide-and-conquer sorting algorithms, including quicksort, mergesort, and insertion sort, in order to make informed choices when selecting sorting techniques for specific scenarios.
 - Examine and compare the characteristics, advantages, and limitations of sequential, binary, depth-first, and breadth-first search algorithms, demonstrating the ability to choose the most suitable search strategy based on problem requirements.
-
 
 ## Schedule
 
@@ -67,6 +67,10 @@ College dates for the Spring 2024 semester:
 
     - Week 1. 2024/01/15
     - Topic: Introduction to Data Structures and Algorithms
+    - Activities:
+        - [Introduction](01-introduction/README.md)
+        - Read all materials shared on Canvas;
+        - Do all assignments on Canvas;
 
 -   ### :bar_chart:{ .lg .middle } __Algorithm Analysis__
 

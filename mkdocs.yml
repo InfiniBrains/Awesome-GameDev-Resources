@@ -120,7 +120,7 @@ theme:
     - search.share
     - search.suggest
     - toc.follow
-#    - toc.integrate
+    - toc.integrate
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -214,6 +214,7 @@ markdown_extensions:
   - pymdownx.tilde
 
 plugins:
+  - mkdocs-revealjs
   - social:
       cards: true
       cards_layout: default
@@ -240,7 +241,7 @@ plugins:
   - git-committers:
       repository: InfiniBrains/Awesome-GameDev-Resources
       branch: main
-      enabled: true
+      enabled: !ENV [CI, false]
       docs_path: ./
       cache_dir: /tmp/cache/awesome-gamedev-resources
 #  - git-authors
@@ -249,6 +250,7 @@ plugins:
       fallback_to_build_date: true
       locale: en
       timezone: America/New_York
+      enabled: !ENV [CI, false]
   - same-dir
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
@@ -351,3 +353,9 @@ extra_javascript:
 watch:
   - courses
   - blog
+
+exclude_docs: |
+  site/
+  cmake-build-**/
+  build/
+  .cache/
