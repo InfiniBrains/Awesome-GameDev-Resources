@@ -1,3 +1,10 @@
+## [1.15.3](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.15.2...v1.15.3) (2024-01-16)
+
+
+### Bug Fixes
+
+* indexing for advanced programming ([e718d29](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/e718d29617e5d53ada3c7c57af8950c1c249473f))
+
 ## [1.15.2](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.15.1...v1.15.2) (2024-01-16)
 
 
