@@ -2,6 +2,16 @@
 
 ## Table of Contents
 
+- [Syllabus](../README.md)
+- [Safe and welcoming space](#safe-and-welcoming-space)
+- [Privacy and FERPA Compliance](#privacy-and-ferpa-compliance)
+- [Activities](#activities)
+    - [Setup Github repository](#setup-github-repository)
+    - [Setup your IDE](#setup-your-ide)
+    - [Setup your Assignments project](#setup-your-assignments-project)
+    - [Check Github Actions](#check-github-actions)
+- [Homework](#homework)
+
 ## Safe and welcoming space
 
 TLDR: Be nice to each other, and don't copy code from the internet.
