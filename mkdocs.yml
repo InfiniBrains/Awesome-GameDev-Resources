@@ -37,6 +37,9 @@ nav:
       - Sorting: courses/intro/10-sorting/README.md
   - Adv. Programming:
       - courses/advanced/README.md
+      - Introduction to C++:
+          - courses/advanced/01-introduction/README.md
+          - Setup: courses/advanced/01-introduction/setup.md
   - Algorithms:
       - courses/algorithms/README.md
       - Introduction to Algorithms: courses/algorithms/01-introduction/README.md

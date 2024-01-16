@@ -22,6 +22,8 @@ Building a portfolio is not only about you, it is about making the life easier o
 giving insights if they should hire you, follow you or anything else. In order to make people understand you, you 
 have to know yourself better.
 
+![solo_gamedev_be_like.png](solo_gamedev_be_like.png)
+
 ## Who are you, what you excel and what do you enjoy doing?
 
 In your portfolio, you will have to express yourself in a way that others can understand who you are, and it can be 
