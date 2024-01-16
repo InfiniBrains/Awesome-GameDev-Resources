@@ -1,3 +1,10 @@
+## [1.15.4](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.15.3...v1.15.4) (2024-01-16)
+
+
+### Bug Fixes
+
+* **toc:** fix table of contents for advanced and algorthms ([f6d6d63](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/f6d6d63779d06a66678c08e31ebe85631262eb2b))
+
 ## [1.15.3](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.15.2...v1.15.3) (2024-01-16)
 
 
