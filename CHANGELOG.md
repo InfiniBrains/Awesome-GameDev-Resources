@@ -1,3 +1,11 @@
+## [1.15.2](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.15.1...v1.15.2) (2024-01-16)
+
+
+### Bug Fixes
+
+* **advanced-prog:** fix schedule ([2be5f4c](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/2be5f4cc093e33432162ac6cb2fbce8059a0d491))
+* pip mkdocs-revealjs ([b3e44ea](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/b3e44ea2dab98bc9573d6205471c2e75a9467566))
+
 ## [1.15.1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.15.0...v1.15.1) (2024-01-10)
 
 
