@@ -1,3 +1,10 @@
+## [1.15.5](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.15.4...v1.15.5) (2024-01-17)
+
+
+### Bug Fixes
+
+* update the game developer portfolio schedule ([e7e7a73](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/e7e7a731106efddafb958f9e14a75e1ffa209138))
+
 ## [1.15.4](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.15.3...v1.15.4) (2024-01-16)
 
 
