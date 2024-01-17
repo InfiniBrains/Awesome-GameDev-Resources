@@ -17,33 +17,33 @@ Upon completion of the Game Developer's Portfolio course, students should be abl
 
 ### Objective Outcomes
 
-- **Demonstrate** Proficiency in Programming Languages:
+- **Demonstrate Proficiency in Programming Languages**:
     - **Showcase** competence in relevant programming languages commonly used in game development.
     - **Implement** and explain code snippets that highlight problem-solving skills and efficiency.
-- **Develop** an Individual Project:
+- **Develop** an **Individual Project**:
     - **Spearhead** a solo game development project to showcase the ability to conceive, plan, and execute a complete game;
     - **Demonstrate** a deep understanding of programming concepts through the development of a unique and challenging project.
-- **Create** a Professional Portfolio Website:
+- **Create** a Professional **Portfolio Website**:
     - **Design** and **develop** a visually appealing and user-friendly portfolio website to showcase programming projects.
     - **Utilize** web development tools and frameworks to enhance the presentation of coding projects.
-- **Build** a Source Code Repository:
+- **Build** a **Source Code Repository**:
     - **Establish** and **maintain** a version-controlled repository (e.g., GitHub) containing well-documented code samples.
     - **Demonstrate** proficiency in using version control tools and collaborative development practices.
-- **Develop** a Demo Reel:
+- **Develop** a **Demo Reel**:
     - **Create** a compelling demo reel that effectively communicates programming skills and contributions to game projects.
     - **Edit** and **present** code snippets in a clear and concise manner within the demo reel.
-- **Articulate** Programming Contributions:
+- **Articulate Programming Contributions**:
     - Clearly **communicate** the role and impact of programming contributions in game development projects.
     - **Develop** the ability to discuss technical aspects of projects in a non-technical manner for diverse audiences.
-- **Understand** Industry Standards and Best Practices:
-    - Adhere to industry standards and best practices in game programming.
+- **Understand Industry Standards** and **Best Practices**:
+    - Adhere to **industry standards** and **best practices** in game programming.
     - **Apply** knowledge of optimization, performance, and coding conventions commonly used in the game development industry.
-- **Prepare** for the Job Search and Senior Show:
+- **Prepare** for the **Job Search** and **Senior Show**:
     - **Develop** skills in **resume writing**, **cover letter** creation, and **interview preparation** specific to game programming roles.
     - **Prepare** and **present** the portfolio effectively at the Senior Show or similar events to potential employers and industry professionals.
 - **Receive** and **Provide** Constructive **Feedback**:
-    - Participate in peer reviews and constructive critiques to enhance the quality of portfolio materials.
-    - Provide thoughtful feedback to peers on both the technical and presentation aspects of their portfolios.
+    - Participate in **peer reviews** and **constructive critiques** to enhance the quality of portfolio materials.
+    - Provide **thoughtful feedback** to peers on both the technical and presentation aspects of their portfolios.
 - **Reflect** on Learning and Career Goals:
     - **Reflect** on personal learning experiences and identify areas for continuous improvement in game programming skills.
     - **Develop** a clear understanding of career goals and create a plan for ongoing professional development in the game development industry.
