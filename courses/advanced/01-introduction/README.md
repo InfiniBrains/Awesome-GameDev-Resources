@@ -5,7 +5,7 @@
 Before we start, let's recapitulate what we have learned in the previous course. Use the links below to refresh your memory. Or go straigth to the [Introduction to Programming Course](../../intro/README.md).
 
 - [Variables](../../intro/03-datatypes/README.md)
-- [Decision making](../../intro/04-conditionals/README.md)
+- [Decision-making](../../intro/04-conditionals/README.md)
 - [Loops](../../intro/05-loops/README.md);
 - [Functions](../../intro/06-functions/README.md);
 - [Strings](../../intro/03-datatypes/README.md);

@@ -147,28 +147,28 @@ College dates for the Spring 2024 semester:
 
     ---
 
-    - Week 13. 2024/04/01
+    - Week 13. 2024/04/08
     - Topic: Binary Search Trees
 
 -   ### :material-sort-clock-ascending:{ .lg .middle } __Heap and Priority queue__
 
     ---
 
-    - Week 14. 2024/04/08
+    - Week 14. 2024/04/15
     - Topic: Heap and Priority Queues
 
 -   ### :material-presentation::factory_worker:{ .lg .middle } __Project Presentation__
 
     ---
 
-    - Week 15. 2024/04/15
+    - Week 15. 2024/04/22
     - Topic: Work sessions for final project
 
 -   ### :warning:{ .lg .middle } __Finals__
 
     ---
 
-    - Week 16. 2024/04/22
+    - Week 16. 2024/04/26
     - Topic: Finals Week
 
 </div>
