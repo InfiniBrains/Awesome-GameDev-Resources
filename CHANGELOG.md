@@ -1,3 +1,10 @@
+## [1.15.6](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.15.5...v1.15.6) (2024-01-17)
+
+
+### Bug Fixes
+
+* portfolio bold data ([013a4f1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/013a4f1d0b12f95d91c60797687c97f12ac140bb))
+
 ## [1.15.5](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.15.4...v1.15.5) (2024-01-17)
 
 
