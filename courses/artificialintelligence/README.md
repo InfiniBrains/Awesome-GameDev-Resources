@@ -66,54 +66,54 @@ College dates for the Spring 2024 semester:
         - Read all materials shared on Canvas;
         - Do all assignments on Canvas;
 
--   ### :bar_chart:{ .lg .middle } __Algorithm Analysis__
+-   ### :bar_chart:{ .lg .middle } __Wave Function Collapse__
 
     ---
 
     - Week 2. 2024/01/22
-    - Topic: Algorithm Analysis
+    - Topic: Wave Function Collapse
 
--   ### :material-code-array:{ .lg .middle } __Dynamic Data__
+-   ### :material-code-array:{ .lg .middle } __Applying A* into continuous space__
 
     ---
 
     - Week 3. 2024/01/29
-    - Topic: Array, Linked Lists, Dynamic Arrays
+    - Topic: Applying A* into continuous spaces
 
--   ### :material-sort:{ .lg .middle } __Sorting__
+-   ### :material-sort:{ .lg .middle } __Applying A* into continuous spaces__
 
     ---
 
     - Week 4. Date: 2024/02/05
-    - Topic: Bubble Sort, Selection Sort and Insertion Sort
+    - Topic: Applying A* into continuous spaces
 
--   ### :material-call-split:{ .lg .middle } __Divide & Conquer__
+-   ### :material-call-split:{ .lg .middle } __Testing your AI Agent and rules__
 
     ---
 
     - Week 5. 2024/02/12
-    - Topic: Merge Sort and Quick Sort
+    - Topic: Testing your AI Agent, building meaningful tests, metrics, evaluation and machinations
 
--   ### :hash:{ .lg .middle } __Hashtables__
+-   ### :hash:{ .lg .middle } __Testing your AI Agent__
 
     ---
 
     - Week 6. 2024/02/19
-    - Topic: Hashtables
+    - Topic: Testing your AI Agent, building meaningful tests, metrics, evaluation and machinations
 
 -   ### :warning:{ .lg .middle } __Midterms__
 
     ---
 
     - Week 7. Date: 2024/02/26
-    - Topic: Midterms
+    - Topic: Work sessions
 
--   ### :octicons-stack-16:{ .lg .middle } __Stacks & Queues__
+-   ### :octicons-stack-16:{ .lg .middle } __Min max__
 
     ---
 
     - Week 8. 2024/03/04
-    - Topic: Stacks and Queues
+    - Topic: Min Max
 
 -   ### :material-calendar-weekend:{ .lg .middle } __Break__
 
@@ -122,54 +122,54 @@ College dates for the Spring 2024 semester:
     - Week 09. 2024/03/11
     - Topic: Spring BREAK. No classes this week.
 
--   ### :fontawesome-solid-circle-nodes:{ .lg .middle } __Graphs__
+-   ### :fontawesome-solid-circle-nodes:{ .lg .middle } __Monte Carlo Tree Search__
 
     ---
 
     - Week 10. 2024/03/18
-    - Topic: Graphs
+    - Topic: Monte Carlo Tree Search
 
--   ### :octicons-search-16:{ .lg .middle } __Dijkstra__
+-   ### :octicons-search-16:{ .lg .middle } __Chess__
 
     ---
 
     - Week 11. 2024/03/25
-    - Topic: Dijkstra
+    - Topic: Chess
 
--   ### :octicons-search-16:{ .lg .middle } __Prim & Jarnik__
+-   ### :octicons-search-16:{ .lg .middle } __Chess__
 
     ---
 
     - Week 12. 2024/04/01
-    - Topic: Prim's and Jarnik's Algorithm
+    - Topic: Chess
 
--   ### :fontawesome-solid-arrows-split-up-and-left:{ .lg .middle } __BST__
+-   ### :fontawesome-solid-arrows-split-up-and-left:{ .lg .middle } __Chess__
 
     ---
 
     - Week 13. 2024/04/08
-    - Topic: Binary Search Trees
+    - Topic: Chess
 
--   ### :material-sort-clock-ascending:{ .lg .middle } __Heap and Priority queue__
+-   ### :material-sort-clock-ascending:{ .lg .middle } __Chess__
 
     ---
 
     - Week 14. 2024/04/15
-    - Topic: Heap and Priority Queues
+    - Topic: Chess
 
--   ### :material-presentation::factory_worker:{ .lg .middle } __Project Presentation__
+-   ### :material-presentation::factory_worker:{ .lg .middle } __Chess__
 
     ---
 
     - Week 15. 2024/04/22
-    - Topic: Work sessions for final project
+    - Topic: Work sessions for chess
 
 -   ### :warning:{ .lg .middle } __Finals__
 
     ---
 
     - Week 16. 2024/04/26
-    - Topic: Finals Week
+    - Topic: Finals Week / competition
 
 </div>
 
