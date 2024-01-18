@@ -1,3 +1,10 @@
+## [1.16.1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.16.0...v1.16.1) (2024-01-18)
+
+
+### Bug Fixes
+
+* **ai:** re enable ai course ([005b45b](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/005b45b41a62026486ebb2034c328890c0273abb))
+
 # [1.16.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.15.6...v1.16.0) (2024-01-18)
 
 
