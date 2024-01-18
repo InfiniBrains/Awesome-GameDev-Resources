@@ -1,3 +1,10 @@
+# [1.16.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.15.6...v1.16.0) (2024-01-18)
+
+
+### Features
+
+* **syllabus:** all syllabus are updated now. ([455dd63](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/455dd6342cc5b54d64caeabd63aa7ddfb64365c4))
+
 ## [1.15.6](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.15.5...v1.15.6) (2024-01-17)
 
 
