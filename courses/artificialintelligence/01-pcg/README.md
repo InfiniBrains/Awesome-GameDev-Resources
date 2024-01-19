@@ -1,35 +1,52 @@
 # Procedural Content Generation
 
-One of the more emergent fields in AI for games is Procedural Content Generation - PCG. It is a technique to algorithmically generate game content and assets, such as levels, textures, sound, enemies, quests, and more. The goal of PCG is to create unique and varied content without the need for manual labor. This can save time and money during development, and also allow for a more dynamic and replayable experience for the player. There are many different algorithms and techniques used in PCG, such as random generation, evolutionary algorithms, and rule-based systems.
+PCG is a technique to algorithmically generate game content and assets, such as levels, textures, sound, enemies, quests, and more. The goal of PCG is to create unique and varied content without the need for manual labor. This can save time and money during development, and also allow for a more dynamic and replayable experience for the player. There are many different algorithms and techniques used in PCG, such as random generation, evolutionary algorithms, and rule-based systems.
 
-Level generation. Instead of manually designing each level, a PCG algorithm can be used to generate a new level every time the player starts a new game or enters a new area. This allows for a large number of unique levels without the need for a designer to create each one individually.
-
-Enemies and NPCs. Instead of manually designing each character, a PCG algorithm can be used to randomly generate the appearance, abilities, and behavior of enemies. This can create a more diverse and unpredictable gameplay experience for the player.
-
-PCG can also be used in other areas of game development such as textures, terrain, narrative, quests, and sound effects. With PCG, the possibilities are endless.
-
-It's important to note that PCG is not a replacement for human creativity, but rather a tool that can help create new and unique content. It is often used in conjunction with manual design and artistic direction.
+PCG can also be used in other areas of game development such as textures, terrain, narrative, quests, and sound effects. With PCG, the possibilities are endless. It's important to note that PCG is not a replacement for human creativity, but rather a tool that can help create new and unique content. It is often used in conjunction with manual design and artistic direction.
 
 ## Procedural Scenario Generation
+
 Procedural scenario generation is a specific application of procedural content generation that is used to create unique and varied scenarios or missions in a game. These scenarios can include objectives, enemies, and environmental elements such as terrain and buildings.
 
-One popular technique is rule-based systems, where a set of predefined rules are used to generate new scenarios. For example, a rule could be that the player must navigate through a forest to reach a specific location, and another rule could be that the player must defeat a certain number of enemies along the way. These rules can be combined in different ways to create a wide variety of scenarios.
-
-Another technique used in procedural scenario generation is the use of random generation. In this approach, elements of the scenario such as objectives, enemies, and terrain are randomly generated. This can create a large number of unique scenarios, but the quality of the scenarios may be more inconsistent.
-
-Procedural scenario generation can be used in various types of games, including first-person shooters, open-world games, and strategy games. It allows for a more dynamic and replayable experience for the player, as well as saving development time and costs.
-
-## Procedural Terrain Generation
-
-Procedural terrain generation is a technique used in game development to algorithmically generate realistic and diverse terrain. This can include features such as mountains, valleys, rivers, and forests. The goal of procedural terrain generation is to create unique and varied terrain without the need for manual labor.
-
-One common technique used in procedural terrain generation is fractal noise, which uses mathematical algorithms to generate random patterns that resemble natural terrain. These patterns can be combined and layered to create more complex terrain features. Another technique used in procedural terrain generation is erosion simulation, which simulates the effects of erosion and weathering on the terrain to create more realistic landscapes.
-
-### Procedural Terrain Generation
+Two common techniques are rule and noise based algorithms, and you can combine both. But first let's cover Pseudo Random Number Generation.
 
 ## Random Number Generation
 
+There are a plethora of algorithms to generate random numbers. The expected interface for a random number function is to just call it, (i.e. `random()`) and receive, ideally, a high quality and non-deterministic random number. 
+
+In the best scenario, some systems possess a random device (i.e. an antenna capturing electrical noise from the environment), and the random function will be a system call to it. Natural noise are stateless and subject only to the environmental influence that are (arguably) impossible to tamper. It is an awesome source of noise, but the problem is that device call is slow and not portable. So we need to use pseudo random number generators.
+
+### Pseudo Random Number Generation
+
+In this field, the main challenge is to create a function capable to generate a sequence of numbers that are statistically random or, at least, can pass some tests of randomness at some degree of quality. The function must be fast, portable and deterministic, so it can be reproduced in different machines and platforms The function must be able to generate the same sequence of numbers given the same seed.
+
+A common PRNG is XORShift. It is fast, portable and deterministic, but do not deliver a high quality of randomness. It is a good choice for games, but not for cryptography.
+
+```cpp
+uint32_t xorshift32()
+{
+    // seed and state 'x' must be non-zero
+    // you should implement the state initialization differently
+    static uint32_t x = 123456789;
+    // XOR the state with itself shifted by 13, 17 and 5.
+    // you can use other shifts, but these are the most common
+    x ^= x << 13;
+    x ^= x >> 17;
+    x ^= x << 5;
+    return x;
+}
+```
+
+As you might notice, the function is not stateless, so you have to initialize the state with a seed. It uses the previous state to generate the next one. A common practice is to use the system time as seed, or a random device call, but you can use any number you want. The seed is the only way to reproduce the sequence of numbers.
+
+Another one is the Mersenne Twister. It is a high quality PRNG, but it is a bit slower.
+
+
 ## Noise Generation
+
+### Noise based Procedural Terrain Generation
+
+## Wave function collapse
 
 # Homework
 
