@@ -83,7 +83,7 @@ I will use CLion in class, and I recommend you to use it as well so you can foll
     
     You might want to explore the folder `.github/workflows` to see how it works, but you don't need to change anything there.
 
-![tests-meme.png](tests-meme.png)
+![tests-meme.png](../../tests-meme.png)
 
 Every commit you push to your repository will be automatically tested through Github Actions. You can see the results of the tests by clicking on the "Actions" tab on your repository.
 
