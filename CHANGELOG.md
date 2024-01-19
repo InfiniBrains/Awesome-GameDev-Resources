@@ -1,3 +1,10 @@
+## [1.16.2](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.16.1...v1.16.2) (2024-01-19)
+
+
+### Bug Fixes
+
+* add more information into noise functions ([18e0bfe](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/18e0bfe9f5de20352573af8dd8b8e61efa08f6e4))
+
 ## [1.16.1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.16.0...v1.16.1) (2024-01-18)
 
 
