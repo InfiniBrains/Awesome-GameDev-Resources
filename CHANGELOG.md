@@ -1,3 +1,10 @@
+## [1.16.3](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.16.2...v1.16.3) (2024-01-19)
+
+
+### Bug Fixes
+
+* meme tests ([a0abfe1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/a0abfe12ab5b16d5e2dda78e8c459e969aa3311b))
+
 ## [1.16.2](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.16.1...v1.16.2) (2024-01-19)
 
 
