@@ -1,3 +1,10 @@
+## [1.17.1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.17.0...v1.17.1) (2024-01-23)
+
+
+### Bug Fixes
+
+* typo ([4e72194](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/4e72194ba3d48a54cb602478b235eb964f934312))
+
 # [1.17.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.16.3...v1.17.0) (2024-01-23)
 
 
