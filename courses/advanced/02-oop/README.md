@@ -84,6 +84,8 @@ int main() {
 
 ## Advantages of OOP
 
+![img_2.png](img_2.png)
+
 ### Modularity
 
 Classes can be used it in different parts of your code. You can even create libraries and share it with other people.
