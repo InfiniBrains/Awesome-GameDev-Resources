@@ -1,3 +1,10 @@
+# [1.17.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.16.3...v1.17.0) (2024-01-23)
+
+
+### Features
+
+* **algorithms:** add big o notation ([96df5ad](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/96df5adddcb6acb730c63bf8839d397eee1423a5))
+
 ## [1.16.3](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.16.2...v1.16.3) (2024-01-19)
 
 
