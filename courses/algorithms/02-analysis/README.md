@@ -2,7 +2,7 @@
 
 Before starting, lets thin about 3 problems:
 
-For an array of size N, dont overthink. think and answer:
+For an array of size $N$, dont overthink. Just answer:
 
 1. How many iterations a loop run to find a specific number inside an array? (naively)
 2. How many comparisons should I make to find two numbers in an array that sum a specific target? (naively)
@@ -119,7 +119,7 @@ To simplify, we remove the constants and the lower order terms:
 
 ## Common Big Os
 
-!!! note inline end "Log"
+!!! note inline end "Logarithm"
     
     In computer science, when we say log, assume base 2, unless expressely stated;
 
@@ -133,7 +133,7 @@ To simplify, we remove the constants and the lower order terms:
 | O(c^n) | Exponential | brute force password of size n |
 | O(n!) | factorial | list all combinations |
 
-### What is log?
+### What is logarithm?
 
 Log is the inverse of exponentiation. It is the number of times you have to multiply a number by itself to get another number.
 
@@ -163,4 +163,4 @@ In a binary search, we commonly divide the array in half (base 2), and check if 
 ## Common Issues and misconceptions
 
 - Big O and Theta are commonly mixed;
-- Hashtables: it is commonly assumed that queries on <map> or <set> being O(1); std:: `<map>` and `<set>` are not the ideal implementation! [Watch this CppCon video](https://www.youtube.com/watch?v=ncHmEUmJZf4) for some deep level insights;
+- Hashtables: it is commonly assumed that queries on `<map>` or `<set>` being `O(1)`; std:: `<map>` and `<set>` are not the ideal implementation! [Watch this CppCon video](https://www.youtube.com/watch?v=ncHmEUmJZf4) for some deep level insights;
