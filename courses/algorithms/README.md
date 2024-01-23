@@ -77,7 +77,7 @@ College dates for the Spring 2024 semester:
     ---
 
     - Week 2. 2024/01/22
-    - Topic: Algorithm Analysis
+    - Topic: [Algorithm Analysis](02-analysis/README.md)
 
 -   ### :material-code-array:{ .lg .middle } __Dynamic Data__
 

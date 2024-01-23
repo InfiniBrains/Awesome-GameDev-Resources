@@ -259,6 +259,8 @@ plugins:
       minify_html: true
   - exclude:
       glob:
+        - .git/*
+        - .github/*
         - node_modules/*
         - buildDocs/*
         - cmake-build-debug/*
