@@ -63,14 +63,16 @@ College dates for the Spring 2024 semester:
     ---
 
     - Week 1. 2024/01/15
-    - Topic: Review: variables, decision making, iteration, functions, strings, and arrays. Structs and 2D arrays
+    - Topic: 
+        - [Review](01-introduction/README.md): variables, decision making, iteration, functions, strings, and arrays. Structs and 2D arrays
+        - [Setup](01-introduction/setup.md): Github, CLion, Github Actions
 
 -   ### :bar_chart:{ .lg .middle } __Introduction to OOP__
 
     ---
 
     - Week 2. 2024/01/22
-    - Topic: Introduction to OOP Objects, classes, member functions, constructors, destructors
+    - Topic: [Introduction to OOP Objects, classes, member functions, constructors, destructors](02-oop/README.md)
 
 -   ### :material-code-array:{ .lg .middle } __More about OOP__
 

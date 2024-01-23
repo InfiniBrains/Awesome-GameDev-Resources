@@ -2,6 +2,8 @@
 
 C++ in a language that keeps evolving and adding new features. The language is now a multi-paradigm language, which means that it supports different programming styles, and we are going to cover the Object-Oriented Programming (OOP) paradigm in this course.
 
+![img.png](img.png)
+
 ## What is OOP?
 
 Object-Oriented Programming is a paradigm that encapsulate data and their interactions into a single entity called object. The object is an instance of a class, which is a blueprint for the object. The class defines the data and the operations that can be performed on the data.
@@ -106,6 +108,8 @@ By its roots, the word polymorphism means "many forms". It can be applied to cla
 We will cover details about polymorphism in another moment.
 
 ## Class internals
+
+![img_1.png](img_1.png)
 
 ### Constructors
 
