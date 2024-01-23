@@ -80,9 +80,9 @@ Trying to be mathematicaly correct, the number of instructions the first one sho
 
 To simplify, we remove the constants and the lower order terms:
 
-1. $$ f(n) = n $$
-2. $$ f(n) = n^2 $$
-3. $$ f(n) = n! $$
+1. $f(n) = n$
+2. $f(n) = n^2$
+3. $f(n) = n!$
 
 ## Difference between Big O vs Big Theta Θ vs Big Omega Ω Notations
 
@@ -97,14 +97,14 @@ To simplify, we remove the constants and the lower order terms:
 - Upper bound;
 - "never worse than";
 - A real case cannot be faster than it;
-- $ 0 <= func <= O $
+- $0 <= func <= O$
 
 ### Big Theta Θ
 
 - Wrongly stated as average;
 - Theta is two-sided;
 - Tight bound between 2 constants of the same function 
-- $ k1*Θ <= func <= k2*Θ $
+- $k1*Θ <= func <= k2*Θ$
 - When $N$ goes to infinite, it cannot be faster or slower than it;
 
 ### Honorable mentions
