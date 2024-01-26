@@ -15,7 +15,7 @@ Here goes a simple declaration of a class Greeter:
 ```cpp title="Greeter.h"
 #include <string>
 class Greeter {
-    std::string name;
+    std::string name; // this is a public attribute
 public:
     Greeter(std::string username) {
         name = username;
@@ -233,6 +233,108 @@ class Greeter {
 public:
     Greeter(const std::string& name) {
         this->name = name;
+    }
+};
+```
+#### Dealing with private members
+
+If your data is private, but you need to provide access or modify it, you can create public methods to do that.
+
+- **Accessors**: are the type of public methods that provides **readability** of the specific content;
+- **Mutators**: are the type of public methods that provides **writability** of the specific content;
+
+```c++ 
+class User {
+    std::string name; // private by default
+public:
+    explicit User(const std::string& name) {
+        this->name = name;
+    }
+    // Accessor that returns a copy
+    // const at the end means that this function does not modify the object
+    std::string GetName() const {
+        return name;
+    }
+
+    // Accessor that returns a const reference
+    // returning ref does not use extra memory
+    // returning const the caller cannot modify the object
+    const std::string& GetNameRef() const {
+        return name;
+    }
+
+    // Mutator
+    void SetName(const std::string& name) {
+        this->name = name;
+    }
+};
+```
+
+## Operator "." and "->"
+
+When you have an object, you can access its members using the dot operator `.`. If you have a pointer to an object, you can access its members using the arrow operator `->`.
+
+```c++
+
+int main(){
+    Greeter greeter("Stranger");
+    greeter.Greet(); // dot operator
+    Greeter* greeterPtr = &greeter;
+    greeterPtr->Greet(); // arrow operator
+}
+```
+
+## Scope resolution operator "::"
+
+It can be used to access members of a class that are not part of an object. It can also be used to access members of a namespace.
+
+```c++
+namespace MyNamespace {
+    int myInt = 0;
+    class MyClass {
+    public:
+        // static vars are allocated in the data segment instead of the stack
+        static inline const int myInt = 1;
+        int myOtherInt = 2;
+    };
+    void MyFunction() {
+        int myInt = 3;
+        std::cout << myInt << std::endl; // 3
+        std::cout << MyNamespace::myInt << std::endl; // 0
+        std::cout << MyNamespace::MyClass::myInt << std::endl; // 1
+        std::cout << MyClass::myInt << std::endl; // 1
+        std::cout << MyNamespace::MyClass().myOtherInt << std::endl; // 2
+    }
+}
+
+```
+
+## Differences between class and struct
+
+In C++, the only difference between a class and a struct is the default access level. In a class, the default access level is private, while in a struct, the default access level is public.
+
+```c++
+class MyClass {
+    int myInt; // private by default
+public:
+    MyClass(int myInt) {
+        this->myInt = myInt;
+    }
+    int GetMyInt() const {
+        return myInt;
+    }
+};
+
+struct MyStruct {
+    // to achieve the same behavior as the class above
+private:
+    int myInt; 
+public:
+    MyStruct(int myInt) {
+        this->myInt = myInt;
+    }
+    int GetMyInt() const {
+        return myInt;
     }
 };
 ```
