@@ -1,3 +1,10 @@
+## [1.17.7](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.17.6...v1.17.7) (2024-01-29)
+
+
+### Bug Fixes
+
+* **blog:** add more to break the index ([5d46dbd](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/5d46dbdb4ae52ae575cebdadf95ae32786ed1b32))
+
 ## [1.17.6](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.17.5...v1.17.6) (2024-01-29)
 
 
