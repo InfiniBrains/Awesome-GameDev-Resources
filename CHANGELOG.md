@@ -1,3 +1,10 @@
+## [1.17.8](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.17.7...v1.17.8) (2024-01-31)
+
+
+### Bug Fixes
+
+* we portfolio skeleton ([86db3a6](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/86db3a6038387db2a446d2ee81fc2951c209c6db))
+
 ## [1.17.7](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.17.6...v1.17.7) (2024-01-29)
 
 
