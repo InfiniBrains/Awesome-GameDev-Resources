@@ -1,3 +1,10 @@
+## [1.17.9](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.17.8...v1.17.9) (2024-02-02)
+
+
+### Bug Fixes
+
+* dynamic data for CSI281 ([abf8670](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/abf8670a6497e8b7d88ea12b60f23391b298975f))
+
 ## [1.17.8](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.17.7...v1.17.8) (2024-01-31)
 
 
