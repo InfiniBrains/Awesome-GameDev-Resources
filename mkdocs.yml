@@ -45,7 +45,7 @@ nav:
       - courses/algorithms/README.md
       - Introduction to Algorithms: courses/algorithms/01-introduction/README.md
       - Algorithm Analysis: courses/algorithms/02-analysis/README.md
-      - Dynamic Dana: courses/algorithms/03-dynamic-data/README.md
+      - Dynamic Data: courses/algorithms/03-dynamic-data/README.md
       - Sorting: courses/algorithms/04-sorting/README.md
       - Divide and Conquer: courses/algorithms/05-divide-and-conquer/README.md
       - Hashtables: courses/algorithms/06-hashtables/README.md

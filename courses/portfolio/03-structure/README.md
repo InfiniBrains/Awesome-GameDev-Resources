@@ -2,7 +2,8 @@
 
 Create a single page app containing most of these features listed here.
 
-## Head
+## Head / Summary
+
 Chose carefully what to you use as a head of your page. It is the first thing a person reads. It can be an impactful message, a headline, personal statement, background video or very limited interactive section.
 
 !!! note
