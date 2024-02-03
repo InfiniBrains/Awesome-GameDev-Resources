@@ -1,3 +1,10 @@
+## [1.17.11](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.17.10...v1.17.11) (2024-02-03)
+
+
+### Bug Fixes
+
+* **ai:** spatial hashing ([2335925](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/2335925af7d567be5b766d49bac4cd1638fca752))
+
 ## [1.17.10](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.17.9...v1.17.10) (2024-02-03)
 
 
