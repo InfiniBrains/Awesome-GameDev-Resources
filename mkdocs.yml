@@ -13,6 +13,7 @@ nav:
   - AI:
       - courses/artificialintelligence/README.md
       - Spatial Quantization: courses/artificialintelligence/readings/spatial-quantization.md
+      - Spatial Hashing: courses/artificialintelligence/04-spatialhashing/README.md
       - Maze Data Structure: blog/posts/MazeDataStructure/MazeDataStructures.md
       - Assignments:
           - courses/artificialintelligence/assignments/README.md

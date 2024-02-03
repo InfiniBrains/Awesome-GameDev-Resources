@@ -116,6 +116,7 @@ public:
 ## Homework
 
 For both, implement the following functions:
+
 - `T* find(const T& value)`: returns a pointer to the first occurrence of the value in the collection, or nullptr if the value is not found.
 - `bool contains(const T& value)`: returns true if the value is found in the collection, false otherwise.
 - `T& at(size_t index)`: returns a reference to the element at the specified index. If the index is out of bounds, throw an `std::out_of_range` exception.
