@@ -1,3 +1,10 @@
+# [1.18.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.17.11...v1.18.0) (2024-02-04)
+
+
+### Features
+
+* mkdocs charts plugin ([8944b81](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/8944b8194f0ada6756c463ecc739194267ed4503))
+
 ## [1.17.11](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.17.10...v1.17.11) (2024-02-03)
 
 
