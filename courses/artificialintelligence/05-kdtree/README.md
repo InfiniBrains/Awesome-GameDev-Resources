@@ -2,6 +2,8 @@
 
 KD-Trees are a special type of binary trees that are used to partition a k-dimensional space. They are used to solve the problem of finding the nearest neighbor of a point in a k-dimensional space. The name KD-Tree comes from the method of partitioning the space, the K stands for the number of dimensions in the space.
 
+KD-tree are costly to mantain and balance. So use it only if you have a lot of queries to do, and the space is not changing. If you have a lot of queries, but the space is changing a lot, you should use a different data structure, such as a quadtree or a hash table.
+
 ## Methodology
 
 - On the binary tree KD-Tree, each node represents a k-dimensional point;
@@ -325,3 +327,191 @@ And lastly, we will have:
   ]
 }
 ```
+
+## Implementation
+
+```c++
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+// vector
+struct Vector2f {
+    float x, y;
+    Vector2f(float x, float y) : x(x), y(y) {}
+    // subscript operator to be used in the KDTree
+    float& operator[](size_t index) {
+        return index%2 == 0 ? x : y;
+    }
+    // distanceSqrd between two vectors
+    float distanceSqrd(const Vector2f& other) const {
+        return (x - other.x)*(x - other.x) + (y - other.y)*(y - other.y);
+    }
+};
+
+// your object data structure
+class GameObject {
+    // your other data
+public:
+    Vector2f position;
+    explicit GameObject(Vector2f position={0,0}) : position(position) {}
+};
+
+// KDNode
+struct KDNode {
+    GameObject* object;
+    KDNode* left;
+    KDNode* right;
+    KDNode(GameObject* object, KDNode* left = nullptr, KDNode* right= nullptr) :
+        object(object),
+        left(left),
+        right(right)
+      {}
+};
+
+// KDTree manager
+class KDTree {
+public:
+    KDNode* root;
+    KDTree() : root(nullptr) {}
+
+    ~KDTree() {
+        // interactively delete the nodes
+        std::vector<KDNode*> nodes;
+        nodes.push_back(root);
+        while (!nodes.empty()) {
+            KDNode* current = nodes.back();
+            nodes.pop_back();
+            if (current->left != nullptr) nodes.push_back(current->left);
+            if (current->right != nullptr) nodes.push_back(current->right);
+            delete current;
+        }
+    }
+
+    void insert(GameObject* object) {
+        if (root == nullptr) {
+            root = new KDNode(object);
+        } else {
+            KDNode* current = root;
+            size_t dimensionId = 0;
+            while (true) {
+                if (object->position[dimensionId] < current->object->position[dimensionId]) {
+                    if (current->left == nullptr) {
+                        current->left = new KDNode(object);
+                        break;
+                    } else {
+                        current = current->left;
+                    }
+                } else {
+                    if (current->right == nullptr) {
+                        current->right = new KDNode(object);
+                        break;
+                    } else {
+                        current = current->right;
+                    }
+                }
+                dimensionId++;
+            }
+        }
+    }
+
+    void insert(std::vector<GameObject*> objects, int dimensionId=0 ) {
+        if(objects.empty()) return;
+        if(objects.size() == 1) {
+            insert(objects[0]);
+            return;
+        }
+        // find the median for the current dimension
+        std::sort(objects.begin(), objects.end(), [dimensionId](GameObject* a, GameObject* b) {
+            return a->position[dimensionId] < b->position[dimensionId];
+        });
+        // insert the median
+        auto medianIndex = objects.size() / 2;
+        insert(objects[medianIndex]);
+
+        // insert the left and right exluding the median
+        insert(std::vector<GameObject*>(objects.begin(), objects.begin() + medianIndex), (dimensionId + 1) % 2);
+        insert(std::vector<GameObject*>(objects.begin() + medianIndex + 1, objects.end()), (dimensionId + 1) % 2);
+    }
+
+    // get the nearest neighbor
+    GameObject* nearestNeighbor(Vector2f position) {
+        return NearestNeighbor(root, position, root->object, root->object->position.distanceSqrd(position), 0);
+    }
+
+    GameObject* NearestNeighbor(KDNode* node, Vector2f position, GameObject* best, float bestDistance, int dimensionId) {
+        if (node == nullptr) return best;
+        float distance = node->object->position.distanceSqrd(position);
+        if (distance < bestDistance) {
+            best = node->object;
+            bestDistance = distance;
+        }
+        if (position[dimensionId] < node->object->position[dimensionId]) {
+            best = NearestNeighbor(node->left, position, best, bestDistance, (dimensionId + 1) % 2);
+            if (position[dimensionId] + bestDistance >= node->object->position[dimensionId]) {
+                best = NearestNeighbor(node->right, position, best, bestDistance, (dimensionId + 1) % 2);
+            }
+        } else {
+            best = NearestNeighbor(node->right, position, best, bestDistance, (dimensionId + 1) % 2);
+            if (position[dimensionId] - bestDistance <= node->object->position[dimensionId]) {
+                best = NearestNeighbor(node->left, position, best, bestDistance, (dimensionId + 1) % 2);
+            }
+        }
+        return best;
+    }
+
+    // draw the tree
+    void draw() {
+        std::vector<KDNode*> nodes;
+        // uses space to shaw the level of the node
+        std::vector<std::string> spaces;
+        nodes.push_back(root);
+        spaces.push_back("");
+        while (!nodes.empty()) {
+            KDNode* current = nodes.back();
+            std::string space = spaces.back();
+            nodes.pop_back();
+            spaces.pop_back();
+            if (current->right != nullptr) {
+                nodes.push_back(current->right);
+                spaces.push_back(space + "  ");
+            }
+            std::cout << space << ":> " << current->object->position.x << ", " << current->object->position.y << std::endl;
+            if (current->left != nullptr) {
+                nodes.push_back(current->left);
+                spaces.push_back(space + "  ");
+            }
+        }
+    }
+};
+
+int main(){
+    // nodes: (3, 1), (7, 15), (2, 14), (16, 2), (19, 13), (12, 17), (1, 9)
+    KDTree tree;
+    std::vector<GameObject*> objects = {
+        new GameObject(Vector2f(3, 1)),
+        new GameObject(Vector2f(7, 15)),
+        new GameObject(Vector2f(2, 14)),
+        new GameObject(Vector2f(16, 2)),
+        new GameObject(Vector2f(19, 13)),
+        new GameObject(Vector2f(12, 17)),
+        new GameObject(Vector2f(1, 9))
+    };
+    // insert the objects
+    tree.insert(objects);
+    // draw the tree
+    tree.draw();
+    // get the nearest neighbor to (10, 10)
+    GameObject* nearest = tree.nearestNeighbor(Vector2f(3, 15));
+    std::cout << "Nearest neighbor to (3, 15): " << nearest->position.x << ", " << nearest->position.y << std::endl;
+    // will print 2, 14
+    return 0;
+}
+```
+
+## Homework
+
+1. Implement the KDTree in your favorite language;
+2. Improve the KDTree to support 3D;
+3. Implement more methods to make it dynamic: insert, remove, update;
+4. Modify the KDTree to be balanced on insertion;
