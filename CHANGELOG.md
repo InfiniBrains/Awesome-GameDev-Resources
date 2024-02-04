@@ -1,3 +1,10 @@
+## [1.18.1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.0...v1.18.1) (2024-02-04)
+
+
+### Bug Fixes
+
+* **ai:** KD-tree ([4358c7f](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/4358c7f173a580e75b87ec126a31e7a5dbe17d74))
+
 # [1.18.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.17.11...v1.18.0) (2024-02-04)
 
 
