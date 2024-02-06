@@ -251,11 +251,11 @@ plugins:
         - tags
   - timetoread:
       wpm: 100
-  - git-committers:
-      repository: InfiniBrains/Awesome-GameDev-Resources
-      branch: main
-      docs_path: ./
-      cache_dir: /tmp/cache/awesome-gamedev-resources
+#  - git-committers:
+#      repository: InfiniBrains/Awesome-GameDev-Resources
+#      branch: main
+#      docs_path: ./
+#      cache_dir: /tmp/cache/awesome-gamedev-resources
 #  - git-authors
   - git-revision-date-localized:
       enable_creation_date: true
