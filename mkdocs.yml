@@ -83,12 +83,6 @@ nav:
   - Blog:
       - blog/index.md
 
-#  - Dojo:
-#      - dojo/README.md
-#      - Full Cycle Game Dev: dojo/Full-Cycle-SDL-Development.md
-#  - AI:
-#      - artificialintelligence/README.md
-
 docs_dir: .
 
 theme:
@@ -197,8 +191,8 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -251,11 +245,11 @@ plugins:
         - tags
   - timetoread:
       wpm: 100
-#  - git-committers:
-#      repository: InfiniBrains/Awesome-GameDev-Resources
-#      branch: main
-#      docs_path: ./
-#      cache_dir: /tmp/cache/awesome-gamedev-resources
+  - git-committers:
+      repository: InfiniBrains/Awesome-GameDev-Resources
+      branch: main
+      docs_path: ./
+      cache_dir: /tmp/cache/awesome-gamedev-resources
 #  - git-authors
   - git-revision-date-localized:
       enable_creation_date: true
