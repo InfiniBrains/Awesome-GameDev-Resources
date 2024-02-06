@@ -43,6 +43,7 @@ nav:
           - courses/advanced/01-introduction/README.md
           - Setup: courses/advanced/01-introduction/setup.md
       - OOP: courses/advanced/02-oop/README.md
+      - Pointers: courses/advanced/03-pointers/README.md
   - Algorithms:
       - courses/algorithms/README.md
       - Introduction to Algorithms: courses/algorithms/01-introduction/README.md
