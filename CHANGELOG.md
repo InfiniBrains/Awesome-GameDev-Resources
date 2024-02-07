@@ -1,3 +1,10 @@
+## [1.18.4](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.3...v1.18.4) (2024-02-07)
+
+
+### Bug Fixes
+
+* improvements on communication portfolio class ([710a24e](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/710a24eac10d73c9651850a0a06200a129c15d8a))
+
 ## [1.18.3](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.2...v1.18.3) (2024-02-07)
 
 
