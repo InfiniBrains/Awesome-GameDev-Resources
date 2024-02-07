@@ -47,7 +47,17 @@ The following metrics can be evaluated by reading your portfolio, interviews or 
     - They are going to look for your ability to think big, and how you manage risks. So if you have a project that you had to manage risks, or think big, it is a good place to showcase that.
     - Expose cases where you had to manage risks, or think big, and how you manage that. What you learned in the process trying to achieve bigger goals. 
 
-# Homework
+## In class activities
+
+### 1. Self-Reflection on the audience
+
+Try to look at your portfolio from the perspective of the audience. What are the strengths and weaknesses of your portfolio? What are the areas that you need to improve in order to better communicate your skills and experiences to potential employers?
+
+### 2. Mock interviews
+
+Pair up with a colleague and find some common questions that company usually asks. You can find some of them [here](https://www.mockquestions.com/). Then, take turns interviewing each other and providing feedback on how well you communicated your skills and experiences.
+
+## Homework
 
 - Write the content for each one of your projects and all other sections of your portfolio.
 - 1st round of Portfolio Feedbacks. 
