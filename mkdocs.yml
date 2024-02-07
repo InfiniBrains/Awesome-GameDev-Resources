@@ -363,7 +363,6 @@ extra_javascript:
 
 watch:
   - docs
-  - blog
 
 exclude_docs: |
   site/

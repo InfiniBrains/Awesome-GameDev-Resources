@@ -2,6 +2,8 @@
 
 There are many hosting options and solutions to match each need. Lets cover some options here.
 
+![img.png](img.png)
+
 # Options low code
 - Google sites - My preference
 

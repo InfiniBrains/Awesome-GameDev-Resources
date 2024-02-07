@@ -11,6 +11,8 @@ In general your portfolio will be read by:
 - [Human Resources](#human-resources)
 - [Software Developers](#software-developers)
 
+![img.png](img.png)
+
 ### Human Resources
 
 If you are applying for a big tech company, chances are your submission won't be read by a tech person the first human triage. So in order to pass this first filter, you have to be generic and precise. They are often very busy evaluating multiple applications, and probably they will spend 30-60 seconds before making the decision about moving forward in the process or not. Your portfolio will need to catch their attention and communicate clearly your fit, passion and ability in a short time frame.
@@ -24,6 +26,7 @@ In another hand, usually developers do not look for programming language fit, fr
 ## What they look for
 
 The following metrics can be evaluated by reading your portfolio, interviews or tests. The most common evaluation metrics they made are:
+
 - Position Fit
     - They are going to search if your portfolio showcase experience in the same area of what they are looking for the specific position they received. Usually they will look for specific keywords for the requirements list;
 - Company fit
@@ -40,12 +43,12 @@ The following metrics can be evaluated by reading your portfolio, interviews or 
     - Usually the more proactive developers tend to have more leadership positions. So if you want to give the readers a glimpse of your ability in this area, a good place to showcase that is in project description section. Express problems that arise and how do you manage that before it become a real problem.   
 - Learner
     - It is good to be always tuned with the current evolution of the technology, so try to keep the education section always updated with some courses or publish blog posts about some new tech. 
-- Thoughtfulness
-- Risk management 
-- Thinking big
-
+- Thinking big / Thoughtfulness / Risk management
+    - They are going to look for your ability to think big, and how you manage risks. So if you have a project that you had to manage risks, or think big, it is a good place to showcase that.
+    - Expose cases where you had to manage risks, or think big, and how you manage that. What you learned in the process trying to achieve bigger goals. 
 
 # Homework
+
 - Write the content for each one of your projects and all other sections of your portfolio.
 - 1st round of Portfolio Feedbacks. 
 - Research in a game company you like the resources on their hiring process. Take notes on how they hire and which positions you want to apply. Here goes some examples on how to get ready for interviews:

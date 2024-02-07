@@ -1,6 +1,6 @@
 # Setup the repos
 
-1. Read about Privacy and FERPA compliance [here](../../../blog/posts/FerpaCompliance/FerpaCompliance.md)
+1. Read about Privacy and FERPA compliance [here](../../blog/posts/FerpaCompliance/FerpaCompliance.md)
 2. This one, for in class coding assignments. https://github.com/InfiniBrains/Awesome-GameDev-Resources
 3. MoBaGEn, for interactive assignments. https://github.com/InfiniBrains/mobagen
 4. Install `CLion` :simple-clion: (has `CMake` :simple-cmake: embedded) or see [#development-tools](#development-tools)
