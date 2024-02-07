@@ -1,3 +1,17 @@
+## [1.18.2](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.1...v1.18.2) (2024-02-07)
+
+
+### Bug Fixes
+
+* add index to pointers ([4033af3](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/4033af3821c765d095dbd661188f14cafd27da29))
+* compilation process ([d3ac094](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/d3ac094e85dff571404c7774bbf905506d362914))
+* disable git-commiters ([e041fc1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/e041fc1f56726f1aa0eedfcad909d3811e4c0e69))
+* disable git-commiters ([ef5f41b](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/ef5f41be5e36ba3dc33834be84a5a9e37db0b3c0))
+* move docs folder ([9be7923](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/9be7923f653731e78c11a14a9d58637382c11bc8))
+* pointers ([18d24f4](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/18d24f4b24ea142912ec3a945a5a45adee7e1428))
+* remove overrides and move assets folder ([ba370e8](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/ba370e89093921950f9e68381ee972ff3f1dcaf8))
+* sorting ([c62e5f2](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/c62e5f24440ecbc64d07e1b95e115a7a5e9a52ca))
+
 ## [1.18.1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.0...v1.18.1) (2024-02-04)
 
 
