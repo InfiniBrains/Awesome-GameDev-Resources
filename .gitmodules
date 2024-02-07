@@ -1,3 +1,0 @@
-[submodule "overrides/reveal.js"]
-	path = overrides/reveal.js
-	url = https://github.com/hakimel/reveal.js
