@@ -162,14 +162,14 @@ theme:
 #    repo: fontawesome/brands/git-alt
 #    logo: logo
 
-reveal:
-  path: reveal.js/dist
-  transition: slide
-  theme:
-    name: white.css
-    path: theme
-  plugin:
-    path: reveal.js/plugin
+#reveal:
+#  path: reveal.js/dist
+#  transition: slide
+#  theme:
+#    name: white.css
+#    path: theme
+#  plugin:
+#    path: reveal.js/plugin
 
 edit_uri: edit/main/
 
@@ -221,7 +221,7 @@ markdown_extensions:
   - pymdownx.tilde
 
 plugins:
-  - mkdocs-revealjs
+#  - mkdocs-revealjs
   - social:
       cards: true
       cards_layout: default
