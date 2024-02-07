@@ -1,3 +1,10 @@
+## [1.18.3](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.2...v1.18.3) (2024-02-07)
+
+
+### Bug Fixes
+
+* move blog folder ([6001731](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/60017316b97aa7814d45fe36a9628b1bccbcda1b))
+
 ## [1.18.2](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.1...v1.18.2) (2024-02-07)
 
 
