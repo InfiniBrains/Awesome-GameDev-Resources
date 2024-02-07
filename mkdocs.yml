@@ -11,86 +11,86 @@ site_author: See contributors and authors at https://github.com/InfiniBrains/Awe
 nav:
   - Home: README.md
   - AI:
-      - courses/artificialintelligence/README.md
-      - Spatial Quantization: courses/artificialintelligence/readings/spatial-quantization.md
-      - Spatial Hashing: courses/artificialintelligence/04-spatialhashing/README.md
-      - KD-Tree: courses/artificialintelligence/05-kdtree/README.md
+      - artificialintelligence/README.md
+      - Spatial Quantization: artificialintelligence/readings/spatial-quantization.md
+      - Spatial Hashing: artificialintelligence/04-spatialhashing/README.md
+      - KD-Tree: artificialintelligence/05-kdtree/README.md
       - Maze Data Structure: blog/posts/MazeDataStructure/MazeDataStructures.md
       - Assignments:
-          - courses/artificialintelligence/assignments/README.md
-          - Setup: courses/artificialintelligence/assignments/README.md
-          - Flocking: courses/artificialintelligence/assignments/flocking/README.md
-          - Game of Life: courses/artificialintelligence/assignments/life/README.md
-          - Pseudo-Random Number Generator: courses/artificialintelligence/assignments/rng/README.md
-          - Maze: courses/artificialintelligence/assignments/maze/README.md
-          - Catch the Cat: courses/artificialintelligence/assignments/catchthecat/README.md
-          - GenAI: courses/artificialintelligence/assignments/genai/README.md
+          - artificialintelligence/assignments/README.md
+          - Setup: artificialintelligence/assignments/README.md
+          - Flocking: artificialintelligence/assignments/flocking/README.md
+          - Game of Life: artificialintelligence/assignments/life/README.md
+          - Pseudo-Random Number Generator: artificialintelligence/assignments/rng/README.md
+          - Maze: artificialintelligence/assignments/maze/README.md
+          - Catch the Cat: artificialintelligence/assignments/catchthecat/README.md
+          - GenAI: artificialintelligence/assignments/genai/README.md
   - Intro. Programming:
-      - courses/intro/README.md
-      - Introduction to C++: courses/intro/01-introduction/README.md
-      - Setup: courses/intro/02-tooling/README.md
-      - Data Types: courses/intro/03-datatypes/README.md
-      - Conditionals: courses/intro/04-conditionals/README.md
-      - Loops: courses/intro/05-loops/README.md
-      - Functions: courses/intro/06-functions/README.md
-      - Streams: courses/intro/07-streams/README.md
-      - Arrays: courses/intro/08-arrays/README.md
-      - Recursion: courses/intro/09-recursion/README.md
-      - Sorting: courses/intro/10-sorting/README.md
+      - intro/README.md
+      - Introduction to C++: intro/01-introduction/README.md
+      - Setup: intro/02-tooling/README.md
+      - Data Types: intro/03-datatypes/README.md
+      - Conditionals: intro/04-conditionals/README.md
+      - Loops: intro/05-loops/README.md
+      - Functions: intro/06-functions/README.md
+      - Streams: intro/07-streams/README.md
+      - Arrays: intro/08-arrays/README.md
+      - Recursion: intro/09-recursion/README.md
+      - Sorting: intro/10-sorting/README.md
   - Adv. Programming:
-      - courses/advanced/README.md
+      - advanced/README.md
       - Advanced C++:
-          - courses/advanced/01-introduction/README.md
-          - Setup: courses/advanced/01-introduction/setup.md
-      - OOP: courses/advanced/02-oop/README.md
-      - Pointers: courses/advanced/03-pointers/README.md
+          - advanced/01-introduction/README.md
+          - Setup: advanced/01-introduction/setup.md
+      - OOP: advanced/02-oop/README.md
+      - Pointers: advanced/03-pointers/README.md
   - Algorithms:
-      - courses/algorithms/README.md
-      - Introduction to Algorithms: courses/algorithms/01-introduction/README.md
-      - Algorithm Analysis: courses/algorithms/02-analysis/README.md
-      - Dynamic Data: courses/algorithms/03-dynamic-data/README.md
-      - Sorting: courses/algorithms/04-sorting/README.md
-      - Divide and Conquer: courses/algorithms/05-divide-and-conquer/README.md
-      - Hashtables: courses/algorithms/06-hashtables/README.md
-      - Midterm: courses/algorithms/07-midterm/README.md
-      - Stack and Queue: courses/algorithms/08-stack-and-queue/README.md
-      - Break: courses/algorithms/09-break/README.md
-      - Graphs: courses/algorithms/10-graphs/README.md
-      - Dijkstra: courses/algorithms/11-dijkstra/README.md
-      - Prims: courses/algorithms/12-prims/README.md
-      - Binary Search Tree: courses/algorithms/13-bsp/README.md
-      - Heap: courses/algorithms/14-heap/README.md
-      - Project: courses/algorithms/15-project/README.md
-      - Final: courses/algorithms/16-final/README.md
+      - algorithms/README.md
+      - Introduction to Algorithms: algorithms/01-introduction/README.md
+      - Algorithm Analysis: algorithms/02-analysis/README.md
+      - Dynamic Data: algorithms/03-dynamic-data/README.md
+      - Sorting: algorithms/04-sorting/README.md
+      - Divide and Conquer: algorithms/05-divide-and-conquer/README.md
+      - Hashtables: algorithms/06-hashtables/README.md
+      - Midterm: algorithms/07-midterm/README.md
+      - Stack and Queue: algorithms/08-stack-and-queue/README.md
+      - Break: algorithms/09-break/README.md
+      - Graphs: algorithms/10-graphs/README.md
+      - Dijkstra: algorithms/11-dijkstra/README.md
+      - Prims: algorithms/12-prims/README.md
+      - Binary Search Tree: algorithms/13-bsp/README.md
+      - Heap: algorithms/14-heap/README.md
+      - Project: algorithms/15-project/README.md
+      - Final: algorithms/16-final/README.md
   - Portfolio:
-      - courses/portfolio/README.md
-      - Introduction: courses/portfolio/01-introduction/README.md
+      - portfolio/README.md
+      - Introduction: portfolio/01-introduction/README.md
       - Case Study:
-        - courses/portfolio/02-cases/README.md
-        - Case Study Example: courses/portfolio/02-cases/example.com.md
-      - Portfolio Structure: courses/portfolio/03-structure/README.md
-      - Communication: courses/portfolio/04-communication/README.md
-      - Style: courses/portfolio/05-style/README.md
-      - Strategy: courses/portfolio/06-strategy/README.md
-      - Frontend: courses/portfolio/10-frontend/README.md
-      - Wordpress: courses/portfolio/08-frontend/README.md
-      - Getting Ready: courses/portfolio/09-get-ready/README.md
-      - Hosting: courses/portfolio/07-hosting/README.md
-      - Dynamic Content: courses/portfolio/11-dynamic/README.md
-      - Promoting: courses/portfolio/12-promoting/README.md
-      - Cover Letter: courses/portfolio/13-cover-letter/README.md
-      - CV: courses/portfolio/14-cv/README.md
+        - portfolio/02-cases/README.md
+        - Case Study Example: portfolio/02-cases/example.com.md
+      - Portfolio Structure: portfolio/03-structure/README.md
+      - Communication: portfolio/04-communication/README.md
+      - Style: portfolio/05-style/README.md
+      - Strategy: portfolio/06-strategy/README.md
+      - Frontend: portfolio/10-frontend/README.md
+      - Wordpress: portfolio/08-frontend/README.md
+      - Getting Ready: portfolio/09-get-ready/README.md
+      - Hosting: portfolio/07-hosting/README.md
+      - Dynamic Content: portfolio/11-dynamic/README.md
+      - Promoting: portfolio/12-promoting/README.md
+      - Cover Letter: portfolio/13-cover-letter/README.md
+      - CV: portfolio/14-cv/README.md
   - Blog:
       - blog/index.md
 
-docs_dir: .
+docs_dir: ./docs
 
 theme:
   language: en
   name: material
   custom_dir: overrides
-  favicon: overrides/assets/logo.png
-  logo: overrides/assets/logo.png
+  favicon: assets/logo.png
+  logo: assets/logo.png
   features:
     - attr_list
     - md_in_html
@@ -228,7 +228,7 @@ plugins:
       enabled: true
   - blog:
 #      blog_toc: true
-      blog_authors: true
+#      blog_authors: true
       post_url_date_format: yyyy/MM/dd
       post_url_format: "{date}/{slug}"
       post_date_format: short
@@ -250,7 +250,7 @@ plugins:
 #      branch: main
 #      docs_path: ./
 #      cache_dir: /tmp/cache/awesome-gamedev-resources
-#  - git-authors
+  - git-authors
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true
@@ -362,7 +362,7 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/vega-embed@6
 
 watch:
-  - courses
+  - docs
   - blog
 
 exclude_docs: |
