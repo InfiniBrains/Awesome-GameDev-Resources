@@ -1,3 +1,10 @@
+## [1.18.6](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.5...v1.18.6) (2024-02-08)
+
+
+### Bug Fixes
+
+* pathfinding ([70c5171](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/70c5171f5406deabc3100a1cc8479a4acaf6515a))
+
 ## [1.18.5](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.4...v1.18.5) (2024-02-08)
 
 
