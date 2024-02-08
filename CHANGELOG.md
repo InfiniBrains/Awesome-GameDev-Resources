@@ -1,3 +1,10 @@
+## [1.18.5](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.4...v1.18.5) (2024-02-08)
+
+
+### Bug Fixes
+
+* hashmap meme ([444597c](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/444597ceff5c116f55d16e10198e795749240302))
+
 ## [1.18.4](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.3...v1.18.4) (2024-02-07)
 
 
