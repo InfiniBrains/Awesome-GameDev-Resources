@@ -17,6 +17,8 @@ authors:
 
 Both `std::map` and `std::unordered_map` are associative containers that store key-value pairs, let's have a deep dive into the differences between them.
 
+![img.png](img.png)
+
 <!-- more -->
 
 ## Underlying Data Structure:
