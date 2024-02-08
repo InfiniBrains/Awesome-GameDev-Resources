@@ -15,6 +15,7 @@ nav:
       - Spatial Quantization: artificialintelligence/readings/spatial-quantization.md
       - Spatial Hashing: artificialintelligence/04-spatialhashing/README.md
       - KD-Tree: artificialintelligence/05-kdtree/README.md
+      - Pathfinding: artificialintelligence/06-pathfinding/README.md
       - Maze Data Structure: blog/posts/MazeDataStructure/MazeDataStructures.md
       - Assignments:
           - artificialintelligence/assignments/README.md
