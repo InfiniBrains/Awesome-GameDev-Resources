@@ -1,3 +1,12 @@
+## [1.18.7](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.6...v1.18.7) (2024-02-12)
+
+
+### Bug Fixes
+
+* ai for testing ([3a5d30e](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/3a5d30e0ea57a400dfc732c2683954a8010d3229))
+* disable pdf ([8917d70](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/8917d70f82e7c033b2979f542e8f05a8cc9a263f))
+* pathfinding ([482e7b6](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/482e7b6e025e2af09f16cbea538b3f2ed546a87a))
+
 ## [1.18.6](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.5...v1.18.6) (2024-02-08)
 
 
