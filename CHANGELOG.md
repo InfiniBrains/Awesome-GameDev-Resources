@@ -1,3 +1,10 @@
+## [1.18.8](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.7...v1.18.8) (2024-02-12)
+
+
+### Bug Fixes
+
+* add costs to pathfinding ([2aa6819](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/2aa681932c7e9b608b22662c30f34697460ecd6a))
+
 ## [1.18.7](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.6...v1.18.7) (2024-02-12)
 
 
