@@ -272,40 +272,40 @@ plugins:
         - cmake-build-debug/*
         - .cache
         - site
-  - with-pdf:
-      author: InfiniBrains
-      copyright: Copyleft by InfiniBrains
-      render_js: true
-      headless_chrome_path: chromium
-      #cover: false
-      #back_cover: true
-      cover_title: Awesome GameDev Book
-      cover_subtitle: InfiniBrains Community Initiative
-      #custom_template_path: TEMPLATES PATH
-      #toc_title: TOC TITLE TEXT
-      #heading_shift: false
-      toc_level: 2
-      #ordered_chapter_level: 2
-      #excludes_children:
-      #    - 'release-notes/:upgrading'
-      #    - 'release-notes/:changelog'
-      exclude_pages:
-          - 'blog/'
-      #    - 'appendix/contribute/'
-      #convert_iframe:
-      #    - src: IFRAME SRC
-      #      img: POSTER IMAGE URL
-      #      text: ALTERNATE TEXT
-      #    - src: ...
-      two_columns_level: 2
-      #output_path: any-place/document.pdf
-      enabled_if_env: 'CI'
-      #debug_html: true
-      #show_anchors: true
-#      verbose: true
-#  - optimize
   - glightbox
   - charts
+#  - with-pdf:
+#      author: InfiniBrains
+#      copyright: Copyleft by InfiniBrains
+#      render_js: true
+#      headless_chrome_path: chromium
+#      #cover: false
+#      #back_cover: true
+#      cover_title: Awesome GameDev Book
+#      cover_subtitle: InfiniBrains Community Initiative
+#      #custom_template_path: TEMPLATES PATH
+#      #toc_title: TOC TITLE TEXT
+#      #heading_shift: false
+#      toc_level: 2
+#      #ordered_chapter_level: 2
+#      #excludes_children:
+#      #    - 'release-notes/:upgrading'
+#      #    - 'release-notes/:changelog'
+#      exclude_pages:
+#          - 'blog/'
+#      #    - 'appendix/contribute/'
+#      #convert_iframe:
+#      #    - src: IFRAME SRC
+#      #      img: POSTER IMAGE URL
+#      #      text: ALTERNATE TEXT
+#      #    - src: ...
+#      two_columns_level: 2
+#      #output_path: any-place/document.pdf
+#      enabled_if_env: 'CI'
+#      #debug_html: true
+#      #show_anchors: true
+##      verbose: true
+#  - optimize
 
 extra:
   privacy:
