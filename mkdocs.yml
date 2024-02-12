@@ -17,6 +17,7 @@ nav:
       - KD-Tree: artificialintelligence/05-kdtree/README.md
       - Pathfinding: artificialintelligence/06-pathfinding/README.md
       - Maze Data Structure: blog/posts/MazeDataStructure/MazeDataStructures.md
+      - AI for Testing: artificialintelligence/07-automatedtesting/README.md
       - Assignments:
           - artificialintelligence/assignments/README.md
           - Setup: artificialintelligence/assignments/README.md
