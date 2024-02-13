@@ -15,7 +15,7 @@ Here goes a simple declaration of a class Greeter:
 ```cpp title="Greeter.h"
 #include <string>
 class Greeter {
-    std::string name; // this is a public attribute
+    std::string name; // this is a private attribute
 public:
     Greeter(std::string username) {
         name = username;
