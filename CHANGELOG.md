@@ -1,3 +1,10 @@
+## [1.18.9](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.8...v1.18.9) (2024-02-13)
+
+
+### Bug Fixes
+
+* mergesort example ([085770d](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/085770d26593f7659d8ddb49da98dbc7827afe90))
+
 ## [1.18.8](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.7...v1.18.8) (2024-02-12)
 
 
