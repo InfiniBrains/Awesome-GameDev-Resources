@@ -9,7 +9,7 @@
 Ask some questions for [ChatGPT](https://chat.openai.com/chat). Here goes a sample extracted from this prompt:
 
 ```
-Create a strategy to get hired on a AAA game studio as a game programmer
+Create a strategy to get hired on a AAA game studio like COMPANY_NAME as a POSITION_NAME
 ```
 
 - Develop the right skills: The first step to getting hired in a AAA game studio is to develop the right skills for the job. Start by researching the job positions in the studio and look for the required skills, experience, and qualifications. Then, focus on building those skills through relevant education, training, and projects. You can also take courses, attend workshops or conferences, and create a portfolio of your work to showcase your abilities.
@@ -86,12 +86,4 @@ If you are a prolific writer and really into it. You can try to make wikipedia r
 
 # Activity
 
-Submit your portfolio on class and Review 2 portfolios.
-
-- What game do you liked the most? Watch its credits on youtube. Pay attention to the job position names. Find the one you find it most suitable for you. Optionally, connect with some names on linkedin that you find on credits section. If the game dont have a credits section on youtube, just search for its name on linkedin and search for the peoples names that are working on it and the company job openings.
-- Log in anonymously to the link shared in class if you want to not expose yourself(I think it is the best way to be honest and not expose yourself).
-- On the second page, write your portfolio URL (or WiP repository for your demos) and the job position you want to apply so others can evaluate your work. If you dont have one yet, just evaluate the others.
-- Chose 2 portfolios and prefer to evaluate portfolios with less evaluations. For each evaluation, create a new Page and add a page break using Control Enter or via interface insert pagebreak.
-- In this page write as H1 text format the portfolio URL, so it can be indexed
-- Evaluate at least 2 portfolios, following this [Example](../02-cases/example.com.md). Be kind and constructive.
-- You as the owner of the portfolio evaluated, you are allowed to delete offenses or bad words from the evaluation. If you want to interact with the content generated anonymously about your portfolio, use comments logged with your account.
+WiP
