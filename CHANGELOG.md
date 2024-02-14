@@ -1,3 +1,10 @@
+## [1.18.11](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.10...v1.18.11) (2024-02-14)
+
+
+### Bug Fixes
+
+* style ([6a555a4](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/6a555a4e2b5d075cd0b0382e29813ebc6d27a1ba))
+
 ## [1.18.10](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.9...v1.18.10) (2024-02-14)
 
 
