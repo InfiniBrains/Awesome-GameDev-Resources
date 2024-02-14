@@ -1,3 +1,10 @@
+## [1.18.13](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.12...v1.18.13) (2024-02-14)
+
+
+### Bug Fixes
+
+* remove activity ([cbc2013](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/cbc2013404a32fb6f4b0ecc51342629a38c6de25))
+
 ## [1.18.12](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.11...v1.18.12) (2024-02-14)
 
 
