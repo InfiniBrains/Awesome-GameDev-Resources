@@ -11,6 +11,7 @@ Ask some questions for [ChatGPT](https://chat.openai.com/chat). Here goes a samp
 ```
 Create a strategy to get hired on a AAA game studio as a game programmer
 ```
+
 1. Develop the right skills: The first step to getting hired in a AAA game studio is to develop the right skills for the job. Start by researching the job positions in the studio and look for the required skills, experience, and qualifications. Then, focus on building those skills through relevant education, training, and projects. You can also take courses, attend workshops or conferences, and create a portfolio of your work to showcase your abilities.
 2. Network with industry professionals: Networking with industry professionals can help you gain exposure and insights into the game development industry. Attend industry events, join online forums, participate in game development communities, and reach out to professionals in the field to build relationships. You can also consider working on collaborative projects with other game developers to expand your network.
 3. Stay up-to-date with industry trends: Keeping up with the latest trends and news in the gaming industry can help you stay ahead of the game and impress your potential employers. Read industry blogs, participate in online discussions, follow industry influencers on social media, and stay up-to-date with the latest game releases to show that you are knowledgeable and passionate about the industry.
@@ -21,6 +22,7 @@ Create a strategy to get hired on a AAA game studio as a game programmer
 ```
 Write a strategy to get hired as a Game Programmer in a Indie Game Studio
 ```
+
 1. Develop a strong portfolio: Your portfolio is your calling card, so it needs to showcase your programming skills, creativity, and technical abilities. Create a portfolio that showcases your best work, including your personal game development projects, demos, and samples of your code. Highlight your experience with programming languages, software, tools, and engines that are commonly used in the indie game development industry.
 2. Research indie game studios: Do your research on the indie game studios that interest you. Find out what kind of games they make, the size of the studio, the company culture, and their current job openings. Look for studios that align with your interests, values, and career goals.
 3. Build a network: Building a network of like-minded professionals in the game development industry can be invaluable. Attend industry events, join online forums and communities, and engage with indie game developers on social media. This will help you stay up-to-date on the latest trends, technologies, and job openings.
@@ -28,7 +30,6 @@ Write a strategy to get hired as a Game Programmer in a Indie Game Studio
 5. Apply for internships: Many indie game studios offer internships or junior positions for game programmers. This is an excellent opportunity to gain hands-on experience, build your skills, and make contacts in the industry. Even if the internship is unpaid, the experience and contacts you gain could be invaluable for your future career.
 6. Tailor your resume and cover letter: Tailor your resume and cover letter to showcase your programming skills, experience, and passion for game development. Highlight your technical skills, programming languages, software, and engines that you are proficient in. Be sure to mention any experience you have working in a team and collaborating with other game developers.
 7. Prepare for the interview: Once you get an interview, make sure to prepare thoroughly. Research the indie game studio, their current projects, and their company culture. Be ready to talk about your experience, skills, and passion for game development. Also, prepare questions to ask the interviewer about the company and the job position to show your interest and enthusiasm.
-
 
 ## Analytics
 
@@ -48,6 +49,7 @@ Train yourself in coding interviews with some materials:
 - [Course on get ready for an AWS interview](https://www.amazon.jobs/en/software-development-interview-prep#/)
 
 ## Coding resources
+
 - [Leetcode](https://leetcode.com/problemset/all) 
 - [Hackerrank](https://www.hackerrank.com/dashboard)
 - [Geeksforgeeks](https://www.geeksforgeeks.org/)
@@ -64,6 +66,7 @@ Train yourself in coding interviews with some materials:
 All social networks uses some type of relevance algorithm to promote your content or profile. So you have to find means to increase your relevance. Most of the algorithms measure your relevance by number of reactions(likes, follows, comments, replies...), so every time you post something, you should try to incentive the content consumers to do that.
 
 ## Google
+
 If your aim is to be relevant on Google, try to check the trending words people are searching now via [Google trends](https://trends.google.com/trends/explore). 
 
 If you follow this path, the main strategy is the common SEO optimization techniques. Here goes some guides to help you nail that.
