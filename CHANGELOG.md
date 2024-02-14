@@ -1,3 +1,10 @@
+## [1.18.10](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.9...v1.18.10) (2024-02-14)
+
+
+### Bug Fixes
+
+* quicksort ([6a97c2a](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/6a97c2ac6da8a636f74aedc5e1f43b03f3243210))
+
 ## [1.18.9](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.8...v1.18.9) (2024-02-13)
 
 
