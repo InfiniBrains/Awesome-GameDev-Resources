@@ -176,6 +176,9 @@ The partitioning process consists of the following steps:
     - If the right element is greater than the pivot, decrement the right index;
     - If the left element is greater than the pivot and the right element is less than or equal to the pivot, swap the left and right elements;
 
+<iframe scrolling="no" style="position:relative;top:0px;width:100%;height:500px;" src="https://opendsa-server.cs.vt.edu/embed/quicksortAV"></iframe>
+<a href="https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/QuicksortAV.html">source</a>
+
 ![Sorting_quicksort_anim.gif](Sorting_quicksort_anim.gif)
 
 ### Quicksort time complexity
