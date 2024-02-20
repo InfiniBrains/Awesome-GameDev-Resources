@@ -1,3 +1,10 @@
+## [1.18.15](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.14...v1.18.15) (2024-02-20)
+
+
+### Bug Fixes
+
+* hashtable ([89a25ae](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/89a25ae9e2f69c81cfe8b4358e1d41702a504dca))
+
 ## [1.18.14](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.13...v1.18.14) (2024-02-16)
 
 
