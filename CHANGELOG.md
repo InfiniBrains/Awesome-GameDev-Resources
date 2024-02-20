@@ -1,3 +1,10 @@
+## [1.18.16](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.15...v1.18.16) (2024-02-20)
+
+
+### Bug Fixes
+
+* add memes to hashtables ([df973a4](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/df973a4daf7c5ba6808678f8062f4f93d5b42bdf))
+
 ## [1.18.15](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.14...v1.18.15) (2024-02-20)
 
 
