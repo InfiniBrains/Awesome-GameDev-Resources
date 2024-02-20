@@ -1,3 +1,10 @@
+## [1.18.17](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.16...v1.18.17) (2024-02-20)
+
+
+### Bug Fixes
+
+* operators ([b7403a8](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/b7403a8d70dc4d413e88b66d5b1fa9a16ed439c9))
+
 ## [1.18.16](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.15...v1.18.16) (2024-02-20)
 
 
