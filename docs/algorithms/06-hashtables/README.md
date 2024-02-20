@@ -1,5 +1,7 @@
 # Hastables
 
+![img.png](img.png)
+
 Hashtables ane associative datastructures that stores key-value pairs. It uses a hash function to compute an index into an array of buckets or slots, from which the desired value can be found.
 
 The core of the generic associative container is to implement ways to get and set values by keys such as:
@@ -51,15 +53,29 @@ int main() {
 
 ## Hash function
 
+![img_3.png](img_3.png)
+
 The hash function will process the key data and return an index. Usually in C++, the index is of type `size_t` which is biggest unsigned integer the platform can handle.
 
 The hash function should be fast and should distribute the keys uniformly across the array of buckets. The hash function should be deterministic, meaning that the same key should always produce the same hash.
 
-If the size of your key is less than the `size_t` you could just use the key casted to `size_t` as the hash function. If it is not, you will have to implement your own hash function.
+If the size of your key is less than the `size_t` you could just use the key casted to `size_t` as the hash function. If it is not, you will have to implement your own hash function. You probably should use bitwise operations to do so.
+
+```c++
+struct MyCustomDataWith128Bits {
+  uint64_t a;
+  uint64_t b;
+  uint64_t c;
+  uint64_t d;
+  size_t hash() const {
+    return a ^ b ^ c ^ d;
+  }
+};
+```
 
 Think a bit and try to come up with a nice answer: what is the ideal hash function for a given type? What are the requirements for a good hash function?
 
-### Special case: String 
+### Special case: String or arrays 
 
 In order to use strings as keys, you will have to create a way to convert the string's underlying data structure into a `size_t`. You could use the `std::hash` function from the `functional` library. Or create your own hash function.
 
@@ -68,7 +84,7 @@ In order to use strings as keys, you will have to create a way to convert the st
 #include <functional>
 
 size_t hash(const std::string& key) {
-  size_t hash=0;
+  size_t hash=0; // accumulator pattern
   // the cost of this operation is O(n)
   for (char c : key)
     hash = (hash << 5) ^ c;
@@ -98,17 +114,63 @@ For the sake of simplicity I will use the operator modulo to convert the hash in
 
 ## Collision resolution
 
+![img_2.png](img_2.png)
+
 Assuming that your hash function is not perfect, you will have to deal with collisions. Two or more different keys could produce the same hash. There are plenty of ways to deal with that, but the easiest way is to use a linked list to store the key-value pairs that have the same hash.
 
 Try to come up with your own strategy to deal with collisions.
 
+![img_1.png](img_1.png)
+[source](https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/)
+
+### Key restrictions
+
+In order for the hash table to work, the key should be:
+
+- not modifiable
+- implement a hash function
+- implement the `==` operator
+
+In C++20 you can use the `concept` feature to enforce those restrictions.
+
+```c++
+#include <iostream>
+
+template <typename T>
+concept HasHashFunction = // C++20 concept
+requires(T t) {
+    { t.hash() } -> std::convertible_to<size_t>;
+} && requires(T t, T u) {
+    { t == u } -> std::convertible_to<bool>;
+} && std::is_const_v<T>;
+
+int main() {
+  struct MyHashableType {
+    int value;
+    size_t hash() const {
+      return value;
+    }
+    bool operator==(const MyHashableType& other) const {
+      return value == other.value;
+    }
+  };
+  static_assert(HasHashFunction<MyHashableType>);
+  return 0;
+}
+```
+
+But you can require more from the key if you are going to implement a more complex collision resolution strategy.
+
 ## Implementation
+
+![kitten-cat.gif](kitten-cat.gif)
 
 This implementation is naive and not efficient. It is just to give you an idea of how to implement a hash table.
 
 ```c++
 #include <iostream>
 
+// key should not be modifiable
 // implements hash function and implements == operator
 template <typename T>
 concept HasHashFunction = // C++20 concept
@@ -116,7 +178,7 @@ requires(T t) {
     { t.hash() } -> std::convertible_to<size_t>;
 } && requires(T t, T u) {
     { t == u } -> std::convertible_to<bool>;
-};
+} && std::is_const_v<T>;
 
 // hash table
 template <HasHashFunction K, typename V>
@@ -227,7 +289,6 @@ public:
                 current = next;
             }
         }
-        delete[] table;
     }
 };
 
@@ -242,7 +303,8 @@ struct MyHashableType {
 };
 
 int main() {
-    Hashtable<MyHashableType, int> hashtable(5);
+    // keys shouldn't be modifiable, implement hash function and == operator
+    Hashtable<const MyHashableType, int> hashtable(5);
     hashtable.insert(MyHashableType{1}, 1);
     hashtable.insert(MyHashableType{2}, 2);
     hashtable.insert(MyHashableType{3}, 3);
