@@ -1,3 +1,10 @@
+## [1.18.18](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.17...v1.18.18) (2024-02-21)
+
+
+### Bug Fixes
+
+* operators and demo reels ([c3bff70](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/c3bff70d66f930e1e72ab08b63736221fb81044e))
+
 ## [1.18.17](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.16...v1.18.17) (2024-02-20)
 
 
