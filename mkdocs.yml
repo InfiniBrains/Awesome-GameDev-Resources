@@ -46,7 +46,7 @@ nav:
           - Setup: advanced/01-introduction/setup.md
       - OOP: advanced/02-oop/README.md
       - Pointers: advanced/03-pointers/README.md
-      - Operators: advanced/04-operators/README.md
+      - Operators: advanced/04-operators/README.mdah m
   - Algorithms:
       - algorithms/README.md
       - Introduction to Algorithms: algorithms/01-introduction/README.md
@@ -74,6 +74,7 @@ nav:
       - Portfolio Structure: portfolio/03-structure/README.md
       - Communication: portfolio/04-communication/README.md
       - Strategy: portfolio/05-strategy/README.md
+      - Reels: portfolio/06-reels/README.md
       - Style: portfolio/06-style/README.md
       - Frontend: portfolio/10-frontend/README.md
       - Wordpress: portfolio/08-frontend/README.md
