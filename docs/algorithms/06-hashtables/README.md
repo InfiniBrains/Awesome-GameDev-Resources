@@ -167,7 +167,7 @@ int main() {
 
 But you can require more from the key if you are going to implement a more complex collision resolution strategy.
 
-#### Hash table implementation with linked lists 
+#### Hash table implementation with linked lists (chaining) 
 
 ![kitten-cat.gif](kitten-cat.gif)
 
@@ -333,3 +333,189 @@ int main() {
 ### Open addressing with linear probing
 
 Open addressing is a method of collision resolution in hash tables. In this approach, each cell is not a pointer to the linked list of contents of that bucket, but instead contains a single key-value pair. In linear probing, when a collision occurs, the next cell is checked. If it is occupied, the next cell is checked, and so on, until an empty cell is found.
+
+The main advantage of open addressing is cache-friendliness. The main disadvantage is that it is more complex to implement, and it is not as efficient as linked lists when the table is too full. That's why we have to resize the table earlier, usually at 50% full, but at least 70% full.
+
+![img_4.png](img_4.png) [source](https://en.wikipedia.org/wiki/File:Hash_table_average_insertion_time.png)
+
+In this implementation below, I have implemented a strategy to resize the table when it is half full. This is a common strategy to mitigate the O(n) search time when we have a lot of collisions. But on each resize, we have to rehash all elements: O(n) when it grows. This growth will occur rarely so this O(n) is amortized.
+
+#### Implementation with open addressing and linear probing
+
+```c++
+#include <iostream>
+
+// key should not be modifiable
+// implements hash function and implements == operator
+template <typename T>
+concept HasHashFunction =
+requires(T t, T u) {
+  { t.hash() } -> std::convertible_to<std::size_t>;
+  { t == u } -> std::convertible_to<bool>;
+  std::is_const_v<T>;
+} || requires(T t, T u) {
+  { std::hash<T>{}(t) } -> std::convertible_to<std::size_t>;
+  { t == u } -> std::convertible_to<bool>;
+};
+
+// hash table
+template <HasHashFunction K, typename V>
+struct Hashtable {
+private:
+  // key pair
+  struct KeyValuePair {
+    K key;
+    V value;
+    KeyValuePair(K key, V value) : key(key), value(value) {}
+  };
+
+  // array of linked lists
+  KeyValuePair** table;
+  int size;
+  int capacity;
+public:
+  // a good size is something 2x bigger than the number of elements you are going to store
+  explicit Hashtable(size_t capacity=1) {
+    if(capacity == 0)
+      throw std::invalid_argument("Capacity must be greater than 0");
+    // you could make it automatically resize and increase the complexity of the implementation
+    // for the sake of simplicity I will not do that
+    this->size = 0;
+    this->capacity = capacity;
+    table = new KeyValuePair*[capacity];
+    for (size_t i = 0; i < capacity; i++)
+      table[i] = nullptr;
+  }
+private:
+  inline size_t convertKeyToIndex(K t) {
+    return t.hash() % capacity;
+  }
+public:
+  // inserts a new key value pair
+  // this implementation uses open addressing and resize the table when it is half full
+  void insert(K key, V value) {
+    size_t index = convertKeyToIndex(key);
+    // resize if necessary
+    // in open addressing, it is common to resize when the table is half full
+    // this help mitigate O(n) search time when we have a lot of collisions
+    // but on each resize, we have to rehash all elements: O(n)
+    if (size >= capacity/2) {
+      auto oldTable = table;
+      table = new KeyValuePair*[capacity*2];
+      capacity *= 2;
+      for (size_t i = 0; i < capacity; i++)
+        table[i] = nullptr;
+      size_t oldSize = size;
+      size = 0;
+      // insert all elements again
+      for (size_t i = 0; i < oldSize; i++) {
+        if (oldTable[i] != nullptr) {
+          insert(oldTable[i]->key, oldTable[i]->value);
+          delete oldTable[i];
+        }
+      }
+      delete[] oldTable;
+    }
+    // insert the new element
+    KeyValuePair* newElement = new KeyValuePair(key, value);
+    while (table[index] != nullptr) // find the next open index
+      index = (index + 1) % capacity;
+    table[index] = newElement;
+    size++;
+  }
+
+  // contains the key
+  bool contains(K key) {
+    size_t index = convertKeyToIndex(key);
+    KeyValuePair* current = table[index];
+    while (current != nullptr) {
+      if (current->key == key) {
+        return true;
+      }
+      index = (index + 1) % capacity;
+      current = table[index];
+    }
+
+    return false;
+  }
+
+  // subscript operator
+  // fails if the key is not found
+  V& operator[](K key) {
+    size_t index = convertKeyToIndex(key);
+    KeyValuePair* current = table[index];
+    while (current != nullptr) {
+      if (current->key == key) {
+        return current->value;
+      }
+      index = (index + 1) % capacity;
+      current = table[index];
+    }
+    throw std::out_of_range("Key not found");
+  }
+
+  // deletes the key
+  // fails if the key is not found
+  void remove(K key) {
+    // ideal index
+    const size_t idealIndex = convertKeyToIndex(key);
+    size_t currentIndex = idealIndex;
+    // store the last index with the same hash so we move it to the position of the removed element
+    size_t lastIndexWithSameIdealIndex = idealIndex;
+    size_t indexOfTheRemovedElement = idealIndex;
+    // iterate until we find the element, or we find an empty slot
+    while (table[currentIndex] != nullptr) {
+      if (table[currentIndex]->key == key)
+        indexOfTheRemovedElement = currentIndex;
+      if (convertKeyToIndex(table[currentIndex]->key) == idealIndex)
+        lastIndexWithSameIdealIndex = currentIndex;
+      currentIndex = (currentIndex + 1) % capacity;
+    }
+    if(table[indexOfTheRemovedElement] == nullptr || table[indexOfTheRemovedElement]->key != key)
+      throw std::out_of_range("Key not found");
+    // mave the last element with the same key to the position of the removed element
+    delete table[indexOfTheRemovedElement];
+    table[indexOfTheRemovedElement] = table[lastIndexWithSameIdealIndex];
+    table[lastIndexWithSameIdealIndex] = nullptr;
+
+    // todo: shrink the table if it is too empty
+  }
+
+  ~Hashtable() {
+    for (size_t i = 0; i < size; i++) {
+      if (table[i] != nullptr)
+        delete table[i];
+    }
+    delete[] table;
+  }
+};
+
+struct MyHashableType {
+  int value;
+  size_t hash() const {
+    return value;
+  }
+  bool operator==(const MyHashableType& other) const {
+    return value == other.value;
+  }
+};
+
+int main() {
+  // keys shouldn't be modifiable, implement hash function and == operator
+  Hashtable<const MyHashableType, int> hashtable(5);
+  hashtable.insert(MyHashableType{0}, 0);
+  hashtable.insert(MyHashableType{1}, 1);
+  hashtable.insert(MyHashableType{2}, 2); // triggers resize
+  hashtable.insert(MyHashableType{10}, 10); // should be inserted in the same index as 1
+
+  std::cout << hashtable[MyHashableType{0}] << std::endl;
+  std::cout << hashtable[MyHashableType{1}] << std::endl;
+  std::cout << hashtable[MyHashableType{2}] << std::endl;
+  std::cout << hashtable[MyHashableType{10}] << std::endl; // should trigger linear search
+
+  hashtable.remove(MyHashableType{0}); // should trigger swap
+
+  std::cout << hashtable[MyHashableType{10}] << std::endl; // shauld not trigger linear search
+  return 0;
+}
+```
