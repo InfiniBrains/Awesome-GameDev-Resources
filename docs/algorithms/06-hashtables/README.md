@@ -484,7 +484,7 @@ public:
   }
 
   ~Hashtable() {
-    for (size_t i = 0; i < size; i++) {
+    for (size_t i = 0; i < capacity; i++) {
       if (table[i] != nullptr)
         delete table[i];
     }
