@@ -1,3 +1,10 @@
+## [1.18.20](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.19...v1.18.20) (2024-02-27)
+
+
+### Bug Fixes
+
+* comparison between linear probing vs chaining ([84b1f56](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/84b1f5649f100559595bf863ca45ce3098ff84b5))
+
 ## [1.18.19](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.18...v1.18.19) (2024-02-27)
 
 
