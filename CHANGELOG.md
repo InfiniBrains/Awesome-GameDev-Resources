@@ -1,3 +1,11 @@
+## [1.18.22](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.21...v1.18.22) (2024-02-27)
+
+
+### Bug Fixes
+
+* operators link ([03e539b](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/03e539b4bd3c4d55814867cc654ff2b8990df388))
+* typo ([4aa0deb](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/4aa0debfec657363cc18f31ac18402e8562f54f7))
+
 ## [1.18.21](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.20...v1.18.21) (2024-02-27)
 
 
