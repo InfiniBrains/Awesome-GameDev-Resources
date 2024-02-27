@@ -334,6 +334,8 @@ int main() {
 
 Open addressing is a method of collision resolution in hash tables. In this approach, each cell is not a pointer to the linked list of contents of that bucket, but instead contains a single key-value pair. In linear probing, when a collision occurs, the next cell is checked. If it is occupied, the next cell is checked, and so on, until an empty cell is found.
 
+![img_5.png](img_5.png) [source](https://www.slideshare.net/rajshreemuthiah/linear-probing) 
+
 The main advantage of open addressing is cache-friendliness. The main disadvantage is that it is more complex to implement, and it is not as efficient as linked lists when the table is too full. That's why we have to resize the table earlier, usually at 50% full, but at least 70% full.
 
 ![img_4.png](img_4.png) [source](https://en.wikipedia.org/wiki/File:Hash_table_average_insertion_time.png)
