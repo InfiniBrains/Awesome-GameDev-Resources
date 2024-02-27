@@ -440,24 +440,12 @@ public:
     }
 
     GameObject* NearestNeighbor(KDNode* node, Vector2f position, GameObject* best, float bestDistance, int dimensionId) {
-        if (node == nullptr) return best;
-        float distance = node->object->position.distanceSqrd(position);
-        if (distance < bestDistance) {
-            best = node->object;
-            bestDistance = distance;
-        }
-        if (position[dimensionId] < node->object->position[dimensionId]) {
-            best = NearestNeighbor(node->left, position, best, bestDistance, (dimensionId + 1) % 2);
-            if (position[dimensionId] + bestDistance >= node->object->position[dimensionId]) {
-                best = NearestNeighbor(node->right, position, best, bestDistance, (dimensionId + 1) % 2);
-            }
-        } else {
-            best = NearestNeighbor(node->right, position, best, bestDistance, (dimensionId + 1) % 2);
-            if (position[dimensionId] - bestDistance <= node->object->position[dimensionId]) {
-                best = NearestNeighbor(node->left, position, best, bestDistance, (dimensionId + 1) % 2);
-            }
-        }
-        return best;
+        // create your own Nearest Neighbor algorithm. That's not hard, just follow the rules
+        // 1. If the current node is null, return the best
+        // 2. If the current node is closer to the position, update the best
+        // 3. If the current node is closer to the position than the best, search the children
+        // 4. If the current node is not closer to the position than the best, search the children
+        // 5. Return the best
     }
 
     // draw the tree

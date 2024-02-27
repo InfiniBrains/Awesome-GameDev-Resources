@@ -57,89 +57,117 @@ The algorthims will keep dividing the array (in red) until it reaches the base c
 #include <vector>
 #include <queue>
 
-// Merge two sorted halves 
+// inplace merge without extra space
+template <typename T>
+requires std::is_arithmetic<T>::value // C++20
+void mergeInplace(std::vector<T>& arr, const size_t start, size_t mid,  const size_t end) {
+  size_t left = start;
+  size_t right = mid + 1;
+
+  while (left <= mid && right <= end) {
+    if (arr[left] <= arr[right]) {
+      left++;
+    } else {
+      T temp = arr[right];
+      for (size_t i = right; i > left; i--) {
+        arr[i] = arr[i - 1];
+      }
+      arr[left] = temp;
+      left++;
+      mid++;
+      right++;
+    }
+  }
+}
+
+// Merge two sorted halves
 template <typename T>
 requires std::is_arithmetic<T>::value // C++20
 void merge(std::vector<T>& arr, const size_t start, const size_t mid,  const size_t end) {
-    // create a temporary array to store the merged array
-    std::vector<T> temp(end - start + 1);
+  // create a temporary array to store the merged array
+  std::vector<T> temp(end - start + 1);
 
-    // indexes for the subarrays:
-    const size_t leftStart = start;
-    const size_t leftEnd = mid;
-    const size_t rightStart = mid + 1;
-    const size_t rightEnd = end;
+  // indexes for the subarrays:
+  const size_t leftStart = start;
+  const size_t leftEnd = mid;
+  const size_t rightStart = mid + 1;
+  const size_t rightEnd = end;
 
-    // indexes for 
-    size_t tempIdx = 0;
-    size_t leftIdx = leftStart;
-    size_t rightIdx = rightStart;
+  // indexes for
+  size_t tempIdx = 0;
+  size_t leftIdx = leftStart;
+  size_t rightIdx = rightStart;
 
-    // merge the subarrays
-    while (leftIdx <= leftEnd && rightIdx <= rightEnd) {
-        if (arr[leftIdx] < arr[rightIdx])
-            temp[tempIdx++] = arr[leftIdx++];
-        else
-            temp[tempIdx++] = arr[rightIdx++];
-    }
+  // merge the subarrays
+  while (leftIdx <= leftEnd && rightIdx <= rightEnd) {
+    if (arr[leftIdx] < arr[rightIdx])
+      temp[tempIdx++] = arr[leftIdx++];
+    else
+      temp[tempIdx++] = arr[rightIdx++];
+  }
 
-    // copy the remaining elements of the left subarray
-    while (leftIdx <= leftEnd)
-        temp[tempIdx++] = arr[leftIdx++];
+  // copy the remaining elements of the left subarray
+  while (leftIdx <= leftEnd)
+    temp[tempIdx++] = arr[leftIdx++];
 
-    // copy the remaining elements of the right subarray
-    while (rightIdx <= rightEnd)
-        temp[tempIdx++] = arr[rightIdx++];
+  // copy the remaining elements of the right subarray
+  while (rightIdx <= rightEnd)
+    temp[tempIdx++] = arr[rightIdx++];
 
-    // copy the merged array back to the original array
-    std::copy(temp.begin(), temp.end(), arr.begin() + start);
+  // copy the merged array back to the original array
+  std::copy(temp.begin(), temp.end(), arr.begin() + start);
 }
 
 // recursive mergesort
 template <typename T>
 requires std::is_arithmetic<T>::value // C++20
 void mergesortRecursive(std::vector<T>& arr,
-               size_t left,
-               size_t right) {
-    if (right - left > 0) {
-        size_t mid = (left + right) / 2;
-        mergesortRecursive(arr, left, mid);
-        mergesortRecursive(arr, mid+1, right);
-        merge(arr, left, mid, right);
-    }
+                        size_t left,
+                        size_t right) {
+  if (right - left > 0) {
+    size_t mid = (left + right) / 2;
+    mergesortRecursive(arr, left, mid);
+    mergesortRecursive(arr, mid+1, right);
+    merge(arr, left, mid, right);
+    // if the memory is limited, use the inplace merge at the cost of performance
+    // mergeInplace(arr, left, mid - 1, right - 1);
+  }
 }
 
 // interactive mergesort
 template <typename T>
 requires std::is_arithmetic<T>::value // C++20
 void mergesortInteractive(std::vector<T>& arr) {
-    for(size_t width = 1; width < arr.size(); width *= 2) {
-        for(size_t left = 0; left < arr.size(); left += 2 * width) {
-            size_t mid = std::min(left + width, arr.size());
-            size_t right = std::min(left + 2 * width, arr.size());
-            merge(arr, left, mid - 1, right - 1);
-        }
+  for(size_t width = 1; width < arr.size(); width *= 2) {
+    for(size_t left = 0; left < arr.size(); left += 2 * width) {
+      size_t mid = std::min(left + width, arr.size());
+      size_t right = std::min(left + 2 * width, arr.size());
+      merge(arr, left, mid - 1, right - 1);
+      // if the memory is limited, use the inplace merge at the cost of performance
+      // mergeInplace(arr, left, mid - 1, right - 1);
     }
+  }
 }
 
 
 int main() {
-    std::vector<int> arr1;
-    for(int i = 1000; i > 0; i--)
-        arr1.push_back(rand()%1000);
-    std::vector<int> arr2 = arr1;
-    
-    for(auto i: arr1) std::cout << i << " ";
+  std::vector<int> arr1;
+  for(int i = 1000; i > 0; i--)
+    arr1.push_back(rand()%1000);
+  std::vector<int> arr2 = arr1;
 
-    mergesortRecursive(arr1, 0, arr1.size() - 1);
-    for(auto i: arr1) std::cout << i << " ";
-    std::cout << std::endl;
+  for(auto i: arr1) std::cout << i << " ";
+  std::cout << std::endl;
 
-    mergesortInteractive(arr2);
-    for(auto i: arr2) std::cout << i << " ";
-    std::cout << std::endl;
+  mergesortRecursive(arr1, 0, arr1.size() - 1);
+  for(auto i: arr1) std::cout << i << " ";
+  std::cout << std::endl;
 
-    return 0;
+  mergesortInteractive(arr2);
+  for(auto i: arr2) std::cout << i << " ";
+  std::cout << std::endl;
+
+  return 0;
 }
 ```
 

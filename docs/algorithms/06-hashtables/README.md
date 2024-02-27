@@ -63,12 +63,12 @@ If the size of your key is less than the `size_t` you could just use the key cas
 
 ```c++
 struct MyCustomDataWith128Bits {
-  uint64_t a;
-  uint64_t b;
-  uint64_t c;
-  uint64_t d;
+  uint32_t a;
+  uint32_t b;
+  uint32_t c;
+  uint32_t d;
   size_t hash() const {
-    return a ^ b ^ c ^ d;
+    return (a << 32) ^ (b << 24) ^ (c << 16) ^ d;
   }
 };
 ```
@@ -114,6 +114,8 @@ For the sake of simplicity I will use the operator modulo to convert the hash in
 
 ## Collision resolution
 
+### Linked lists
+
 ![img_2.png](img_2.png)
 
 Assuming that your hash function is not perfect, you will have to deal with collisions. Two or more different keys could produce the same hash. There are plenty of ways to deal with that, but the easiest way is to use a linked list to store the key-value pairs that have the same hash.
@@ -123,7 +125,7 @@ Try to come up with your own strategy to deal with collisions.
 ![img_1.png](img_1.png)
 [source](https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/)
 
-### Key restrictions
+#### Key restrictions
 
 In order for the hash table to work, the key should be:
 
@@ -134,15 +136,18 @@ In order for the hash table to work, the key should be:
 In C++20 you can use the `concept` feature to enforce those restrictions.
 
 ```c++
-#include <iostream>
-
+// concept for a hash table
 template <typename T>
-concept HasHashFunction = // C++20 concept
-requires(T t) {
-    { t.hash() } -> std::convertible_to<size_t>;
-} && requires(T t, T u) {
-    { t == u } -> std::convertible_to<bool>;
-} && std::is_const_v<T>;
+concept HasHashFunction =
+requires(T t, T u) {
+  { t.hash() } -> std::convertible_to<std::size_t>;
+  { t == u } -> std::convertible_to<bool>;
+  std::is_const_v<T>;
+} || requires(T t, T u) {
+  { std::hash<T>{}(t) } -> std::convertible_to<std::size_t>;
+  { t == u } -> std::convertible_to<bool>;
+};
+
 
 int main() {
   struct MyHashableType {
@@ -154,14 +159,15 @@ int main() {
       return value == other.value;
     }
   };
-  static_assert(HasHashFunction<MyHashableType>);
+  static_assert(HasHashFunction<const MyHashableType>);
+  static_assert(HasHashFunction<int>);
   return 0;
 }
 ```
 
 But you can require more from the key if you are going to implement a more complex collision resolution strategy.
 
-## Implementation
+#### Hash table implementation with linked lists 
 
 ![kitten-cat.gif](kitten-cat.gif)
 
@@ -173,12 +179,15 @@ This implementation is naive and not efficient. It is just to give you an idea o
 // key should not be modifiable
 // implements hash function and implements == operator
 template <typename T>
-concept HasHashFunction = // C++20 concept
-requires(T t) {
-    { t.hash() } -> std::convertible_to<size_t>;
-} && requires(T t, T u) {
-    { t == u } -> std::convertible_to<bool>;
-} && std::is_const_v<T>;
+concept HasHashFunction =
+requires(T t, T u) {
+  { t.hash() } -> std::convertible_to<std::size_t>;
+  { t == u } -> std::convertible_to<bool>;
+  std::is_const_v<T>;
+} || requires(T t, T u) {
+  { std::hash<T>{}(t) } -> std::convertible_to<std::size_t>;
+  { t == u } -> std::convertible_to<bool>;
+};
 
 // hash table
 template <HasHashFunction K, typename V>
@@ -205,6 +214,8 @@ public:
     // the hashtable will start with a constant size. You can resize it if you want or use any other strategy
     // a good size is something similar to the number of elements you are going to store
     explicit Hashtable(size_t size) {
+        // you colud make it automatically resize and increase the complexity of the implementation 
+        // for the sake of simplicity I will not do that
         this->size = size;
         table = new HashtableNode*[size];
         for (size_t i = 0; i < size; i++) {
@@ -218,6 +229,7 @@ private:
 public:
     // inserts a new key value pair
     void insert(K key, V value) {
+        // you can optionally resize the table and rearrange the elements if the table is too full
         size_t index = convertKeyToIndex(key);
         auto* node = new HashtableNode(key, value);
         if (table[index] == nullptr) {
@@ -318,3 +330,6 @@ int main() {
 }
 ```
 
+### Open addressing with linear probing
+
+Open addressing is a method of collision resolution in hash tables. In this approach, each cell is not a pointer to the linked list of contents of that bucket, but instead contains a single key-value pair. In linear probing, when a collision occurs, the next cell is checked. If it is occupied, the next cell is checked, and so on, until an empty cell is found.
