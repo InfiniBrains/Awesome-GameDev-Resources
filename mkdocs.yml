@@ -46,7 +46,7 @@ nav:
           - Setup: advanced/01-introduction/setup.md
       - OOP: advanced/02-oop/README.md
       - Pointers: advanced/03-pointers/README.md
-      - Operators: advanced/04-operators/README.mdah m
+      - Operators: advanced/04-operators/README.md
   - Algorithms:
       - algorithms/README.md
       - Introduction to Algorithms: algorithms/01-introduction/README.md
