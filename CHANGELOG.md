@@ -1,3 +1,10 @@
+## [1.18.21](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.20...v1.18.21) (2024-02-27)
+
+
+### Bug Fixes
+
+* hashtable with open addressing with linear probing ([985bc29](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/985bc29014e4745f2bcd2be7fd6d58de8183fa68))
+
 ## [1.18.20](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.19...v1.18.20) (2024-02-27)
 
 
