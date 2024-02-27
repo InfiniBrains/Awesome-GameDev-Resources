@@ -1,3 +1,10 @@
+## [1.18.19](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.18...v1.18.19) (2024-02-27)
+
+
+### Bug Fixes
+
+* hashtables and divide and conquer ([d71beef](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/d71beef3412f770a5efd1f1cbd87fbf7a3ae92fc))
+
 ## [1.18.18](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.17...v1.18.18) (2024-02-21)
 
 
