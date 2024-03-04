@@ -1,3 +1,10 @@
+## [1.18.23](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.22...v1.18.23) (2024-03-04)
+
+
+### Bug Fixes
+
+* min-max for ai ([71c721f](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/71c721f8f7a8cc3813af526d036da4cfe4388e21))
+
 ## [1.18.22](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.21...v1.18.22) (2024-02-27)
 
 
