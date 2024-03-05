@@ -1,3 +1,10 @@
+## [1.18.25](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.24...v1.18.25) (2024-03-05)
+
+
+### Bug Fixes
+
+* char ending on algorithm queue & stack ([bb9bec0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/bb9bec0583314b980d4fcc49cbf4fa874fd9dbe3))
+
 ## [1.18.24](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.23...v1.18.24) (2024-03-05)
 
 
