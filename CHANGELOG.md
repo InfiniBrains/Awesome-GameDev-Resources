@@ -1,3 +1,10 @@
+## [1.18.24](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.23...v1.18.24) (2024-03-05)
+
+
+### Bug Fixes
+
+* stack and queue ([97a20ea](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/97a20eacc35acc254904fcdbc16ed2bb814f342c))
+
 ## [1.18.23](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.22...v1.18.23) (2024-03-04)
 
 
