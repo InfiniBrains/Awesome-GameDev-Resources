@@ -8,14 +8,18 @@ Min-Max algorithms shines in places where you will have to maximize the gain and
 
 ## Algorithm
 
-![min-max.gif](min-max.gif) [source](https://www.youtube.com/watch?v=l-hh51ncgDI)
+## Alpha beta prunning
 
-[//]: # (![img.png]&#40;img.png&#41; [source]&#40;https://en.wikipedia.org/wiki/File:AB_pruning.svg&#41;)
+### Alpha
 
+- Alpha is the best value that the maximizer currently can guarantee at that level or above.
+- It is the lower bound that a MAX node can be assigned.
+- MAX node will only update the value of alpha if it finds a value greater than alpha.
+- Starts at -∞.
 
-[//]: # (## Alpha beta pruning:)
+### Beta
 
-[//]: # ()
-[//]: # (![Minmaxab.gif]&#40;Minmaxab.gif&#41; [source]&#40;https://upload.wikimedia.org/wikipedia/en/7/79/Minmaxab.gif)
-
-[//]: # ()
+- Beta is the best value that the minimizer currently can guarantee at that level or above.
+- It is the upper bound that a MIN node can be assigned.
+- MIN node will only update the value of beta if it finds a value less than beta.
+- Starts at +∞.
