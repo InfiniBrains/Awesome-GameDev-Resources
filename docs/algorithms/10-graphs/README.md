@@ -1,6 +1,8 @@
 # Graph
 
-Graphs are a type of data structures that interconnects nodes (or vertices) with edges. They are used to model relationships between objects.
+Graphs are a type of data structures that interconnects nodes (or vertices) with edges. They are used to model relationships between objects. This is the basics for most AI algorithms, such as pathfinding, decision making, neuron networks, and others.
+
+![img_1.png](img_1.png)
 
 ## Basic Definitions
 
@@ -9,6 +11,8 @@ Graphs are a type of data structures that interconnects nodes (or vertices) with
 - **Neighbours** are the nodes that are connected to a specific node.
 - **Path** is the sequence of edges and nodes that allows you to go from one node to another.
 - **Degree** of a node is the number of edges connected to it.
+
+![img_2.png](img_2.png)
 
 ## Representation
 
@@ -75,18 +79,189 @@ vector<Node> nodes;
 - **Complete graph**: A graph where every pair of nodes is connected by a unique edge.
 - **Regular graph**: A graph where every node has the same degree.
 
+![img.png](img.png)
+
 ## Graph Algorithms
 
 ### Depth-First Search (DFS)
 
 DFS is a graph traversal algorithm based on a stack data structure. Basically, the algorithm starts at a node and explores as far as possible along each branch before backtracking. It is used to find connected components, determine the connectivity of the graph, and solve many other problems.
 
-<iframe scrolling="no" style="position:relative;top:0px;width:100%;height:500px;" src="https://www.cs.usfca.edu/~galles/visualization/DFS.html"></iframe>
-<a href="https://www.cs.usfca.edu/~galles/visualization/DFS.html">source</a>
+<a href="https://www.cs.usfca.edu/~galles/visualization/DFS.html">DFS visualization</a>
+
+```c++
+#include <iostream>
+#include <vector>
+#include <unordered_set>
+#include <unordered_map>
+#include <string>
+
+// graph is represented as an adjacency list
+std::unordered_map<std::string, std::unordered_set<std::string>> graph;
+std::unordered_set<std::string> visited;
+
+// dfs recursive version
+// it exploits the call stack to store the nodes to visit
+// you might want to use the iterative version if you have a large graph
+// for that, use std::stack data structure and producer-consumer pattern
+void dfs(const std::string& node) {
+  std::cout << node << std::endl;
+  visited.insert(node);
+  for (const auto& neighbor : graph[node])
+    if (!visited.contains(neighbor))
+      dfs(neighbor);
+}
+
+void dfs_interactive(const std::string& node) {
+  std::stack<std::string> stack;
+  // produce the first node
+  stack.push(node);
+  while (!stack.empty()) {
+    // consume the node
+    std::string current = stack.top();
+    stack.pop();
+    // avoid visiting the same node twice
+    if (visited.contains(current))
+      continue;
+    // mark as visited
+    visited.insert(current);
+
+    // visit the node
+    std::cout << current << std::endl;
+    
+    // produce the next node to visit
+    for (const auto& neighbor : graph[current]) {
+      if (!visited.contains(neighbor)) {
+        stack.push(neighbor);
+        break; // is this break necessary?
+      }
+    }
+  }
+}
+
+int main() {
+  std::cout << "Write one node string per line. When you are done, add an empty line." << std::endl;
+  std::string node;
+  while (std::getline(std::cin, node) && !node.empty())
+    graph[node] = {};
+  std::cout << "Write the edges as 'node1;node2'. When you are done, add an empty line." << std::endl;
+  std::string edge;
+  while (std::getline(std::cin, edge) && !edge.empty()) {
+    auto pos = edge.find(';');
+    // Bidirectional
+    std::string source = edge.substr(0, pos);
+    std::string destination = edge.substr(pos + 1);
+    graph[source].insert(destination);
+    graph[destination].insert(source);
+  }
+  std::cout << "Write the starting node." << std::endl;
+  std::string start;
+  std::cin >> start;
+  dfs(start);
+  return 0;
+}
+```
 
 ### Breadth-First Search (BFS)
 
 BFS is a graph traversal algorithm based on a queue data structure. It starts at a node and explores all of its neighbours before moving on to the next level of neighbours by enqueing them. It is used to find the shortest path, determine the connectivity of the graph, and others.
 
-<iframe scrolling="no" style="position:relative;top:0px;width:100%;height:500px;" src="https://www.cs.usfca.edu/~galles/visualization/BFS.html"></iframe>
-<a href="https://www.cs.usfca.edu/~galles/visualization/BFS.html">source</a>
+<a href="https://www.cs.usfca.edu/~galles/visualization/BFS.html">BFS visualization</a>
+
+```c++
+#include <iostream>
+#include <vector>
+#include <unordered_set>
+#include <unordered_map>
+#include <string>
+#include <queue>
+
+// graph is represented as an adjacency list
+std::unordered_map<std::string, std::unordered_set<std::string>> graph;
+std::unordered_set<std::string> visited;
+
+// bfs
+void bfs(const std::string& node) {
+  std::queue<std::string> queue;
+  // produce the first node
+  queue.push(node);
+  while (!queue.empty()) {
+    // consume the node
+    std::string current = queue.front();
+    queue.pop();
+    // avoid visiting the same node twice
+    if (visited.contains(current))
+      continue;
+    // mark as visited
+    visited.insert(current);
+
+    // visit the node
+    std::cout << current << std::endl;
+
+    // produce the next node to visit
+    for (const auto& neighbor : graph[current]) {
+      if (!visited.contains(neighbor))
+        queue.push(neighbor);
+    }
+  }
+}
+
+void dfs_interactive(const std::string& node) {
+  std::stack<std::string> stack;
+  // produce the first node
+  stack.push(node);
+  while (!stack.empty()) {
+    // consume the node
+    std::string current = stack.top();
+    stack.pop();
+    // avoid visiting the same node twice
+    if (visited.contains(current))
+      continue;
+    // mark as visited
+    visited.insert(current);
+
+    // visit the node
+    std::cout << current << std::endl;
+
+    // produce the next node to visit
+    for (const auto& neighbor : graph[current]) {
+      if (!visited.contains(neighbor)) {
+        stack.push(neighbor);
+        break; // is this break necessary?
+      }
+    }
+  }
+}
+
+int main() {
+  std::cout << "Write one node string per line. When you are done, add an empty line." << std::endl;
+  std::string node;
+  while (std::getline(std::cin, node) && !node.empty())
+    graph[node] = {};
+  std::cout << "Write the edges as 'node1;node2'. When you are done, add an empty line." << std::endl;
+  std::string edge;
+  while (std::getline(std::cin, edge) && !edge.empty()) {
+    auto pos = edge.find(';');
+    // Bidirectional
+    std::string source = edge.substr(0, pos);
+    std::string destination = edge.substr(pos + 1);
+    graph[source].insert(destination);
+    graph[destination].insert(source);
+  }
+  std::cout << "Write the starting node." << std::endl;
+  std::string start;
+  std::cin >> start;
+  // dfs(start);
+  dfs_interactive(start);
+  return 0;
+}
+```
+
+![img_3.png](img_3.png) [source](https://www.deviantart.com/eleew/art/Carl-Graph-Theory-D8-208366409)
+
+
+https://www.redblobgames.com/pathfinding/grids/graphs.html
+
+https://www.redblobgames.com/pathfinding/a-star/introduction.html
+
+https://qiao.github.io/PathFinding.js/visual/
