@@ -227,10 +227,10 @@ markdown_extensions:
 
 plugins:
 #  - mkdocs-revealjs
-  - social:
-      cards: true
-      cards_layout: default
-      enabled: true
+#  - social:
+#      cards: true
+#      cards_layout: default
+#      enabled: true
   - blog:
 #      blog_toc: true
 #      blog_authors: true
