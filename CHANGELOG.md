@@ -1,3 +1,12 @@
+## [1.18.26](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.25...v1.18.26) (2024-03-22)
+
+
+### Bug Fixes
+
+* add graphs - wip ([59c3ed5](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/59c3ed56792d058f6d0990241bdc1ced4690646c))
+* graph ([94f789c](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/94f789c0b3d9b27b0f107282b7205b4254d647c5))
+* mkdocs build problem with social plugin ([2c6bc79](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/2c6bc7970ce2f121d89f913565a8699694c957ba))
+
 ## [1.18.25](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.24...v1.18.25) (2024-03-05)
 
 
