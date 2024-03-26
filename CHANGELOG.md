@@ -1,3 +1,10 @@
+## [1.18.27](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.26...v1.18.27) (2024-03-26)
+
+
+### Bug Fixes
+
+* dijkstra ([a4a89fc](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/a4a89fc1457c67cce875b7727b24ce8f38af1be1))
+
 ## [1.18.26](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.25...v1.18.26) (2024-03-22)
 
 
