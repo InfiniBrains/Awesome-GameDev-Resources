@@ -61,7 +61,7 @@ nav:
       - Break: algorithms/09-break/README.md
       - Graphs: algorithms/10-graphs/README.md
       - Dijkstra: algorithms/11-dijkstra/README.md
-      - Prims: algorithms/12-prims/README.md
+      - Minimum Spanning Tree: algorithms/12-mst/README.md
       - Binary Search Tree: algorithms/13-bsp/README.md
       - Heap: algorithms/14-heap/README.md
       - Project: algorithms/15-project/README.md
