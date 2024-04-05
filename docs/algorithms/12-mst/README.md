@@ -11,6 +11,10 @@ The output of the algorithm is a set of edges that the sum of the weighs is the 
     - Find the edge with the minimum weight that connects a vertex in the MST to a vertex not in the MST;
     - Add the vertex from that edge to the MST;
 
+<p><a href="https://commons.wikimedia.org/wiki/File:PrimAlgDemo.gif#/media/File:PrimAlgDemo.gif"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/PrimAlgDemo.gif" alt="PrimAlgDemo.gif" height="323" width="314"></a> 
+
+By <a href="//commons.wikimedia.org/wiki/User:Shiyu_Ji" title="User:Shiyu Ji">Shiyu Ji</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=54420894">Link</a></p>
+
 ## Example
 
 Let's consider the following graph:
@@ -641,5 +645,10 @@ int MSP(const Graph& graph){
     accumulatedWeight += weight;
   }
   return accumulatedWeight;
+}
+
+// minimum spanning tree
+int main() {
+  return 0;
 }
 ```
