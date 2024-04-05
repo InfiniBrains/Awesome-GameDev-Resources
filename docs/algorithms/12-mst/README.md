@@ -571,8 +571,14 @@ There are many implementations for the Minimum Spanning Tree algorithm, here goe
 #include <utility>
 using namespace std;
 
+// rename optional<tuple<int, int, int>> to edge
+typedef optional<tuple<int, int, int>> Edge;
+
+// rename unordered_map<int, unordered_map<int, int>> to Graph
+typedef unordered_map<int, unordered_map<int, int>> Graph;
+
 // source, destination, weight
-optional<tuple<int, int, int>> findMinEdge(const unordered_map<int, unordered_map<int, int>>& graph, const unordered_map<int, unordered_map<int, int>>& mst){
+Edge findMinEdge(const Graph& graph, const Graph& mst){
   if(graph.empty())
     return nullopt;
   if(mst.empty()){
@@ -622,8 +628,8 @@ optional<tuple<int, int, int>> findMinEdge(const unordered_map<int, unordered_ma
 
 // returns the accumulated weight of the minimum spanning tree
 // the graph is represented as [source, destination] -> weight
-int MSP(unordered_map<int, unordered_map<int, int>> graph){
-  unordered_map<int, unordered_map<int, int>> mst;
+int MSP(const Graph& graph){
+  Graph mst;
   int accumulatedWeight = 0;
   while(true){
     auto edge = findMinEdge(graph, mst);
