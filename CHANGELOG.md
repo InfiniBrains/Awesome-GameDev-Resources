@@ -1,3 +1,10 @@
+## [1.18.28](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.27...v1.18.28) (2024-04-05)
+
+
+### Bug Fixes
+
+* MST ([38a8eb2](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/38a8eb25445858c321aaeba3e9b94d006eef2893))
+
 ## [1.18.27](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.26...v1.18.27) (2024-03-26)
 
 
