@@ -1,3 +1,10 @@
+## [1.18.33](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.32...v1.18.33) (2024-04-16)
+
+
+### Bug Fixes
+
+* heap ([7e86e90](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/7e86e90478c9df6d1a5d28d5b13760ff1e5e881d))
+
 ## [1.18.32](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.31...v1.18.32) (2024-04-16)
 
 
