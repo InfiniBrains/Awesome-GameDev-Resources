@@ -1,3 +1,10 @@
+# [1.19.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.33...v1.19.0) (2024-08-08)
+
+
+### Features
+
+* **support:** support button ([7cad0d7](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/7cad0d7f064dd57e68241cc34b731b609788b989))
+
 ## [1.18.33](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.32...v1.18.33) (2024-04-16)
 
 
