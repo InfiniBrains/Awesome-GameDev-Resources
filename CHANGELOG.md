@@ -1,3 +1,11 @@
+## [1.19.1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.19.0...v1.19.1) (2024-08-08)
+
+
+### Bug Fixes
+
+* **packages:** fix dependencies ([b01250b](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/b01250b06d1a404af4dcaaf18090dd8da059cb96))
+* **package:** update npm dependencias ([7b3dc0d](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/7b3dc0d1489e8542f3d0087b8ee2143e61160a7f))
+
 # [1.19.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.18.33...v1.19.0) (2024-08-08)
 
 
