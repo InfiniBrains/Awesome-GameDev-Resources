@@ -87,6 +87,8 @@ nav:
       - CV: portfolio/14-cv/README.md
   - Blog:
       - blog/index.md
+  - Support:
+      - support/50rs-button.md
 
 docs_dir: ./docs
 
