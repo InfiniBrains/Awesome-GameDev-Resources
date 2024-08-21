@@ -1,3 +1,10 @@
+# [1.20.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.19.1...v1.20.0) (2024-08-21)
+
+
+### Features
+
+* notes on neurodivergence ([0000a29](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/0000a2995a638d86d43daba5fed50660043d30c2))
+
 ## [1.19.1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.19.0...v1.19.1) (2024-08-08)
 
 
