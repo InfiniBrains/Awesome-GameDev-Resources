@@ -10,6 +10,8 @@ site_author: See contributors and authors at https://github.com/InfiniBrains/Awe
 
 nav:
   - Home: README.md
+  - Intro. Game Programming:
+      - introgameprog/README.md
   - AI:
       - artificialintelligence/README.md
       - Spatial Quantization: artificialintelligence/readings/spatial-quantization.md
