@@ -6,9 +6,9 @@ Students will be introduced to and familiarized with their roles as Game Program
 
 No requirements
  
-### Texbook
+### Textbook
 
-- No text books yet
+- No text books
 
 ## Student-centered Learning Outcomes
 
@@ -16,7 +16,6 @@ No requirements
   [![Bloom's Taxonomy](https://cdn.vanderbilt.edu/vu-wp0/wp-content/uploads/sites/59/2019/03/27124326/Blooms-Taxonomy-650x366.jpg){ loading=lazy width="600" }](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/)
   <figcaption><a href="https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/">Bloom's Taxonomy on Learning Outcomes</a></figcaption>
 </figure>
-
 
 Upon completion of the Intro to game programming, students should be able to:
 
@@ -43,188 +42,186 @@ I will grade the assignments in around 1 week. Except the late ones, that will b
 
 !!! warning
     
-    This is a work in progress, and the schedule is subject to change. Every change will be communicated in class. Use the github repo as the source of truth for the schedule and materials. The materials provided in canvas are just a copy for archiving purposes and might be outdated.
+    This is a work in progress, and the schedule is subject to change. Every change will be communicated in class. Use this github repo as the source of truth for the schedule and materials. The materials provided in canvas are just a copy for archiving purposes and might be outdated.
 
 College dates for the Spring 2024 semester:
 
-| Event                                    | Date              |
-|------------------------------------------| ----------------- |
-| Classes Begin                            | Aug. 26           |
-| Add/Drop                                 | Aug. 26 - 30      |
-| No Classes - College remains open        | Sept. 20          |
+| Event                                     | Date              |
+|-------------------------------------------|-------------------|
+| Classes Begin                             | Aug. 26           |
+| Add/Drop                                  | Aug. 26 - 30      |
+| No Classes - College remains open         | Sept. 20          |
 | Indigenous Peoples Day Holiday Observance | Oct. 14           |
-| Registration for Spring Classes          | Oct. 28 - Nov. 8  |
-| Last Day to Withdraw                     | Nov. 8            |
-| Thanksgiving Break                       | Nov. 25 - Nov. 29 |
-| Last Day of Classes                      | Dec. 6            |
-| Finals                                   | Dec. 9 - Dec. 13  |
-| Winter Break                             | Dec. 16 - Jan. 10 |
+| Registration for Spring Classes           | Oct. 28 - Nov. 8  |
+| Last Day to Withdraw                      | Nov. 8            |
+| Thanksgiving Break                        | Nov. 25 - Nov. 29 |
+| Last Day of Classes                       | Dec. 6            |
+| Finals                                    | Dec. 9 - Dec. 13  |
+| Winter Break                              | Dec. 16 - Jan. 10 |
 
+
+!!! note
+
+    This schedule is based on other's works, specially [Eric Winebredder](https://www.linkedin.com/in/ericwinebrenner/), [Scott Barret](https://www.linkedin.com/in/scbarrett/) and [Dean Lawson](https://www.linkedin.com/in/dean-lawson-5912901/). I am very grateful for their work and I am trying to adapt it to my own style. Please add them to your linkedin network, follow their work and say thanks to them for me!
 
 <div class="grid cards" markdown>
 
--   ### :beginner:{ .lg .middle } __Week 1__
-
-    ---
-
+- ### :beginner:{ .lg .middle } __Week 1__
+    
+    --- 
     - Week 1. 2024/08/26
-    - Topic:
+    - Topics: 
+        - Syllabus, Icebreakers. 
+        - Success in Game Development
     - Read:
     - Assignment:
+      - Interview a game developer
     - Quiz:
 
--   ### :beginner:{ .lg .middle } __Week 2__
+- ### :material-feature-search:{ .lg .middle } __Week 2__
 
     ---
-
     - Week 2. 2024/09/02
-    - Topic:
+    - Topics:
+        - Game Dev History 
     - Read:
-    - Assignment:
+    - Assignment: Game Tools Exploration 
     - Quiz:
 
--   ### :beginner:{ .lg .middle } __Week 3__
+- ### :train2:{ .lg .middle } __Week 3__
 
     ---
-
     - Week 3. 2024/09/09
-    - Topic:
+    - Topic: Game Development Fields
     - Read:
-    - Assignment:
+    - Assignment: Job Hunt
     - Quiz:
 
--   ### :beginner:{ .lg .middle } __Week 4__
+- ### :octicons-issue-opened-16:{ .lg .middle } __Week 4__
 
     ---
-
     - Week 4. 2024/09/16
-    - Topic:
+    - Topic: Game Industry Issues
     - Read:
-    - Assignment:
+    - Assignment: Research on Game Industry Issues 
     - Quiz:
 
--  ### :beginner:{ .lg .middle } __Week 5__
+- ### :octicons-issue-opened-16:{ .lg .middle } __Week 5__
 
     ---
-
     - Week 5. 2024/09/23
-    - Topic:
+    - Topic: Game Issues Work
     - Read:
-    - Assignment:
+    - Assignment: Game Issues Research
     - Quiz:
 
 
--   ### :beginner:{ .lg .middle } __Week 6__
+- ### :octicons-issue-opened-16:{ .lg .middle } __Week 6__
 
     ---
-
     - Week 6. 2024/09/30
-    - Topic:
+    - Topic: Game Issues Presentations
     - Read:
-    - Assignment:
+    - Assignment: Game Issues Presentation
     - Quiz:
 
 
--  ### :beginner:{ .lg .middle } __Week 7__
+- ### :simple-unity:{ .lg .middle } :simple-git:{ .lg .middle } __Week 7__
 
     ---
-
     - Week 7. 2024/10/07
-    - Topic:
+    - Topic: Unity + Git
     - Read:
-    - Assignment:
+    - Assignment: 
+        - Repo setup
+        - Git merge check
     - Quiz:
 
 
--  ### :beginner:{ .lg .middle } __Week 8__
+- ### :simple-unity:{ .lg .middle } __Week 8__
 
     ---
-
     - Week 8. 2024/10/14
-    - Topic:
+    - Topic: Unity + Git
     - Read:
-    - Assignment:
+    - Assignment: Simple Unity Project
     - Quiz:
 
-- ### :beginner:{ .lg .middle } __Week 9__
+- ### :brain:{ .lg .middle } __Week 9__
 
     ---
-
     - Week 9. 2024/10/21
-    - Topic:
+    - Topic: 
+        - Intro to Game Production Pipeline
+        - Tools for Brainstorming and Planning
     - Read:
-    - Assignment:
+    - Assignment: 
+        - Idea Prototyping
+        - Game Idea Presentation
     - Quiz:
 
-- ### :beginner:{ .lg .middle } __Week 10__
+- ### :bulb:{ .lg .middle } __Week 10__
 
     ---
-
     - Week 10. 2024/10/28
-    - Topic:
+    - Topic: Ideation Presentations
     - Read:
-    - Assignment:
+    - Assignment: Game Prototype
     - Quiz:
 
-- ### :beginner:{ .lg .middle } __Week 11__
+- ### :material-code-braces:{ .lg .middle } __Week 11__
 
     ---
-
     - Week 11. 2024/11/04
-    - Topic:
+    - Topic: Work sessions
     - Read:
-    - Assignment:
+    - Assignment: Game Prototype Checkpoint
     - Quiz:
 
-- ### :beginner:{ .lg .middle } __Week 12__ 
+- ### :material-code-braces:{ .lg .middle } __Week 12__ 
 
     ---
-
     - Week 12. 2024/11/11
-    - Topic:
+    - Topic: QA Testing
     - Read:
-    - Assignment:
+    - Assignment: Final Project Work
     - Quiz:
 
 
-- ### :beginner:{ .lg .middle } __Week 13__ 
+- ### :test_tube:{ .lg .middle } __Week 13__ 
 
     ---
-
     - Week 13. 2024/11/18
-    - Topic:
+    - Topic: QA Testing
     - Read:
-    - Assignment:
+    - Assignment: Final Project
     - Quiz:
 
-- ### :beginner:{ .lg .middle } __Week 14__ 
+- ### :test_tube:{ .lg .middle } __Week 14__ 
 
     ---
-
     - Week 14. 2024/11/25
-    - Topic:
+    - Topic: QA, Work sessions
     - Read:
-    - Assignment:
+    - Assignment: Final Project Presentations
     - Quiz:
 
 
-- ### :beginner:{ .lg .middle } __Week 15__ 
+- ### :material-publish:{ .lg .middle } __Week 15__ 
 
     ---
-
     - Week 15. 2024/12/02
-    - Topic:
+    - Topic: QA, Work sessions, How to publish
     - Read:
-    - Assignment:
+    - Assignment: Final Project Presentations
     - Quiz:
 
 
-- ### :beginner:{ .lg .middle } __Finals__ 
+- ### :material-presentation:{ .lg .middle } __Finals__ 
 
     ---
-
     - Week 16. 2024/12/09
-    - Topic:
+    - Topic: Presentations
     - Read:
     - Assignment:
     - Quiz:
