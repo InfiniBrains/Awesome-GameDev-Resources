@@ -1,3 +1,10 @@
+## [1.20.1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.0...v1.20.1) (2024-08-22)
+
+
+### Bug Fixes
+
+* intro game programming sylabus ([db9fd72](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/db9fd727e56518b054bcb0e5364bef8560d11a8f))
+
 # [1.20.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.19.1...v1.20.0) (2024-08-21)
 
 
