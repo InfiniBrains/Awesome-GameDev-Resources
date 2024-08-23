@@ -21,22 +21,32 @@ Upon completion of the Intro to game programming, students should be able to:
 
 ### Objective Outcomes
 
-- WiP
+- **Understanding Game Development Roles**: Students will be able to identify and describe the various disciplines and vocations within game programming, including different positions and fields within the industry.
+- **Exploration of Game Development Tools**: Students will gain familiarity with modern game development tools, including hands-on experience with game engines like Unity.
+- **Historical and Industry Contexts**: Students will understand the history of game development and current industry trends, challenges, and issues, enabling them to contextualize their work within the broader landscape of the game development industry.
+- **Practical Application through Projects**: Students will develop practical skills by working on game development projects, including prototyping, brainstorming, quality assurance (QA), and testing.
+- **Effective Communication and Presentation**: Students will practice and demonstrate their ability to effectively communicate and present their ideas and projects, both in written and oral formats.
+- **Insight into Game Development Success Factors**: Students will learn about the key skills and attributes that contribute to success in game development, including collaboration, creativity, and technical proficiency.
+- **Interaction with Industry Professionals**: Through interviews and discussions with game developers, students will gain insights into the day-to-day responsibilities and career paths of professionals in the game development industry.
+- **Introduction to Game Production**: Students will be introduced to the basics of game production, learning how to manage and contribute to game development projects from concept to completion.
 
 ## Late policy
 
 Every day late your maximum grade will be reduced by 1% up to 25 days, after that you will receive a flat 25% penalty.
 
-I will grade the assignments in around 1 week. Except the late ones, that will be graded in around 2 weeks.
+My goal is to grade the assignments no late than 1 week, but in exceptional cases where I am struggling with lots of submissions, it could take 2 weeks maximum (in my career it happened twice). Late submissions will be graded only once I finish grading all the others.
+
+If you have any accommodations and want to use your rights, or if you are facing any personal issues (no need to state what is it), I will grant extra time or grade fairly only if you send a comment on Canvas in the assignment before the deadline. Feel free to book meetings with me if you need to talk about it.
 
 ## DEI & Teaching Statement
 
-- I am a autistic L1 of support person, from Brazil and I am doing my best to be a good teacher;
-- I can clearly see many of your struggles because I do faced lots of learning issues too, but sometimes my empathy might run out, and you will have to help me to understand your issues so I can effectively help you;
-- Please be patient with me, and I will be patient with you. I am always open to listen to you and help you to succeed;
+- I am a autistic L1 person and I am doing my best to be a good teacher for you;
+- I am from Brazil and we are pretty diverse people, I will treat everyone with respect and I expect the same from you;
+- I can clearly understand many of your struggles, because I do faced lots of learning issues too, but sometimes my empathy might run out, and you will have to help me to understand your issues so I can effectively help you;
+- Please be patient with me, and I will be patient with you in return. I am always open to listen to you and help you to succeed;
 - I am very good at 1-1 support, so you are welcome to book weekly meetings with me to help you;
-- I am a very open person, so you can ask me anything, but I will not answer everything, but I will try to help you to find the answers.
-- If you feel that you are failing, please reach me out, I will do my best to help you to succeed.
+- I am a very open person, so you can ask me anything, but I will not answer everything, but I will try to help you to find the answers;
+- If you feel that you are failing, please reach me out, remember: I want you to succeed. Allow me to create contingency plans for you.
 
 ## Schedule for Fall 2024
 
