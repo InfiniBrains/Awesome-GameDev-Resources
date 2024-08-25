@@ -180,9 +180,9 @@ theme:
 #  plugin:
 #    path: reveal.js/plugin
 
-edit_uri: edit/main/
+edit_uri: edit/main/docs/
 
-copyright: Copyright &copy; 2023 Tolstenko, Game Guild Community and Others
+copyright: Copyright &copy; 2024 Tolstenko, Game Guild Community and Others
 
 markdown_extensions:
   - abbr
@@ -254,12 +254,12 @@ plugins:
         - tags
   - timetoread:
       wpm: 100
-#  - git-committers:
-#      repository: InfiniBrains/Awesome-GameDev-Resources
-#      branch: main
-#      docs_path: ./
-#      cache_dir: /tmp/cache/awesome-gamedev-resources
-  - git-authors
+  - git-committers:
+      repository: InfiniBrains/Awesome-GameDev-Resources
+      branch: main
+      docs_path: ./
+      cache_dir: /tmp/cache/awesome-gamedev-resources
+#  - git-authors
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true
