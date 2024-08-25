@@ -1,3 +1,10 @@
+## [1.20.3](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.2...v1.20.3) (2024-08-25)
+
+
+### Bug Fixes
+
+* git authors ([be97316](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/be9731626d8e874e3fabc4e4ee2f1b8a5dad42f7))
+
 ## [1.20.2](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.1...v1.20.2) (2024-08-23)
 
 
