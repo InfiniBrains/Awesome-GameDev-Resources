@@ -1,6 +1,6 @@
 # Awesome GameDev Resources
 
-!!! info inline end "Join is on Discord!"
+!!! info inline end "Join us on Discord!"
 
     <iframe src="https://discord.com/widget?id=956922983727915078&theme=dark" width="250" height="400" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
@@ -57,7 +57,7 @@ I would like to categorize the classes into philosophies. so I can address them 
     - My main issue here is that I am not a native english speaker, so I am still struggling with the language, but I am trying to improve.
     - Another issue that I can name is eye-to-eye contact. It feels overburning to me to keep eye-to-eye contact, so I usually look away.
 - Physical: You prefer using your body, hands and sense of touch;
-    - Given my cultural origin, I am usually over expressive in this field, and I need more fine tuning to my proxemic. Brazilians commonly talk and walk closer to each other than americans. 
+    - Given my cultural origin, I am usually over expressive in this field, and I need more fine tuning to my proxemics. Brazilians commonly talk and walk closer to each other than americans. 
     - While lecturing I really enjoy using my hands to express myself, and I am trying to use more body language to express myself.
 - Logical: You prefer using logic, reasoning and systems;
     - I always craft and test teaching experiences to push students to think and reason about the topics. 
@@ -77,11 +77,11 @@ For every type of style, I try to give a bit of insights:
 - Authoritative: control the classroom and maintain discipline; 
     - I create a set of rules that should be followed in order to guarantee the student's success; 
 - Delegator: give students control of their learning;
-    - For the intro classes I follow more this strategy;
+    - For the intro classes I follow this strategy more;
 - Facilitator: guide students and help them learn by themselves;
     - I usually follow this strategy on advanced classes;
 - Demonstrator: explain and show things to students;
-    - I usully provide a stream of references or even create my own content to show them how to do things;
+    - I usully provide a stream of references or even create my own content to show students how to do things;
 
 # Credits
 
