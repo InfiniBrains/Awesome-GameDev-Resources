@@ -59,7 +59,14 @@ College dates for the Fall 2024 semester:
     <hr>
     - Week 1. 2024/08/26
     - Topic: AI for games, review of basic AI techniques
-    - [Assignments](01-introduction/assignments.md)
+    - Assignments:
+        1. [Read the Syllabus](README.md);
+        2. [Read Notes on plagiarism](blog/posts/NotesOnSubmissions/NotesOnSubmissions.md);
+        3. [Sign FERPA Form](blog/posts/FerpaCompliance/FerpaCompliance.md);
+        4. Read Text Chapters 1 & 2 from AI for Games book;
+        5. Take the quiz on Canvas;
+        6. [Setup your machine and repository](./assignments/README.md);
+        6. Start the [Flocking Simulation](assignments/flocking/README.md);
 
 - ### :robot:{ .lg .middle } __Behavioral Agents__
   <hr>
@@ -77,13 +84,13 @@ College dates for the Fall 2024 semester:
 
 - ### :octicons-number-16:{ .lg .middle } __Random Numbers__
   <hr>
-    - Week 4. Date: 2023/09/16
+    - Week 4. Date: 2024/09/16
     - Topic: Pseudo Random Number Generation
     - Formal Assignment: [Formal](assignments/rng/README.md)
 
 - ### :material-walk:{ .lg .middle } __DFS__
   <hr>
-    - Week 5. 2023/09/23
+    - Week 5. 2024/09/23
     - Topic: Depth First Search, Random walk, Maze Generation
     - [Formal Assignment](assignments/maze/README.md)
     - [Interactive Assignment](https://github.com/InfiniBrains/mobagen/tree/master/examples/maze)

@@ -6,12 +6,12 @@ You can code this assignment in any language and/or game engine you want. But I 
 
 - (Preferred) Formal and automatically tested: [This current repo](https://github.com/InfiniBrains/Awesome-GameDev-Resources/tree/main/docs/artificialintelligence/assignments/flocking) 
 - (Funnier) Interactive with SDL2: [MoBaGEn](https://github.com/InfiniBrains/mobagen/tree/master/examples/flocking/behaviours)
-- (Hard-core) C++ with CMake: [SDL2-CPM-CMake-Example](https://github.com/InfiniBrains/SDL2-CPM-CMake-Example)
+- (Hard-core) C++ with CMake: [SDL2-CPM-CMake-Example](https://github.com/InfiniBrains/SDL2-CPM-CMake-Example) or create your own project from scratch by yourself or follow my [Naked SDL + CPM project](blog/posts/CppCmakeCPMandSDL3/CppCmakeCPMandSDL3.md).
 - I don't recommend using Game Engines for this specific assignment. Historically, students fail on the implementation of the double buffering and the math operations. But if you are confident, go ahead.
 
 !!! danger "Notes on imprecision"
 
-    The automated tests of the formal assignment might differ somehow because of floating point imprecison, so don't worry much. If you cannot make it pass 100% of the tests, explain how you tried to solve it and what you think is wrong. I will evaluate your code based on your explanation. 
+    The automated tests of the formal assignment may differ somehow because of floating point imprecison, so don't worry much. If you cannot make it pass 100% of the tests, explain how you tried to solve it and what you think is wrong. I will evaluate your code based on your explanation. 
     If you find an issue on my formal description or on the tests, send a PR and I will give you extra points.
 
 ## What is flocking?
