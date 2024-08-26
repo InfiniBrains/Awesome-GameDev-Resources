@@ -1,6 +1,6 @@
 # Awesome GameDev Resources
 
-!!! info inline end "Join is on Discord!"
+!!! info inline end "Join us on Discord!"
 
     <iframe src="https://discord.com/widget?id=956922983727915078&theme=dark" width="250" height="400" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
