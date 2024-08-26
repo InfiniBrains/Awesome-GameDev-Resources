@@ -1,3 +1,10 @@
+## [1.20.10](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.9...v1.20.10) (2024-08-26)
+
+
+### Bug Fixes
+
+* AI course name ([debb2ba](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/debb2ba03d4aa820b635f04abc434de236914138))
+
 ## [1.20.9](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.8...v1.20.9) (2024-08-26)
 
 
