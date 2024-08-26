@@ -1,3 +1,10 @@
+## [1.20.5](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.4...v1.20.5) (2024-08-26)
+
+
+### Bug Fixes
+
+* fix general hints on how to do the assignments ([ae34512](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/ae345128408db6ed8813a39dd77adca5fc17a37a))
+
 ## [1.20.4](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.3...v1.20.4) (2024-08-26)
 
 
