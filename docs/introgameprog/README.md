@@ -82,137 +82,102 @@ College dates for the Spring 2024 semester:
     - Topics: 
         - Syllabus, Icebreakers. 
         - Success in Game Development
-    - Read:
     - Assignment:
       - Interview a game developer
-    - Quiz:
 
 - ### :material-feature-search:{ .lg .middle } __Week 2__
-    <hr>
+  <hr>
     - Week 2. 2024/09/02
     - Topics:
-        - Game Dev History 
-    - Read:
-    - Assignment: Game Tools Exploration 
-    - Quiz:
+        - Game Dev History
+    - Assignment: Game Tools Exploration
 
 - ### :train2:{ .lg .middle } __Week 3__
-    <hr>
+  <hr>
     - Week 3. 2024/09/09
     - Topic: Game Development Fields
-    - Read:
     - Assignment: Job Hunt
-    - Quiz:
 
 - ### :octicons-issue-opened-16:{ .lg .middle } __Week 4__
-    <hr>
+  <hr>
     - Week 4. 2024/09/16
     - Topic: Game Industry Issues
-    - Read:
-    - Assignment: Research on Game Industry Issues 
-    - Quiz:
+    - Assignment: Research on Game Industry Issues
 
 - ### :octicons-issue-opened-16:{ .lg .middle } __Week 5__
-    <hr>
+  <hr>
     - Week 5. 2024/09/23
     - Topic: Game Issues Work
-    - Read:
     - Assignment: Game Issues Research
-    - Quiz:
-
 
 - ### :octicons-issue-opened-16:{ .lg .middle } __Week 6__
-    <hr>
+  <hr>
     - Week 6. 2024/09/30
     - Topic: Game Issues Presentations
-    - Read:
     - Assignment: Game Issues Presentation
-    - Quiz:
-
 
 - ### :simple-unity:{ .lg .middle } :simple-git:{ .lg .middle } __Week 7__
-    <hr>
+  <hr>
     - Week 7. 2024/10/07
     - Topic: Unity + Git
-    - Read:
     - Assignment: 
         - Repo setup
         - Git merge check
-    - Quiz:
-
 
 - ### :simple-unity:{ .lg .middle } __Week 8__
-    <hr>
+  <hr>
     - Week 8. 2024/10/14
     - Topic: Unity + Git
-    - Read:
     - Assignment: Simple Unity Project
-    - Quiz:
 
 - ### :brain:{ .lg .middle } __Week 9__
-    <hr>
+  <hr>
     - Week 9. 2024/10/21
     - Topic: 
         - Intro to Game Production Pipeline
         - Tools for Brainstorming and Planning
-    - Read:
     - Assignment: 
         - Idea Prototyping
         - Game Idea Presentation
-    - Quiz:
 
 - ### :bulb:{ .lg .middle } __Week 10__
-    <hr>
+  <hr>
     - Week 10. 2024/10/28
     - Topic: Ideation Presentations
-    - Read:
     - Assignment: Game Prototype
-    - Quiz:
 
 - ### :material-code-braces:{ .lg .middle } __Week 11__
-    <hr>
+  <hr>
     - Week 11. 2024/11/04
     - Topic: Work sessions
-    - Read:
     - Assignment: Game Prototype Checkpoint
-    - Quiz:
 
 - ### :material-code-braces:{ .lg .middle } __Week 12__ 
-    <hr>
+  <hr>
     - Week 12. 2024/11/11
     - Topic: QA Testing
-    - Read:
     - Assignment: Final Project Work
-    - Quiz:
-
 
 - ### :test_tube:{ .lg .middle } __Week 13__ 
-    <hr>
+  <hr>
     - Week 13. 2024/11/18
     - Topic: QA Testing
-    - Read:
     - Assignment: Final Project
-    - Quiz:
 
 - ### :no_entry_sign:{ .lg .middle } __Week 14__ 
-    <hr>
+  <hr>
     - Week 14. 2024/11/25
     - Topic: BREAK
 
 - ### :material-publish:{ .lg .middle } __Week 15__ 
-    <hr>
+  <hr>
     - Week 15. 2024/12/02
     - Topic: QA, Work sessions, How to publish
-    - Read:
     - Assignment: Final Project Presentations
-    - Quiz:
 
 - ### :material-presentation:{ .lg .middle } __Finals__ 
-    <hr>
+  <hr>
     - Week 16. 2024/12/09
     - Topic: Presentations
-    - Read:
-    - Assignment:
-    - Quiz:
 
 </div>
