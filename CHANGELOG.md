@@ -1,3 +1,10 @@
+## [1.20.8](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.7...v1.20.8) (2024-08-26)
+
+
+### Bug Fixes
+
+* Syllabus dates ([e50a11a](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/e50a11aa11997a1726bf418684a3ab4312465b65))
+
 ## [1.20.7](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.6...v1.20.7) (2024-08-26)
 
 
