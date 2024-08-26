@@ -1,6 +1,18 @@
-# Flocking agents behavior assignment
+# Flocking agents behavior formal assignment
 
 You are in charge of implementing some functions to make some AI agents flock together in a game. After finishing it, you will be one step further to render it in a game engine, and start making reactive NPCs and enemies. You will learn all the basic concepts needed to code and customize your own AI behaviors.
+
+You can code this assignment in any language and/or game engine you want. But I already crafted some boilerplates to maximize your efficiency. 
+
+- (Preferred) Formal and automatically tested: [This current repo](https://github.com/InfiniBrains/Awesome-GameDev-Resources/tree/main/docs/artificialintelligence/assignments/flocking) 
+- (Funnier) Interactive with SDL2: [MoBaGEn](https://github.com/InfiniBrains/mobagen/tree/master/examples/flocking/behaviours)
+- (Hard-core) C++ with CMake: [SDL2-CPM-CMake-Example](https://github.com/InfiniBrains/SDL2-CPM-CMake-Example)
+- I don't recommend using Game Engines for this specific assignment. Historically, students fail on the implementation of the double buffering and the math operations. But if you are confident, go ahead.
+
+!!! danger "Notes on imprecision"
+
+    The automated tests of the formal assignment might differ somehow because of floating point imprecison, so don't worry much. If you cannot make it pass 100% of the tests, explain how you tried to solve it and what you think is wrong. I will evaluate your code based on your explanation. 
+    If you find an issue on my formal description or on the tests, send a PR and I will give you extra points.
 
 ## What is flocking?
 

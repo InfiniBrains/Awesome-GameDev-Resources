@@ -31,11 +31,42 @@ Upon completion of the Advanced AI for Games, students should be able to:
 - **Integrate** advanced AI seamlessly into game systems for cohesive environments;
 - **Consider** societal impact and consequences of AI applications in gaming;
 
-## Schedule for Spring 2024
-
 !!! warning
-    
+
     This is a work in progress, and the schedule is subject to change. Every change will be communicated in class. Use the github repo as the source of truth for the schedule and materials. The materials provided in canvas are just a copy for archiving purposes and might be outdated.
+
+## Schedule for Fall 2024
+
+College dates for the Fall 2024 semester:
+
+| Event                                     | Date              |
+|-------------------------------------------|-------------------|
+| Classes Begin                             | Aug. 26           |
+| Add/Drop                                  | Aug. 26 - 30      |
+| No Classes - College remains open         | Sept. 20          |
+| Indigenous Peoples Day Holiday Observance | Oct. 14           |
+| Registration for Spring Classes           | Oct. 28 - Nov. 8  |
+| Last Day to Withdraw                      | Nov. 8            |
+| Thanksgiving Break                        | Nov. 25 - Nov. 29 |
+| Last Day of Classes                       | Dec. 6            |
+| Finals                                    | Dec. 9 - Dec. 13  |
+| Winter Break                              | Dec. 16 - Jan. 10 |
+
+
+<div class="grid cards" markdown>
+
+- ### :beginner:{ .lg .middle } __Introduction__
+    <hr>
+    - Week 1. 2024/01/15
+    - Topic: AI for games, review of basic AI techniques
+    - [Assignments](01-introduction/assignments.md)
+
+</div>
+
+--- 
+Old schedules for reference
+
+## Schedule for Spring 2024
 
 College dates for the Spring 2024 semester:
 
@@ -59,7 +90,6 @@ College dates for the Spring 2024 semester:
 -   ### :beginner:{ .lg .middle } __Introduction__
 
     ---
-
     - Week 1. 2024/01/15
     - Topic: AI for games, review of basic AI techniques 
     - Activities:
@@ -174,8 +204,7 @@ College dates for the Spring 2024 semester:
 </div>
 
 
---- 
-Old schedule for reference
+
 
 ## Schedule for Fall 2023
 
@@ -193,7 +222,7 @@ Relevant dates for the Fall 2023 semester:
 
     - Week 1. 2023/08/28
     - Topic: Introduction
-    - Formal Assignment: [Flocking at Beecrowd](assignments/flocking/README.md)
+    - Formal Assignment: [Flocking Formal](assignments/flocking/README.md)
     - Interactive Assignment: [Flocking at MoBaGEn](https://github.com/InfiniBrains/mobagen/tree/master/examples/flocking)
 
 -   ### :robot:{ .lg .middle } __Behavioral Agents__
@@ -325,4 +354,3 @@ Relevant dates for the Fall 2023 semester:
 slide test: [test](slides/test.md)
 
 
-LangChain

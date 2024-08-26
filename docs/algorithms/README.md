@@ -10,6 +10,8 @@ Students compare and contrast a variety of data structures. Students compare alg
 ### Textbook
 
 - Grokking Algorithms, Aditya Bhargava, Manning Publications, 2016. ISBN 978-1617292231
+    - [Champ link](https://library.champlain.edu/record=b2471451~S1)
+    - [Amazon](https://a.co/d/1g39FBY)
 
 ## Student-centered Learning Outcomes
 
