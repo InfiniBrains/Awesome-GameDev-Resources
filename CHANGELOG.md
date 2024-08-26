@@ -1,3 +1,10 @@
+## [1.20.4](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.3...v1.20.4) (2024-08-26)
+
+
+### Bug Fixes
+
+* flocking algorithm ([f4a7a77](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/f4a7a77bda0d4c3e298beb7fb034c54556710b06))
+
 ## [1.20.3](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.2...v1.20.3) (2024-08-25)
 
 
