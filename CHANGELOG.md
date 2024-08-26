@@ -1,3 +1,10 @@
+## [1.20.6](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.5...v1.20.6) (2024-08-26)
+
+
+### Bug Fixes
+
+* dates of AI classes ([f82a8da](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/f82a8dae33c335020907641b97a83e374be29c30))
+
 ## [1.20.5](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.4...v1.20.5) (2024-08-26)
 
 
