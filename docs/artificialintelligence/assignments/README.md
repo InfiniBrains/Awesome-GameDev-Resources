@@ -10,8 +10,8 @@
 
 There are two types of coding assignments:
 
-1. Algorithm: [Beecrowd](https://www.beecrowd.com.br/) - This is an automatic grading system, and I am still creating assignments for it. I will try my best to make it work through it. If it does not work, you could just submit the code on canvas and I will grade it manually. Those should solved using C++ :simple-cplusplus:;
-2. Interactive: For the interactive assignments you can choose whatever Game Engine you like, but I recommend you to use the framework I created for you: [MoBaGEn](https://github.com/InfiniBrains/mobagen). If you use a Game Engine or custom solution for that, you will have to create all debug interfaces to showcase and debug AI wich includes, but it is not limited to:
+1. Formal: Automatic grading system with automated tests. Some tests might not be fully working for you, talk with me if it doesnt work for you. Or just submit the code on canvas and I will grade it manually. Those should solved using C++ :simple-cplusplus:; It is done following [this repo](https://github.com/InfiniBrains/Awesome-GameDev-Resources);
+2. Interactive: For the interactive assignments you can choose whatever Game Engine you like, but I recommend you to use the framework I created for you: [MoBaGEn](https://github.com/InfiniBrains/mobagen). If you use a Game Engine or custom solution for that, you will have to create all debug interfaces to showcase and debug AI which includes, but it is not limited to:
 
     - Draw vectors to show forces applied by the AI;
     - Menus to change AI parameters;
@@ -24,7 +24,7 @@ There are two types of coding assignments:
 
 !!! warning inline end
 
-    If you are a enrolled in a class that uses this material, you SHOULD use the institutional and internal git server to be [FERPA](https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html) compliant. If you want to use part of this assignments to build your portfolio I recommend you to use github and make only the interactive assignment public. If you are just worried about privacy concerns, you can use a private repo on github.
+    If you are a enrolled in a class that uses this material, you SHOULD use the institutional and internal git server to be [FERPA](https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html) compliant. If you want to use part of this assignments to build your portfolio I recommend you to use github and make only the webgl build public. If you are just worried about privacy concerns, you can use a private repo on github.
 
 1. Create an account on github.com or any `git` hosting on your preference;
 2. Fork repos or duplicate the target repo on your account; 
@@ -37,7 +37,7 @@ There are two types of coding assignments:
 
 ## Recordings
 
-In all interactive assignmets, you will have to record a 5 minute video explaing your code. Use [OBS](https://obsproject.com/) or any software you prefer to record your screen while you explain your code. But for this one, just send me the video showing the repo and the repo invites sent to me.
+In all interactive assignments, you will have to record a 5 minute video explaining your code. Use [OBS](https://obsproject.com/) or any software you prefer to record your screen while you explain your code. But for this one, just send me the video showing the repo and the repo invites sent to me.
 
 ## Development tools
 
@@ -56,16 +56,16 @@ If you want to use `Visual Studio` :simple-visualstudio:, be assured that you ha
 
 [OPINION]: If you want to use a lightweight environment, don't use VS Code for C++ development. Period. It is not a good IDE for that. It is preferred to code via sublime, notepad, vim, or any other text editor and then compile your code via terminal, and debug via gdb, than using VS Code for C++ development.
 
-### Openning the Repos
+### Opening the Repos
 
-1. (Fork and) clone the repos;
+1. Fork and clone the repos. [Make it private](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility#changing-a-repositorys-visibility);
 2. Open `CLion` :simple-clion: or yor preferred `IDE` with `CMake` :simple-cmake: support;
 3. Open the `CMakeLists.txt` as project from the root of the repo;
 4. Wait for the setup to finish (it will download the dependencies automatically, such as `SDL`);
 
 For the interactive assignments, use this [repo](https://github.com/InfiniBrains/mobagen) and the assignments are located in the `examples` folder.
 
-For the algorithmic assignments, use this [repo](https://github.com/InfiniBrains/Awesome-GameDev-Resources) and the assignments are located in the `courses/artificialintelligence/assignments` folder. I created some automated tests to help you debug your code and ensure 100% of correctness. To run them, follow the steps (only available though `CLion` :simple-clion: or terminal, not `Visual Studio` :simple-visualstudio:):
+For the algorithmic assignments, use this [repo](https://github.com/InfiniBrains/Awesome-GameDev-Resources) and the assignments are located in the `docs/artificialintelligence/assignments` folder. I created some automated tests to help you debug your code and ensure 100% of correctness. To run them, follow the steps (only available though `CLion` :simple-clion: or terminal, not `Visual Studio` :simple-visualstudio:):
 
 1. Go to the executable drop down selection (top right, near the green `run` :material-play: or `debug` :material-bug: button) and select the assignment you want to run. It will be something like `ai-XXX` where `XXX` is the name of the assignment;
 2. If you want to test your assignment against the automated inputs/outputs, select the `ai-XXX-test` build target. Here you should use the `build` :fontawesome-solid-hammer: button, not the `run` :material-play: or `debug` :material-bug: button. It will run the tests and show the results in the `Console` :material-console: tab;
