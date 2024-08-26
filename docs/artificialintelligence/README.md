@@ -57,9 +57,103 @@ College dates for the Fall 2024 semester:
 
 - ### :beginner:{ .lg .middle } __Introduction__
     <hr>
-    - Week 1. 2024/01/15
+    - Week 1. 2024/08/26
     - Topic: AI for games, review of basic AI techniques
     - [Assignments](01-introduction/assignments.md)
+
+- ### :robot:{ .lg .middle } __Behavioral Agents__
+    <hr>
+    - Week 2. 2024/09/02
+    - Topic: [Flocking](https://docs.google.com/presentation/d/1OBEY-tb_ubgoq6Mk9lEsCFaYLINni3oPwjH8iAXEQQM/edit?usp=sharing)
+    - [Formal Assignment](assignments/flocking/README.md)
+    - [Interactive Assignment](https://github.com/InfiniBrains/mobagen/tree/master/examples/flocking)
+
+- ### :material-grid:{ .lg .middle } __Finite Automata__
+    <hr>
+    - Week 3. 2024/09/09
+    - Topic: Automata Finite and 2D Grids
+    - [Formal Assignment](assignments/life/README.md)
+    - [Interactive Assignment](https://github.com/InfiniBrains/mobagen/tree/master/examples/life)
+
+- ### :octicons-number-16:{ .lg .middle } __Random Numbers__
+    <hr>
+    - Week 4. Date: 2023/09/16
+    - Topic: Pseudo Random Number Generation
+    - Formal Assignment: [Formal](assignments/rng/README.md)
+
+- ### :material-walk:{ .lg .middle } __DFS__
+    <hr>
+    - Week 5. 2023/09/23
+    - Topic: Depth First Search, Random walk, Maze Generation
+    - [Formal Assignment](assignments/maze/README.md)
+    - [Interactive Assignment](https://github.com/InfiniBrains/mobagen/tree/master/examples/maze)
+
+- ### :octicons-search-16:{ .lg .middle } __Path finding__
+    <hr> 
+    - Week 6. 2024/09/30
+    - Topic: Breadth First Search and Path Finding A*
+    - Interactive Assignment: [Catch the Cat](https://github.com/InfiniBrains/mobagen/tree/master/examples/catchthecat)
+
+- ### :warning:{ .lg .middle } __Midterms__
+    <hr>
+    - Week 7. Date: 2024/10/07
+    - Topic: Catch the Cat Challenge and Competition
+    - [Catch the Cat](https://github.com/InfiniBrains/mobagen/tree/master/examples/catchthecat)
+
+- ### :simple-shadow:{ .lg .middle } __Spatial Quantization__
+    <hr>
+    - Week 8. 2024/10/14
+    - Topic: Spatial Quantization and Partitioning
+    - Readings: [Spatial Quantization](readings/spatial-quantization.md)
+    - Formal Assignment: Hide and Seek
+
+- ### :simple-shadow:{ .lg .middle } __Spatial Quantization__
+    <hr>
+    - Week 9. 2024/10/21
+    - Topic: Spatial Quantization and Partitioning
+    - Readings: [Spatial Quantization](readings/spatial-quantization.md)
+    - Formal Assignment: Hide and Seek
+
+- ### :material-sine-wave:{ .lg .middle } __Noise Functions__
+    <hr>
+    - Week 10. 2024/10/28
+    - Topic: Noise functions
+    - Formal Assignment:
+    - Interactive Assignment: [Scenario Generation](https://github.com/InfiniBrains/mobagen/tree/master/examples/scenario)
+
+- ### :rice_scene:{ .lg .middle } __Procedural Generation__
+    <hr>
+    - Week 11. 2024/11/04
+    - Topic: Procedural Content Generation - Scenario
+    - Formal Assignment:
+    - Interactive Assignment: [Scenario Generation](https://github.com/InfiniBrains/mobagen/tree/master/examples/scenario)
+
+- ### :rice_scene:{ .lg .middle } __Procedural Generation__
+    <hr>
+    - Week 12. 2024/11/11
+    - Topic: Procedural Content Generation - Scenario
+    - Formal Assignment:
+    - Interactive Assignment: [Scenario Generation](https://github.com/InfiniBrains/mobagen/tree/master/examples/scenario)
+
+- ### :factory_worker:{ .lg .middle } __Break__
+    <hr>
+    - Week 13. 2023/11/18
+    - Topic: Work sessions for final project
+
+- ### :material-calendar-weekend:{ .lg .middle } __Work sessions__
+    <hr>
+    - Week 14. 2024/11/25
+    - Topic: BREAK. No classes
+
+- ### :factory_worker:{ .lg .middle } __Work sessions__
+    <hr>
+    - Week 15. 2024/12/02
+    - Topic: Work sessions for final project
+
+- ### :material-presentation:{ .lg .middle } __Finals__
+    <hr>
+    - Week 16. 2024/12/09
+    - Topic: Final Presentations
 
 </div>
 
@@ -350,7 +444,5 @@ Relevant dates for the Fall 2023 semester:
     - Topic: Final Presentations
 
 </div>
-
-slide test: [test](slides/test.md)
 
 

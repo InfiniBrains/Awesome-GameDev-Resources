@@ -77,8 +77,7 @@ College dates for the Spring 2024 semester:
 <div class="grid cards" markdown>
 
 - ### :beginner:{ .lg .middle } __Week 1__
-    
-    --- 
+    <hr> 
     - Week 1. 2024/08/26
     - Topics: 
         - Syllabus, Icebreakers. 
@@ -89,8 +88,7 @@ College dates for the Spring 2024 semester:
     - Quiz:
 
 - ### :material-feature-search:{ .lg .middle } __Week 2__
-
-    ---
+    <hr>
     - Week 2. 2024/09/02
     - Topics:
         - Game Dev History 
@@ -99,8 +97,7 @@ College dates for the Spring 2024 semester:
     - Quiz:
 
 - ### :train2:{ .lg .middle } __Week 3__
-
-    ---
+    <hr>
     - Week 3. 2024/09/09
     - Topic: Game Development Fields
     - Read:
@@ -108,8 +105,7 @@ College dates for the Spring 2024 semester:
     - Quiz:
 
 - ### :octicons-issue-opened-16:{ .lg .middle } __Week 4__
-
-    ---
+    <hr>
     - Week 4. 2024/09/16
     - Topic: Game Industry Issues
     - Read:
@@ -117,8 +113,7 @@ College dates for the Spring 2024 semester:
     - Quiz:
 
 - ### :octicons-issue-opened-16:{ .lg .middle } __Week 5__
-
-    ---
+    <hr>
     - Week 5. 2024/09/23
     - Topic: Game Issues Work
     - Read:
@@ -127,8 +122,7 @@ College dates for the Spring 2024 semester:
 
 
 - ### :octicons-issue-opened-16:{ .lg .middle } __Week 6__
-
-    ---
+    <hr>
     - Week 6. 2024/09/30
     - Topic: Game Issues Presentations
     - Read:
@@ -137,8 +131,7 @@ College dates for the Spring 2024 semester:
 
 
 - ### :simple-unity:{ .lg .middle } :simple-git:{ .lg .middle } __Week 7__
-
-    ---
+    <hr>
     - Week 7. 2024/10/07
     - Topic: Unity + Git
     - Read:
@@ -149,8 +142,7 @@ College dates for the Spring 2024 semester:
 
 
 - ### :simple-unity:{ .lg .middle } __Week 8__
-
-    ---
+    <hr>
     - Week 8. 2024/10/14
     - Topic: Unity + Git
     - Read:
@@ -158,8 +150,7 @@ College dates for the Spring 2024 semester:
     - Quiz:
 
 - ### :brain:{ .lg .middle } __Week 9__
-
-    ---
+    <hr>
     - Week 9. 2024/10/21
     - Topic: 
         - Intro to Game Production Pipeline
@@ -171,8 +162,7 @@ College dates for the Spring 2024 semester:
     - Quiz:
 
 - ### :bulb:{ .lg .middle } __Week 10__
-
-    ---
+    <hr>
     - Week 10. 2024/10/28
     - Topic: Ideation Presentations
     - Read:
@@ -180,8 +170,7 @@ College dates for the Spring 2024 semester:
     - Quiz:
 
 - ### :material-code-braces:{ .lg .middle } __Week 11__
-
-    ---
+    <hr>
     - Week 11. 2024/11/04
     - Topic: Work sessions
     - Read:
@@ -189,8 +178,7 @@ College dates for the Spring 2024 semester:
     - Quiz:
 
 - ### :material-code-braces:{ .lg .middle } __Week 12__ 
-
-    ---
+    <hr>
     - Week 12. 2024/11/11
     - Topic: QA Testing
     - Read:
@@ -199,37 +187,28 @@ College dates for the Spring 2024 semester:
 
 
 - ### :test_tube:{ .lg .middle } __Week 13__ 
-
-    ---
+    <hr>
     - Week 13. 2024/11/18
     - Topic: QA Testing
     - Read:
     - Assignment: Final Project
     - Quiz:
 
-- ### :test_tube:{ .lg .middle } __Week 14__ 
-
-    ---
+- ### :no_entry_sign:{ .lg .middle } __Week 14__ 
+    <hr>
     - Week 14. 2024/11/25
-    - Topic: QA, Work sessions
-    - Read:
-    - Assignment: Final Project Presentations
-    - Quiz:
-
+    - Topic: BREAK
 
 - ### :material-publish:{ .lg .middle } __Week 15__ 
-
-    ---
+    <hr>
     - Week 15. 2024/12/02
     - Topic: QA, Work sessions, How to publish
     - Read:
     - Assignment: Final Project Presentations
     - Quiz:
 
-
 - ### :material-presentation:{ .lg .middle } __Finals__ 
-
-    ---
+    <hr>
     - Week 16. 2024/12/09
     - Topic: Presentations
     - Read:
