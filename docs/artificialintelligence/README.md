@@ -6,7 +6,7 @@ Students with a firm foundation in the basic techniques of artificial intelligen
 
 - Artificial Intelligence for Games
 
-### Texbook
+### Textbook
 
 - AI for Games, Third Edition: 9781138483972: Millington, Ian
 
