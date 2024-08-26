@@ -1,4 +1,4 @@
-# Advanced Artificial Intelligence
+# Artificial Intelligence
 
 Students with a firm foundation in the basic techniques of artificial intelligence for games will apply their skills to program advanced pathfinding algorithms, artificial opponents, scripting tools and other real-time drivers for non-playable agents. The goal of the course is to provide finely-tuned artificial competition for players using all the rules followed by a human.
 
