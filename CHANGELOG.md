@@ -1,3 +1,10 @@
+## [1.20.9](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.8...v1.20.9) (2024-08-26)
+
+
+### Bug Fixes
+
+* broken links in AI course ([c453b51](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/c453b513640253b70c28cd373cf152348e63cef6))
+
 ## [1.20.8](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.7...v1.20.8) (2024-08-26)
 
 
