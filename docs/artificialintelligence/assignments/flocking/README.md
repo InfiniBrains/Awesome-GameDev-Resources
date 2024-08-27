@@ -6,7 +6,7 @@ You can code this assignment in any language and/or game engine you want. But I 
 
 - (Preferred) Formal and automatically tested: [This current repo](https://github.com/InfiniBrains/Awesome-GameDev-Resources/tree/main/docs/artificialintelligence/assignments/flocking) 
 - (Funnier) Interactive with SDL2: [MoBaGEn](https://github.com/InfiniBrains/mobagen/tree/master/examples/flocking/behaviours)
-- (Hard-core) C++ with CMake: [SDL2-CPM-CMake-Example](https://github.com/InfiniBrains/SDL2-CPM-CMake-Example) or create your own project from scratch by yourself or follow my [Naked SDL + CPM project](blog/posts/CppCmakeCPMandSDL3/CppCmakeCPMandSDL3.md).
+- (Hard-core) C++ with CMake: [SDL2-CPM-CMake-Example](https://github.com/InfiniBrains/SDL2-CPM-CMake-Example) or create your own project from scratch by yourself or follow my [Naked SDL + CPM project](../../blog/posts/CppCmakeCPMandSDL3/CppCmakeCPMandSDL3.md).
 - I don't recommend using Game Engines for this specific assignment. Historically, students fail on the implementation of the double buffering and the math operations. But if you are confident, go ahead.
 
 !!! danger "Notes on imprecision"

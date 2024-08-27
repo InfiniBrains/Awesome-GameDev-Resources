@@ -39,7 +39,148 @@ Upon completion of the Data Structures and Algorithms course in C++, students sh
 - Investigate and compare the merits and drawbacks of brute-force and divide-and-conquer sorting algorithms, including quicksort, mergesort, and insertion sort, in order to make informed choices when selecting sorting techniques for specific scenarios.
 - Examine and compare the characteristics, advantages, and limitations of sequential, binary, depth-first, and breadth-first search algorithms, demonstrating the ability to choose the most suitable search strategy based on problem requirements.
 
-## Schedule
+## Schedule for Fall 2024
+
+!!! warning
+
+    This is a work in progress, and the schedule is subject to change. Every change will be communicated in class. Use this github repo as the source of truth for the schedule and materials. The materials provided in canvas are just a copy for archiving purposes and might be outdated.
+
+College dates for the Spring 2024 semester:
+
+| Event                                     | Date              |
+|-------------------------------------------|-------------------|
+| Classes Begin                             | Aug. 26           |
+| Add/Drop                                  | Aug. 26 - 30      |
+| No Classes - College remains open         | Sept. 20          |
+| Indigenous Peoples Day Holiday Observance | Oct. 14           |
+| Registration for Spring Classes           | Oct. 28 - Nov. 8  |
+| Last Day to Withdraw                      | Nov. 8            |
+| Thanksgiving Break                        | Nov. 25 - Nov. 29 |
+| Last Day of Classes                       | Dec. 6            |
+| Finals                                    | Dec. 9 - Dec. 13  |
+| Winter Break                              | Dec. 16 - Jan. 10 |
+
+<div class="grid cards" markdown>
+
+-   ### :beginner:{ .lg .middle } __Introduction__
+
+    ---
+
+    - Week 1. 2024/08/26
+    - Topic: Introduction to Data Structures and Algorithms
+    - Activities:
+        - [Introduction](01-introduction/README.md)
+        - Read all materials shared on Canvas;
+        - Do all assignments on Canvas;
+
+-   ### :bar_chart:{ .lg .middle } __Algorithm Analysis__
+
+    ---
+
+    - Week 2. 2024/00/02
+    - Topic: [Algorithm Analysis](02-analysis/README.md)
+
+-   ### :material-code-array:{ .lg .middle } __Dynamic Data__
+
+    ---
+
+    - Week 3. 2024/09/09
+    - Topic: Array, Linked Lists, Dynamic Arrays
+
+-   ### :material-sort:{ .lg .middle } __Sorting__
+
+    ---
+
+    - Week 4. Date: 2024/09/16
+    - Topic: Bubble Sort, Selection Sort and Insertion Sort
+
+-   ### :material-call-split:{ .lg .middle } __Divide & Conquer__
+
+    ---
+
+    - Week 5. 2024/09/23
+    - Topic: Merge Sort and Quick Sort
+
+-   ### :hash:{ .lg .middle } __Hashtables__
+
+    ---
+
+    - Week 6. 2024/09/30
+    - Topic: Hashtables
+
+-   ### :warning:{ .lg .middle } __Midterms__
+
+    ---
+
+    - Week 7. 2024/10/07
+    - Topic: Midterms
+
+-   ### :octicons-stack-16:{ .lg .middle } __Stacks & Queues__
+
+    ---
+
+    - Week 8. 2024/10/14
+    - Topic: Stacks and Queues
+
+-   ### :fontawesome-solid-circle-nodes:{ .lg .middle } __Graphs__
+
+    ---
+
+    - Week 9. 2024/10/21
+    - Topic: Graphs
+
+-   ### :octicons-search-16:{ .lg .middle } __Dijkstra__
+
+    ---
+
+    - Week 10. 2024/10/28
+    - Topic: Dijkstra
+
+-   ### :octicons-search-16:{ .lg .middle } __Prim & Jarnik__
+
+    ---
+
+    - Week 11. 2024/11/04
+    - Topic: Prim's and Jarnik's Algorithm
+
+-   ### :fontawesome-solid-arrows-split-up-and-left:{ .lg .middle } __BST__
+
+    ---
+
+    - Week 12. 2024/11/11
+    - Topic: Binary Search Trees
+
+-   ### :material-sort-clock-ascending:{ .lg .middle } __Heap and Priority queue__
+
+    ---
+
+    - Week 13. 2024/11/18
+    - Topic: Heap and Priority Queues
+
+-   ### :material-calendar-weekend:{ .lg .middle } __Break__
+
+    ---
+
+    - Week 14. 2024/11/25
+    - Topic: BREAK. No classes this week.
+
+-   ### :material-presentation::factory_worker:{ .lg .middle } __Project Presentation__
+
+    ---
+
+    - Week 15. 2024/12/02
+    - Topic: Work sessions for final project and presentations
+
+-   ### :warning:{ .lg .middle } __Finals__
+
+    ---
+
+    - Week 16. 2024/12/09
+    - Topic: Finals Week
+
+</div>
+
+## Schedule for Spring 2024
 
 !!! warning
 

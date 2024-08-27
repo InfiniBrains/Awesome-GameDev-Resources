@@ -61,12 +61,12 @@ College dates for the Fall 2024 semester:
     - Topic: AI for games, review of basic AI techniques
     - Assignments:
         1. [Read the Syllabus](README.md);
-        2. [Read Notes on plagiarism](blog/posts/NotesOnSubmissions/NotesOnSubmissions.md);
-        3. [Sign FERPA Form](blog/posts/FerpaCompliance/FerpaCompliance.md);
+        2. [Read Notes on plagiarism](../blog/posts/NotesOnSubmissions/NotesOnSubmissions.md);
+        3. [Sign FERPA Form](../blog/posts/FerpaCompliance/FerpaCompliance.md);
         4. Read Text Chapters 1 & 2 from AI for Games book;
         5. Take the quiz on Canvas;
         6. [Setup your machine and repository](./assignments/README.md);
-        6. Start the [Flocking Simulation](assignments/flocking/README.md);
+        6. Start the [Flocking Simulation](.assignments/flocking/README.md);
 
 - ### :robot:{ .lg .middle } __Behavioral Agents__
   <hr>

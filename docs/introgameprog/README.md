@@ -83,7 +83,7 @@ College dates for the Spring 2024 semester:
         - Syllabus, Icebreakers. 
         - Success in Game Development
     - Assignment:
-      - Interview a game developer
+      - Interview a game programmer
 
 - ### :material-feature-search:{ .lg .middle } __Week 2__
   <hr>
