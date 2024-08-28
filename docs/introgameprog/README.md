@@ -32,21 +32,21 @@ Upon completion of the Intro to game programming, students should be able to:
 
 ## Late policy
 
-Every day late your maximum grade will be reduced by 1% up to 25 days, after that you will receive a flat 25% penalty.
+Every day an assignment is late your maximum grade will be reduced by 1% up to 25 days, after that you will receive a flat 25% penalty.
 
-My goal is to grade the assignments no late than 1 week, but in exceptional cases where I am struggling with lots of submissions, it could take 2 weeks maximum (in my career it happened twice). Late submissions will be graded only once I finish grading all the others.
+My goal is to grade the assignments no later than 1 week after submission, but in exceptional cases where I am struggling with lots of submissions, it could take 2 weeks maximum (in my career this has happened twice). Late submissions will be graded only once I finish grading all the others.
 
-If you have any accommodations and want to use your rights, or if you are facing any personal issues (no need to state what is it), I will grant extra time or grade fairly only if you send a comment on Canvas in the assignment before the deadline. Feel free to book meetings with me if you need to talk about it.
+If you have any accommodations and want to use your rights, or if you are facing any personal issues (no need to state what it is), I will grant extra time or grade fairly only if you send a comment on Canvas in the assignment before the deadline. Feel free to book meetings with me if you need to talk about it.
 
 ## DEI & Teaching Statement
 
 - I am a autistic L1 person and I am doing my best to be a good teacher for you;
 - I am from Brazil and we are pretty diverse people, I will treat everyone with respect and I expect the same from you;
-- I can clearly understand many of your struggles, because I do faced lots of learning issues too, but sometimes my empathy might run out, and you will have to help me to understand your issues so I can effectively help you;
-- Please be patient with me, and I will be patient with you in return. I am always open to listen to you and help you to succeed;
+- I can clearly understand many of your struggles, because I face lots of learning issues too, but sometimes my empathy might run out, and you will have to help me understand your issues so I can effectively help you;
+- Please be patient with me, and I will be patient with you in return. I am always open to listen to you and help you succeed;
 - I am very good at 1-1 support, so you are welcome to book weekly meetings with me to help you;
-- I am a very open person, so you can ask me anything, but I will not answer everything, but I will try to help you to find the answers;
-- If you feel that you are failing, please reach me out, remember: I want you to succeed. Allow me to create contingency plans for you.
+- I am a very open person, so you can ask me anything. I will not answer everything, but I will try to help you to find the answers;
+- If you feel that you are failing, please reach out to me, remember: I want you to succeed. Allow me to create contingency plans for you.
 
 ## Schedule for Fall 2024
 
