@@ -1,6 +1,6 @@
 # Awesome GameDev Resources
 
-!!! info inline end "Join is on Discord!"
+!!! info inline end "Join us on Discord!"
 
     <iframe src="https://discord.com/widget?id=956922983727915078&theme=dark" width="250" height="400" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
@@ -33,16 +33,16 @@ Code of conduct: [![Contributor Covenant](https://img.shields.io/badge/Contribut
 
 ## Philosophy
 
-This repository aims to be practical, and it will be updated as we test the methodology. Frame it as a guidebook, not a manual. Most of the time, we are constrained by the time, so in order to move fast, we won't cover deeply some topics, but the basics that allows you to explore by yourself or point the directions for you to study in other places acting as a self-taught student, so you really should look for more information elsewhere if you feels so. I use lots of references and highly incentive you to look for other too and propose changes in this repo. Sometimes, it will mostly presented in a chaotic way, which implies that you will need to explore the concepts by yourself or read the manual/books. Every student should follow your own path to learning, it is impossible to cover every learning style, so it is up to you to build your own path and discover the best way to learn. What worked for me or what works for a given student probably won't work for you, so dont compare yourself to others too much, but be assured that we're here to help you to succeed. If you need help, just send private messages, or use public forums such as github issues and discussions.
+This repository aims to be practical, and it will be updated as we test the methodology. Frame it as a guidebook, not a manual. Most of the time, we are constrained by the time, so in order to move fast, we won't deeply cover some topics, but the basics that allow you to explore by yourself or point to the directions for you to study in other places acting as a self-taught student, so you really should look for more information elsewhere if you feels so. I use lots of references and highly incentivize you to look for others too and propose changes in this repo. Sometimes, it will mostly presented in a chaotic way, which implies that you will need to explore the concepts by yourself or read the manual/books. Every student should follow their own path to learning, it is impossible to cover every learning style, so it is up to you to build your own path and discover the best way to learn. What worked for me or what works for a given student probably won't work for you, so dont compare yourself to others too much, but be assured that we're here to help you to succeed. If you need help, just send a private message, or use public forums such as github issues and discussions.
 
 ## Reflections on teaching and learning processes
 
 ### Philosophies
 
 I would like to categorize the classes into philosophies. so I can address them properly:
-- Advanced classes: are more focused on work and deliveries than theory, they are tailored toward the student goals more than the closed boxes and fixed expected results. It comprehends AI and Adv. AI;
-- Introduction classes: are focused on theory and practice. In those classes, they have more focus on structural knowledge and basic content. It comprehends classes such as Introduction to Programming.
-- Guidance: are more focused on how can we bring the student to the highest standard and get ready to be hired. It comprehends classes such as Capstone, Portfolio classes, and Mentoring activities.
+- Advanced classes: are more focused on work and deliveries than theory, they are tailored towards the students goals more than closed boxes and fixed expected results. It comprehends AI and Adv. AI;
+- Introduction classes: are focused on theory and practice, they have more focus on structural knowledge and basic content. It comprehends classes such as Introduction to Programming.
+- Guidance classes: are more focused on how can we bring the student to the highest standard and get them ready to be hired. It comprehends classes such as Capstone, Portfolio classes, and Mentoring activities.
 
 ### Learning Styles
 
@@ -54,22 +54,22 @@ I would like to categorize the classes into philosophies. so I can address them 
     - I always link to youtube videos and podcasts, so they can follow up with extra content and material;
 - Verbal: You prefer using words, both in speech and writing;
     - I setup my machine to record specific topics that might be hard to undestand in just one go, and I did some experimental recordings, but I am still struggling with video editing. I will be adding more videos in the future. 
-    - My main issue here is that I am not a native english speaker, so I am still struggling with the language, but I am trying to improve it.
-    - Other issue that I can name is eye-to-eye contact. It feels overburned to me to keep eye-to-eye contact, that I usually look away.
+    - My main issue here is that I am not a native english speaker, so I am still struggling with the language, but I am trying to improve.
+    - Another issue that I can name is eye-to-eye contact. It feels overburning to me to keep eye-to-eye contact, so I usually look away.
 - Physical: You prefer using your body, hands and sense of touch;
-    - Given my cultural origin, I am usually over expressive in this field, and I need more fine tuning my proxemic. Brazilians commonly talk and walk closer to each other than americans. 
-    - While lecture I really enjoy to use my hands to express myself, and I am trying to use more body language to express myself.
+    - Given my cultural origin, I am usually over expressive in this field, and I need more fine tuning to my proxemics. Brazilians commonly talk and walk closer to each other than americans. 
+    - While lecturing I really enjoy using my hands to express myself, and I am trying to use more body language to express myself.
 - Logical: You prefer using logic, reasoning and systems;
-    - I always craft and test teaching experiences to push them to think and reason about the topics. 
-    - I always use tools such as [beecrowd](https://www.beecrowd.com.br/) to let them code and test their ability to solve problems.
+    - I always craft and test teaching experiences to push students to think and reason about the topics. 
+    - I always use tools such as [beecrowd](https://www.beecrowd.com.br/) to let students code and test their ability to solve problems.
 - Social: You prefer to learn in groups or with other people;
-    - I incentive them to do in-class assignments in pairs, and do group assignments. But I recognize this might be a problem for some students, so I am trying to find a way to make it more inclusive. 
-    - Strangelly for me, some students prefer to socialize with me by booking office hours more than working together. Probably next semester I will reserve a time to do a type of co-working time when I can be available to help them in their assignments.
+    - I incentivize students to do in-class assignments in pairs, and do group assignments. But I recognize this might be a problem for some students, so I am trying to find a way to make it more inclusive. 
+    - Strangely for me, some students prefer to socialize with me by booking office hours more than working together. Probably next semester I will reserve a time to do a type of co-working time when I can be available to help them in their assignments.
 - Solitary: You prefer to work alone and use self-study.
-    - Sometimes and some topics you really need to study by yourself, and it can be the best way for some. But I warn them about the effects of loneliness and impostor syndrome.
+    - Sometimes and during some topics you really need to study by yourself, and it can be the best way for some to learn. But I warn students about the effects of loneliness and impostor syndrome.
     - This is usually the most common way to learn, and I always keep an eye on the ones that are struggling to keep up with the class. I always try to reach them and help them to keep up with the class.
-    - To compensate this solitude I incentive them to present their work to the class no they can experience having attention even when the lack social skills.
-
+    - To compensate this solitude I incentivize them to present their work to the class so they can experience having attention even when they lack social skills.
+y
 ### Teaching Styles
 
 For every type of style, I try to give a bit of insights:
@@ -77,11 +77,11 @@ For every type of style, I try to give a bit of insights:
 - Authoritative: control the classroom and maintain discipline; 
     - I create a set of rules that should be followed in order to guarantee the student's success; 
 - Delegator: give students control of their learning;
-    - For the intro classes I follow more this strategy;
+    - For the intro classes I follow this strategy more;
 - Facilitator: guide students and help them learn by themselves;
     - I usually follow this strategy on advanced classes;
 - Demonstrator: explain and show things to students;
-    - I usully provide a stream of references or even create my own content to show them how to do things;
+    - I usully provide a stream of references or even create my own content to show students how to do things;
 
 # Credits
 
