@@ -1,3 +1,10 @@
+## [1.20.13](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.12...v1.20.13) (2024-08-28)
+
+
+### Bug Fixes
+
+* tags on blog should be lower case ([24909cb](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/24909cb9612464f1b3bfb12b42fe2bc16d8209f2))
+
 ## [1.20.12](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.11...v1.20.12) (2024-08-28)
 
 
