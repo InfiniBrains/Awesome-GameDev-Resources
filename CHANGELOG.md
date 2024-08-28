@@ -1,3 +1,10 @@
+## [1.20.12](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.11...v1.20.12) (2024-08-28)
+
+
+### Bug Fixes
+
+* enable social cards ([5f27b4e](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/5f27b4ef49a9ff30292f7ac24648914737e8300f))
+
 ## [1.20.11](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.10...v1.20.11) (2024-08-27)
 
 
