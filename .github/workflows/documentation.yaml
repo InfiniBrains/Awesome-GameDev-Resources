@@ -88,8 +88,8 @@ jobs:
 #          logo_url: 'overrides/favicon/android-chrome-192x192.png'
           gource_resolution: '1080p'
           gource_fps: 60
-#          avatars_url: contributors
-          avatars_auto_fetch: true
+          avatars_url: contributors
+#          avatars_auto_fetch: true
           gource_seconds_per_day: 0.1
           gource_hide_items: mouse
 
