@@ -1,10 +1,10 @@
 ---
 date: 2023-08-09T16:00:00Z
 categories:
-  - Mixed Reality
-  - Virtual Reality
-  - Augmented Reality
-  - Augmented Virtuality
+  - mixed Reality
+  - virtual reality
+  - augmented reality
+  - augmented virtuality
 authors:
   - tolstenko
 ---

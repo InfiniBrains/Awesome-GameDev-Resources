@@ -1,12 +1,12 @@
 ---
 date: 2024-01-29T16:14:00Z
 categories:
-  - Algorithms
-  - Data Structures
-  - C++
-  - Optimization
-  - Memory
-  - Cache
+  - algorithms
+  - data structures
+  - c++
+  - optimization
+  - memory
+  - cache
   - map
   - unordered_map
 authors:

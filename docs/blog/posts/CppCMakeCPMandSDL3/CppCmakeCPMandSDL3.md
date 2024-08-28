@@ -1,13 +1,13 @@
 ---
 date: 2023-09-09T03:11:08.658Z
 categories:
-  - GameDev
-  - C++
-  - CMake
-  - CPM
-  - SDL3
-  - SDL2
-  - CLion
+  - gamedev
+  - c++
+  - cmake
+  - cpm
+  - sdl3
+  - sdl2
+  - clion
 authors:
   - tolstenko
 ---

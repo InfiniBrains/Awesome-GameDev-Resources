@@ -1,15 +1,15 @@
 ---
 date: 2023-10-02T23:00:00Z
 categories:
-  - Maze
-  - Data Structures
-  - C++
-  - Optimization
-  - Memory
-  - Cache
-  - Vector
-  - Bitfield
-  - Maze Generation
+  - maze
+  - data structures
+  - c++
+  - optimization
+  - memory
+  - cache
+  - vector
+  - bitfield
+  - maze generation
 authors:
   - tolstenko
 ---

@@ -1,12 +1,12 @@
 ---
 date: 2024-08-19T16:00:00Z
 categories:
-  - Neuro Divergence
-  - Teaching
-  - Autism
-  - ADHD
-  - High Abilities
-  - Giftedness
+  - neuro divergence
+  - teaching
+  - autism
+  - adhd
+  - high abilities
+  - giftedness
 authors:
   - tolstenko
 ---

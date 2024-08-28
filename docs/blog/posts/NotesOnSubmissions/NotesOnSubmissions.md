@@ -1,15 +1,15 @@
 ---
 date: 2023-08-24T16:40:00Z
 categories:
-  - Teaching
-  - Academic Honesty
-  - Plagiarism
-  - AI
-  - ChatGPT
-  - Canvas
-  - Turnitin
-  - Moss
-  - Github Copilot
+  - teaching
+  - academic honesty
+  - plagiarism
+  - ai
+  - chatgpt
+  - canvas
+  - turnitin
+  - moss
+  - github copilot
 authors:
   - tolstenko
 ---

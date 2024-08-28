@@ -1,8 +1,8 @@
 ---
 date: 2023-08-30T18:00:00Z
 categories:
-  - FERPA
-  - Privacy
+  - ferpa
+  - privacy
 authors:
   - tolstenko
 ---
