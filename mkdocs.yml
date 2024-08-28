@@ -231,10 +231,10 @@ markdown_extensions:
 
 plugins:
 #  - mkdocs-revealjs
-#  - social:
-#      cards: true
-#      cards_layout: default
-#      enabled: true
+  - social:
+      cards: true
+      cards_layout: default
+      enabled: true
   - blog:
 #      blog_toc: true
 #      blog_authors: true
@@ -342,9 +342,9 @@ extra:
 #          note: >-
 #            Thanks for your feedback! Help us improve this page by
 #            using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/InfiniBrains
+#  social:
+#    - icon: fontawesome/brands/github
+#      link: https://github.com/InfiniBrains
 #    - icon: fontawesome/brands/gitter
 #      link: https://gitter.im/squidfunk/mkdocs-material
 #    - icon: fontawesome/brands/docker
