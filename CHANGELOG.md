@@ -1,3 +1,11 @@
+## [1.20.14](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.13...v1.20.14) (2024-08-28)
+
+
+### Bug Fixes
+
+* bump semantic-release dependency ([213e3d2](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/213e3d2980e9b579f869c016dbaafbcf4b609b24))
+* gource avatar fetch ([e81da87](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/e81da87d503d8e8d549b28b49c6f260983ffcffa))
+
 ## [1.20.13](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.12...v1.20.13) (2024-08-28)
 
 
