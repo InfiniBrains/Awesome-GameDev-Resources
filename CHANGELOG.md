@@ -1,3 +1,10 @@
+## [1.20.15](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.14...v1.20.15) (2024-08-28)
+
+
+### Bug Fixes
+
+* gource contribution avatars ([8a6b7f6](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/8a6b7f600755d86559adea262b491516db3ad31c))
+
 ## [1.20.14](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.13...v1.20.14) (2024-08-28)
 
 
