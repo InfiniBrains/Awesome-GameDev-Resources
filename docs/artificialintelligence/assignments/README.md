@@ -4,7 +4,8 @@
 2. This one, for in class coding assignments. https://github.com/InfiniBrains/Awesome-GameDev-Resources
 3. MoBaGEn, for interactive assignments. https://github.com/InfiniBrains/mobagen
 4. Install `CLion` :simple-clion: (has `CMake` :simple-cmake: embedded) or see [#development-tools](#development-tools)
-5. Those repositories are updated constantly. Pay attention to syncing your repo frequently.
+5. Install git and add the binaries to your PATH;
+6. Those repositories are updated constantly. Pay attention to syncing your repo frequently.
 
 ## Types of coding assignments
 
