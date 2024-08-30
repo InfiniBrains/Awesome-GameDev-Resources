@@ -1,3 +1,10 @@
+## [1.20.16](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.15...v1.20.16) (2024-08-30)
+
+
+### Bug Fixes
+
+* neurodivergence post ([a403ab9](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/a403ab9acb19baffa62c0737709f266726144021))
+
 ## [1.20.15](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.14...v1.20.15) (2024-08-28)
 
 
