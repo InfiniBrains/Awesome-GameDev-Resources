@@ -12,6 +12,7 @@ nav:
   - Home: README.md
   - Intro. Game Programming:
       - introgameprog/README.md
+      - Game Dev Tools: introgameprog/02-GameDevTools/README.md
   - AI:
       - artificialintelligence/README.md
       - Spatial Quantization: artificialintelligence/readings/spatial-quantization.md
