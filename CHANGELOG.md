@@ -1,3 +1,10 @@
+## [1.20.17](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.16...v1.20.17) (2024-09-01)
+
+
+### Bug Fixes
+
+* game dev tools research ([729e9b9](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/729e9b98caa6f7991beeb39e62d4170c3132c47e))
+
 ## [1.20.16](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.15...v1.20.16) (2024-08-30)
 
 
