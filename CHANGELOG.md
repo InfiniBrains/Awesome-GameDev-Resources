@@ -1,3 +1,10 @@
+## [1.20.18](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.17...v1.20.18) (2024-09-09)
+
+
+### Bug Fixes
+
+* remove game of life solutions ([6323caf](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/6323caf4b2d103d63a4ed6e71187592b57281f11))
+
 ## [1.20.17](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.16...v1.20.17) (2024-09-01)
 
 
