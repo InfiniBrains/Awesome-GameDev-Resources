@@ -175,7 +175,7 @@ struct RoomRegistry {
 };
 ```
 
-Before going deep into how can we address the indexes for the walls, you need to know vector<bool> are not common vectors where each element returns a reference to a bool. Instead, it returns a proxy object that behaves like a bool. This is because the standard vector<bool> is a specialization of the vector class that is optimized for space efficiency. 
+Before going deep into how can we address the indexes for the walls, you need to know `vector<bool>` are not common vectors where each element returns a reference to a bool. Instead, it returns a proxy object that behaves like a bool. This is because the standard `vector<bool>` is a specialization of the vector class that is optimized for space efficiency. 
 
 ```c++ 
 // Example of how vector<bool> works
@@ -191,7 +191,7 @@ stuct vector<bool> {
 
 ![img_1.png](img_1.png)
 
-Now we have a way to address bits directly using vector<bool>, but you need to remember that for an X x Y grid, we will need X+1 vertical walls and Y+1 horizontal walls. Check the following example below for a 2x2 grid:
+Now we have a way to address bits directly using `vector<bool>`, but you need to remember that for an X x Y grid, we will need X+1 vertical walls and Y+1 horizontal walls. Check the following example below for a 2x2 grid:
 
 ```
  _ _
@@ -201,7 +201,7 @@ Now we have a way to address bits directly using vector<bool>, but you need to r
 
 So we will need 3 vertical walls and 3 horizontal walls.
 
-Now, we reached to the next issue. How can we address the walls in the std::vector<bool>? We will need to change our point of view from addressing Rooms at position (X,Y) to WallIntersections. Every intersection will be 2 bits to represent vertical and horizontal walls.
+Now, we reached to the next issue. How can we address the walls in the `std::vector<bool>`? We will need to change our point of view from addressing Rooms at position (X,Y) to WallIntersections. Every intersection will be 2 bits to represent vertical and horizontal walls.
 
 ```
  _ _
@@ -277,4 +277,4 @@ struct RoomRegistry {
 
 ## Conclusion
 
-Now we are using the most memory efficient way to represent a dense maze. We learned matrix flattening, bit index addressing, data layout, and discovered why vector<bool> is a bit different from other vectors.
+Now we are using the most memory efficient way to represent a dense maze. We learned matrix flattening, bit index addressing, data layout, and discovered why `vector<bool>` is a bit different from other vectors.
