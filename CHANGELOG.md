@@ -1,3 +1,10 @@
+## [1.20.22](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.21...v1.20.22) (2024-09-28)
+
+
+### Bug Fixes
+
+* escaping <> tag ([5b03f86](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/5b03f86cee7550a9baad4d96abb4fa3e44deaf10))
+
 ## [1.20.21](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.20...v1.20.21) (2024-09-28)
 
 
