@@ -32,7 +32,7 @@ In order to be consistent with all languages and random functions the pseudo ran
 
 Every call to the random function should return the current number the index is pointing to, and then increment the index. If the index is greater than 99, it should be reset to 0.
 
-## Direction decision making
+## Direction decision-making
 
 In order to give consistency on how to decide the direction of the next cell, the following procedure should be followed:
 
@@ -40,6 +40,10 @@ In order to give consistency on how to decide the direction of the next cell, th
 2. Sort the list of visitable neighbors by clockwise order, starting from the top neighbor: UP, RIGHT, DOWN, LEFT;
 3. If there is one visitable, do not call random, just return the first neighbor found;
 4. If there are two or more visitable neighbors, call random and return the neighbor at the index of the random number modulo the number of visitable neighbors. `vec[i]%visitableCount`
+
+!!! example "Data Structure"
+
+    Read the [Data Structure](maze-datastructure.md) page to understand how the maze could be represented in memory.
 
 ## Input
 
