@@ -1,3 +1,10 @@
+## [1.20.21](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.20...v1.20.21) (2024-09-28)
+
+
+### Bug Fixes
+
+* improved data structure representation for maze ([6200ded](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/6200dedfbd2509e5a467a1584dd7feacc63a74e3))
+
 ## [1.20.20](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.19...v1.20.20) (2024-09-16)
 
 
