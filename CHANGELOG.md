@@ -1,3 +1,10 @@
+## [1.20.23](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.22...v1.20.23) (2024-09-29)
+
+
+### Bug Fixes
+
+* catch the cat description ([997c1c1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/997c1c13c7b806bf7b62cee4dceba14da6617b01))
+
 ## [1.20.22](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.21...v1.20.22) (2024-09-28)
 
 
