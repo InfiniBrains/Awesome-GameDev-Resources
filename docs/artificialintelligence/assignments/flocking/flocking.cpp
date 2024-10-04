@@ -170,7 +170,7 @@ int main() {
           allForces[i] += separation.ComputeForce(currentState, i);
         }
         // Process Alignment Forces
-        if (i != j && dist <= alignment.radius) {
+        if (dist <= alignment.radius) {
           allForces[i] += alignment.ComputeForce(currentState, i);
         }
       }
