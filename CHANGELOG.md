@@ -1,3 +1,10 @@
+## [1.20.25](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.24...v1.20.25) (2024-10-21)
+
+
+### Bug Fixes
+
+* production pipeline ([31cefe8](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/31cefe829e21f89ee8cbdc5cbaaa103e7cec08b6))
+
 ## [1.20.24](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.23...v1.20.24) (2024-10-21)
 
 
