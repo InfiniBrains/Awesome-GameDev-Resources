@@ -41,8 +41,38 @@ As you might notice, the function is not stateless, so you have to initialize th
 
 Another one is the Mersenne Twister. It is a high quality PRNG, but it is a bit slower.
 
-
 ## Noise Generation
+
+Noise functions are a type of function that generates random values that are spatially coherent. This means that nearby points in space will have similar values, creating a smooth and continuous pattern. You can use a combination of noise functions to generate complex patterns, such as terrain or textures.
+
+You can implement a random noise function using the PRNG we just covered. The most naive way is to sample a range of RNG values and interpolate them, and use linear interpolation between the samples.
+ 
+```cpp
+// naive noise function
+class Noise
+{
+private:
+    // samples
+    float p[512];
+    
+    // initialize the samples with random values
+    Noise() {
+        // fill p with random values between 0 and 1
+        for (int i = 0; i < 256; i++)
+            p[i] = xorshift32()/(float)UINT32_MAX;
+    }
+
+    float noise(float x)
+    {
+        // find the cell that x is in 
+        int X = (int)floor(x) & 255;
+        // find the relative position of x in the cell
+        x -= floor(x);
+        // return the interpolated value
+        return P[X] + x * (P[X+1] - P[X]);
+    }
+}
+```
 
 ### Noise based Procedural Terrain Generation
 
