@@ -13,6 +13,7 @@ nav:
   - Intro. Game Programming:
       - introgameprog/README.md
       - Game Dev Tools: introgameprog/02-GameDevTools/README.md
+      - Game Production Pipeline: introgameprog/09-production-pipeline/README.md
   - AI:
       - artificialintelligence/README.md
       - Spatial Quantization: artificialintelligence/readings/spatial-quantization.md
