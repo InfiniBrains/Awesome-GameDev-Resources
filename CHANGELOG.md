@@ -1,3 +1,10 @@
+# [1.21.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.25...v1.21.0) (2024-10-24)
+
+
+### Features
+
+* WFC ([3553ac1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/3553ac18d0f248615ee75b33ea697c536d4a0150))
+
 ## [1.20.25](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.20.24...v1.20.25) (2024-10-21)
 
 
