@@ -20,6 +20,7 @@ nav:
       - Spatial Hashing: artificialintelligence/04-spatialhashing/README.md
       - KD-Tree: artificialintelligence/05-kdtree/README.md
       - Pathfinding: artificialintelligence/06-pathfinding/README.md
+      - Wave Function Collapse: artificialintelligence/01-pcg/WaveFunctionCollapse.md
       - Maze Data Structure: blog/posts/MazeDataStructure/MazeDataStructures.md
       - AI for Testing: artificialintelligence/07-automatedtesting/README.md
       - MinMax: artificialintelligence/09-minmax/README.md
