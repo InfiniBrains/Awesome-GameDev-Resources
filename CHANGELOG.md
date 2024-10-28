@@ -1,3 +1,10 @@
+# [1.22.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.21.1...v1.22.0) (2024-10-28)
+
+
+### Features
+
+* hydraulic erosion ([338bb0f](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/338bb0fcc034541ab576711879cc68e2d9965c97))
+
 ## [1.21.1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.21.0...v1.21.1) (2024-10-24)
 
 
