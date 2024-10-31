@@ -1,3 +1,10 @@
+## [1.22.1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.22.0...v1.22.1) (2024-10-31)
+
+
+### Bug Fixes
+
+* **wfc:** add implementation hints ([57ec02f](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/57ec02fec3f4e5abce350e2fd8951d80f711d047))
+
 # [1.22.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.21.1...v1.22.0) (2024-10-28)
 
 
