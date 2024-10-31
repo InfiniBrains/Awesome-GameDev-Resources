@@ -104,8 +104,153 @@ Once you've got the basics down, you can start optimizing. You might add symmetr
 *   **Performance**: WFC can be slow with large grids or lots of rules. Optimize or be prepared for some serious lag. 🐢
 *   **Overfitting**: Too many strict rules can lead to predictable or repetitive results. Mix it up for some randomness!
 
-Conclusion
-----------
+## Implementation for WFC 🛠️
+
+```c++
+// Wave Function in C++
+#include<queue>
+#include <vector>
+#include <unordered_map>
+#include <set>
+#include <stack>
+#include <algorithm>
+#include <random>
+
+// Step 1: Define the tile set and adjacency constraints
+// Change this based on your game's needs, you will need to link tiles to their their images or data
+enum Tile { UNDEFINED, TileA, TileB, TileC, /* ... other tiles */ };
+
+// set the rules for which tiles can be adjacent to each other
+// unordered_map is O(1)  for lookups from the source tile
+// unordered_set is O(1) for lookups from the target tile
+std::unordered_map<Tile, std::unordered_set<Tile>> constraints = {
+    { TileA, { TileB, TileC } }, // TileA can be adjacent to TileB and TileC
+    { TileB, { TileA, TileC } },
+    { TileC, { TileA } }
+    // ... other tile constraints
+};
+
+// Define a cell structure to hold possible tiles and the final collapsed tile
+struct Cell {
+    std::set<Tile> possibleTiles; // Possible states (tiles) for this cell
+    Tile collapsedTile = UNDEFINED; // Collapsed state when determined
+};
+
+// Step 2: Initialize the grid with superposition (all tiles are possible for each cell)
+// vector of vectors to represent a 2D grid. modify this for 3D, anisotropic, graph or other grid types
+std::vector<std::vector<Cell>> initializeGrid(int width, int height, const std::set<Tile>& tileSet) {
+    std::vector<std::vector<Cell>> grid(width, std::vector<Cell>(height));
+    for (auto& row : grid) {
+        for (auto& cell : row) {
+            cell.possibleTiles = tileSet; // Initially, every cell can be any tile
+        }
+    }
+    return grid;
+}
+
+// Step 3: Calculate entropy based on the number of possible states per cell
+// entropy is the number of possible states for a cell and it measures the uncertainty degree. The chaos temperature
+int calculateEntropy(const Cell& cell) {
+    return cell.possibleTiles.size();
+}
+
+// Step 4: Main function for Wave Function Collapse
+void waveFunctionCollapse(std::vector<std::vector<Cell>>& grid) {
+    std::stack<Cell*> backtrackStack;
+    // you can use another random number generator or fine tune one to meet your needs
+    std::default_random_engine generator;
+
+    while (true) {
+        // 4a: Find the cell with the lowest entropy
+        // greedy approach. It does not guarantee the solution will always be found or consistent. To have that, you will have to implement a better constraint propagation. But you can backpropagate and try again if it becaomes stuck or inconsistent. 
+        Cell* cell = findLowestEntropyCell(grid);
+        if (!cell) break; // All cells are collapsed
+
+        // 4b: Randomly select a tile from the possible options
+        Tile chosenTile = randomChoice(cell->possibleTiles, generator);
+        
+        // 4c: Collapse the cell
+        cell->collapsedTile = chosenTile;
+        cell->possibleTiles = { chosenTile };
+        
+        // Save current state for potential backtracking
+        backtrackStack.push(cell);
+        
+        // Step 5: Propagate constraints to update neighboring cells
+        propagateConstraints(cell, grid, backtrackStack);
+
+        // If no valid options remain, backtrack
+        if (!backtrackStack.empty() && backtrackStack.top()->possibleTiles.empty()) {
+            backtrack(grid, backtrackStack);
+        }
+    }
+}
+
+// Step 5: Propagation function to enforce adjacency constraints
+void propagateConstraints(Cell* cell, std::vector<std::vector<Cell>>& grid, std::stack<Cell*>& backtrackStack) {
+    for (Cell* neighbor : getNeighbors(cell, grid)) {
+        // Remove tiles from neighbor's options that don't match adjacency rules
+        for (auto it = neighbor->possibleTiles.begin(); it != neighbor->possibleTiles.end();) {
+            if (constraints[cell->collapsedTile].find(*it) == constraints[cell->collapsedTile].end()) {
+                it = neighbor->possibleTiles.erase(it);
+            } else {
+                ++it;
+            }
+        }
+        
+        // If neighbor has no valid options, prepare to backtrack
+        if (neighbor->possibleTiles.empty()) {
+            backtrackStack.push(neighbor);
+        }
+    }
+}
+
+// Step 6: Backtracking to fix conflicts
+void backtrack(std::vector<std::vector<Cell>>& grid, std::stack<Cell*>& backtrackStack) {
+    // Undo the last collapse step and reset the grid state
+    while (!backtrackStack.empty()) {
+        Cell* cell = backtrackStack.top();
+        backtrackStack.pop();
+        
+        cell->possibleTiles.clear();
+        cell->collapsedTile = Tile(); // Reset the collapsed state
+    }
+}
+
+// Helper function to find the cell with the lowest entropy
+Cell* findLowestEntropyCell(std::vector<std::vector<Cell>>& grid) {
+    // you could rely on prioryty_queue or other data structures to optimize this
+    // this is not optimized and will iterate over all cells
+    Cell* minEntropyCell = nullptr;
+    int minEntropy = INT_MAX;
+    for (auto& row : grid) {
+        for (auto& cell : row) {
+            int entropy = calculateEntropy(cell);
+            if (entropy > 1 && entropy < minEntropy) {
+                minEntropyCell = &cell;
+                minEntropy = entropy;
+            }
+        }
+    }
+    return minEntropyCell;
+}
+
+// Helper function to randomly select a tile from possible options
+Tile randomChoice(const std::set<Tile>& tileOptions, std::default_random_engine& generator) {
+    std::uniform_int_distribution<int> distribution(0, tileOptions.size() - 1);
+    auto it = std::next(tileOptions.begin(), distribution(generator));
+    return *it;
+}
+
+// Helper function to get neighbors of a cell (implementation depends on grid type and size)
+std::vector<Cell*> getNeighbors(Cell* cell, std::vector<std::vector<Cell>>& grid) {
+    std::vector<Cell*> neighbors;
+    // Add neighbor finding logic here (e.g., adjacent cells in a 2D grid)
+    return neighbors;
+}
+```
+
+## Conclusion
 
 Wave Function Collapse is the ultimate game dev hack. It helps generate complex, rule-following worlds without losing the randomness that makes games exciting. Sure, it has its challenges—like any powerful tool—but once you get the hang of it, WFC can make your worlds, quests, and even stories feel richer and more dynamic. Plus, it saves you a ton of time!
 
