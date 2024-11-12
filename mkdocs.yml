@@ -68,7 +68,7 @@ nav:
       - Graphs: algorithms/10-graphs/README.md
       - Dijkstra: algorithms/11-dijkstra/README.md
       - Minimum Spanning Tree: algorithms/12-mst/README.md
-      - Binary Search Tree: algorithms/13-bsp/README.md
+      - Binary Search Tree: algorithms/13-bst/README.md
       - Heap: algorithms/14-heap/README.md
       - Project: algorithms/15-project/README.md
       - Final: algorithms/16-final/README.md
