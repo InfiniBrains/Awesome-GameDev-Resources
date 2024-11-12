@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+sitemap: https://courses.tolstenko.net/sitemap.xml
