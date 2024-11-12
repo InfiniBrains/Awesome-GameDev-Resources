@@ -1,3 +1,10 @@
+## [1.22.2](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.22.1...v1.22.2) (2024-11-12)
+
+
+### Bug Fixes
+
+* bst data structures ([fa409b4](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/fa409b455fd35dcebd05161b72b6e12f16218db1))
+
 ## [1.22.1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.22.0...v1.22.1) (2024-10-31)
 
 
